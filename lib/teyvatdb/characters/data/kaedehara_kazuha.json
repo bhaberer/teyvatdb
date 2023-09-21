@@ -1,0 +1,14 @@
+{
+  "kamera_key": "KaedeharaKazuha",
+  "name": "Kaedehara Kazuha",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "anemo",
+  "weapon_type": "sword",
+  "talent_book_name": "diligence",
+  "talent_rare_material_name": "hoarder_insignia",
+  "talent_boss_material_name": "GildedScale",
+  "ascension_boss_material_name": "MarionetteCore",
+  "ascension_gathering_material_name": "SeaGanoderma",
+  "ascension_enemy_material_name": "hoarder_insignia"
+}

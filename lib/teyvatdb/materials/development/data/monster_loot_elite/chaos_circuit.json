@@ -1,0 +1,9 @@
+{
+  "kamera_key": "ChaosCircuit",
+  "name": "Chaos Circuit",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "chaos_core",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

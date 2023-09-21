@@ -1,0 +1,9 @@
+{
+  "kamera_key": "RobustFungalNucleus",
+  "name": "Robust Fungal Nucleus",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "fungal_nucleus",
+  "rarity": "4",
+  "inventory_type": "development_material"
+}

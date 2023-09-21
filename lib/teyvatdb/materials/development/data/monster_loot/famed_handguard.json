@@ -1,0 +1,9 @@
+{
+  "kamera_key": "FamedHandguard",
+  "name": "Famed Handguard",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "handguard",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

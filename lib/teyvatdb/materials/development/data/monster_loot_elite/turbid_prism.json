@@ -1,0 +1,9 @@
+{
+  "kamera_key": "TurbidPrism",
+  "name": "Turbid Prism",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "turbid_prism",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

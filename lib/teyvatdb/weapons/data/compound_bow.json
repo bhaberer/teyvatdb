@@ -1,0 +1,9 @@
+{
+  "kamera_key": "CompoundBow",
+  "name": "Compound Bow",
+  "rarity": "4",
+  "weapon_type": "Bow",
+  "elite_material_name": "bone_shard",
+  "standard_material_name": "fatui_insignia",
+  "weapon_material_name": "aerosiderite"
+}

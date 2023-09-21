@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Aloy",
+  "name": "Aloy",
+  "nation_name": "unknown",
+  "rarity": "5",
+  "element": "cryo",
+  "weapon_type": "bow",
+  "talent_book_name": "freedom",
+  "talent_rare_material_name": "spectral",
+  "talent_boss_material_name": "MoltenMoment",
+  "ascension_boss_material_name": "CrystallineBloom",
+  "ascension_gathering_material_name": "CrystalMarrow",
+  "ascension_enemy_material_name": "spectral"
+}

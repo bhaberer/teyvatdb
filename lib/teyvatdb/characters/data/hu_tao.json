@@ -1,0 +1,14 @@
+{
+  "kamera_key": "HuTao",
+  "name": "Hu Tao",
+  "nation_name": "liyue",
+  "rarity": "5",
+  "element": "pyro",
+  "weapon_type": "polearm",
+  "talent_book_name": "diligence",
+  "talent_rare_material_name": "nectar",
+  "talent_boss_material_name": "ShardOfAFoulLegacy",
+  "ascension_boss_material_name": "JuvenileJade",
+  "ascension_gathering_material_name": "SilkFlower",
+  "ascension_enemy_material_name": "nectar"
+}

@@ -1,0 +1,9 @@
+{
+  "kamera_key": "DismalPrism",
+  "name": "Dismal Prism",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "crystal_prism",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

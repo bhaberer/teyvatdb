@@ -1,0 +1,9 @@
+{
+  "kamera_key": "AgnidusAgateGemstone",
+  "name": "Agnidus Agate Gemstone",
+  "source_category": "general_reward",
+  "source_sub_category": "gem",
+  "family": "pyro_gem",
+  "rarity": "5",
+  "inventory_type": "development_material"
+}

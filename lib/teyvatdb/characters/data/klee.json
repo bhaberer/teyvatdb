@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Klee",
+  "name": "Klee",
+  "nation_name": "mondstadt",
+  "rarity": "5",
+  "element": "pyro",
+  "weapon_type": "catalyst",
+  "talent_book_name": "freedom",
+  "talent_rare_material_name": "scroll",
+  "talent_boss_material_name": "RingOfBoreas",
+  "ascension_boss_material_name": "EverflameSeed",
+  "ascension_gathering_material_name": "PhilanemoMushroom",
+  "ascension_enemy_material_name": "scroll"
+}

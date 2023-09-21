@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Xingqiu",
+  "name": "Xingqiu",
+  "nation_name": "liyue",
+  "rarity": "4",
+  "element": "hydro",
+  "weapon_type": "sword",
+  "talent_book_name": "gold",
+  "talent_rare_material_name": "hilichurl_mask",
+  "talent_boss_material_name": "TailOfBoreas",
+  "ascension_boss_material_name": "CleansingHeart",
+  "ascension_gathering_material_name": "SilkFlower",
+  "ascension_enemy_material_name": "hilichurl_mask"
+}

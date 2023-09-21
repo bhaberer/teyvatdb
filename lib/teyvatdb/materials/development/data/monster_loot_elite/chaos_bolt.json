@@ -1,0 +1,9 @@
+{
+  "kamera_key": "ChaosBolt",
+  "name": "Chaos Bolt",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "chaos_bolt",
+  "rarity": "4",
+  "inventory_type": "development_material"
+}

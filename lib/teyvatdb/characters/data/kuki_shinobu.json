@@ -1,0 +1,14 @@
+{
+  "kamera_key": "KukiShinobu",
+  "name": "Kuki Shinobu",
+  "nation_name": "inazuma",
+  "rarity": "4",
+  "element": "electro",
+  "weapon_type": "sword",
+  "talent_book_name": "elegance",
+  "talent_rare_material_name": "spectral",
+  "talent_boss_material_name": "TearsOfTheCalamitousGod",
+  "ascension_boss_material_name": "RunicFang",
+  "ascension_gathering_material_name": "NakuWeed",
+  "ascension_enemy_material_name": "spectral"
+}

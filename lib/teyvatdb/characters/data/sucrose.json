@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Sucrose",
+  "name": "Sucrose",
+  "nation_name": "mondstadt",
+  "rarity": "4",
+  "element": "anemo",
+  "weapon_type": "catalyst",
+  "talent_book_name": "freedom",
+  "talent_rare_material_name": "nectar",
+  "talent_boss_material_name": "SpiritLocketOfBoreas",
+  "ascension_boss_material_name": "HurricaneSeed",
+  "ascension_gathering_material_name": "WindwheelAster",
+  "ascension_enemy_material_name": "nectar"
+}

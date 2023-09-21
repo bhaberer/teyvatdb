@@ -1,0 +1,9 @@
+{
+  "kamera_key": "InspectorsSacrificialKnife",
+  "name": "Inspectors Sacrificial Knife",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "sacrificial_knife",
+  "rarity": "4",
+  "inventory_type": "development_material"
+}

@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Sayu",
+  "name": "Sayu",
+  "nation_name": "inazuma",
+  "rarity": "4",
+  "element": "anemo",
+  "weapon_type": "claymore",
+  "talent_book_name": "light",
+  "talent_rare_material_name": "nectar",
+  "talent_boss_material_name": "GildedScale",
+  "ascension_boss_material_name": "MarionetteCore",
+  "ascension_gathering_material_name": "CrystalMarrow",
+  "ascension_enemy_material_name": "nectar"
+}

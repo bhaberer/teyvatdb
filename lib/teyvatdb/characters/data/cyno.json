@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Cyno",
+  "name": "Cyno",
+  "nation_name": "sumeru",
+  "rarity": "5",
+  "element": "electro",
+  "weapon_type": "polearm",
+  "talent_book_name": "admonition",
+  "talent_rare_material_name": "scroll",
+  "talent_boss_material_name": "MudraOfTheMaleficGeneral",
+  "ascension_boss_material_name": "ThunderclapFruitcore",
+  "ascension_gathering_material_name": "Scarab",
+  "ascension_enemy_material_name": "scroll"
+}

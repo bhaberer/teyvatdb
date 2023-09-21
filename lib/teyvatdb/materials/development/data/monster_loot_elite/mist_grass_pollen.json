@@ -1,0 +1,9 @@
+{
+  "kamera_key": "MistGrassPollen",
+  "name": "Mist Grass Pollen",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "mist_grass",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

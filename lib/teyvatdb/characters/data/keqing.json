@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Keqing",
+  "name": "Keqing",
+  "nation_name": "liyue",
+  "rarity": "5",
+  "element": "electro",
+  "weapon_type": "sword",
+  "talent_book_name": "prosperity",
+  "talent_rare_material_name": "nectar",
+  "talent_boss_material_name": "RingOfBoreas",
+  "ascension_boss_material_name": "LightningPrism",
+  "ascension_gathering_material_name": "CorLapis",
+  "ascension_enemy_material_name": "nectar"
+}

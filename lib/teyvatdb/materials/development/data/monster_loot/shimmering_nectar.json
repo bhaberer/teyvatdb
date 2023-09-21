@@ -1,0 +1,9 @@
+{
+  "kamera_key": "ShimmeringNectar",
+  "name": "Shimmering Nectar",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "nectar",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

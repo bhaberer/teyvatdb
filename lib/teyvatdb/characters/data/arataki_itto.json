@@ -1,0 +1,14 @@
+{
+  "kamera_key": "AratakiItto",
+  "name": "Arataki Itto",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "geo",
+  "weapon_type": "claymore",
+  "talent_book_name": "elegance",
+  "talent_rare_material_name": "slime",
+  "talent_boss_material_name": "AshenHeart",
+  "ascension_boss_material_name": "RiftbornRegalia",
+  "ascension_gathering_material_name": "Onikabuto",
+  "ascension_enemy_material_name": "slime"
+}

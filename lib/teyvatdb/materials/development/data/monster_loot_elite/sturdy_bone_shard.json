@@ -1,0 +1,9 @@
+{
+  "kamera_key": "SturdyBoneShard",
+  "name": "Sturdy Bone Shard",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "bone_shard",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

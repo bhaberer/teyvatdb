@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Jean",
+  "name": "Jean",
+  "nation_name": "mondstadt",
+  "rarity": "5",
+  "element": "anemo",
+  "weapon_type": "sword",
+  "talent_book_name": "resistance",
+  "talent_rare_material_name": "hilichurl_mask",
+  "talent_boss_material_name": "DvalinsPlume",
+  "ascension_boss_material_name": "HurricaneSeed",
+  "ascension_gathering_material_name": "DandelionSeed",
+  "ascension_enemy_material_name": "hilichurl_mask"
+}

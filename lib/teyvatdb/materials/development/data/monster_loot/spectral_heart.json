@@ -1,0 +1,9 @@
+{
+  "kamera_key": "SpectralHeart",
+  "name": "Spectral Heart",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "spectral",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

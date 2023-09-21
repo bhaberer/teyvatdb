@@ -1,0 +1,9 @@
+{
+  "kamera_key": "ChaosModule",
+  "name": "Chaos Module",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "chaos_bolt",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

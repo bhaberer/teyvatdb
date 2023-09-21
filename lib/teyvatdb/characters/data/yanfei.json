@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Yanfei",
+  "name": "Yanfei",
+  "nation_name": "liyue",
+  "rarity": "4",
+  "element": "pyro",
+  "weapon_type": "catalyst",
+  "talent_book_name": "gold",
+  "talent_rare_material_name": "hoarder_insignia",
+  "talent_boss_material_name": "BloodjadeBranch",
+  "ascension_boss_material_name": "JuvenileJade",
+  "ascension_gathering_material_name": "NoctilucousJade",
+  "ascension_enemy_material_name": "hoarder_insignia"
+}

@@ -1,0 +1,9 @@
+{
+  "kamera_key": "BlackBronzeHorn",
+  "name": "Black Bronze Horn",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "horn",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}

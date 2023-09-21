@@ -1,0 +1,14 @@
+{
+  "kamera_key": "SangonomiyaKokomi",
+  "name": "Sangonomiya Kokomi",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "hydro",
+  "weapon_type": "catalyst",
+  "talent_book_name": "transience",
+  "talent_rare_material_name": "spectral",
+  "talent_boss_material_name": "HellfireButterfly",
+  "ascension_boss_material_name": "DewOfRepudiation",
+  "ascension_gathering_material_name": "SangoPearl",
+  "ascension_enemy_material_name": "spectral"
+}

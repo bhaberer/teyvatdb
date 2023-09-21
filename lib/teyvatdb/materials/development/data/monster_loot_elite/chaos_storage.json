@@ -1,0 +1,9 @@
+{
+  "kamera_key": "ChaosStorage",
+  "name": "Chaos Storage",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "chaos_bolt",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

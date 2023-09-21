@@ -1,0 +1,9 @@
+{
+  "kamera_key": "HeavyHorn",
+  "name": "Heavy Horn",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "horn",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

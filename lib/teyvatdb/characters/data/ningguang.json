@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Ningguang",
+  "name": "Ningguang",
+  "nation_name": "liyue",
+  "rarity": "4",
+  "element": "geo",
+  "weapon_type": "catalyst",
+  "talent_book_name": "prosperity",
+  "talent_rare_material_name": "fatui_insignia",
+  "talent_boss_material_name": "SpiritLocketOfBoreas",
+  "ascension_boss_material_name": "BasaltPillar",
+  "ascension_gathering_material_name": "GlazeLily",
+  "ascension_enemy_material_name": "fatui_insignia"
+}

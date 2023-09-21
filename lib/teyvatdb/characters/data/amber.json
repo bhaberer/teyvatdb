@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Amber",
+  "name": "Amber",
+  "nation_name": "mondstadt",
+  "rarity": "4",
+  "element": "pyro",
+  "weapon_type": "bow",
+  "talent_book_name": "freedom",
+  "talent_rare_material_name": "arrowhead",
+  "talent_boss_material_name": "DvalinsSigh",
+  "ascension_boss_material_name": "EverflameSeed",
+  "ascension_gathering_material_name": "SmallLampGrass",
+  "ascension_enemy_material_name": "arrowhead"
+}

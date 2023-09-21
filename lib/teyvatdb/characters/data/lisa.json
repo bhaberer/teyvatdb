@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Lisa",
+  "name": "Lisa",
+  "nation_name": "mondstadt",
+  "rarity": "4",
+  "element": "electro",
+  "weapon_type": "catalyst",
+  "talent_book_name": "ballad",
+  "talent_rare_material_name": "slime",
+  "talent_boss_material_name": "DvalinsClaw",
+  "ascension_boss_material_name": "LightningPrism",
+  "ascension_gathering_material_name": "Valberry",
+  "ascension_enemy_material_name": "slime"
+}

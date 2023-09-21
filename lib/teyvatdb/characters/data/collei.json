@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Collei",
+  "name": "Collei",
+  "nation_name": "sumeru",
+  "rarity": "4",
+  "element": "dendro",
+  "weapon_type": "bow",
+  "talent_book_name": "praxis",
+  "talent_rare_material_name": "arrowhead",
+  "talent_boss_material_name": "TearsOfTheCalamitousGod",
+  "ascension_boss_material_name": "MajesticHookedBeak",
+  "ascension_gathering_material_name": "RukkhashavaMushrooms",
+  "ascension_enemy_material_name": "arrowhead"
+}

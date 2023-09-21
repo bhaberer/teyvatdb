@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Eula",
+  "name": "Eula",
+  "nation_name": "mondstadt",
+  "rarity": "5",
+  "element": "cryo",
+  "weapon_type": "claymore",
+  "talent_book_name": "resistance",
+  "talent_rare_material_name": "hilichurl_mask",
+  "talent_boss_material_name": "DragonLordsCrown",
+  "ascension_boss_material_name": "CrystallineBloom",
+  "ascension_gathering_material_name": "DandelionSeed",
+  "ascension_enemy_material_name": "hilichurl_mask"
+}

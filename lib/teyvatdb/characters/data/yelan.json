@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Yelan",
+  "name": "Yelan",
+  "nation_name": "liyue",
+  "rarity": "5",
+  "element": "hydro",
+  "weapon_type": "bow",
+  "talent_book_name": "prosperity",
+  "talent_rare_material_name": "fatui_insignia",
+  "talent_boss_material_name": "GildedScale",
+  "ascension_boss_material_name": "RunicFang",
+  "ascension_gathering_material_name": "Starconch",
+  "ascension_enemy_material_name": "fatui_insignia"
+}

@@ -1,0 +1,14 @@
+{
+  "kamera_key": "RaidenShogun",
+  "name": "Raiden Shogun",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "electro",
+  "weapon_type": "polearm",
+  "talent_book_name": "light",
+  "talent_rare_material_name": "handguard",
+  "talent_boss_material_name": "MoltenMoment",
+  "ascension_boss_material_name": "StormBeads",
+  "ascension_gathering_material_name": "AmakumoFruit",
+  "ascension_enemy_material_name": "handguard"
+}

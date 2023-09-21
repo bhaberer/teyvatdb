@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Yoimiya",
+  "name": "Yoimiya",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "pyro",
+  "weapon_type": "bow",
+  "talent_book_name": "transience",
+  "talent_rare_material_name": "scroll",
+  "talent_boss_material_name": "DragonLordsCrown",
+  "ascension_boss_material_name": "SmolderingPearl",
+  "ascension_gathering_material_name": "NakuWeed",
+  "ascension_enemy_material_name": "scroll"
+}

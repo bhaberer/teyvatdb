@@ -1,0 +1,14 @@
+{
+  "kamera_key": "Beidou",
+  "name": "Beidou",
+  "nation_name": "liyue",
+  "rarity": "4",
+  "element": "electro",
+  "weapon_type": "claymore",
+  "talent_book_name": "gold",
+  "talent_rare_material_name": "hoarder_insignia",
+  "talent_boss_material_name": "DvalinsSigh",
+  "ascension_boss_material_name": "LightningPrism",
+  "ascension_gathering_material_name": "NoctilucousJade",
+  "ascension_enemy_material_name": "hoarder_insignia"
+}

@@ -1,0 +1,9 @@
+{
+  "kamera_key": "DeadLeyLineBranch",
+  "name": "Dead Ley Line Branch",
+  "source_category": "monster_loot",
+  "source_sub_category": "elite_drop",
+  "family": "ley_line",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

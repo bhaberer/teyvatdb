@@ -1,0 +1,9 @@
+{
+  "kamera_key": "KageuchiHandguard",
+  "name": "Kageuchi Handguard",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "handguard",
+  "rarity": "2",
+  "inventory_type": "development_material"
+}

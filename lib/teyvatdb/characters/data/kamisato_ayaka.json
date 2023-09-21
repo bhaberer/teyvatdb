@@ -1,0 +1,14 @@
+{
+  "kamera_key": "KamisatoAyaka",
+  "name": "Kamisato Ayaka",
+  "nation_name": "inazuma",
+  "rarity": "5",
+  "element": "cryo",
+  "weapon_type": "sword",
+  "talent_book_name": "elegance",
+  "talent_rare_material_name": "handguard",
+  "talent_boss_material_name": "BloodjadeBranch",
+  "ascension_boss_material_name": "PerpetualHeart",
+  "ascension_gathering_material_name": "SakuraBloom",
+  "ascension_enemy_material_name": "handguard"
+}

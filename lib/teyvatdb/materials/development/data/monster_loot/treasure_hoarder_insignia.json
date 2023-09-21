@@ -1,0 +1,9 @@
+{
+  "kamera_key": "TreasureHoarderInsignia",
+  "name": "Treasure Hoarder Insignia",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "hoarder_insignia",
+  "rarity": "1",
+  "inventory_type": "development_material"
+}

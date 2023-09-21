@@ -1,0 +1,14 @@
+{
+  "kamera_key": "KujouSara",
+  "name": "Kujou Sara",
+  "nation_name": "inazuma",
+  "rarity": "4",
+  "element": "electro",
+  "weapon_type": "bow",
+  "talent_book_name": "elegance",
+  "talent_rare_material_name": "hilichurl_mask",
+  "talent_boss_material_name": "AshenHeart",
+  "ascension_boss_material_name": "StormBeads",
+  "ascension_gathering_material_name": "Dendrobium",
+  "ascension_enemy_material_name": "hilichurl_mask"
+}

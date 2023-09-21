@@ -1,0 +1,9 @@
+{
+  "kamera_key": "GoldenRavenInsignia",
+  "name": "Golden Raven Insignia",
+  "source_category": "monster_loot",
+  "source_sub_category": "general_drop",
+  "family": "hoarder_insignia",
+  "rarity": "3",
+  "inventory_type": "development_material"
+}
