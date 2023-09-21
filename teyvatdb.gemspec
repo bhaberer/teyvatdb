@@ -4,7 +4,7 @@ require_relative "lib/teyvatdb/version"
 
 Gem::Specification.new do |spec|
   spec.name = "teyvatdb"
-  spec.version = Teyvatdb::VERSION
+  spec.version = TeyvatDB::VERSION
   spec.authors = ["Brian Haberer"]
   spec.email = ["bhaberer@gmail.com"]
 
