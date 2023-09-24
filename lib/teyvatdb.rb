@@ -3,7 +3,12 @@
 require "json"
 
 require_relative "teyvatdb/version"
+
+require_relative "teyvatdb/nation"
 require_relative "teyvatdb/nations"
+
+require_relative "teyvatdb/character"
+require_relative "teyvatdb/characters"
 
 # Common helpers
 module TeyvatDB
