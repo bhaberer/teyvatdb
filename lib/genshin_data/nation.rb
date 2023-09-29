@@ -1,6 +1,7 @@
-module GenshinData
+# frozen_string_literal: true
 
-  # Base Nation File
+module GenshinData
+  # Base class to represent various Genshin Nations
   class Nation
     attr_accessor :order, :name, :pretty_name
 

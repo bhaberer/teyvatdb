@@ -22,8 +22,8 @@ module TeyvatDB
     end
 
     def filename_to_kamera_key(filename)
-      file_id = filename.gsub(/\.json/, "")
-      file_id.split(/_/).map(&:capitalize).join("")
+      file_id = filename.gsub(".json", "")
+      file_id.split("_").map(&:capitalize).join
     end
   end
 end

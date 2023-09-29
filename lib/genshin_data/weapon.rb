@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 module GenshinData
+  # Base class to represent various Genshin Weapons
   class Weapon
-    WEAPON_TYPES = [:sword, :polearm, :catalyst, :bow, :claymore]
+    WEAPON_TYPES = %i[sword polearm catalyst bow claymore].freeze
 
     attr_accessor :kamera_key, :name, :rarity, :weapon_type,
                   :elite_material_type, :standard_material_type, :weapon_material_type

@@ -3,7 +3,7 @@
 module TeyvatDB
   # Base Nation Data
   module Nations
-    require_relative 'nations/nation_data'
+    require_relative "nations/nation_data"
 
     def self.all
       [
@@ -14,7 +14,7 @@ module TeyvatDB
         NationData::NATLAN,
         NationData::SNEZHNAYA,
         NationData::SUMERU,
-        NationData::UNKNOWN,
+        NationData::UNKNOWN
       ]
     end
   end

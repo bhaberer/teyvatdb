@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module TeyvatDB
   module Weapons
     module WeaponData
@@ -8,7 +10,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :turbid_prism,
         standard_material_type: :pollen,
-        weapon_material_type: :oasis_garden,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       AKUOUMARU = GenshinData::Weapon.new(
@@ -18,7 +20,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :concealed_talon,
         standard_material_type: :handguard,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       THE_ALLEY_FLASH = GenshinData::Weapon.new(
@@ -28,7 +30,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :scroll,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       ALLEY_HUNTER = GenshinData::Weapon.new(
@@ -38,7 +40,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       AMENOMA_KAGEUCHI = GenshinData::Weapon.new(
@@ -48,7 +50,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_oculus,
         standard_material_type: :handguard,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       AMOS_BOW = GenshinData::Weapon.new(
@@ -58,7 +60,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       APPRENTICES_NOTES = GenshinData::Weapon.new(
@@ -68,7 +70,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :horn,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       AQUA_SIMULACRA = GenshinData::Weapon.new(
@@ -78,7 +80,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :statuette,
         standard_material_type: :spectral,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       AQUILA_FAVONIA = GenshinData::Weapon.new(
@@ -88,7 +90,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       BEACON_OF_THE_REED_SEA = GenshinData::Weapon.new(
@@ -98,7 +100,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :shell,
         standard_material_type: :scarf,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       BEGINNERS_PROTECTOR = GenshinData::Weapon.new(
@@ -108,7 +110,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       BLACK_TASSEL = GenshinData::Weapon.new(
@@ -118,7 +120,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :bone_shard,
         standard_material_type: :arrowhead,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       BLACKCLIFF_AGATE = GenshinData::Weapon.new(
@@ -128,7 +130,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :scroll,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       BLACKCLIFF_LONGSWORD = GenshinData::Weapon.new(
@@ -138,7 +140,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :arrowhead,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       BLACKCLIFF_POLE = GenshinData::Weapon.new(
@@ -148,7 +150,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       BLACKCLIFF_SLASHER = GenshinData::Weapon.new(
@@ -158,7 +160,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       BLACKCLIFF_WARBOW = GenshinData::Weapon.new(
@@ -168,7 +170,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :nectar,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       BLOODTAINTED_GREATSWORD = GenshinData::Weapon.new(
@@ -178,7 +180,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :ley_line,
         standard_material_type: :arrowhead,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       CALAMITY_QUELLER = GenshinData::Weapon.new(
@@ -188,7 +190,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :nectar,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       CINNABAR_SPINDLE = GenshinData::Weapon.new(
@@ -198,7 +200,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_core,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       COMPOUND_BOW = GenshinData::Weapon.new(
@@ -208,7 +210,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :bone_shard,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       COOL_STEEL = GenshinData::Weapon.new(
@@ -218,7 +220,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       CRESCENT_PIKE = GenshinData::Weapon.new(
@@ -228,7 +230,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       DARK_IRON_SWORD = GenshinData::Weapon.new(
@@ -238,7 +240,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       DEATHMATCH = GenshinData::Weapon.new(
@@ -248,7 +250,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :ley_line,
         standard_material_type: :nectar,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       DEBATE_CLUB = GenshinData::Weapon.new(
@@ -258,7 +260,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :mist_grass,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       DODOCO_TALES = GenshinData::Weapon.new(
@@ -268,7 +270,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :ley_line,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       DRAGONS_BANE = GenshinData::Weapon.new(
@@ -278,7 +280,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :scroll,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       DRAGONSPINE_SPEAR = GenshinData::Weapon.new(
@@ -288,7 +290,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       DULL_BLADE = GenshinData::Weapon.new(
@@ -298,7 +300,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       ELEGY_FOR_THE_END = GenshinData::Weapon.new(
@@ -308,7 +310,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :horn,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       EMERALD_ORB = GenshinData::Weapon.new(
@@ -318,7 +320,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       END_OF_THE_LINE = GenshinData::Weapon.new(
@@ -328,7 +330,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :fungal_nucleus,
         standard_material_type: :pollen,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       ENGULFING_LIGHTNING = GenshinData::Weapon.new(
@@ -338,7 +340,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_oculus,
         standard_material_type: :handguard,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       EVERLASTING_MOONGLOW = GenshinData::Weapon.new(
@@ -348,7 +350,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :crystal_prism,
         standard_material_type: :spectral,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       EYE_OF_PERCEPTION = GenshinData::Weapon.new(
@@ -358,7 +360,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :mist_grass,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       FADING_TWILIGHT = GenshinData::Weapon.new(
@@ -368,7 +370,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :scroll,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       FAVONIUS_CODEX = GenshinData::Weapon.new(
@@ -378,7 +380,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :horn,
         standard_material_type: :scroll,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       FAVONIUS_GREATSWORD = GenshinData::Weapon.new(
@@ -388,7 +390,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_core,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FAVONIUS_LANCE = GenshinData::Weapon.new(
@@ -398,7 +400,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FAVONIUS_SWORD = GenshinData::Weapon.new(
@@ -408,7 +410,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       FAVONIUS_WARBOW = GenshinData::Weapon.new(
@@ -418,7 +420,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :chaos_core,
         standard_material_type: :nectar,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FERROUS_SHADOW = GenshinData::Weapon.new(
@@ -428,7 +430,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :horn,
         standard_material_type: :nectar,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       FESTERING_DESIRE = GenshinData::Weapon.new(
@@ -438,7 +440,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FILLET_BLADE = GenshinData::Weapon.new(
@@ -448,7 +450,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       FOREST_REGALIA = GenshinData::Weapon.new(
@@ -458,7 +460,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_bolt,
         standard_material_type: :scarf,
-        weapon_material_type: :forest_dew,
+        weapon_material_type: :forest_dew
       ).freeze
 
       FREEDOM_SWORN = GenshinData::Weapon.new(
@@ -468,7 +470,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FROSTBEARER = GenshinData::Weapon.new(
@@ -478,7 +480,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :chaos_core,
         standard_material_type: :nectar,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       FRUIT_OF_FULFILLMENT = GenshinData::Weapon.new(
@@ -488,7 +490,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :statuette,
         standard_material_type: :pollen,
-        weapon_material_type: :oasis_garden,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       HAKUSHIN_RING = GenshinData::Weapon.new(
@@ -498,7 +500,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :crystal_prism,
         standard_material_type: :scroll,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       HALBERD = GenshinData::Weapon.new(
@@ -508,7 +510,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :nectar,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       HAMAYUMI = GenshinData::Weapon.new(
@@ -518,7 +520,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :crystal_prism,
         standard_material_type: :arrowhead,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       HARAN_GEPPAKU_FUTSU = GenshinData::Weapon.new(
@@ -528,7 +530,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :statuette,
         standard_material_type: :handguard,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       HARBINGER_OF_DAWN = GenshinData::Weapon.new(
@@ -538,7 +540,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       HUNTERS_BOW = GenshinData::Weapon.new(
@@ -548,7 +550,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       HUNTERS_PATH = GenshinData::Weapon.new(
@@ -558,7 +560,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :fungal_nucleus,
         standard_material_type: :scarf,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       IRON_POINT = GenshinData::Weapon.new(
@@ -568,7 +570,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       IRON_STING = GenshinData::Weapon.new(
@@ -578,7 +580,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :bone_shard,
         standard_material_type: :nectar,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       JADEFALLS_SPLENDOR = GenshinData::Weapon.new(
@@ -588,7 +590,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :rogue_flower,
         standard_material_type: :pollen,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       KAGOTSURUBE_ISSHIN = GenshinData::Weapon.new(
@@ -598,7 +600,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :statuette,
         standard_material_type: :spectral,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       KAGURAS_VERITY = GenshinData::Weapon.new(
@@ -608,7 +610,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :concealed_talon,
         standard_material_type: :spectral,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       KATSURAGIKIRI_NAGAMASA = GenshinData::Weapon.new(
@@ -618,7 +620,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_oculus,
         standard_material_type: :handguard,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       KEY_OF_KHAJ_NISUT = GenshinData::Weapon.new(
@@ -628,7 +630,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :turbid_prism,
         standard_material_type: :scarf,
-        weapon_material_type: :forest_dew,
+        weapon_material_type: :forest_dew
       ).freeze
 
       KINGS_SQUIRE = GenshinData::Weapon.new(
@@ -638,7 +640,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :fungal_nucleus,
         standard_material_type: :arrowhead,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       KITAIN_CROSS_SPEAR = GenshinData::Weapon.new(
@@ -648,7 +650,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_oculus,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       LIGHT_OF_FOLIAR_INCISION = GenshinData::Weapon.new(
@@ -658,7 +660,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :shell,
         standard_material_type: :scarf,
-        weapon_material_type: :forest_dew,
+        weapon_material_type: :forest_dew
       ).freeze
 
       LIONS_ROAR = GenshinData::Weapon.new(
@@ -668,7 +670,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       LITHIC_BLADE = GenshinData::Weapon.new(
@@ -678,7 +680,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :arrowhead,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       LITHIC_SPEAR = GenshinData::Weapon.new(
@@ -688,7 +690,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :bone_shard,
         standard_material_type: :arrowhead,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       LOST_PRAYER_TO_THE_SACRED_WINDS = GenshinData::Weapon.new(
@@ -698,7 +700,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       LUXURIOUS_SEA_LORD = GenshinData::Weapon.new(
@@ -708,7 +710,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :bone_shard,
         standard_material_type: :slime,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       MAGIC_GUIDE = GenshinData::Weapon.new(
@@ -718,7 +720,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :horn,
         standard_material_type: :slime,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       MAILED_FLOWER = GenshinData::Weapon.new(
@@ -728,7 +730,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :shell,
         standard_material_type: :spectral,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       MAKHAIRA_AQUAMARINE = GenshinData::Weapon.new(
@@ -738,7 +740,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_bolt,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       MAPPA_MARE = GenshinData::Weapon.new(
@@ -748,7 +750,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :bone_shard,
         standard_material_type: :slime,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       MEMORY_OF_DUST = GenshinData::Weapon.new(
@@ -758,7 +760,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :bone_shard,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       MESSENGER = GenshinData::Weapon.new(
@@ -768,7 +770,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       MISSIVE_WINDSPEAR = GenshinData::Weapon.new(
@@ -778,7 +780,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :statuette,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       MISTSPLITTER_REFORGED = GenshinData::Weapon.new(
@@ -788,7 +790,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_oculus,
         standard_material_type: :handguard,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       MITTERNACHTS_WALTZ = GenshinData::Weapon.new(
@@ -798,7 +800,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :horn,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       MOONPIERCER = GenshinData::Weapon.new(
@@ -808,7 +810,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_bolt,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :oasis_garden,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       MOUUNS_MOON = GenshinData::Weapon.new(
@@ -818,7 +820,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :crystal_prism,
         standard_material_type: :spectral,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       OATHSWORN_EYE = GenshinData::Weapon.new(
@@ -828,7 +830,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :concealed_talon,
         standard_material_type: :spectral,
-        weapon_material_type: :coral,
+        weapon_material_type: :coral
       ).freeze
 
       OLD_MERCS_PAL = GenshinData::Weapon.new(
@@ -838,7 +840,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       OTHERWORLDLY_STORY = GenshinData::Weapon.new(
@@ -848,7 +850,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :chaos_core,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       POCKET_GRIMOIRE = GenshinData::Weapon.new(
@@ -858,7 +860,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :horn,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       POLAR_STAR = GenshinData::Weapon.new(
@@ -868,7 +870,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :concealed_talon,
         standard_material_type: :spectral,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       PREDATOR = GenshinData::Weapon.new(
@@ -878,7 +880,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :crystal_prism,
         standard_material_type: :arrowhead,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       PRIMORDIAL_JADE_CUTTER = GenshinData::Weapon.new(
@@ -888,7 +890,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       PRIMORDIAL_JADE_WINGED_SPEAR = GenshinData::Weapon.new(
@@ -898,7 +900,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       PROTOTYPE_AMBER = GenshinData::Weapon.new(
@@ -908,7 +910,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :mist_grass,
         standard_material_type: :arrowhead,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       PROTOTYPE_ARCHAIC = GenshinData::Weapon.new(
@@ -918,7 +920,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :bone_shard,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       PROTOTYPE_CRESCENT = GenshinData::Weapon.new(
@@ -928,7 +930,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       PROTOTYPE_RANCOUR = GenshinData::Weapon.new(
@@ -938,7 +940,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       PROTOTYPE_STARGLITTER = GenshinData::Weapon.new(
@@ -948,7 +950,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :bone_shard,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       RAINSLASHER = GenshinData::Weapon.new(
@@ -958,7 +960,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :mist_grass,
         standard_material_type: :scroll,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       RAVEN_BOW = GenshinData::Weapon.new(
@@ -968,7 +970,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       RECURVE_BOW = GenshinData::Weapon.new(
@@ -978,7 +980,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       REDHORN_STONETHRESHER = GenshinData::Weapon.new(
@@ -988,7 +990,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :concealed_talon,
         standard_material_type: :handguard,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       ROYAL_BOW = GenshinData::Weapon.new(
@@ -998,7 +1000,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       ROYAL_GREATSWORD = GenshinData::Weapon.new(
@@ -1008,7 +1010,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       ROYAL_GRIMOIRE = GenshinData::Weapon.new(
@@ -1018,7 +1020,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :horn,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       ROYAL_LONGSWORD = GenshinData::Weapon.new(
@@ -1028,7 +1030,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       ROYAL_SPEAR = GenshinData::Weapon.new(
@@ -1038,7 +1040,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       RUST = GenshinData::Weapon.new(
@@ -1048,7 +1050,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       SACRIFICIAL_BOW = GenshinData::Weapon.new(
@@ -1058,7 +1060,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SACRIFICIAL_FRAGMENTS = GenshinData::Weapon.new(
@@ -1068,7 +1070,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :chaos_core,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       SACRIFICIAL_GREATSWORD = GenshinData::Weapon.new(
@@ -1078,7 +1080,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :ley_line,
         standard_material_type: :arrowhead,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SACRIFICIAL_SWORD = GenshinData::Weapon.new(
@@ -1088,7 +1090,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       SAPWOOD_BLADE = GenshinData::Weapon.new(
@@ -1098,7 +1100,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_bolt,
         standard_material_type: :scarf,
-        weapon_material_type: :forest_dew,
+        weapon_material_type: :forest_dew
       ).freeze
 
       SEASONED_HUNTERS_BOW = GenshinData::Weapon.new(
@@ -1108,7 +1110,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SERPENT_SPINE = GenshinData::Weapon.new(
@@ -1118,7 +1120,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :bone_shard,
         standard_material_type: :nectar,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       SHARPSHOOTERS_OATH = GenshinData::Weapon.new(
@@ -1128,7 +1130,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SILVER_SWORD = GenshinData::Weapon.new(
@@ -1138,7 +1140,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       SKYRIDER_GREATSWORD = GenshinData::Weapon.new(
@@ -1148,7 +1150,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :bone_shard,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       SKYRIDER_SWORD = GenshinData::Weapon.new(
@@ -1158,7 +1160,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :bone_shard,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       SKYWARD_ATLAS = GenshinData::Weapon.new(
@@ -1168,7 +1170,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :ley_line,
         standard_material_type: :arrowhead,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SKYWARD_BLADE = GenshinData::Weapon.new(
@@ -1178,7 +1180,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SKYWARD_HARP = GenshinData::Weapon.new(
@@ -1188,7 +1190,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :arrowhead,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SKYWARD_PRIDE = GenshinData::Weapon.new(
@@ -1198,7 +1200,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       SKYWARD_SPINE = GenshinData::Weapon.new(
@@ -1208,7 +1210,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       SLINGSHOT = GenshinData::Weapon.new(
@@ -1218,7 +1220,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       SNOW_TOMBED_STARSILVER = GenshinData::Weapon.new(
@@ -1228,7 +1230,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :horn,
         standard_material_type: :slime,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       SOLAR_PEARL = GenshinData::Weapon.new(
@@ -1238,7 +1240,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :nectar,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       SONG_OF_BROKEN_PINES = GenshinData::Weapon.new(
@@ -1248,7 +1250,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :horn,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       STAFF_OF_HOMA = GenshinData::Weapon.new(
@@ -1258,7 +1260,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       STAFF_OF_THE_SCARLET_SANDS = GenshinData::Weapon.new(
@@ -1268,7 +1270,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_bolt,
         standard_material_type: :pollen,
-        weapon_material_type: :oasis_garden,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       SUMMIT_SHAPER = GenshinData::Weapon.new(
@@ -1278,7 +1280,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       SWORD_OF_DESCENSION = GenshinData::Weapon.new(
@@ -1288,7 +1290,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       THE_BELL = GenshinData::Weapon.new(
@@ -1298,7 +1300,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :horn,
         standard_material_type: :nectar,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       THE_BLACK_SWORD = GenshinData::Weapon.new(
@@ -1308,7 +1310,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       THE_CATCH = GenshinData::Weapon.new(
@@ -1318,7 +1320,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :chaos_oculus,
         standard_material_type: :spectral,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       THE_FLUTE = GenshinData::Weapon.new(
@@ -1328,7 +1330,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       THE_STRINGLESS = GenshinData::Weapon.new(
@@ -1338,7 +1340,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       THE_UNFORGED = GenshinData::Weapon.new(
@@ -1348,7 +1350,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       THE_VIRIDESCENT_HUNT = GenshinData::Weapon.new(
@@ -1358,7 +1360,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :horn,
         standard_material_type: :arrowhead,
-        weapon_material_type: :decarabian,
+        weapon_material_type: :decarabian
       ).freeze
 
       THE_WIDSITH = GenshinData::Weapon.new(
@@ -1368,7 +1370,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :ley_line,
         standard_material_type: :hilichurl_mask,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       THRILLING_TALES_OF_DRAGON_SLAYERS = GenshinData::Weapon.new(
@@ -1378,7 +1380,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :ley_line,
         standard_material_type: :scroll,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       THUNDERING_PULSE = GenshinData::Weapon.new(
@@ -1388,7 +1390,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :crystal_prism,
         standard_material_type: :arrowhead,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       TOUKABOU_SHIGURE = GenshinData::Weapon.new(
@@ -1398,7 +1400,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :turbid_prism,
         standard_material_type: :handguard,
-        weapon_material_type: :narukami,
+        weapon_material_type: :narukami
       ).freeze
 
       TRAVELERS_HANDY_SWORD = GenshinData::Weapon.new(
@@ -1408,7 +1410,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       TULAYTULLAHS_REMEMBRANCE = GenshinData::Weapon.new(
@@ -1418,7 +1420,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :fungal_nucleus,
         standard_material_type: :pollen,
-        weapon_material_type: :scorching_might,
+        weapon_material_type: :scorching_might
       ).freeze
 
       TWIN_NEPHRITE = GenshinData::Weapon.new(
@@ -1428,7 +1430,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :mist_grass,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :elixir,
+        weapon_material_type: :elixir
       ).freeze
 
       VORTEX_VANQUISHER = GenshinData::Weapon.new(
@@ -1438,7 +1440,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :bone_shard,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :aerosiderite,
+        weapon_material_type: :aerosiderite
       ).freeze
 
       WANDERING_EVENSTAR = GenshinData::Weapon.new(
@@ -1448,7 +1450,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :fungal_nucleus,
         standard_material_type: :pollen,
-        weapon_material_type: :oasis_garden,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       WASTER_GREATSWORD = GenshinData::Weapon.new(
@@ -1458,7 +1460,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :ley_line,
         standard_material_type: :slime,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       WAVEBREAKERS_FIN = GenshinData::Weapon.new(
@@ -1468,7 +1470,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :concealed_talon,
         standard_material_type: :handguard,
-        weapon_material_type: :oni_mask,
+        weapon_material_type: :oni_mask
       ).freeze
 
       WHITE_IRON_GREATSWORD = GenshinData::Weapon.new(
@@ -1478,7 +1480,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_core,
         standard_material_type: :slime,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       WHITE_TASSEL = GenshinData::Weapon.new(
@@ -1488,7 +1490,7 @@ module TeyvatDB
         weapon_type: :polearm,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :fatui_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       WHITEBLIND = GenshinData::Weapon.new(
@@ -1498,7 +1500,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :sacrificial_knife,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :guyun,
+        weapon_material_type: :guyun
       ).freeze
 
       WINDBLUME_ODE = GenshinData::Weapon.new(
@@ -1508,7 +1510,7 @@ module TeyvatDB
         weapon_type: :bow,
         elite_material_type: :ley_line,
         standard_material_type: :nectar,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       WINE_AND_SONG = GenshinData::Weapon.new(
@@ -1518,7 +1520,7 @@ module TeyvatDB
         weapon_type: :catalyst,
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
-        weapon_material_type: :wolf_tooth,
+        weapon_material_type: :wolf_tooth
       ).freeze
 
       WOLFS_GRAVESTONE = GenshinData::Weapon.new(
@@ -1528,7 +1530,7 @@ module TeyvatDB
         weapon_type: :claymore,
         elite_material_type: :chaos_core,
         standard_material_type: :scroll,
-        weapon_material_type: :chains,
+        weapon_material_type: :chains
       ).freeze
 
       XIPHOS_MOONLIGHT = GenshinData::Weapon.new(
@@ -1538,7 +1540,7 @@ module TeyvatDB
         weapon_type: :sword,
         elite_material_type: :turbid_prism,
         standard_material_type: :scarf,
-        weapon_material_type: :forest_dew,
+        weapon_material_type: :forest_dew
       ).freeze
     end
   end

@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 module GenshinData
+  # Base class to represent various Genshin Characters
   class Character
     attr_accessor :kamera_key, :name, :nation_name, :rarity, :element, :weapon_type,
                   :talent_book_name, :talent_rare_material_name, :talent_boss_material_name,

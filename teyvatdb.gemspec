@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "TeyvatDB is a gem to provide Genshin game data in a standardized way across my projects"
   spec.description = "Gem to provide basic genshin data to my other projects"
   spec.homepage = "https://github.com/bhaberer/teyvatdb"
-  spec.required_ruby_version = ">= 2.6.0"
+  spec.required_ruby_version = ">= 3.1.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
@@ -30,9 +30,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  # Uncomment to register a new dependency of your gem
-  spec.add_development_dependency "solargraph", "~> 0.49"
-
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.metadata["rubygems_mfa_required"] = "true"
 end

@@ -1,6 +1,8 @@
+# frozen_string_literal: true
+
 module TeyvatDB
   module Weapons
-    require_relative 'weapons/weapon_data'
+    require_relative "weapons/weapon_data"
 
     class << self
       def all
@@ -158,7 +160,7 @@ module TeyvatDB
           WeaponData::WINDBLUME_ODE,
           WeaponData::WINE_AND_SONG,
           WeaponData::WOLFS_GRAVESTONE,
-          WeaponData::XIPHOS_MOONLIGHT,
+          WeaponData::XIPHOS_MOONLIGHT
         ]
       end
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module TeyvatDB
   module Characters
     module CharacterData
@@ -1067,8 +1069,6 @@ module TeyvatDB
         ascension_gathering_material_name: "CorLapis",
         ascension_enemy_material_name: "slime"
       ).freeze
-
-
     end
   end
 end

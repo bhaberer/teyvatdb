@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module TeyvatDB
   module ArtifactSets
-
-    require_relative 'artifact_sets/artifact_data'
+    require_relative "artifact_sets/artifact_data"
 
     class << self
       def all
@@ -48,10 +49,9 @@ module TeyvatDB
           ArtifactData::TINY_MIRACLE,
           ArtifactData::ADVENTURER,
           ArtifactData::LUCKY_DOG,
-          ArtifactData::TRAVELING_DOCTOR,
+          ArtifactData::TRAVELING_DOCTOR
         ]
       end
     end
   end
 end
-

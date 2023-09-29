@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module TeyvatDB
-  require_relative 'characters/character_data'
+  require_relative "characters/character_data"
 
   module Characters
     class << self
@@ -12,7 +14,7 @@ module TeyvatDB
           natlan,
           snezhnaya,
           sumeru,
-          unknown,
+          unknown
         ].flatten.sort { |x, y| x.name <=> y.name }
       end
 
@@ -21,7 +23,7 @@ module TeyvatDB
           CharacterData::FREMINET,
           CharacterData::LYNETTE,
           CharacterData::LYNEY,
-          CharacterData::NEUVILLETTE,
+          CharacterData::NEUVILLETTE
           # CharacterData::WRIOTHESLEY, not released quite yet
         ].freeze
       end
@@ -42,7 +44,7 @@ module TeyvatDB
           CharacterData::SHIKANOIN_HEIZOU,
           CharacterData::THOMA,
           CharacterData::YAE_MIKO,
-          CharacterData::YOIMIYA,
+          CharacterData::YOIMIYA
         ]
       end
 
@@ -65,7 +67,7 @@ module TeyvatDB
           CharacterData::YAOYAO,
           CharacterData::YELAN,
           CharacterData::YUN_JIN,
-          CharacterData::ZHONGLI,
+          CharacterData::ZHONGLI
         ]
       end
 
@@ -89,7 +91,7 @@ module TeyvatDB
           CharacterData::RAZOR,
           CharacterData::ROSARIA,
           CharacterData::SUCROSE,
-          CharacterData::VENTI,
+          CharacterData::VENTI
         ]
       end
 
@@ -99,7 +101,7 @@ module TeyvatDB
 
       def snezhnaya
         [
-          CharacterData::TARTAGLIA,
+          CharacterData::TARTAGLIA
         ]
       end
 
@@ -116,13 +118,13 @@ module TeyvatDB
           CharacterData::KAVEH,
           CharacterData::NAHIDA,
           CharacterData::NILOU,
-          CharacterData::TIGHNARI,
+          CharacterData::TIGHNARI
         ]
       end
 
       def unknown
         [
-          CharacterData::ALOY,
+          CharacterData::ALOY
         ]
       end
     end

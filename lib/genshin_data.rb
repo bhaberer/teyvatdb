@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Module that handles higher constants and base data classes
 module GenshinData
   require_relative "genshin_data/artifact_set"
