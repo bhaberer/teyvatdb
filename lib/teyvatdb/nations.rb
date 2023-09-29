@@ -40,8 +40,8 @@ module TeyvatDB
     ).freeze
     UNKNOWN = Nation.new(
       order: 8,
-      name: "fontaine",
-      pretty_name: "Fontaine",
+      name: "unknown",
+      pretty_name: "Unknown",
     ).freeze
 
     def self.all

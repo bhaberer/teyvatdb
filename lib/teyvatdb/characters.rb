@@ -564,7 +564,7 @@ module TeyvatDB
       weapon_type: "sword",
       talent_book_name: "order",
       talent_rare_material_name: "gear",
-      talent_boss_material_name: "EverAmber",
+      talent_boss_material_name: "Everamber",
       ascension_boss_material_name: "ArtificedSpareClockworkComponentCoppelia",
       ascension_gathering_material_name: "LumidouceBell",
       ascension_enemy_material_name: "gear"
@@ -630,7 +630,20 @@ module TeyvatDB
       ascension_enemy_material_name: "pollen"
     ).freeze
 
-    # NEUVILLETTE = Character.new().freeze
+    NEUVILLETTE = Character.new(
+      kamera_key: "Neuvillette",
+      name: "Neuvillette",
+      nation_name: "fontaine",
+      rarity: 5,
+      element: "hydro",
+      weapon_type: "catalyst",
+      talent_book_name: "equity",
+      talent_rare_material_name: "transoceanic",
+      talent_boss_material_name: "Everamber",
+      ascension_boss_material_name: "FontemerUnihorn",
+      ascension_gathering_material_name: "Lumitoile",
+      ascension_enemy_material_name: "transoceanic"
+    ).freeze
 
     NILOU = Character.new(
       kamera_key: "Nilou",
@@ -1073,7 +1086,7 @@ module TeyvatDB
           FREMINET,
           LYNETTE,
           LYNEY,
-          # NEUVILLETTE,
+          NEUVILLETTE,
           # WRIOTHESLEY,
         ].freeze
       end
