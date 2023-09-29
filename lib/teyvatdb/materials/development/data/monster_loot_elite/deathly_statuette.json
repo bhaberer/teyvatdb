@@ -1,9 +1,0 @@
-{
-  "kamera_key": "DeathlyStatuette",
-  "name": "Deathly Statuette",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "statuette",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

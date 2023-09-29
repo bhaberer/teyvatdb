@@ -1,9 +1,0 @@
-{
-  "kamera_key": "SergeantsInsignia",
-  "name": "Sergeants Insignia",
-  "source_category": "monster_loot",
-  "source_sub_category": "general_drop",
-  "family": "fatui_insignia",
-  "rarity": "2",
-  "inventory_type": "development_material"
-}

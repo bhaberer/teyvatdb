@@ -1,9 +1,0 @@
-{
-  "kamera_key": "WanderersBloomingFlower",
-  "name": "Wanderer's Blooming Flower",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "rogue_flower",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

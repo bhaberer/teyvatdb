@@ -1,9 +1,0 @@
-{
-  "kamera_key": "ConcealedTalon",
-  "name": "Concealed Talon",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "concealed_talon",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

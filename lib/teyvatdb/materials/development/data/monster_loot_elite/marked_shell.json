@@ -1,9 +1,0 @@
-{
-  "kamera_key": "MarkedShell",
-  "name": "Marked Shell",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "shell",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

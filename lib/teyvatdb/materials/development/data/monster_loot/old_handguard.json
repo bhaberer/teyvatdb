@@ -1,9 +1,0 @@
-{
-  "kamera_key": "OldHandguard",
-  "name": "Old Handguard",
-  "source_category": "monster_loot",
-  "source_sub_category": "general_drop",
-  "family": "handguard",
-  "rarity": "1",
-  "inventory_type": "development_material"
-}

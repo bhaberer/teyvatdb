@@ -1,9 +1,0 @@
-{
-  "kamera_key": "FossilizedBoneShard",
-  "name": "Fossilized Bone Shard",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "bone_shard",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

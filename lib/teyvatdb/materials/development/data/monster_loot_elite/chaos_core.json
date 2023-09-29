@@ -1,9 +1,0 @@
-{
-  "kamera_key": "ChaosCore",
-  "name": "Chaos Core",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "chaos_core",
-  "rarity": "4",
-  "inventory_type": "development_material"
-}

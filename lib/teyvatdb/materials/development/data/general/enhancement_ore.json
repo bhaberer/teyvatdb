@@ -1,9 +1,0 @@
-{
-  "kamera_key": "EnhancementOre",
-  "name": "Enhancement Ore",
-  "source_category": "general_reward",
-  "source_sub_category": null,
-  "family": "weapon_experience",
-  "rarity": "1",
-  "inventory_type": "development_material"
-}

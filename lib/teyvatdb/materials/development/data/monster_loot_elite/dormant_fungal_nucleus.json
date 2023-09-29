@@ -1,9 +1,0 @@
-{
-  "kamera_key": "DormantFungalNucleus",
-  "name": "Dormant Fungal Nucleus",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "fungal_nucleus",
-  "rarity": "3",
-  "inventory_type": "development_material"
-}

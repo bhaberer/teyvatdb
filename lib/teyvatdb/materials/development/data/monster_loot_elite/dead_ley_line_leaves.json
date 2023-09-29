@@ -1,9 +1,0 @@
-{
-  "kamera_key": "DeadLeyLineLeaves",
-  "name": "Dead Ley Line Leaves",
-  "source_category": "monster_loot",
-  "source_sub_category": "elite_drop",
-  "family": "ley_line",
-  "rarity": "3",
-  "inventory_type": "development_material"
-}
