@@ -17,6 +17,7 @@ module TeyvatDB::Materials
           gems,
           general,
           monster_loot,
+          talent_books,
           weapon_materials,
           weapon_refinement
           weekly_boss_drops,
