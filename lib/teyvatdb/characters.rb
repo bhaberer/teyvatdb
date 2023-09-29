@@ -1,7 +1,5 @@
 module TeyvatDB
   module Characters
-
-
     ALBEDO = Character.new(
       kamera_key: "Albedo",
       name: "Albedo",
