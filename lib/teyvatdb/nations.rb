@@ -3,42 +3,42 @@
 module TeyvatDB
   # Base Nation Data
   module Nations
-    FONTAINE = Nation.new(
+    FONTAINE = GenshinData::Nation.new(
       order: 5,
       name: "fontaine",
       pretty_name: "Fontaine",
     ).freeze
-    INAZUMA = Nation.new(
+    INAZUMA = GenshinData::Nation.new(
       order: 3,
       name: "inazuma",
       pretty_name: "Inazuma",
     ).freeze
-    LIYUE = Nation.new(
+    LIYUE = GenshinData::Nation.new(
       order: 2,
       name: "liyue",
       pretty_name: "Liyue",
     ).freeze
-    MONDSTADT = Nation.new(
+    MONDSTADT = GenshinData::Nation.new(
       order: 1,
       name: "mondstadt",
       pretty_name: "Mondstadt",
     ).freeze
-    NATLAN = Nation.new(
+    NATLAN = GenshinData::Nation.new(
       order: 6,
       name: "natlan",
       pretty_name: "Natlan",
     ).freeze
-    SNEZHNAYA = Nation.new(
+    SNEZHNAYA = GenshinData::Nation.new(
       order: 7,
       name: "snezhnaya",
       pretty_name: "Snezhnaya",
     ).freeze
-    SUMERU = Nation.new(
+    SUMERU = GenshinData::Nation.new(
       order: 4,
       name: "sumeru",
       pretty_name: "Sumeru",
     ).freeze
-    UNKNOWN = Nation.new(
+    UNKNOWN = GenshinData::Nation.new(
       order: 8,
       name: "unknown",
       pretty_name: "Unknown",

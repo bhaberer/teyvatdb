@@ -1,4 +1,4 @@
-module TeyvatDB
+module GenshinData
   class Character
     attr_accessor :kamera_key, :name, :nation_name, :rarity, :element, :weapon_type,
                   :talent_book_name, :talent_rare_material_name, :talent_boss_material_name,

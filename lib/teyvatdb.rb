@@ -2,12 +2,11 @@
 
 require "json"
 
+require_relative "genshin_data"
+
 require_relative "teyvatdb/version"
 
-require_relative "teyvatdb/nation"
 require_relative "teyvatdb/nations"
-
-require_relative "teyvatdb/character"
 require_relative "teyvatdb/characters"
 
 # Common helpers
@@ -23,15 +22,6 @@ module TeyvatDB
     def filename_to_kamera_key(filename)
       file_id = filename.gsub(/\.json/, "")
       file_id.split(/_/).map(&:capitalize).join("")
-    end
-
-    def load_all_from_directory(directory_path)
-      data = []
-      Dir.glob("#{directory_path}/*.json").each do |file_path|
-        loaded_data = JSON.parse(File.read(file_path))
-        data << loaded_data
-      end
-      data
     end
   end
 end

@@ -1,4 +1,4 @@
-module TeyvatDB
+module GenshinData
 
   # Base Nation File
   class Nation
