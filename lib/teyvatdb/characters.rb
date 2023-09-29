@@ -1065,7 +1065,7 @@ module TeyvatDB
           snezhnaya,
           sumeru,
           unknown,
-        ].flatten.sort { |x, y| x.name <=> y.name q}
+        ].flatten.sort { |x, y| x.name <=> y.name }
       end
 
       def fontaine
