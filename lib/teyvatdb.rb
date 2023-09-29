@@ -8,6 +8,7 @@ require_relative "teyvatdb/version"
 
 require_relative "teyvatdb/nations"
 require_relative "teyvatdb/characters"
+require_relative "teyvatdb/weapons"
 
 # Common helpers
 module TeyvatDB
