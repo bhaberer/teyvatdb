@@ -1,5 +1,5 @@
 module TeyvatDB::Materials::Development
-  module WeaponRefinementDropsData
+  module WeaponRefinementMaterialData
     AKOS_SAKE_VESSEL = GenshinData::Material.new(
       kamera_key: "AkosSakeVessel",
       name: "Ako's Sake Vessel",

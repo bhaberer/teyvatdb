@@ -1,5 +1,16 @@
 module TeyvatDB::Materials::Development
   module MonsterLootDropsData
+    ARTIFICED_DYNAMIC_GEAR = GenshinData::Material.new(
+      kamera_key: "ArtificedDynamicGear",
+      name: "Artificed Dynamic Gear",
+      rarity: 3,
+      family: :gear,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
     CRYSTALLINE_CYST_DUST = GenshinData::Material.new(
       kamera_key: "CrystallineCystDust",
       name: "Crystalline Cyst Dust",
@@ -8,6 +19,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     DAMAGED_MASK = GenshinData::Material.new(
@@ -18,6 +30,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     DIVINING_SCROLL = GenshinData::Material.new(
@@ -28,6 +41,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     ENERGY_NECTAR = GenshinData::Material.new(
@@ -38,6 +52,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     FADED_RED_SATIN = GenshinData::Material.new(
@@ -48,6 +63,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     FAMED_HANDGUARD = GenshinData::Material.new(
@@ -58,6 +74,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     FIRM_ARROWHEAD = GenshinData::Material.new(
@@ -68,6 +85,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     FORBIDDEN_CURSE_SCROLL = GenshinData::Material.new(
@@ -78,6 +96,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     FUNGAL_SPORES = GenshinData::Material.new(
@@ -88,6 +107,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     GOLDEN_RAVEN_INSIGNIA = GenshinData::Material.new(
@@ -98,6 +118,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     KAGEUCHI_HANDGUARD = GenshinData::Material.new(
@@ -108,6 +129,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     LIEUTENANTS_INSIGNIA = GenshinData::Material.new(
@@ -118,6 +140,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     LUMINESCENT_POLLEN = GenshinData::Material.new(
@@ -128,6 +151,29 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
+    MECHANICAL_SPUR_GEAR = GenshinData::Material.new(
+      kamera_key: "MechanicalSpurGear",
+      name: "Mechanical Spur Gear",
+      rarity: 2,
+      family: :gear,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
+    MESHING_GEAR = GenshinData::Material.new(
+      kamera_key: "MeshingGear",
+      name: "Meshing Gear",
+      rarity: 1,
+      family: :gear,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     OLD_HANDGUARD = GenshinData::Material.new(
@@ -138,6 +184,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     OMINOUS_MASK = GenshinData::Material.new(
@@ -148,6 +195,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     RECRUITS_INSIGNIA = GenshinData::Material.new(
@@ -158,6 +206,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     RICH_RED_BROCADE = GenshinData::Material.new(
@@ -168,6 +217,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SEALED_SCROLL = GenshinData::Material.new(
@@ -178,6 +228,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SERGEANTS_INSIGNIA = GenshinData::Material.new(
@@ -188,6 +239,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SHARP_ARROWHEAD = GenshinData::Material.new(
@@ -198,6 +250,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SHIMMERING_NECTAR = GenshinData::Material.new(
@@ -208,6 +261,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SILVER_RAVEN_INSIGNIA = GenshinData::Material.new(
@@ -218,6 +272,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SLIME_CONCENTRATE = GenshinData::Material.new(
@@ -228,6 +283,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SLIME_CONDENSATE = GenshinData::Material.new(
@@ -238,6 +294,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SLIME_SECRETIONS = GenshinData::Material.new(
@@ -248,6 +305,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SPECTRAL_HEART = GenshinData::Material.new(
@@ -258,6 +316,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SPECTRAL_HUSK = GenshinData::Material.new(
@@ -268,6 +327,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     SPECTRAL_NUCLEUS = GenshinData::Material.new(
@@ -278,6 +338,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     STAINED_MASK = GenshinData::Material.new(
@@ -288,6 +349,29 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
+    TRANSOCEANIC_CHUNK = GenshinData::Material.new(
+      kamera_key: "TransoceanicChunk",
+      name: "Transoceanic Chunk",
+      rarity: 2,
+      family: :transoceanic,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
+    TRANSOCEANIC_PEARL = GenshinData::Material.new(
+      kamera_key: "TransoceanicPearl",
+      name: "Transoceanic Pearl",
+      rarity: 1,
+      family: :transoceanic,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     TREASURE_HOARDER_INSIGNIA = GenshinData::Material.new(
@@ -298,6 +382,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     TRIMMED_RED_SILK = GenshinData::Material.new(
@@ -308,6 +393,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     WEATHERED_ARROWHEAD = GenshinData::Material.new(
@@ -318,6 +404,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
 
     WHOPPERFLOWER_NECTAR = GenshinData::Material.new(
@@ -328,6 +415,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :general_drop,
+      nation_name: nil,
+    ).freeze
+
+    XENOCHROMATIC_CRYSTAL = GenshinData::Material.new(
+      kamera_key: "XenochromaticCrystal",
+      name: "Xenochromatic Crystal",
+      rarity: 3,
+      family: :transoceanic,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :general_drop,
+      nation_name: nil,
     ).freeze
   end
 end

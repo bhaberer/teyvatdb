@@ -1,5 +1,5 @@
 module TeyvatDB::Materials::Development
-  module MonsterLootDropsData
+  module WeaponMaterialData
     BIT_OF_AEROSIDERITE = GenshinData::Material.new(
       kamera_key: "BitOfAerosiderite",
       name: "Bit of Aerosiderite",
@@ -8,6 +8,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     BOREAL_WOLFS_BROKEN_FANG = GenshinData::Material.new(
@@ -18,6 +19,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     BOREAL_WOLFS_CRACKED_TOOTH = GenshinData::Material.new(
@@ -28,6 +30,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     BOREAL_WOLFS_MILK_TOOTH = GenshinData::Material.new(
@@ -38,6 +41,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     BOREAL_WOLFS_NOSTALGIA = GenshinData::Material.new(
@@ -48,6 +52,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    BROKEN_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+      kamera_key: "BrokenGobletOfThePristineSea",
+      name: "Broken Goblet of the Pristine Sea",
+      rarity: 2,
+      family: :pristine_sea,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     CHAINS_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
@@ -58,6 +74,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    CHAPTER_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+      kamera_key: "ChapterOfAnAncientChord",
+      name: "Chapter of an Ancient Chord",
+      rarity: 3,
+      family: :ancient_chord,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     CHUNK_OF_AEROSIDERITE = GenshinData::Material.new(
@@ -68,6 +96,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     COPPER_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
@@ -78,6 +107,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     CORAL_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
@@ -88,6 +118,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     DEBRIS_OF_DECARABIANS_CITY = GenshinData::Material.new(
@@ -98,6 +129,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     DIVINE_BODY_FROM_GUYUN = GenshinData::Material.new(
@@ -108,6 +140,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     DREAM_OF_SCORCHING_MIGHT = GenshinData::Material.new(
@@ -118,6 +151,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     DREAM_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
@@ -128,6 +162,29 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    DROSS_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+      kamera_key: "DrossOfPureSacredDewdrop",
+      name: "Dross of Pure Sacred Dewdrop",
+      rarity: 2,
+      family: :sacred_dewdrop,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
+    ).freeze
+
+    ECHO_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+      kamera_key: "EchoOfAnAncientChord",
+      name: "Echo of an Ancient Chord",
+      rarity: 5,
+      family: :ancient_chord,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     ECHO_OF_SCORCHING_MIGHT = GenshinData::Material.new(
@@ -138,6 +195,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
+    ).freeze
+
+    ESSENCE_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+      kamera_key: "EssenceOfPureSacredDewdrop",
+      name: "Essence of Pure Sacred Dewdrop",
+      rarity: 5,
+      family: :sacred_dewdrop,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     FETTERS_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
@@ -148,6 +217,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    FRAGMENT_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+      kamera_key: "FragmentOfAnAncientChord",
+      name: "Fragment of an Ancient Chord",
+      rarity: 2,
+      family: :ancient_chord,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     FRAGMENT_OF_DECARABIANS_EPIC = GenshinData::Material.new(
@@ -158,6 +239,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     GOLDEN_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
@@ -168,6 +250,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
+    ).freeze
+
+    GOLDEN_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+      kamera_key: "GoldenGobletOfThePristineSea",
+      name: "Golden Goblet of the Pristine Sea",
+      rarity: 5,
+      family: :pristine_sea,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     GOLDEN_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
@@ -178,6 +272,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     GRAIN_OF_AEROSIDERITE = GenshinData::Material.new(
@@ -188,6 +283,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     IRON_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
@@ -198,6 +294,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     JADE_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
@@ -208,6 +305,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     JEWELED_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
@@ -218,6 +316,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     LUMINOUS_SANDS_FROM_GUYUN = GenshinData::Material.new(
@@ -228,6 +327,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     LUSTROUS_STONE_FROM_GUYUN = GenshinData::Material.new(
@@ -238,6 +338,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     MASK_OF_THE_KIJIN = GenshinData::Material.new(
@@ -248,6 +349,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     MASK_OF_THE_ONE_HORNED = GenshinData::Material.new(
@@ -258,6 +360,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     MASK_OF_THE_TIGERS_BITE = GenshinData::Material.new(
@@ -268,6 +371,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     MASK_OF_THE_WICKED_LIEUTENANT = GenshinData::Material.new(
@@ -278,6 +382,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     MIST_VEILED_GOLD_ELIXIR = GenshinData::Material.new(
@@ -288,6 +393,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     MIST_VEILED_LEAD_ELIXIR = GenshinData::Material.new(
@@ -298,6 +404,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     MIST_VEILED_MERCURY_ELIXIR = GenshinData::Material.new(
@@ -308,6 +415,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     MIST_VEILED_PRIMO_ELIXIR = GenshinData::Material.new(
@@ -318,6 +426,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
+    ).freeze
+
+    MOVEMENT_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+      kamera_key: "MovementOfAnAncientChord",
+      name: "Movement of an Ancient Chord",
+      rarity: 4,
+      family: :ancient_chord,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     NARUKAMIS_AFFECTION = GenshinData::Material.new(
@@ -328,6 +448,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     NARUKAMIS_JOY = GenshinData::Material.new(
@@ -338,6 +459,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     NARUKAMIS_VALOR = GenshinData::Material.new(
@@ -348,6 +470,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     NARUKAMIS_WISDOM = GenshinData::Material.new(
@@ -358,6 +481,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :inazuma,
     ).freeze
 
     OASIS_GARDENS_KINDNESS = GenshinData::Material.new(
@@ -368,6 +492,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     OASIS_GARDENS_MOURNING = GenshinData::Material.new(
@@ -378,6 +503,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     OASIS_GARDENS_REMINISCENCE = GenshinData::Material.new(
@@ -388,6 +514,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     OASIS_GARDENS_TRUTH = GenshinData::Material.new(
@@ -398,6 +525,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     OLDEN_DAYS_OF_SCORCHING_MIGHT = GenshinData::Material.new(
@@ -408,6 +536,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     PIECE_OF_AEROSIDERITE = GenshinData::Material.new(
@@ -418,6 +547,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     RELIC_FROM_GUYUN = GenshinData::Material.new(
@@ -428,6 +558,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :liyue,
     ).freeze
 
     REMNANT_GLOW_OF_SCORCHING_MIGHT = GenshinData::Material.new(
@@ -438,6 +569,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
     ).freeze
 
     SCATTERED_PIECE_OF_DECARABIANS_DREAM = GenshinData::Material.new(
@@ -448,6 +580,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
     ).freeze
 
     SHACKLES_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
@@ -458,6 +591,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    SILVER_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+      kamera_key: "SilverGobletOfThePristineSea",
+      name: "Silver Goblet of the Pristine Sea",
+      rarity: 4,
+      family: :pristine_sea,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     SILVER_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
@@ -468,6 +613,29 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :sumeru,
+    ).freeze
+
+    SPRING_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+      kamera_key: "SpringOfPureSacredDewdrop",
+      name: "Spring of Pure Sacred Dewdrop",
+      rarity: 4,
+      family: :sacred_dewdrop,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
+    ).freeze
+
+    SUBLIMATION_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+      kamera_key: "SublimationOfPureSacredDewdrop",
+      name: "Sublimation of Pure Sacred Dewdrop",
+      rarity: 3,
+      family: :sacred_dewdrop,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
 
     TILE_OF_DECARABIANS_TOWER = GenshinData::Material.new(
@@ -478,6 +646,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :domain_material,
       source_sub_category: nil,
+      nation_name: :mondstadt,
+    ).freeze
+
+    WINE_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+      kamera_key: "WineGobletOfThePristineSea",
+      name: "Wine Goblet of the Pristine Sea",
+      rarity: 3,
+      family: :pristine_sea,
+      inventory_type: :development_material,
+      source_category: :domain_material,
+      source_sub_category: nil,
+      nation_name: :fontaine,
     ).freeze
   end
 end

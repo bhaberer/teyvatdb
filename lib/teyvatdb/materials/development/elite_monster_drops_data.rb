@@ -8,6 +8,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     AGENTS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
@@ -18,6 +19,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    ALIEN_LIFE_CORE = GenshinData::Material.new(
+      kamera_key: "AlienLifeCore",
+      name: "Alien Life Core",
+      rarity: 4,
+      family: :core,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     BLACK_BRONZE_HORN = GenshinData::Material.new(
@@ -28,6 +41,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     BLACK_CRYSTAL_HORN = GenshinData::Material.new(
@@ -38,6 +52,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_AXIS = GenshinData::Material.new(
@@ -48,6 +63,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_BOLT = GenshinData::Material.new(
@@ -58,6 +74,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_CIRCUIT = GenshinData::Material.new(
@@ -68,6 +85,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_CORE = GenshinData::Material.new(
@@ -78,6 +96,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_DEVICE = GenshinData::Material.new(
@@ -88,6 +107,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_GEAR = GenshinData::Material.new(
@@ -98,6 +118,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_MODULE = GenshinData::Material.new(
@@ -108,6 +129,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_OCULUS = GenshinData::Material.new(
@@ -118,6 +140,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CHAOS_STORAGE = GenshinData::Material.new(
@@ -128,6 +151,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CONCEALED_CLAW = GenshinData::Material.new(
@@ -138,6 +162,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CONCEALED_TALON = GenshinData::Material.new(
@@ -148,6 +173,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CONCEALED_UNGUIS = GenshinData::Material.new(
@@ -158,6 +184,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     CRYSTAL_PRISM = GenshinData::Material.new(
@@ -168,6 +195,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DAMAGED_PRISM = GenshinData::Material.new(
@@ -178,6 +206,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DARK_STATUETTE = GenshinData::Material.new(
@@ -188,6 +217,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DEAD_LEY_LINE_BRANCH = GenshinData::Material.new(
@@ -198,6 +228,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DEAD_LEY_LINE_LEAVES = GenshinData::Material.new(
@@ -208,6 +239,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DEATHLY_STATUETTE = GenshinData::Material.new(
@@ -218,6 +250,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DESICCATED_SHELL = GenshinData::Material.new(
@@ -228,6 +261,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DISMAL_PRISM = GenshinData::Material.new(
@@ -238,6 +272,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     DORMANT_FUNGAL_NUCLEUS = GenshinData::Material.new(
@@ -248,6 +283,29 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    DROP_OF_TAINTED_WATER = GenshinData::Material.new(
+      kamera_key: "DropOfTaintedWater",
+      name: "Drop of Tainted Water",
+      rarity: 2,
+      family: :tainted_water,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    FOREIGN_SYNAPSE = GenshinData::Material.new(
+      kamera_key: "ForeignSynapse",
+      name: "Foreign Synapse",
+      rarity: 3,
+      family: :core,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     FOSSILIZED_BONE_SHARD = GenshinData::Material.new(
@@ -258,6 +316,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     FRAGILE_BONE_SHARD = GenshinData::Material.new(
@@ -268,6 +327,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     GLOOMY_STATUETTE = GenshinData::Material.new(
@@ -278,6 +338,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     HEAVY_HORN = GenshinData::Material.new(
@@ -288,6 +349,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     HUNTERS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
@@ -298,6 +360,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     INACTIVATED_FUNGAL_NUCLEUS = GenshinData::Material.new(
@@ -308,6 +371,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     INSPECTORS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
@@ -318,6 +382,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     LEY_LINE_SPROUT = GenshinData::Material.new(
@@ -328,6 +393,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     MARKED_SHELL = GenshinData::Material.new(
@@ -338,6 +404,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     MIST_GRASS = GenshinData::Material.new(
@@ -348,6 +415,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     MIST_GRASS_POLLEN = GenshinData::Material.new(
@@ -358,6 +426,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     MIST_GRASS_WICK = GenshinData::Material.new(
@@ -368,6 +437,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    NEWBORN_TAINTED_HYDRO_PHANTASM = GenshinData::Material.new(
+      kamera_key: "NewbornTaintedHydroPhantasm",
+      name: "Newborn Tainted Hydro Phantasm",
+      rarity: 4,
+      family: :tainted_water,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     POLARIZING_PRISM = GenshinData::Material.new(
@@ -378,6 +459,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     RADIANT_PRISM = GenshinData::Material.new(
@@ -388,6 +470,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    RIFT_CORE = GenshinData::Material.new(
+      kamera_key: "RiftCore",
+      name: "Rift Core",
+      rarity: 2,
+      family: :core,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     ROBUST_FUNGAL_NUCLEUS = GenshinData::Material.new(
@@ -398,6 +492,18 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    SCOOP_OF_TAINTED_WATER = GenshinData::Material.new(
+      kamera_key: "ScoopOfTaintedWater",
+      name: "Scoop of Tainted Water",
+      rarity: 3,
+      family: :tainted_water,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     STURDY_BONE_SHARD = GenshinData::Material.new(
@@ -408,6 +514,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     STURDY_SHELL = GenshinData::Material.new(
@@ -418,6 +525,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     TREASURED_FLOWER = GenshinData::Material.new(
@@ -428,6 +536,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     TURBID_PRISM = GenshinData::Material.new(
@@ -438,6 +547,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
 
     WANDERERS_BLOOMING_FLOWER = GenshinData::Material.new(
@@ -448,6 +558,7 @@ module TeyvatDB::Materials::Development
       inventory_type: :development_material,
       source_category: :monster_loot,
       source_sub_category: :elite_drop,
+      nation_name: nil,
     ).freeze
   end
 end
