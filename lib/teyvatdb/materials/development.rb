@@ -1,6 +1,6 @@
 module TeyvatDB::Materials
   module Development
-    require_relative 'development/elite_loot_drops_data'
+    require_relative 'development/elite_monster_drops_data'
     require_relative 'development/gems_data'
     require_relative 'development/general_data'
     require_relative 'development/monster_loot_drops_data'
@@ -19,7 +19,7 @@ module TeyvatDB::Materials
           monster_loot,
           talent_books,
           weapon_materials,
-          weapon_refinement
+          weapon_refinement,
           weekly_boss_drops,
           world_boss_drops,
         ].flatten.sort { |x, y| x.name <=> y.name }

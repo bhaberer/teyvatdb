@@ -7,7 +7,7 @@ module TeyvatDB::Materials::Development
       family: :ballad,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_BALLAD = GenshinData::Material.new(
@@ -17,7 +17,7 @@ module TeyvatDB::Materials::Development
       family: :ballad,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_BALLAD = GenshinData::Material.new(
@@ -27,7 +27,7 @@ module TeyvatDB::Materials::Development
       family: :ballad,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_FREEDOM = GenshinData::Material.new(
@@ -37,7 +37,7 @@ module TeyvatDB::Materials::Development
       family: :freedom,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_FREEDOM = GenshinData::Material.new(
@@ -47,7 +47,7 @@ module TeyvatDB::Materials::Development
       family: :freedom,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_FREEDOM = GenshinData::Material.new(
@@ -57,7 +57,7 @@ module TeyvatDB::Materials::Development
       family: :freedom,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_RESISTANCE = GenshinData::Material.new(
@@ -67,7 +67,7 @@ module TeyvatDB::Materials::Development
       family: :resistance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_RESISTANCE = GenshinData::Material.new(
@@ -77,7 +77,7 @@ module TeyvatDB::Materials::Development
       family: :resistance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_RESISTANCE = GenshinData::Material.new(
@@ -87,7 +87,7 @@ module TeyvatDB::Materials::Development
       family: :resistance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_DILIGENCE = GenshinData::Material.new(
@@ -97,7 +97,7 @@ module TeyvatDB::Materials::Development
       family: :diligence,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_DILIGENCE = GenshinData::Material.new(
@@ -107,7 +107,7 @@ module TeyvatDB::Materials::Development
       family: :diligence,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_DILIGENCE = GenshinData::Material.new(
@@ -117,7 +117,7 @@ module TeyvatDB::Materials::Development
       family: :diligence,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_GOLD = GenshinData::Material.new(
@@ -127,7 +127,7 @@ module TeyvatDB::Materials::Development
       family: :gold,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_GOLD = GenshinData::Material.new(
@@ -137,7 +137,7 @@ module TeyvatDB::Materials::Development
       family: :gold,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_GOLD = GenshinData::Material.new(
@@ -147,7 +147,7 @@ module TeyvatDB::Materials::Development
       family: :gold,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_PROSPERITY = GenshinData::Material.new(
@@ -157,7 +157,7 @@ module TeyvatDB::Materials::Development
       family: :prosperity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_PROSPERITY = GenshinData::Material.new(
@@ -167,7 +167,7 @@ module TeyvatDB::Materials::Development
       family: :prosperity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_PROSPERITY = GenshinData::Material.new(
@@ -177,7 +177,7 @@ module TeyvatDB::Materials::Development
       family: :prosperity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_ELEGANCE = GenshinData::Material.new(
@@ -187,7 +187,7 @@ module TeyvatDB::Materials::Development
       family: :elegance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_ELEGANCE = GenshinData::Material.new(
@@ -197,7 +197,7 @@ module TeyvatDB::Materials::Development
       family: :elegance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_ELEGANCE = GenshinData::Material.new(
@@ -207,7 +207,7 @@ module TeyvatDB::Materials::Development
       family: :elegance,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_LIGHT = GenshinData::Material.new(
@@ -217,7 +217,7 @@ module TeyvatDB::Materials::Development
       family: :light,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_LIGHT = GenshinData::Material.new(
@@ -227,7 +227,7 @@ module TeyvatDB::Materials::Development
       family: :light,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_LIGHT = GenshinData::Material.new(
@@ -237,7 +237,7 @@ module TeyvatDB::Materials::Development
       family: :light,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_TRANSIENCE = GenshinData::Material.new(
@@ -247,7 +247,7 @@ module TeyvatDB::Materials::Development
       family: :transience,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_TRANSIENCE = GenshinData::Material.new(
@@ -257,7 +257,7 @@ module TeyvatDB::Materials::Development
       family: :transience,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_TRANSIENCE = GenshinData::Material.new(
@@ -267,7 +267,7 @@ module TeyvatDB::Materials::Development
       family: :transience,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_ADMONITION = GenshinData::Material.new(
@@ -277,7 +277,7 @@ module TeyvatDB::Materials::Development
       family: :admonition,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_ADMONITION = GenshinData::Material.new(
@@ -287,7 +287,7 @@ module TeyvatDB::Materials::Development
       family: :admonition,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_ADMONITION = GenshinData::Material.new(
@@ -297,7 +297,7 @@ module TeyvatDB::Materials::Development
       family: :admonition,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_INGENUITY = GenshinData::Material.new(
@@ -307,7 +307,7 @@ module TeyvatDB::Materials::Development
       family: :ingenuity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_INGENUITY = GenshinData::Material.new(
@@ -317,7 +317,7 @@ module TeyvatDB::Materials::Development
       family: :ingenuity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_INGENUITY = GenshinData::Material.new(
@@ -327,7 +327,7 @@ module TeyvatDB::Materials::Development
       family: :ingenuity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_PRAXIS = GenshinData::Material.new(
@@ -337,7 +337,7 @@ module TeyvatDB::Materials::Development
       family: :praxis,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_PRAXIS = GenshinData::Material.new(
@@ -347,7 +347,7 @@ module TeyvatDB::Materials::Development
       family: :praxis,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_PRAXIS = GenshinData::Material.new(
@@ -357,7 +357,7 @@ module TeyvatDB::Materials::Development
       family: :praxis,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_EQUITY = GenshinData::Material.new(
@@ -367,7 +367,7 @@ module TeyvatDB::Materials::Development
       family: :equity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_EQUITY = GenshinData::Material.new(
@@ -377,7 +377,7 @@ module TeyvatDB::Materials::Development
       family: :equity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_EQUITY = GenshinData::Material.new(
@@ -387,7 +387,7 @@ module TeyvatDB::Materials::Development
       family: :equity,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_JUSTICE = GenshinData::Material.new(
@@ -397,7 +397,7 @@ module TeyvatDB::Materials::Development
       family: :justice,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_JUSTICE = GenshinData::Material.new(
@@ -407,7 +407,7 @@ module TeyvatDB::Materials::Development
       family: :justice,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_JUSTICE = GenshinData::Material.new(
@@ -417,7 +417,7 @@ module TeyvatDB::Materials::Development
       family: :justice,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     TEACHINGS_OF_ORDER = GenshinData::Material.new(
@@ -427,7 +427,7 @@ module TeyvatDB::Materials::Development
       family: :order,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     GUIDE_TO_ORDER = GenshinData::Material.new(
@@ -437,7 +437,7 @@ module TeyvatDB::Materials::Development
       family: :order,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     PHILOSOPHIES_OF_ORDER = GenshinData::Material.new(
@@ -447,7 +447,7 @@ module TeyvatDB::Materials::Development
       family: :order,
       inventory_type: :development_material,
       source_category: :talent_book,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
   end
 end

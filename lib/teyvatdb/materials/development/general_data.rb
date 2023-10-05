@@ -7,7 +7,7 @@ module TeyvatDB::Materials::Development
       family: :character_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     CROWN_OF_INSIGHT = GenshinData::Material.new(
@@ -17,7 +17,7 @@ module TeyvatDB::Materials::Development
       family: :talent_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     ENHANCEMENT_ORE = GenshinData::Material.new(
@@ -27,7 +27,7 @@ module TeyvatDB::Materials::Development
       family: :weapon_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     FINE_ENHANCEMENT_ORE = GenshinData::Material.new(
@@ -37,7 +37,7 @@ module TeyvatDB::Materials::Development
       family: :weapon_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     HEROS_WIT = GenshinData::Material.new(
@@ -47,17 +47,17 @@ module TeyvatDB::Materials::Development
       family: :character_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     MORA = GenshinData::Material.new(
       kamera_key: "Mora",
       name: "Mora",
       rarity: 1,
-      family: :,
+      family: nil,
       inventory_type: :standard_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     MYSTIC_ENHANCEMENT_ORE = GenshinData::Material.new(
@@ -67,7 +67,7 @@ module TeyvatDB::Materials::Development
       family: :weapon_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     SANCTIFYING_ESSENCE = GenshinData::Material.new(
@@ -77,7 +77,7 @@ module TeyvatDB::Materials::Development
       family: :artifact_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     SANCTIFYING_UNCTION = GenshinData::Material.new(
@@ -87,7 +87,7 @@ module TeyvatDB::Materials::Development
       family: :artifact_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
 
     WANDERERS_ADVICE = GenshinData::Material.new(
@@ -97,7 +97,7 @@ module TeyvatDB::Materials::Development
       family: :character_experience,
       inventory_type: :development_material,
       source_category: :general_reward,
-      source_sub_category: :,
+      source_sub_category: nil,
     ).freeze
   end
 end
