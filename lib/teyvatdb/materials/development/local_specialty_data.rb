@@ -396,6 +396,17 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
+    SUBDETECTION_UNIT = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "SubdetectionUnit",
+      name: "Subdetection Unit",
+      rarity: 1,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :local_specialty,
+      nation_name: :fontaine,
+    ).freeze
+
     TRISHIRAITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "Trishiraite",
       name: "Trishiraite",

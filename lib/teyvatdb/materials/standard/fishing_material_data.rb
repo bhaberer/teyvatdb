@@ -50,6 +50,16 @@ module TeyvatDB::Materials::Standard
       source_sub_category: :fishing,
     ).freeze
 
+    BLAZING_HEARTFEATHER_BASS = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "BlazingHeartfeatherBass",
+      name: "Blazing Heartfeather Bass",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
     BROWN_SHIRAKODAI = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrownShirakodai",
       name: "Brown Shirakodai",
@@ -200,6 +210,46 @@ module TeyvatDB::Materials::Standard
       source_sub_category: :fishing,
     ).freeze
 
+    MAINTENANCE_MEK_INITIAL_CONFIGURATION = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "MaintenanceMekInitialConfiguration",
+      name: "MaintenanceMekInitialConfiguration",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
+    MAINTENANCE_MEK_PLATINUM_COLLECTION = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "MaintenanceMekPlatinumCollection",
+      name: "MaintenanceMekPlatinumCollection",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
+    MAINTENANCE_MEK_SITUATION_CONTROLLER = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "MaintenanceMekSituationController",
+      name: "MaintenanceMekSituationController",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
+    MAINTENANCE_MEK_WATER_BODY_CLEANER = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "MaintenanceMekWaterBodyCleaner",
+      name: "MaintenanceMekWaterBodyCleaner",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
     MEDAKA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "Medaka",
       name: "Medaka",
@@ -270,6 +320,16 @@ module TeyvatDB::Materials::Standard
       source_sub_category: :fishing,
     ).freeze
 
+    RIPPLING_HEARTFEATHER_BASS = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "RipplingHeartfeatherBass",
+      name: "Rippling Heartfeather Bass",
+      rarity: 3,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
     RUSTY_KOI = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RustyKoi",
       name: "Rusty Koi",
@@ -304,6 +364,16 @@ module TeyvatDB::Materials::Standard
       kamera_key: "SourBait",
       name: "Sour Bait",
       rarity: 2,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :fishing,
+    ).freeze
+
+    STREAMING_AXE_MARLIN = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "StreamingAxeMarlin",
+      name: "Streaming Axe Marlin",
+      rarity: 3,
       family: nil,
       inventory_type: :standard_material,
       source_category: :gathering,

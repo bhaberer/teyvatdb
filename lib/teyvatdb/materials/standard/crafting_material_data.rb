@@ -41,7 +41,7 @@ module TeyvatDB::Materials::Standard
     ).freeze
 
     FROG_MATERIAL = TeyvatDB::GenshinData::Material.new(
-      kamera_key: "FrogMaterial",
+      kamera_key: "Frog",
       name: "Frog",
       rarity: 1,
       family: nil,

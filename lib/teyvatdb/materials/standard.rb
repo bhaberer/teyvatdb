@@ -37,6 +37,7 @@ module TeyvatDB::Materials
 
       def cooking_materials
         [
+          CookingMaterialsData::AJILENAKH_NUT,
           CookingMaterialsData::ALMOND,
           CookingMaterialsData::BACON,
           CookingMaterialsData::BAMBOO_SHOOT,
@@ -53,6 +54,7 @@ module TeyvatDB::Materials
           CookingMaterialsData::CRAB_ROE,
           CookingMaterialsData::CREAM,
           CookingMaterialsData::EEL_MEAT,
+          CookingMaterialsData::FERMENTED_JUICE,
           CookingMaterialsData::FISH,
           CookingMaterialsData::FLOUR,
           CookingMaterialsData::FOWL,
@@ -100,6 +102,7 @@ module TeyvatDB::Materials
           FishingMaterialData::AKAI_MAOU,
           FishingMaterialData::BETTA,
           FishingMaterialData::BITTER_PUFFERFISH,
+          FishingMaterialData::BLAZING_HEARTFEATHER_BASS,
           FishingMaterialData::BROWN_SHIRAKODAI,
           FishingMaterialData::CRYSTALFISH,
           FishingMaterialData::DAWNCATCHER,
@@ -122,10 +125,12 @@ module TeyvatDB::Materials
           FishingMaterialData::RAIMEI_ANGELFISH,
           FishingMaterialData::RED_DYE,
           FishingMaterialData::REDROT_BAIT,
+          FishingMaterialData::RIPPLING_HEARTFEATHER_BASS,
           FishingMaterialData::RUSTY_KOI,
           FishingMaterialData::SANDSTORM_ANGLER,
           FishingMaterialData::SNOWSTRIDER,
           FishingMaterialData::SOUR_BAIT,
+          FishingMaterialData::STREAMING_AXE_MARLIN,
           FishingMaterialData::SUGARDEW_BAIT,
           FishingMaterialData::SUNSET_CLOUD_ANGLER,
           FishingMaterialData::SWEET_FLOWER_MEDAKA,
@@ -162,6 +167,7 @@ module TeyvatDB::Materials
         [
           FurnitureMaterialData::ADHIGAMA_WOOD,
           FurnitureMaterialData::ARALIA_WOOD,
+          FurnitureMaterialData::ASH_WOOD,
           FurnitureMaterialData::ATHEL_WOOD,
           FurnitureMaterialData::BAMBOO_SEGMENT,
           FurnitureMaterialData::BLUE_DYE,

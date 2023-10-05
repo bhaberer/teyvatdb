@@ -173,6 +173,7 @@ module TeyvatDB::Materials
           LocalSpecialtyData::SILK_FLOWER,
           LocalSpecialtyData::SMALL_LAMP_GRASS,
           LocalSpecialtyData::STARCONCH,
+          LocalSpecialtyData::SUBDETECTION_UNIT,
           LocalSpecialtyData::TRISHIRAITE,
           LocalSpecialtyData::VALBERRY,
           LocalSpecialtyData::VIOLETGRASS,

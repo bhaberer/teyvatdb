@@ -20,6 +20,16 @@ module TeyvatDB::Materials::Standard
       source_sub_category: :furniture_material,
     ).freeze
 
+    ASH_WOOD = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "AshWood",
+      name: "Ash Wood",
+      rarity: 1,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :furniture_material,
+    ).freeze
+
     ATHEL_WOOD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AthelWood",
       name: "Athel Wood",

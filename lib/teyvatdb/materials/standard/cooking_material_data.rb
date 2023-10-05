@@ -1,5 +1,15 @@
 module TeyvatDB::Materials::Standard
   module CookingMaterialsData
+    AJILENAKH_NUT = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "AjilenakhNut",
+      name: "Ajilenakh Nut",
+      rarity: 1,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :cooking,
+    ).freeze
+
     ALMOND = TeyvatDB::GenshinData::Material.new(
       kamera_key: "Almond",
       name: "Almond",
@@ -153,6 +163,16 @@ module TeyvatDB::Materials::Standard
     EEL_MEAT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EelMeat",
       name: "Eel Meat",
+      rarity: 1,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :cooking,
+    ).freeze
+
+    FERMENTED_JUICE = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "FermentedJuice",
+      name: "Fermented Juice",
       rarity: 1,
       family: nil,
       inventory_type: :standard_material,
