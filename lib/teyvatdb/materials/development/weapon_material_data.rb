@@ -1,6 +1,6 @@
 module TeyvatDB::Materials::Development
   module WeaponMaterialData
-    BIT_OF_AEROSIDERITE = GenshinData::Material.new(
+    BIT_OF_AEROSIDERITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BitOfAerosiderite",
       name: "Bit of Aerosiderite",
       rarity: 4,
@@ -11,7 +11,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    BOREAL_WOLFS_BROKEN_FANG = GenshinData::Material.new(
+    BOREAL_WOLFS_BROKEN_FANG = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BorealWolfsBrokenFang",
       name: "Boreal Wolf's Broken Fang",
       rarity: 4,
@@ -22,7 +22,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    BOREAL_WOLFS_CRACKED_TOOTH = GenshinData::Material.new(
+    BOREAL_WOLFS_CRACKED_TOOTH = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BorealWolfsCrackedTooth",
       name: "Boreal Wolf's Cracked Tooth",
       rarity: 3,
@@ -33,7 +33,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    BOREAL_WOLFS_MILK_TOOTH = GenshinData::Material.new(
+    BOREAL_WOLFS_MILK_TOOTH = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BorealWolfsMilkTooth",
       name: "Boreal Wolf's Milk Tooth",
       rarity: 2,
@@ -44,7 +44,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    BOREAL_WOLFS_NOSTALGIA = GenshinData::Material.new(
+    BOREAL_WOLFS_NOSTALGIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BorealWolfsNostalgia",
       name: "Boreal Wolf's Nostalgia",
       rarity: 5,
@@ -55,7 +55,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    BROKEN_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+    BROKEN_GOBLET_OF_THE_PRISTINE_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrokenGobletOfThePristineSea",
       name: "Broken Goblet of the Pristine Sea",
       rarity: 2,
@@ -66,7 +66,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    CHAINS_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
+    CHAINS_OF_THE_DANDELION_GLADIATOR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChainsOfTheDandelionGladiator",
       name: "Chains of the Dandelion Gladiator",
       rarity: 3,
@@ -77,7 +77,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    CHAPTER_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+    CHAPTER_OF_AN_ANCIENT_CHORD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChapterOfAnAncientChord",
       name: "Chapter of an Ancient Chord",
       rarity: 3,
@@ -88,7 +88,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    CHUNK_OF_AEROSIDERITE = GenshinData::Material.new(
+    CHUNK_OF_AEROSIDERITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChunkOfAerosiderite",
       name: "Chunk of Aerosiderite",
       rarity: 5,
@@ -99,7 +99,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    COPPER_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
+    COPPER_TALISMAN_OF_THE_FOREST_DEW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "CopperTalismanOfTheForestDew",
       name: "Copper Talisman of the Forest Dew",
       rarity: 2,
@@ -110,7 +110,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    CORAL_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
+    CORAL_BRANCH_OF_A_DISTANT_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "CoralBranchOfADistantSea",
       name: "Coral Branch of a Distant Sea",
       rarity: 2,
@@ -121,7 +121,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    DEBRIS_OF_DECARABIANS_CITY = GenshinData::Material.new(
+    DEBRIS_OF_DECARABIANS_CITY = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DebrisOfDecarabiansCity",
       name: "Debris of Decarabian's City",
       rarity: 3,
@@ -132,7 +132,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    DIVINE_BODY_FROM_GUYUN = GenshinData::Material.new(
+    DIVINE_BODY_FROM_GUYUN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DivineBodyFromGuyun",
       name: "Divine Body from Guyun",
       rarity: 5,
@@ -143,7 +143,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    DREAM_OF_SCORCHING_MIGHT = GenshinData::Material.new(
+    DREAM_OF_SCORCHING_MIGHT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DreamOfScorchingMight",
       name: "Dream of Scorching Might",
       rarity: 4,
@@ -154,7 +154,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    DREAM_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
+    DREAM_OF_THE_DANDELION_GLADIATOR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DreamOfTheDandelionGladiator",
       name: "Dream of the Dandelion Gladiator",
       rarity: 5,
@@ -165,7 +165,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    DROSS_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+    DROSS_OF_PURE_SACRED_DEWDROP = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DrossOfPureSacredDewdrop",
       name: "Dross of Pure Sacred Dewdrop",
       rarity: 2,
@@ -176,7 +176,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    ECHO_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+    ECHO_OF_AN_ANCIENT_CHORD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EchoOfAnAncientChord",
       name: "Echo of an Ancient Chord",
       rarity: 5,
@@ -187,7 +187,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    ECHO_OF_SCORCHING_MIGHT = GenshinData::Material.new(
+    ECHO_OF_SCORCHING_MIGHT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EchoOfScorchingMight",
       name: "Echo of Scorching Might",
       rarity: 2,
@@ -198,7 +198,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    ESSENCE_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+    ESSENCE_OF_PURE_SACRED_DEWDROP = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EssenceOfPureSacredDewdrop",
       name: "Essence of Pure Sacred Dewdrop",
       rarity: 5,
@@ -209,7 +209,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    FETTERS_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
+    FETTERS_OF_THE_DANDELION_GLADIATOR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FettersOfTheDandelionGladiator",
       name: "Fetters of the Dandelion Gladiator",
       rarity: 2,
@@ -220,7 +220,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    FRAGMENT_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+    FRAGMENT_OF_AN_ANCIENT_CHORD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FragmentOfAnAncientChord",
       name: "Fragment of an Ancient Chord",
       rarity: 2,
@@ -231,7 +231,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    FRAGMENT_OF_DECARABIANS_EPIC = GenshinData::Material.new(
+    FRAGMENT_OF_DECARABIANS_EPIC = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FragmentOfDecarabiansEpic",
       name: "Fragment of Decarabian's Epic",
       rarity: 4,
@@ -242,7 +242,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    GOLDEN_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
+    GOLDEN_BRANCH_OF_A_DISTANT_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GoldenBranchOfADistantSea",
       name: "Golden Branch of a Distant Sea",
       rarity: 5,
@@ -253,7 +253,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    GOLDEN_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+    GOLDEN_GOBLET_OF_THE_PRISTINE_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GoldenGobletOfThePristineSea",
       name: "Golden Goblet of the Pristine Sea",
       rarity: 5,
@@ -264,7 +264,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    GOLDEN_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
+    GOLDEN_TALISMAN_OF_THE_FOREST_DEW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GoldenTalismanOfTheForestDew",
       name: "Golden Talisman of the Forest Dew",
       rarity: 5,
@@ -275,7 +275,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    GRAIN_OF_AEROSIDERITE = GenshinData::Material.new(
+    GRAIN_OF_AEROSIDERITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GrainOfAerosiderite",
       name: "Grain of Aerosiderite",
       rarity: 2,
@@ -286,7 +286,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    IRON_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
+    IRON_TALISMAN_OF_THE_FOREST_DEW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "IronTalismanOfTheForestDew",
       name: "Iron Talisman of the Forest Dew",
       rarity: 3,
@@ -297,7 +297,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    JADE_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
+    JADE_BRANCH_OF_A_DISTANT_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "JadeBranchOfADistantSea",
       name: "Jade Branch of a Distant Sea",
       rarity: 4,
@@ -308,7 +308,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    JEWELED_BRANCH_OF_A_DISTANT_SEA = GenshinData::Material.new(
+    JEWELED_BRANCH_OF_A_DISTANT_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "JeweledBranchOfADistantSea",
       name: "Jeweled Branch of a Distant Sea",
       rarity: 3,
@@ -319,7 +319,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    LUMINOUS_SANDS_FROM_GUYUN = GenshinData::Material.new(
+    LUMINOUS_SANDS_FROM_GUYUN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "LuminousSandsFromGuyun",
       name: "Luminous Sands from Guyun",
       rarity: 2,
@@ -330,7 +330,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    LUSTROUS_STONE_FROM_GUYUN = GenshinData::Material.new(
+    LUSTROUS_STONE_FROM_GUYUN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "LustrousStoneFromGuyun",
       name: "Lustrous Stone from Guyun",
       rarity: 3,
@@ -341,7 +341,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    MASK_OF_THE_KIJIN = GenshinData::Material.new(
+    MASK_OF_THE_KIJIN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MaskOfTheKijin",
       name: "Mask of the Kijin",
       rarity: 5,
@@ -352,7 +352,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    MASK_OF_THE_ONE_HORNED = GenshinData::Material.new(
+    MASK_OF_THE_ONE_HORNED = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MaskOfTheOneHorned",
       name: "Mask of the One-Horned",
       rarity: 4,
@@ -363,7 +363,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    MASK_OF_THE_TIGERS_BITE = GenshinData::Material.new(
+    MASK_OF_THE_TIGERS_BITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MaskOfTheTigersBite",
       name: "Mask of the Tiger's Bite",
       rarity: 3,
@@ -374,7 +374,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    MASK_OF_THE_WICKED_LIEUTENANT = GenshinData::Material.new(
+    MASK_OF_THE_WICKED_LIEUTENANT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MaskOfTheWickedLieutenant",
       name: "Mask of the Wicked Lieutenant",
       rarity: 2,
@@ -385,7 +385,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    MIST_VEILED_GOLD_ELIXIR = GenshinData::Material.new(
+    MIST_VEILED_GOLD_ELIXIR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistVeiledGoldElixir",
       name: "Mist Veiled Gold Elixir",
       rarity: 4,
@@ -396,7 +396,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    MIST_VEILED_LEAD_ELIXIR = GenshinData::Material.new(
+    MIST_VEILED_LEAD_ELIXIR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistVeiledLeadElixir",
       name: "Mist Veiled Lead Elixir",
       rarity: 2,
@@ -407,7 +407,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    MIST_VEILED_MERCURY_ELIXIR = GenshinData::Material.new(
+    MIST_VEILED_MERCURY_ELIXIR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistVeiledMercuryElixir",
       name: "Mist Veiled Mercury Elixir",
       rarity: 3,
@@ -418,7 +418,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    MIST_VEILED_PRIMO_ELIXIR = GenshinData::Material.new(
+    MIST_VEILED_PRIMO_ELIXIR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistVeiledPrimoElixir",
       name: "Mist Veiled Primo Elixir",
       rarity: 5,
@@ -429,7 +429,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    MOVEMENT_OF_AN_ANCIENT_CHORD = GenshinData::Material.new(
+    MOVEMENT_OF_AN_ANCIENT_CHORD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MovementOfAnAncientChord",
       name: "Movement of an Ancient Chord",
       rarity: 4,
@@ -440,7 +440,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    NARUKAMIS_AFFECTION = GenshinData::Material.new(
+    NARUKAMIS_AFFECTION = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NarukamisAffection",
       name: "Narukami's Affection",
       rarity: 4,
@@ -451,7 +451,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    NARUKAMIS_JOY = GenshinData::Material.new(
+    NARUKAMIS_JOY = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NarukamisJoy",
       name: "Narukami's Joy",
       rarity: 3,
@@ -462,7 +462,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    NARUKAMIS_VALOR = GenshinData::Material.new(
+    NARUKAMIS_VALOR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NarukamisValor",
       name: "Narukami's Valor",
       rarity: 5,
@@ -473,7 +473,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    NARUKAMIS_WISDOM = GenshinData::Material.new(
+    NARUKAMIS_WISDOM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NarukamisWisdom",
       name: "Narukami's Wisdom",
       rarity: 2,
@@ -484,7 +484,7 @@ module TeyvatDB::Materials::Development
       nation_name: :inazuma,
     ).freeze
 
-    OASIS_GARDENS_KINDNESS = GenshinData::Material.new(
+    OASIS_GARDENS_KINDNESS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OasisGardensKindness",
       name: "Oasis Garden's Kindness",
       rarity: 3,
@@ -495,7 +495,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    OASIS_GARDENS_MOURNING = GenshinData::Material.new(
+    OASIS_GARDENS_MOURNING = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OasisGardensMourning",
       name: "Oasis Garden's Mourning",
       rarity: 4,
@@ -506,7 +506,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    OASIS_GARDENS_REMINISCENCE = GenshinData::Material.new(
+    OASIS_GARDENS_REMINISCENCE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OasisGardensReminiscence",
       name: "Oasis Garden's Reminiscence",
       rarity: 2,
@@ -517,7 +517,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    OASIS_GARDENS_TRUTH = GenshinData::Material.new(
+    OASIS_GARDENS_TRUTH = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OasisGardensTruth",
       name: "Oasis Garden's Truth",
       rarity: 5,
@@ -528,7 +528,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    OLDEN_DAYS_OF_SCORCHING_MIGHT = GenshinData::Material.new(
+    OLDEN_DAYS_OF_SCORCHING_MIGHT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OldenDaysOfScorchingMight",
       name: "Olden Days of Scorching Might",
       rarity: 5,
@@ -539,7 +539,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    PIECE_OF_AEROSIDERITE = GenshinData::Material.new(
+    PIECE_OF_AEROSIDERITE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PieceOfAerosiderite",
       name: "Piece of Aerosiderite",
       rarity: 3,
@@ -550,7 +550,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    RELIC_FROM_GUYUN = GenshinData::Material.new(
+    RELIC_FROM_GUYUN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RelicFromGuyun",
       name: "Relic from Guyun",
       rarity: 4,
@@ -561,7 +561,7 @@ module TeyvatDB::Materials::Development
       nation_name: :liyue,
     ).freeze
 
-    REMNANT_GLOW_OF_SCORCHING_MIGHT = GenshinData::Material.new(
+    REMNANT_GLOW_OF_SCORCHING_MIGHT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RemnantGlowOfScorchingMight",
       name: "Remnant Glow of Scorching Might",
       rarity: 3,
@@ -572,7 +572,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    SCATTERED_PIECE_OF_DECARABIANS_DREAM = GenshinData::Material.new(
+    SCATTERED_PIECE_OF_DECARABIANS_DREAM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ScatteredPieceOfDecarabiansDream",
       name: "Scattered Piece of Decarabian's Dream",
       rarity: 5,
@@ -583,7 +583,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    SHACKLES_OF_THE_DANDELION_GLADIATOR = GenshinData::Material.new(
+    SHACKLES_OF_THE_DANDELION_GLADIATOR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShacklesOfTheDandelionGladiator",
       name: "Shackles of the Dandelion Gladiator",
       rarity: 4,
@@ -594,7 +594,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    SILVER_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+    SILVER_GOBLET_OF_THE_PRISTINE_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SilverGobletOfThePristineSea",
       name: "Silver Goblet of the Pristine Sea",
       rarity: 4,
@@ -605,7 +605,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    SILVER_TALISMAN_OF_THE_FOREST_DEW = GenshinData::Material.new(
+    SILVER_TALISMAN_OF_THE_FOREST_DEW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SilverTalismanOfTheForestDew",
       name: "Silver Talisman of the Forest Dew",
       rarity: 4,
@@ -616,7 +616,7 @@ module TeyvatDB::Materials::Development
       nation_name: :sumeru,
     ).freeze
 
-    SPRING_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+    SPRING_OF_PURE_SACRED_DEWDROP = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SpringOfPureSacredDewdrop",
       name: "Spring of Pure Sacred Dewdrop",
       rarity: 4,
@@ -627,7 +627,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    SUBLIMATION_OF_PURE_SACRED_DEWDROP = GenshinData::Material.new(
+    SUBLIMATION_OF_PURE_SACRED_DEWDROP = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SublimationOfPureSacredDewdrop",
       name: "Sublimation of Pure Sacred Dewdrop",
       rarity: 3,
@@ -638,7 +638,7 @@ module TeyvatDB::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
-    TILE_OF_DECARABIANS_TOWER = GenshinData::Material.new(
+    TILE_OF_DECARABIANS_TOWER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TileOfDecarabiansTower",
       name: "Tile of Decarabian's Tower",
       rarity: 2,
@@ -649,7 +649,7 @@ module TeyvatDB::Materials::Development
       nation_name: :mondstadt,
     ).freeze
 
-    WINE_GOBLET_OF_THE_PRISTINE_SEA = GenshinData::Material.new(
+    WINE_GOBLET_OF_THE_PRISTINE_SEA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "WineGobletOfThePristineSea",
       name: "Wine Goblet of the Pristine Sea",
       rarity: 3,

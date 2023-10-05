@@ -1,6 +1,6 @@
 module TeyvatDB::Materials::Development
   module EliteMonsterLootDropsData
-    A_FLOWER_YET_TO_BLOOM = GenshinData::Material.new(
+    A_FLOWER_YET_TO_BLOOM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AFlowerYetToBloom",
       name: "A Flower Yet to Bloom",
       rarity: 2,
@@ -11,7 +11,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    AGENTS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
+    AGENTS_SACRIFICIAL_KNIFE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AgentsSacrificialKnife",
       name: "Agents Sacrificial Knife",
       rarity: 3,
@@ -22,7 +22,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    ALIEN_LIFE_CORE = GenshinData::Material.new(
+    ALIEN_LIFE_CORE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AlienLifeCore",
       name: "Alien Life Core",
       rarity: 4,
@@ -33,7 +33,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    BLACK_BRONZE_HORN = GenshinData::Material.new(
+    BLACK_BRONZE_HORN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BlackBronzeHorn",
       name: "Black Bronze Horn",
       rarity: 3,
@@ -44,7 +44,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    BLACK_CRYSTAL_HORN = GenshinData::Material.new(
+    BLACK_CRYSTAL_HORN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BlackCrystalHorn",
       name: "Black Crystal Horn",
       rarity: 4,
@@ -55,7 +55,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_AXIS = GenshinData::Material.new(
+    CHAOS_AXIS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosAxis",
       name: "Chaos Axis",
       rarity: 3,
@@ -66,7 +66,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_BOLT = GenshinData::Material.new(
+    CHAOS_BOLT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosBolt",
       name: "Chaos Bolt",
       rarity: 4,
@@ -77,7 +77,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_CIRCUIT = GenshinData::Material.new(
+    CHAOS_CIRCUIT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosCircuit",
       name: "Chaos Circuit",
       rarity: 3,
@@ -88,7 +88,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_CORE = GenshinData::Material.new(
+    CHAOS_CORE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosCore",
       name: "Chaos Core",
       rarity: 4,
@@ -99,7 +99,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_DEVICE = GenshinData::Material.new(
+    CHAOS_DEVICE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosDevice",
       name: "Chaos Device",
       rarity: 2,
@@ -110,7 +110,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_GEAR = GenshinData::Material.new(
+    CHAOS_GEAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosGear",
       name: "Chaos Gear",
       rarity: 2,
@@ -121,7 +121,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_MODULE = GenshinData::Material.new(
+    CHAOS_MODULE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosModule",
       name: "Chaos Module",
       rarity: 3,
@@ -132,7 +132,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_OCULUS = GenshinData::Material.new(
+    CHAOS_OCULUS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosOculus",
       name: "Chaos Oculus",
       rarity: 4,
@@ -143,7 +143,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CHAOS_STORAGE = GenshinData::Material.new(
+    CHAOS_STORAGE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ChaosStorage",
       name: "Chaos Storage",
       rarity: 2,
@@ -154,7 +154,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CONCEALED_CLAW = GenshinData::Material.new(
+    CONCEALED_CLAW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ConcealedClaw",
       name: "Concealed Claw",
       rarity: 2,
@@ -165,7 +165,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CONCEALED_TALON = GenshinData::Material.new(
+    CONCEALED_TALON = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ConcealedTalon",
       name: "Concealed Talon",
       rarity: 4,
@@ -176,7 +176,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CONCEALED_UNGUIS = GenshinData::Material.new(
+    CONCEALED_UNGUIS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ConcealedUnguis",
       name: "Concealed Unguis",
       rarity: 3,
@@ -187,7 +187,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CRYSTAL_PRISM = GenshinData::Material.new(
+    CRYSTAL_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "CrystalPrism",
       name: "Crystal Prism",
       rarity: 3,
@@ -198,7 +198,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DAMAGED_PRISM = GenshinData::Material.new(
+    DAMAGED_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DamagedPrism",
       name: "Damaged Prism",
       rarity: 2,
@@ -209,7 +209,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DARK_STATUETTE = GenshinData::Material.new(
+    DARK_STATUETTE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DarkStatuette",
       name: "Dark Statuette",
       rarity: 3,
@@ -220,7 +220,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DEAD_LEY_LINE_BRANCH = GenshinData::Material.new(
+    DEAD_LEY_LINE_BRANCH = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DeadLeyLineBranch",
       name: "Dead Ley Line Branch",
       rarity: 2,
@@ -231,7 +231,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DEAD_LEY_LINE_LEAVES = GenshinData::Material.new(
+    DEAD_LEY_LINE_LEAVES = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DeadLeyLineLeaves",
       name: "Dead Ley Line Leaves",
       rarity: 3,
@@ -242,7 +242,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DEATHLY_STATUETTE = GenshinData::Material.new(
+    DEATHLY_STATUETTE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DeathlyStatuette",
       name: "Deathly Statuette",
       rarity: 4,
@@ -253,7 +253,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DESICCATED_SHELL = GenshinData::Material.new(
+    DESICCATED_SHELL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DesiccatedShell",
       name: "Desiccated Shell",
       rarity: 2,
@@ -264,7 +264,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DISMAL_PRISM = GenshinData::Material.new(
+    DISMAL_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DismalPrism",
       name: "Dismal Prism",
       rarity: 2,
@@ -275,7 +275,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DORMANT_FUNGAL_NUCLEUS = GenshinData::Material.new(
+    DORMANT_FUNGAL_NUCLEUS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DormantFungalNucleus",
       name: "Dormant Fungal Nucleus",
       rarity: 3,
@@ -286,7 +286,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DROP_OF_TAINTED_WATER = GenshinData::Material.new(
+    DROP_OF_TAINTED_WATER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DropOfTaintedWater",
       name: "Drop of Tainted Water",
       rarity: 2,
@@ -297,7 +297,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FOREIGN_SYNAPSE = GenshinData::Material.new(
+    FOREIGN_SYNAPSE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ForeignSynapse",
       name: "Foreign Synapse",
       rarity: 3,
@@ -308,7 +308,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FOSSILIZED_BONE_SHARD = GenshinData::Material.new(
+    FOSSILIZED_BONE_SHARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FossilizedBoneShard",
       name: "Fossilized Bone Shard",
       rarity: 4,
@@ -319,7 +319,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FRAGILE_BONE_SHARD = GenshinData::Material.new(
+    FRAGILE_BONE_SHARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FragileBoneShard",
       name: "Fragile Bone Shard",
       rarity: 2,
@@ -330,7 +330,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    GLOOMY_STATUETTE = GenshinData::Material.new(
+    GLOOMY_STATUETTE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GloomyStatuette",
       name: "Gloomy Statuette",
       rarity: 2,
@@ -341,7 +341,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    HEAVY_HORN = GenshinData::Material.new(
+    HEAVY_HORN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "HeavyHorn",
       name: "Heavy Horn",
       rarity: 2,
@@ -352,7 +352,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    HUNTERS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
+    HUNTERS_SACRIFICIAL_KNIFE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "HuntersSacrificialKnife",
       name: "Hunters Sacrificial Knife",
       rarity: 2,
@@ -363,7 +363,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    INACTIVATED_FUNGAL_NUCLEUS = GenshinData::Material.new(
+    INACTIVATED_FUNGAL_NUCLEUS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "InactivatedFungalNucleus",
       name: "Inactivated Fungal Nucleus",
       rarity: 2,
@@ -374,7 +374,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    INSPECTORS_SACRIFICIAL_KNIFE = GenshinData::Material.new(
+    INSPECTORS_SACRIFICIAL_KNIFE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "InspectorsSacrificialKnife",
       name: "Inspectors Sacrificial Knife",
       rarity: 4,
@@ -385,7 +385,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    LEY_LINE_SPROUT = GenshinData::Material.new(
+    LEY_LINE_SPROUT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "LeyLineSprout",
       name: "Ley Line Sprout",
       rarity: 4,
@@ -396,7 +396,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MARKED_SHELL = GenshinData::Material.new(
+    MARKED_SHELL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MarkedShell",
       name: "Marked Shell",
       rarity: 4,
@@ -407,7 +407,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MIST_GRASS = GenshinData::Material.new(
+    MIST_GRASS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistGrass",
       name: "Mist Grass",
       rarity: 3,
@@ -418,7 +418,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MIST_GRASS_POLLEN = GenshinData::Material.new(
+    MIST_GRASS_POLLEN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistGrassPollen",
       name: "Mist Grass Pollen",
       rarity: 2,
@@ -429,7 +429,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MIST_GRASS_WICK = GenshinData::Material.new(
+    MIST_GRASS_WICK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MistGrassWick",
       name: "Mist Grass Wick",
       rarity: 4,
@@ -440,7 +440,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    NEWBORN_TAINTED_HYDRO_PHANTASM = GenshinData::Material.new(
+    NEWBORN_TAINTED_HYDRO_PHANTASM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NewbornTaintedHydroPhantasm",
       name: "Newborn Tainted Hydro Phantasm",
       rarity: 4,
@@ -451,7 +451,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    POLARIZING_PRISM = GenshinData::Material.new(
+    POLARIZING_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PolarizingPrism",
       name: "Polarizing Prism",
       rarity: 4,
@@ -462,7 +462,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    RADIANT_PRISM = GenshinData::Material.new(
+    RADIANT_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RadiantPrism",
       name: "Radiant Prism",
       rarity: 4,
@@ -473,7 +473,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    RIFT_CORE = GenshinData::Material.new(
+    RIFT_CORE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RiftCore",
       name: "Rift Core",
       rarity: 2,
@@ -484,7 +484,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    ROBUST_FUNGAL_NUCLEUS = GenshinData::Material.new(
+    ROBUST_FUNGAL_NUCLEUS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RobustFungalNucleus",
       name: "Robust Fungal Nucleus",
       rarity: 4,
@@ -495,7 +495,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SCOOP_OF_TAINTED_WATER = GenshinData::Material.new(
+    SCOOP_OF_TAINTED_WATER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ScoopOfTaintedWater",
       name: "Scoop of Tainted Water",
       rarity: 3,
@@ -506,7 +506,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    STURDY_BONE_SHARD = GenshinData::Material.new(
+    STURDY_BONE_SHARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SturdyBoneShard",
       name: "Sturdy Bone Shard",
       rarity: 3,
@@ -517,7 +517,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    STURDY_SHELL = GenshinData::Material.new(
+    STURDY_SHELL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SturdyShell",
       name: "Sturdy Shell",
       rarity: 3,
@@ -528,7 +528,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TREASURED_FLOWER = GenshinData::Material.new(
+    TREASURED_FLOWER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TreasuredFlower",
       name: "Treasured Flower",
       rarity: 3,
@@ -539,7 +539,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TURBID_PRISM = GenshinData::Material.new(
+    TURBID_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TurbidPrism",
       name: "Turbid Prism",
       rarity: 3,
@@ -550,7 +550,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    WANDERERS_BLOOMING_FLOWER = GenshinData::Material.new(
+    WANDERERS_BLOOMING_FLOWER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "WanderersBloomingFlower",
       name: "Wanderer's Blooming Flower",
       rarity: 4,

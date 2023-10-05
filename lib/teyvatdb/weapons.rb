@@ -164,7 +164,7 @@ module TeyvatDB
         ]
       end
 
-      GenshinData::Weapon::WEAPON_TYPES.each do |weapon_type|
+      TeyvatDB::GenshinData::Weapon::WEAPON_TYPES.each do |weapon_type|
         define_method weapon_type do
           all.select { |weapon| weapon.weapon_type == weapon_type }
         end

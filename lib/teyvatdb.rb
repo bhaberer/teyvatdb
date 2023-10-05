@@ -2,10 +2,8 @@
 
 require "json"
 
-require_relative "genshin_data"
-
 require_relative "teyvatdb/version"
-
+require_relative "teyvatdb/genshin_data"
 require_relative "teyvatdb/artifact_sets"
 require_relative "teyvatdb/characters"
 require_relative "teyvatdb/materials"

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module GenshinData
+module TeyvatDB::GenshinData
   # Base class to represent various Genshin Materials
   class Material
     attr_accessor :kamera_key, :name, :rarity, :source_category,

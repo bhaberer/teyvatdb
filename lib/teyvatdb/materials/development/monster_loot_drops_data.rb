@@ -1,6 +1,6 @@
 module TeyvatDB::Materials::Development
   module MonsterLootDropsData
-    ARTIFICED_DYNAMIC_GEAR = GenshinData::Material.new(
+    ARTIFICED_DYNAMIC_GEAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ArtificedDynamicGear",
       name: "Artificed Dynamic Gear",
       rarity: 3,
@@ -11,7 +11,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    CRYSTALLINE_CYST_DUST = GenshinData::Material.new(
+    CRYSTALLINE_CYST_DUST = TeyvatDB::GenshinData::Material.new(
       kamera_key: "CrystallineCystDust",
       name: "Crystalline Cyst Dust",
       rarity: 3,
@@ -22,7 +22,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DAMAGED_MASK = GenshinData::Material.new(
+    DAMAGED_MASK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DamagedMask",
       name: "Damaged Mask",
       rarity: 1,
@@ -33,7 +33,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    DIVINING_SCROLL = GenshinData::Material.new(
+    DIVINING_SCROLL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "DiviningScroll",
       name: "Divining Scroll",
       rarity: 1,
@@ -44,7 +44,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    ENERGY_NECTAR = GenshinData::Material.new(
+    ENERGY_NECTAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EnergyNectar",
       name: "Energy Nectar",
       rarity: 3,
@@ -55,7 +55,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FADED_RED_SATIN = GenshinData::Material.new(
+    FADED_RED_SATIN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FadedRedSatin",
       name: "Faded Red Satin",
       rarity: 1,
@@ -66,7 +66,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FAMED_HANDGUARD = GenshinData::Material.new(
+    FAMED_HANDGUARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FamedHandguard",
       name: "Famed Handguard",
       rarity: 3,
@@ -77,7 +77,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FIRM_ARROWHEAD = GenshinData::Material.new(
+    FIRM_ARROWHEAD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FirmArrowhead",
       name: "Firm Arrowhead",
       rarity: 1,
@@ -88,7 +88,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FORBIDDEN_CURSE_SCROLL = GenshinData::Material.new(
+    FORBIDDEN_CURSE_SCROLL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ForbiddenCurseScroll",
       name: "Forbidden Curse Scroll",
       rarity: 3,
@@ -99,7 +99,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    FUNGAL_SPORES = GenshinData::Material.new(
+    FUNGAL_SPORES = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FungalSpores",
       name: "Fungal Spores",
       rarity: 1,
@@ -110,7 +110,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    GOLDEN_RAVEN_INSIGNIA = GenshinData::Material.new(
+    GOLDEN_RAVEN_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GoldenRavenInsignia",
       name: "Golden Raven Insignia",
       rarity: 3,
@@ -121,7 +121,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    KAGEUCHI_HANDGUARD = GenshinData::Material.new(
+    KAGEUCHI_HANDGUARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "KageuchiHandguard",
       name: "Kageuchi Handguard",
       rarity: 2,
@@ -132,7 +132,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    LIEUTENANTS_INSIGNIA = GenshinData::Material.new(
+    LIEUTENANTS_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "LieutenantsInsignia",
       name: "Lieutenants Insignia",
       rarity: 3,
@@ -143,7 +143,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    LUMINESCENT_POLLEN = GenshinData::Material.new(
+    LUMINESCENT_POLLEN = TeyvatDB::GenshinData::Material.new(
       kamera_key: "LuminescentPollen",
       name: "Luminescent Pollen",
       rarity: 2,
@@ -154,7 +154,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MECHANICAL_SPUR_GEAR = GenshinData::Material.new(
+    MECHANICAL_SPUR_GEAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MechanicalSpurGear",
       name: "Mechanical Spur Gear",
       rarity: 2,
@@ -165,7 +165,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    MESHING_GEAR = GenshinData::Material.new(
+    MESHING_GEAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "MeshingGear",
       name: "Meshing Gear",
       rarity: 1,
@@ -176,7 +176,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    OLD_HANDGUARD = GenshinData::Material.new(
+    OLD_HANDGUARD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OldHandguard",
       name: "Old Handguard",
       rarity: 1,
@@ -187,7 +187,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    OMINOUS_MASK = GenshinData::Material.new(
+    OMINOUS_MASK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OminousMask",
       name: "Ominous Mask",
       rarity: 3,
@@ -198,7 +198,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    RECRUITS_INSIGNIA = GenshinData::Material.new(
+    RECRUITS_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RecruitsInsignia",
       name: "Recruits Insignia",
       rarity: 1,
@@ -209,7 +209,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    RICH_RED_BROCADE = GenshinData::Material.new(
+    RICH_RED_BROCADE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "RichRedBrocade",
       name: "Rich Red Brocade",
       rarity: 3,
@@ -220,7 +220,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SEALED_SCROLL = GenshinData::Material.new(
+    SEALED_SCROLL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SealedScroll",
       name: "Sealed Scroll",
       rarity: 2,
@@ -231,7 +231,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SERGEANTS_INSIGNIA = GenshinData::Material.new(
+    SERGEANTS_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SergeantsInsignia",
       name: "Sergeants Insignia",
       rarity: 2,
@@ -242,7 +242,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SHARP_ARROWHEAD = GenshinData::Material.new(
+    SHARP_ARROWHEAD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SharpArrowhead",
       name: "Sharp Arrowhead",
       rarity: 2,
@@ -253,7 +253,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SHIMMERING_NECTAR = GenshinData::Material.new(
+    SHIMMERING_NECTAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShimmeringNectar",
       name: "Shimmering Nectar",
       rarity: 2,
@@ -264,7 +264,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SILVER_RAVEN_INSIGNIA = GenshinData::Material.new(
+    SILVER_RAVEN_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SilverRavenInsignia",
       name: "Silver Raven Insignia",
       rarity: 2,
@@ -275,7 +275,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SLIME_CONCENTRATE = GenshinData::Material.new(
+    SLIME_CONCENTRATE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SlimeConcentrate",
       name: "Slime Concentrate",
       rarity: 3,
@@ -286,7 +286,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SLIME_CONDENSATE = GenshinData::Material.new(
+    SLIME_CONDENSATE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SlimeCondensate",
       name: "Slime Condensate",
       rarity: 1,
@@ -297,7 +297,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SLIME_SECRETIONS = GenshinData::Material.new(
+    SLIME_SECRETIONS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SlimeSecretions",
       name: "Slime Secretions",
       rarity: 2,
@@ -308,7 +308,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SPECTRAL_HEART = GenshinData::Material.new(
+    SPECTRAL_HEART = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SpectralHeart",
       name: "Spectral Heart",
       rarity: 2,
@@ -319,7 +319,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SPECTRAL_HUSK = GenshinData::Material.new(
+    SPECTRAL_HUSK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SpectralHusk",
       name: "Spectral Husk",
       rarity: 1,
@@ -330,7 +330,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    SPECTRAL_NUCLEUS = GenshinData::Material.new(
+    SPECTRAL_NUCLEUS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "SpectralNucleus",
       name: "Spectral Nucleus",
       rarity: 3,
@@ -341,7 +341,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    STAINED_MASK = GenshinData::Material.new(
+    STAINED_MASK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "StainedMask",
       name: "Stained Mask",
       rarity: 2,
@@ -352,7 +352,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TRANSOCEANIC_CHUNK = GenshinData::Material.new(
+    TRANSOCEANIC_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TransoceanicChunk",
       name: "Transoceanic Chunk",
       rarity: 2,
@@ -363,7 +363,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TRANSOCEANIC_PEARL = GenshinData::Material.new(
+    TRANSOCEANIC_PEARL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TransoceanicPearl",
       name: "Transoceanic Pearl",
       rarity: 1,
@@ -374,7 +374,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TREASURE_HOARDER_INSIGNIA = GenshinData::Material.new(
+    TREASURE_HOARDER_INSIGNIA = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TreasureHoarderInsignia",
       name: "Treasure Hoarder Insignia",
       rarity: 1,
@@ -385,7 +385,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    TRIMMED_RED_SILK = GenshinData::Material.new(
+    TRIMMED_RED_SILK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TrimmedRedSilk",
       name: "Trimmed Red Silk",
       rarity: 2,
@@ -396,7 +396,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    WEATHERED_ARROWHEAD = GenshinData::Material.new(
+    WEATHERED_ARROWHEAD = TeyvatDB::GenshinData::Material.new(
       kamera_key: "WeatheredArrowhead",
       name: "Weathered Arrowhead",
       rarity: 3,
@@ -407,7 +407,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    WHOPPERFLOWER_NECTAR = GenshinData::Material.new(
+    WHOPPERFLOWER_NECTAR = TeyvatDB::GenshinData::Material.new(
       kamera_key: "WhopperflowerNectar",
       name: "Whopperflower Nectar",
       rarity: 1,
@@ -418,7 +418,7 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
-    XENOCHROMATIC_CRYSTAL = GenshinData::Material.new(
+    XENOCHROMATIC_CRYSTAL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "XenochromaticCrystal",
       name: "Xenochromatic Crystal",
       rarity: 3,

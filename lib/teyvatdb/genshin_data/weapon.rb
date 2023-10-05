@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module GenshinData
+module TeyvatDB::GenshinData
   # Base class to represent various Genshin Weapons
   class Weapon
     WEAPON_TYPES = %i[sword polearm catalyst bow claymore].freeze

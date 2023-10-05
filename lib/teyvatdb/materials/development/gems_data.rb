@@ -1,6 +1,6 @@
 module TeyvatDB::Materials::Development
   module GemsData
-    AGNIDUS_AGATE_CHUNK = GenshinData::Material.new(
+    AGNIDUS_AGATE_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AgnidusAgateChunk",
       name: "Agnidus Agate Chunk",
       rarity: 4,
@@ -10,7 +10,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    AGNIDUS_AGATE_FRAGMENT = GenshinData::Material.new(
+    AGNIDUS_AGATE_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AgnidusAgateFragment",
       name: "Agnidus Agate Fragment",
       rarity: 3,
@@ -20,7 +20,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    AGNIDUS_AGATE_GEMSTONE = GenshinData::Material.new(
+    AGNIDUS_AGATE_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AgnidusAgateGemstone",
       name: "Agnidus Agate Gemstone",
       rarity: 5,
@@ -30,7 +30,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    AGNIDUS_AGATE_SLIVER = GenshinData::Material.new(
+    AGNIDUS_AGATE_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AgnidusAgateSliver",
       name: "Agnidus Agate Sliver",
       rarity: 2,
@@ -40,7 +40,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    BRILLIANT_DIAMOND_CHUNK = GenshinData::Material.new(
+    BRILLIANT_DIAMOND_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrilliantDiamondChunk",
       name: "Brilliant Diamond Chunk",
       rarity: 4,
@@ -50,7 +50,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    BRILLIANT_DIAMOND_FRAGMENT = GenshinData::Material.new(
+    BRILLIANT_DIAMOND_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrilliantDiamondFragment",
       name: "Brilliant Diamond Fragment",
       rarity: 3,
@@ -60,7 +60,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    BRILLIANT_DIAMOND_GEMSTONE = GenshinData::Material.new(
+    BRILLIANT_DIAMOND_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrilliantDiamondGemstone",
       name: "Brilliant Diamond Gemstone",
       rarity: 5,
@@ -70,7 +70,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    BRILLIANT_DIAMOND_SLIVER = GenshinData::Material.new(
+    BRILLIANT_DIAMOND_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "BrilliantDiamondSliver",
       name: "Brilliant Diamond Sliver",
       rarity: 2,
@@ -80,7 +80,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    NAGADUS_EMERALD_CHUNK = GenshinData::Material.new(
+    NAGADUS_EMERALD_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NagadusEmeraldChunk",
       name: "Nagadus Emerald Chunk",
       rarity: 4,
@@ -90,7 +90,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    NAGADUS_EMERALD_FRAGMENT = GenshinData::Material.new(
+    NAGADUS_EMERALD_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NagadusEmeraldFragment",
       name: "Nagadus Emerald Fragment",
       rarity: 3,
@@ -100,7 +100,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    NAGADUS_EMERALD_GEMSTONE = GenshinData::Material.new(
+    NAGADUS_EMERALD_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NagadusEmeraldGemstone",
       name: "Nagadus Emerald Gemstone",
       rarity: 5,
@@ -110,7 +110,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    NAGADUS_EMERALD_SLIVER = GenshinData::Material.new(
+    NAGADUS_EMERALD_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "NagadusEmeraldSliver",
       name: "Nagadus Emerald Sliver",
       rarity: 2,
@@ -120,7 +120,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    PRITHIVA_TOPAZ_CHUNK = GenshinData::Material.new(
+    PRITHIVA_TOPAZ_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PrithivaTopazChunk",
       name: "Prithiva Topaz Chunk",
       rarity: 4,
@@ -130,7 +130,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    PRITHIVA_TOPAZ_FRAGMENT = GenshinData::Material.new(
+    PRITHIVA_TOPAZ_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PrithivaTopazFragment",
       name: "Prithiva Topaz Fragment",
       rarity: 3,
@@ -140,7 +140,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    PRITHIVA_TOPAZ_GEMSTONE = GenshinData::Material.new(
+    PRITHIVA_TOPAZ_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PrithivaTopazGemstone",
       name: "Prithiva Topaz Gemstone",
       rarity: 5,
@@ -150,7 +150,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    PRITHIVA_TOPAZ_SLIVER = GenshinData::Material.new(
+    PRITHIVA_TOPAZ_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PrithivaTopazSliver",
       name: "Prithiva Topaz Sliver",
       rarity: 2,
@@ -160,7 +160,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    SHIVADA_JADE_CHUNK = GenshinData::Material.new(
+    SHIVADA_JADE_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShivadaJadeChunk",
       name: "Shivada Jade Chunk",
       rarity: 4,
@@ -170,7 +170,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    SHIVADA_JADE_FRAGMENT = GenshinData::Material.new(
+    SHIVADA_JADE_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShivadaJadeFragment",
       name: "Shivada Jade Fragment",
       rarity: 3,
@@ -180,7 +180,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    SHIVADA_JADE_GEMSTONE = GenshinData::Material.new(
+    SHIVADA_JADE_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShivadaJadeGemstone",
       name: "Shivada Jade Gemstone",
       rarity: 5,
@@ -190,7 +190,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    SHIVADA_JADE_SLIVER = GenshinData::Material.new(
+    SHIVADA_JADE_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ShivadaJadeSliver",
       name: "Shivada Jade Sliver",
       rarity: 2,
@@ -200,7 +200,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAJRADA_AMETHYST_CHUNK = GenshinData::Material.new(
+    VAJRADA_AMETHYST_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VajradaAmethystChunk",
       name: "Vajrada Amethyst Chunk",
       rarity: 4,
@@ -210,7 +210,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAJRADA_AMETHYST_FRAGMENT = GenshinData::Material.new(
+    VAJRADA_AMETHYST_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VajradaAmethystFragment",
       name: "Vajrada Amethyst Fragment",
       rarity: 3,
@@ -220,7 +220,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAJRADA_AMETHYST_GEMSTONE = GenshinData::Material.new(
+    VAJRADA_AMETHYST_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VajradaAmethystGemstone",
       name: "Vajrada Amethyst Gemstone",
       rarity: 5,
@@ -230,7 +230,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAJRADA_AMETHYST_SLIVER = GenshinData::Material.new(
+    VAJRADA_AMETHYST_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VajradaAmethystSliver",
       name: "Vajrada Amethyst Sliver",
       rarity: 2,
@@ -240,7 +240,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VARUNADA_LAZURITE_CHUNK = GenshinData::Material.new(
+    VARUNADA_LAZURITE_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VarunadaLazuriteChunk",
       name: "Varunada Lazurite Chunk",
       rarity: 4,
@@ -250,7 +250,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VARUNADA_LAZURITE_FRAGMENT = GenshinData::Material.new(
+    VARUNADA_LAZURITE_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VarunadaLazuriteFragment",
       name: "Varunada Lazurite Fragment",
       rarity: 3,
@@ -260,7 +260,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VARUNADA_LAZURITE_GEMSTONE = GenshinData::Material.new(
+    VARUNADA_LAZURITE_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VarunadaLazuriteGemstone",
       name: "Varunada Lazurite Gemstone",
       rarity: 5,
@@ -270,7 +270,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VARUNADA_LAZURITE_SLIVER = GenshinData::Material.new(
+    VARUNADA_LAZURITE_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VarunadaLazuriteSliver",
       name: "Varunada Lazurite Sliver",
       rarity: 2,
@@ -280,7 +280,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAYUDA_TURQUOISE_CHUNK = GenshinData::Material.new(
+    VAYUDA_TURQUOISE_CHUNK = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VayudaTurquoiseChunk",
       name: "Vayuda Turquoise Chunk",
       rarity: 4,
@@ -290,7 +290,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAYUDA_TURQUOISE_FRAGMENT = GenshinData::Material.new(
+    VAYUDA_TURQUOISE_FRAGMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VayudaTurquoiseFragment",
       name: "Vayuda Turquoise Fragment",
       rarity: 3,
@@ -300,7 +300,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAYUDA_TURQUOISE_GEMSTONE = GenshinData::Material.new(
+    VAYUDA_TURQUOISE_GEMSTONE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VayudaTurquoiseGemstone",
       name: "Vayuda Turquoise Gemstone",
       rarity: 5,
@@ -310,7 +310,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :gem,
     ).freeze
 
-    VAYUDA_TURQUOISE_SLIVER = GenshinData::Material.new(
+    VAYUDA_TURQUOISE_SLIVER = TeyvatDB::GenshinData::Material.new(
       kamera_key: "VayudaTurquoiseSliver",
       name: "Vayuda Turquoise Sliver",
       rarity: 2,

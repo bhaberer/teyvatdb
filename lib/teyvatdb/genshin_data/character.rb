@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module GenshinData
+module TeyvatDB::GenshinData
   # Base class to represent various Genshin Characters
   class Character
     attr_accessor :kamera_key, :name, :nation_name, :rarity, :element, :weapon_type,

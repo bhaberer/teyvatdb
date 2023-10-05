@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module GenshinData
+module TeyvatDB::GenshinData
   # Base class to represent various Genshin Artifact Sets
   class ArtifactSet
     ALL_SLOTS = %i[flower plume sands goblet circlet].freeze

@@ -1,6 +1,6 @@
 module TeyvatDB::Materials::Development
   module WeaponRefinementMaterialData
-    AKOS_SAKE_VESSEL = GenshinData::Material.new(
+    AKOS_SAKE_VESSEL = TeyvatDB::GenshinData::Material.new(
       kamera_key: "AkosSakeVessel",
       name: "Ako's Sake Vessel",
       rarity: 4,
@@ -10,7 +10,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    ALKAHEST = GenshinData::Material.new(
+    ALKAHEST = TeyvatDB::GenshinData::Material.new(
       kamera_key: "Alkahest",
       name: "Alkahest",
       rarity: 4,
@@ -20,7 +20,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    CONGEALED_PUPA_WAX = GenshinData::Material.new(
+    CONGEALED_PUPA_WAX = TeyvatDB::GenshinData::Material.new(
       kamera_key: "CongealedPupaWax",
       name: "Congealed Pupa Wax",
       rarity: 4,
@@ -30,7 +30,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    EMPERORS_BALSAM = GenshinData::Material.new(
+    EMPERORS_BALSAM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "EmperorsBalsam",
       name: "Emperor's Balsam",
       rarity: 4,
@@ -40,7 +40,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    FESTERING_DRAGON_MARROW = GenshinData::Material.new(
+    FESTERING_DRAGON_MARROW = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FesteringDragonMarrow",
       name: "Festering Dragon Marrow",
       rarity: 4,
@@ -50,7 +50,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    FRAGMENTS_OF_INNOCENCE = GenshinData::Material.new(
+    FRAGMENTS_OF_INNOCENCE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "FragmentsOfInnocence",
       name: "Fragments of Innocence",
       rarity: 4,
@@ -60,7 +60,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    GLOWING_GEM = GenshinData::Material.new(
+    GLOWING_GEM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "GlowingGem",
       name: "Glowing Gem",
       rarity: 4,
@@ -70,7 +70,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    OINTMENT_OF_INSIGHT = GenshinData::Material.new(
+    OINTMENT_OF_INSIGHT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OintmentOfInsight",
       name: "Ointment of Insight",
       rarity: 4,
@@ -80,7 +80,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    ORIGINAL_FISH_OINTMENT = GenshinData::Material.new(
+    ORIGINAL_FISH_OINTMENT = TeyvatDB::GenshinData::Material.new(
       kamera_key: "OriginalFishOintment",
       name: "Original Fish Ointment",
       rarity: 4,
@@ -90,7 +90,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    PARASOL_TALCUM = GenshinData::Material.new(
+    PARASOL_TALCUM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "ParasolTalcum",
       name: "Parasol Talcum",
       rarity: 4,
@@ -100,7 +100,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    PLUME_OF_THE_CHANGING_WINDS = GenshinData::Material.new(
+    PLUME_OF_THE_CHANGING_WINDS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PlumeOfTheChangingWinds",
       name: "Plume of the Changing Winds",
       rarity: 4,
@@ -110,7 +110,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    THE_VISIBLE_WINDS = GenshinData::Material.new(
+    THE_VISIBLE_WINDS = TeyvatDB::GenshinData::Material.new(
       kamera_key: "TheVisibleWinds",
       name: "The Visible Winds",
       rarity: 4,
@@ -120,7 +120,7 @@ module TeyvatDB::Materials::Development
       source_sub_category: :refine_material,
     ).freeze
 
-    UNFADING_SILKY_GRACE = GenshinData::Material.new(
+    UNFADING_SILKY_GRACE = TeyvatDB::GenshinData::Material.new(
       kamera_key: "UnfadingSilkyGrace",
       name: "Unfading Silky Grace",
       rarity: 4,

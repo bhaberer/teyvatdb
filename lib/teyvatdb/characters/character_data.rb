@@ -3,7 +3,7 @@
 module TeyvatDB
   module Characters
     module CharacterData
-      ALBEDO = GenshinData::Character.new(
+      ALBEDO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Albedo",
         name: "Albedo",
         nation_name: "mondstadt",
@@ -18,7 +18,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      ALHAITHAM = GenshinData::Character.new(
+      ALHAITHAM = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Alhaitham",
         name: "Alhaitham",
         nation_name: "sumeru",
@@ -33,7 +33,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scarf"
       ).freeze
 
-      ALOY = GenshinData::Character.new(
+      ALOY = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Aloy",
         name: "Aloy",
         nation_name: "unknown",
@@ -48,7 +48,7 @@ module TeyvatDB
         ascension_enemy_material_name: "spectral"
       ).freeze
 
-      AMBER = GenshinData::Character.new(
+      AMBER = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Amber",
         name: "Amber",
         nation_name: "mondstadt",
@@ -63,7 +63,7 @@ module TeyvatDB
         ascension_enemy_material_name: "arrowhead"
       ).freeze
 
-      ARATAKI_ITTO = GenshinData::Character.new(
+      ARATAKI_ITTO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "AratakiItto",
         name: "Arataki Itto",
         nation_name: "inazuma",
@@ -78,7 +78,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      BAIZHU = GenshinData::Character.new(
+      BAIZHU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Baizhu",
         name: "Baizhu",
         nation_name: "liyue",
@@ -93,7 +93,7 @@ module TeyvatDB
         ascension_enemy_material_name: "pollen"
       ).freeze
 
-      BARBARA = GenshinData::Character.new(
+      BARBARA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Barbara",
         name: "Barbara",
         nation_name: "mondstadt",
@@ -108,7 +108,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      BEIDOU = GenshinData::Character.new(
+      BEIDOU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Beidou",
         name: "Beidou",
         nation_name: "liyue",
@@ -123,7 +123,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      BENNETT = GenshinData::Character.new(
+      BENNETT = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Bennett",
         name: "Bennett",
         nation_name: "mondstadt",
@@ -138,7 +138,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      CANDACE = GenshinData::Character.new(
+      CANDACE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Candace",
         name: "Candace",
         nation_name: "sumeru",
@@ -153,7 +153,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scarf"
       ).freeze
 
-      CHONGYUN = GenshinData::Character.new(
+      CHONGYUN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Chongyun",
         name: "Chongyun",
         nation_name: "liyue",
@@ -168,7 +168,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      COLLEI = GenshinData::Character.new(
+      COLLEI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Collei",
         name: "Collei",
         nation_name: "sumeru",
@@ -183,7 +183,7 @@ module TeyvatDB
         ascension_enemy_material_name: "arrowhead"
       ).freeze
 
-      CYNO = GenshinData::Character.new(
+      CYNO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Cyno",
         name: "Cyno",
         nation_name: "sumeru",
@@ -198,7 +198,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      DEHYA = GenshinData::Character.new(
+      DEHYA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Dehya",
         name: "Dehya",
         nation_name: "sumeru",
@@ -213,7 +213,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scarf"
       ).freeze
 
-      DILUC = GenshinData::Character.new(
+      DILUC = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Diluc",
         name: "Diluc",
         nation_name: "mondstadt",
@@ -228,7 +228,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      DIONA = GenshinData::Character.new(
+      DIONA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Diona",
         name: "Diona",
         nation_name: "mondstadt",
@@ -243,7 +243,7 @@ module TeyvatDB
         ascension_enemy_material_name: "arrowhead"
       ).freeze
 
-      DORI = GenshinData::Character.new(
+      DORI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Dori",
         name: "Dori",
         nation_name: "sumeru",
@@ -258,7 +258,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scarf"
       ).freeze
 
-      EULA = GenshinData::Character.new(
+      EULA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Eula",
         name: "Eula",
         nation_name: "mondstadt",
@@ -273,7 +273,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      FARUZAN = GenshinData::Character.new(
+      FARUZAN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Faruzan",
         name: "Faruzan",
         nation_name: "sumeru",
@@ -288,7 +288,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scarf"
       ).freeze
 
-      FISCHL = GenshinData::Character.new(
+      FISCHL = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Fischl",
         name: "Fischl",
         nation_name: "mondstadt",
@@ -303,7 +303,7 @@ module TeyvatDB
         ascension_enemy_material_name: "arrowhead"
       ).freeze
 
-      FREMINET = GenshinData::Character.new(
+      FREMINET = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Freminet",
         name: "Freminet",
         nation_name: "fontaine",
@@ -318,7 +318,7 @@ module TeyvatDB
         ascension_enemy_material_name: "transoceanic"
       ).freeze
 
-      GANYU = GenshinData::Character.new(
+      GANYU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Ganyu",
         name: "Ganyu",
         nation_name: "liyue",
@@ -333,7 +333,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      GOROU = GenshinData::Character.new(
+      GOROU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Gorou",
         name: "Gorou",
         nation_name: "inazuma",
@@ -348,7 +348,7 @@ module TeyvatDB
         ascension_enemy_material_name: "spectral"
       ).freeze
 
-      HU_TAO = GenshinData::Character.new(
+      HU_TAO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "HuTao",
         name: "Hu Tao",
         nation_name: "liyue",
@@ -363,7 +363,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      JEAN = GenshinData::Character.new(
+      JEAN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Jean",
         name: "Jean",
         nation_name: "mondstadt",
@@ -378,7 +378,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      KAEDEHARA_KAZUHA = GenshinData::Character.new(
+      KAEDEHARA_KAZUHA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "KaedeharaKazuha",
         name: "Kaedehara Kazuha",
         nation_name: "inazuma",
@@ -393,7 +393,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      KAEYA = GenshinData::Character.new(
+      KAEYA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Kaeya",
         name: "Kaeya",
         nation_name: "mondstadt",
@@ -408,7 +408,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      KAMISATO_AYAKA = GenshinData::Character.new(
+      KAMISATO_AYAKA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "KamisatoAyaka",
         name: "Kamisato Ayaka",
         nation_name: "inazuma",
@@ -423,7 +423,7 @@ module TeyvatDB
         ascension_enemy_material_name: "handguard"
       ).freeze
 
-      KAMISATO_AYATO = GenshinData::Character.new(
+      KAMISATO_AYATO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "KamisatoAyato",
         name: "Kamisato Ayato",
         nation_name: "inazuma",
@@ -438,7 +438,7 @@ module TeyvatDB
         ascension_enemy_material_name: "handguard"
       ).freeze
 
-      KAVEH = GenshinData::Character.new(
+      KAVEH = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Kaveh",
         name: "Kaveh",
         nation_name: "sumeru",
@@ -453,7 +453,7 @@ module TeyvatDB
         ascension_enemy_material_name: "pollen"
       ).freeze
 
-      KEQING = GenshinData::Character.new(
+      KEQING = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Keqing",
         name: "Keqing",
         nation_name: "liyue",
@@ -468,7 +468,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      KIRARA = GenshinData::Character.new(
+      KIRARA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Kirara",
         name: "Kirara",
         nation_name: "inazuma",
@@ -483,7 +483,7 @@ module TeyvatDB
         ascension_enemy_material_name: "spectral"
       ).freeze
 
-      KLEE = GenshinData::Character.new(
+      KLEE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Klee",
         name: "Klee",
         nation_name: "mondstadt",
@@ -498,7 +498,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      KUJOU_SARA = GenshinData::Character.new(
+      KUJOU_SARA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "KujouSara",
         name: "Kujou Sara",
         nation_name: "inazuma",
@@ -513,7 +513,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      KUKI_SHINOBU = GenshinData::Character.new(
+      KUKI_SHINOBU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "KukiShinobu",
         name: "Kuki Shinobu",
         nation_name: "inazuma",
@@ -528,7 +528,7 @@ module TeyvatDB
         ascension_enemy_material_name: "spectral"
       ).freeze
 
-      LAYLA = GenshinData::Character.new(
+      LAYLA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Layla",
         name: "Layla",
         nation_name: "sumeru",
@@ -543,7 +543,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      LISA = GenshinData::Character.new(
+      LISA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Lisa",
         name: "Lisa",
         nation_name: "mondstadt",
@@ -558,7 +558,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      LYNETTE = GenshinData::Character.new(
+      LYNETTE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Lynette",
         name: "Lynette",
         nation_name: "fontaine",
@@ -573,7 +573,7 @@ module TeyvatDB
         ascension_enemy_material_name: "gear"
       ).freeze
 
-      LYNEY = GenshinData::Character.new(
+      LYNEY = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Lyney",
         name: "Lyney",
         nation_name: "fontaine",
@@ -588,7 +588,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      MIKA = GenshinData::Character.new(
+      MIKA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Mika",
         name: "Mika",
         nation_name: "mondstadt",
@@ -603,7 +603,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      MONA = GenshinData::Character.new(
+      MONA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Mona",
         name: "Mona",
         nation_name: "mondstadt",
@@ -618,7 +618,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      NAHIDA = GenshinData::Character.new(
+      NAHIDA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Nahida",
         name: "Nahida",
         nation_name: "sumeru",
@@ -633,7 +633,7 @@ module TeyvatDB
         ascension_enemy_material_name: "pollen"
       ).freeze
 
-      NEUVILLETTE = GenshinData::Character.new(
+      NEUVILLETTE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Neuvillette",
         name: "Neuvillette",
         nation_name: "fontaine",
@@ -648,7 +648,7 @@ module TeyvatDB
         ascension_enemy_material_name: "transoceanic"
       ).freeze
 
-      NILOU = GenshinData::Character.new(
+      NILOU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Nilou",
         name: "Nilou",
         nation_name: "sumeru",
@@ -663,7 +663,7 @@ module TeyvatDB
         ascension_enemy_material_name: "pollen"
       ).freeze
 
-      NINGGUANG = GenshinData::Character.new(
+      NINGGUANG = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Ningguang",
         name: "Ningguang",
         nation_name: "liyue",
@@ -678,7 +678,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      NOELLE = GenshinData::Character.new(
+      NOELLE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Noelle",
         name: "Noelle",
         nation_name: "mondstadt",
@@ -693,7 +693,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      QIQI = GenshinData::Character.new(
+      QIQI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Qiqi",
         name: "Qiqi",
         nation_name: "liyue",
@@ -708,7 +708,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      RAIDEN_SHOGUN = GenshinData::Character.new(
+      RAIDEN_SHOGUN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "RaidenShogun",
         name: "Raiden Shogun",
         nation_name: "inazuma",
@@ -723,7 +723,7 @@ module TeyvatDB
         ascension_enemy_material_name: "handguard"
       ).freeze
 
-      RAZOR = GenshinData::Character.new(
+      RAZOR = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Razor",
         name: "Razor",
         nation_name: "mondstadt",
@@ -738,7 +738,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      ROSARIA = GenshinData::Character.new(
+      ROSARIA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Rosaria",
         name: "Rosaria",
         nation_name: "mondstadt",
@@ -753,7 +753,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      SANGONOMIYA_KOKOMI = GenshinData::Character.new(
+      SANGONOMIYA_KOKOMI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "SangonomiyaKokomi",
         name: "Sangonomiya Kokomi",
         nation_name: "inazuma",
@@ -768,7 +768,7 @@ module TeyvatDB
         ascension_enemy_material_name: "spectral"
       ).freeze
 
-      SAYU = GenshinData::Character.new(
+      SAYU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Sayu",
         name: "Sayu",
         nation_name: "inazuma",
@@ -783,7 +783,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      SHENHE = GenshinData::Character.new(
+      SHENHE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Shenhe",
         name: "Shenhe",
         nation_name: "liyue",
@@ -798,7 +798,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      SHIKANOIN_HEIZOU = GenshinData::Character.new(
+      SHIKANOIN_HEIZOU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "ShikanoinHeizou",
         name: "Shikanoin Heizou",
         nation_name: "inazuma",
@@ -813,7 +813,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      SUCROSE = GenshinData::Character.new(
+      SUCROSE = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Sucrose",
         name: "Sucrose",
         nation_name: "mondstadt",
@@ -828,7 +828,7 @@ module TeyvatDB
         ascension_enemy_material_name: "nectar"
       ).freeze
 
-      TARTAGLIA = GenshinData::Character.new(
+      TARTAGLIA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Tartaglia",
         name: "Tartaglia",
         nation_name: "snezhnaya",
@@ -843,7 +843,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      THOMA = GenshinData::Character.new(
+      THOMA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Thoma",
         name: "Thoma",
         nation_name: "inazuma",
@@ -858,7 +858,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      TIGHNARI = GenshinData::Character.new(
+      TIGHNARI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Tighnari",
         name: "Tighnari",
         nation_name: "sumeru",
@@ -873,7 +873,7 @@ module TeyvatDB
         ascension_enemy_material_name: "pollen"
       ).freeze
 
-      VENTI = GenshinData::Character.new(
+      VENTI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Venti",
         name: "Venti",
         nation_name: "mondstadt",
@@ -888,7 +888,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      WANDERER = GenshinData::Character.new(
+      WANDERER = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Wanderer",
         name: "Wanderer",
         nation_name: "sumeru",
@@ -903,9 +903,9 @@ module TeyvatDB
         ascension_enemy_material_name: "handguard"
       ).freeze
 
-      # WRIOTHESLEY = GenshinData::Character.new().freeze
+      # WRIOTHESLEY = TeyvatDB::GenshinData::Character.new().freeze
 
-      XIANGLING = GenshinData::Character.new(
+      XIANGLING = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Xiangling",
         name: "Xiangling",
         nation_name: "liyue",
@@ -920,7 +920,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      XIAO = GenshinData::Character.new(
+      XIAO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Xiao",
         name: "Xiao",
         nation_name: "liyue",
@@ -935,7 +935,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      XINGQIU = GenshinData::Character.new(
+      XINGQIU = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Xingqiu",
         name: "Xingqiu",
         nation_name: "liyue",
@@ -950,7 +950,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      XINYAN = GenshinData::Character.new(
+      XINYAN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Xinyan",
         name: "Xinyan",
         nation_name: "liyue",
@@ -965,7 +965,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      YAE_MIKO = GenshinData::Character.new(
+      YAE_MIKO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "YaeMiko",
         name: "Yae Miko",
         nation_name: "inazuma",
@@ -980,7 +980,7 @@ module TeyvatDB
         ascension_enemy_material_name: "handguard"
       ).freeze
 
-      YANFEI = GenshinData::Character.new(
+      YANFEI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Yanfei",
         name: "Yanfei",
         nation_name: "liyue",
@@ -995,7 +995,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hoarder_insignia"
       ).freeze
 
-      YAOYAO = GenshinData::Character.new(
+      YAOYAO = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Yaoyao",
         name: "Yaoyao",
         nation_name: "liyue",
@@ -1010,7 +1010,7 @@ module TeyvatDB
         ascension_enemy_material_name: "slime"
       ).freeze
 
-      YELAN = GenshinData::Character.new(
+      YELAN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Yelan",
         name: "Yelan",
         nation_name: "liyue",
@@ -1025,7 +1025,7 @@ module TeyvatDB
         ascension_enemy_material_name: "fatui_insignia"
       ).freeze
 
-      YOIMIYA = GenshinData::Character.new(
+      YOIMIYA = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Yoimiya",
         name: "Yoimiya",
         nation_name: "inazuma",
@@ -1040,7 +1040,7 @@ module TeyvatDB
         ascension_enemy_material_name: "scroll"
       ).freeze
 
-      YUN_JIN = GenshinData::Character.new(
+      YUN_JIN = TeyvatDB::GenshinData::Character.new(
         kamera_key: "YunJin",
         name: "Yun Jin",
         nation_name: "liyue",
@@ -1055,7 +1055,7 @@ module TeyvatDB
         ascension_enemy_material_name: "hilichurl_mask"
       ).freeze
 
-      ZHONGLI = GenshinData::Character.new(
+      ZHONGLI = TeyvatDB::GenshinData::Character.new(
         kamera_key: "Zhongli",
         name: "Zhongli",
         nation_name: "liyue",
