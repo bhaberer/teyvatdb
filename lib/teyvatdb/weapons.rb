@@ -120,9 +120,11 @@ module TeyvatDB
           WeaponData::RUST,
           WeaponData::SACRIFICIAL_BOW,
           WeaponData::SACRIFICIAL_FRAGMENTS,
+          WeaponData::SACRIFICIAL_JADE,
           WeaponData::SACRIFICIAL_GREATSWORD,
           WeaponData::SACRIFICIAL_SWORD,
           WeaponData::SAPWOOD_BLADE,
+          WeaponData::SCION_OF_THE_BLAZING_SUN,
           WeaponData::SEASONED_HUNTERS_BOW,
           WeaponData::SERPENT_SPINE,
           WeaponData::SHARPSHOOTERS_OATH,
@@ -143,6 +145,7 @@ module TeyvatDB
           WeaponData::STAFF_OF_THE_SCARLET_SANDS,
           WeaponData::SUMMIT_SHAPER,
           WeaponData::SWORD_OF_DESCENSION,
+          WeaponData::TALKING_STICK,
           WeaponData::THE_BELL,
           WeaponData::THE_BLACK_SWORD,
           WeaponData::THE_CATCH,
@@ -170,8 +173,9 @@ module TeyvatDB
           WeaponData::WHITEBLIND,
           WeaponData::WINDBLUME_ODE,
           WeaponData::WINE_AND_SONG,
+          WeaponData::WOLF_FANG,
           WeaponData::WOLFS_GRAVESTONE,
-          WeaponData::XIPHOS_MOONLIGHT
+          WeaponData::XIPHOS_MOONLIGHT,
         ]
       end
 

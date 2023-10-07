@@ -1143,6 +1143,16 @@ module TeyvatDB
         weapon_material_type: :wolf_tooth
       ).freeze
 
+      SACRIFICIAL_JADE = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "SacrificialJade",
+        name: "Sacrificial Jade",
+        rarity: 4,
+        weapon_type: :catalyst,
+        elite_material_type: :mist_grass,
+        standard_material_type: :scroll,
+        weapon_material_type: :guyun
+      ).freeze
+
       SACRIFICIAL_SWORD = TeyvatDB::GenshinData::Weapon.new(
         kamera_key: "SacrificialSword",
         name: "Sacrificial Sword",
@@ -1161,6 +1171,16 @@ module TeyvatDB
         elite_material_type: :chaos_bolt,
         standard_material_type: :scarf,
         weapon_material_type: :forest_dew
+      ).freeze
+
+      SCION_OF_THE_BLAZING_SUN = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "ScionOfTheBlazingSun",
+        name: "Scion of the Blazing Sun",
+        rarity: 4,
+        weapon_type: :bow,
+        elite_material_type: :rogue_flower,
+        standard_material_type: :pollen,
+        weapon_material_type: :scorching_might
       ).freeze
 
       SEASONED_HUNTERS_BOW = TeyvatDB::GenshinData::Weapon.new(
@@ -1361,6 +1381,16 @@ module TeyvatDB
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
         weapon_material_type: :wolf_tooth
+      ).freeze
+
+      TALKING_STICK = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "TalkingStick",
+        name: "Talking Stick",
+        rarity: 4,
+        weapon_type: :claymore,
+        elite_material_type: :shell,
+        standard_material_type: :slime,
+        weapon_material_type: :oasis_garden
       ).freeze
 
       THE_BELL = TeyvatDB::GenshinData::Weapon.new(
@@ -1631,6 +1661,16 @@ module TeyvatDB
         elite_material_type: :ley_line,
         standard_material_type: :hoarder_insignia,
         weapon_material_type: :wolf_tooth
+      ).freeze
+
+      WOLF_FANG = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "WolfFang",
+        name: "Wolf-Fang",
+        rarity: 4,
+        weapon_type: :sword,
+        elite_material_type: :chaos_core,
+        standard_material_type: :hilichurl_mask,
+        weapon_material_type: :decarabian
       ).freeze
 
       WOLFS_GRAVESTONE = TeyvatDB::GenshinData::Weapon.new(
