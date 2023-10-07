@@ -452,7 +452,7 @@ module TeyvatDB::Materials::Development
     ).freeze
 
     OLD_OPERATIVES_POCKET_WATCH = TeyvatDB::GenshinData::Material.new(
-      kamera_key: "Old Operative's Pocket Watch",
+      kamera_key: "OldOperativesPocketWatch",
       name: "Old Operative's Pocket Watch",
       rarity: 2,
       family: :pocket_watch,
