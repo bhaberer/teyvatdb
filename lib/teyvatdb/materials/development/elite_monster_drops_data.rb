@@ -451,6 +451,39 @@ module TeyvatDB::Materials::Development
       nation_name: nil,
     ).freeze
 
+    OLD_OPERATIVES_POCKET_WATCH = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "Old Operative's Pocket Watch",
+      name: "Old Operative's Pocket Watch",
+      rarity: 2,
+      family: :pocket_watch,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    OPERATIVES_CONSTANCY = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "OperativesConstancy",
+      name: "Operative's Constancy",
+      rarity: 4,
+      family: :pocket_watch,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
+    OPERATIVES_STANDARD_POCKET_WATCH = TeyvatDB::GenshinData::Material.new(
+      kamera_key: "OperativesStandardPocketWatch",
+      name: "Operative's Standard Pocket Watch",
+      rarity: 3,
+      family: :pocket_watch,
+      inventory_type: :development_material,
+      source_category: :monster_loot,
+      source_sub_category: :elite_drop,
+      nation_name: nil,
+    ).freeze
+
     POLARIZING_PRISM = TeyvatDB::GenshinData::Material.new(
       kamera_key: "PolarizingPrism",
       name: "Polarizing Prism",

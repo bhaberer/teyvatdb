@@ -93,6 +93,16 @@ module TeyvatDB
         weapon_material_type: :decarabian
       ).freeze
 
+      BALLAD_OF_THE_FJORDS = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "BalladOfTheFjords",
+        name: "Ballad of the Fjords",
+        rarity: 4,
+        weapon_type: :polearm,
+        elite_material_type: :rogue_flower,
+        standard_material_type: :nectar,
+        weapon_material_type: :pristine_sea
+      ).freeze
+
       BEACON_OF_THE_REED_SEA = TeyvatDB::GenshinData::Weapon.new(
         kamera_key: "BeaconOfTheReedSea",
         name: "Beacon of the Reed Sea",
@@ -451,6 +461,36 @@ module TeyvatDB
         elite_material_type: :mist_grass,
         standard_material_type: :hoarder_insignia,
         weapon_material_type: :elixir
+      ).freeze
+
+      FINALE_OF_THE_DEEP = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "FinaleOfTheDeep",
+        name: "Finale of the Deep",
+        rarity: 4,
+        weapon_type: :sword,
+        elite_material_type: :tainted_water,
+        standard_material_type: :handguard,
+        weapon_material_type: :sacred_dewdrop
+      ).freeze
+
+      FLEUVE_CENDRE_FERRYMAN = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "FleuveCendreFerryman",
+        name: "Fleuve Cendre Ferryman",
+        rarity: 4,
+        weapon_type: :sword,
+        elite_material_type: :tainted_water,
+        standard_material_type: :transoceanic,
+        weapon_material_type: :ancient_chord
+      ).freeze
+
+      FLOWING_PURITY = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "FlowingPurity",
+        name: "Flowing Purity",
+        rarity: 4,
+        weapon_type: :catalyst,
+        elite_material_type: :core,
+        standard_material_type: :transoceanic,
+        weapon_material_type: :sacred_dewdrop
       ).freeze
 
       FOREST_REGALIA = TeyvatDB::GenshinData::Weapon.new(
@@ -873,6 +913,16 @@ module TeyvatDB
         weapon_material_type: :oni_mask
       ).freeze
 
+      PORTABLE_POWER_SAW = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "PortablePowerSaw",
+        name: "Portable Power Saw",
+        rarity: 4,
+        weapon_type: :claymore,
+        elite_material_type: :core,
+        standard_material_type: :gear,
+        weapon_material_type: :pristine_sea
+      ).freeze
+
       PREDATOR = TeyvatDB::GenshinData::Weapon.new(
         kamera_key: "Predator",
         name: "Predator",
@@ -991,6 +1041,16 @@ module TeyvatDB
         elite_material_type: :concealed_talon,
         standard_material_type: :handguard,
         weapon_material_type: :narukami
+      ).freeze
+
+      RIGHTFUL_REWARD = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "RightfulReward",
+        name: "Rightful Reward",
+        rarity: 4,
+        weapon_type: :polearm,
+        elite_material_type: :core,
+        standard_material_type: :gear,
+        weapon_material_type: :pristine_sea
       ).freeze
 
       ROYAL_BOW = TeyvatDB::GenshinData::Weapon.new(
@@ -1253,6 +1313,16 @@ module TeyvatDB
         weapon_material_type: :decarabian
       ).freeze
 
+      SONG_OF_STILLNESS = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "SongOfStillness",
+        name: "Song of Stillness",
+        rarity: 4,
+        weapon_type: :bow,
+        elite_material_type: :tainted_water,
+        standard_material_type: :arrowhead,
+        weapon_material_type: :ancient_chord
+      ).freeze
+
       STAFF_OF_HOMA = TeyvatDB::GenshinData::Weapon.new(
         kamera_key: "StaffOfHoma",
         name: "Staff of Homa",
@@ -1323,6 +1393,26 @@ module TeyvatDB
         weapon_material_type: :oni_mask
       ).freeze
 
+      THE_DOCKHANDS_ASSISTANT = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "TheDockhandsAssistant",
+        name: "Dockhand's Assistant, The",
+        rarity: 4,
+        weapon_type: :sword,
+        elite_material_type: :pocket_watch,
+        standard_material_type: :transoceanic,
+        weapon_material_type: :sacred_dewdrop
+      ).freeze
+
+      THE_FIRST_GREAT_MAGIC = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "TheFirstGreatMagic",
+        name: "First Great Magic, The",
+        rarity: 5,
+        weapon_type: :bow,
+        elite_material_type: :tainted_water,
+        standard_material_type: :transoceanic,
+        weapon_material_type: :ancient_chord
+      ).freeze
+
       THE_FLUTE = TeyvatDB::GenshinData::Weapon.new(
         kamera_key: "TheFlute",
         name: "Flute, The",
@@ -1391,6 +1481,26 @@ module TeyvatDB
         elite_material_type: :crystal_prism,
         standard_material_type: :arrowhead,
         weapon_material_type: :narukami
+      ).freeze
+
+      TIDAL_SHADOW = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "TidalShadow",
+        name: "Tidal Shadow",
+        rarity: 4,
+        weapon_type: :claymore,
+        elite_material_type: :core,
+        standard_material_type: :gear,
+        weapon_material_type: :pristine_sea
+      ).freeze
+
+      TOME_OF_THE_ETERNAL_FLOW = TeyvatDB::GenshinData::Weapon.new(
+        kamera_key: "TomeOfTheEternalFlow",
+        name: "Tome of the Eternal Flow",
+        rarity: 5,
+        weapon_type: :catalyst,
+        elite_material_type: :core,
+        standard_material_type: :gear,
+        weapon_material_type: :sacred_dewdrop
       ).freeze
 
       TOUKABOU_SHIGURE = TeyvatDB::GenshinData::Weapon.new(
