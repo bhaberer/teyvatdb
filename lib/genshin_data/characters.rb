@@ -21,11 +21,13 @@ module GenshinData
 
       def fontaine
         [
+          CharacterData::CHARLOTTE,
           CharacterData::FREMINET,
+          CharacterData::FURINA,
           CharacterData::LYNETTE,
           CharacterData::LYNEY,
-          CharacterData::NEUVILLETTE
-          # CharacterData::WRIOTHESLEY, not released quite yet
+          CharacterData::NEUVILLETTE,
+          CharacterData::WRIOTHESLEY,
         ].freeze
       end
 

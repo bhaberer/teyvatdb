@@ -300,6 +300,28 @@ module GenshinData::Materials::Development
       source_sub_category: :world_boss_drop,
       nation_name: :sumeru,
     ).freeze
+
+    TOURBILLON_DEVICE = GenshinObject::Material.new(
+      kamera_key: "TourbillonDevice",
+      name: "Tourbillon Device",
+      rarity: 4,
+      family: nil,
+      inventory_type: :development_material,
+      source_category: :boss_loot,
+      source_sub_category: :world_boss_drop,
+      nation_name: :fontaine,
+    ).freeze
+
+    WATER_THAT_FAILED_TO_TRANSCEND = GenshinObject::Material.new(
+      kamera_key: "WaterThatFailedToTranscend",
+      name: "Water That Failed To Transcend",
+      rarity: 4,
+      family: nil,
+      inventory_type: :development_material,
+      source_category: :boss_loot,
+      source_sub_category: :world_boss_drop,
+      nation_name: :fontaine,
+    ).freeze
   end
 end
 

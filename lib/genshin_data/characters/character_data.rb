@@ -152,6 +152,21 @@ module GenshinData::Characters
       ascension_enemy_material_name: :scarf
     ).freeze
 
+    CHARLOTTE = GenshinObject::Character.new(
+      kamera_key: "Charlotte",
+      name: "Charlotte",
+      nation_name: :fontaine,
+      rarity: 4,
+      element: :cryo,
+      weapon_type: :catalyst,
+      talent_book_name: :justice,
+      talent_rare_material_name: :gear,
+      talent_boss_material_name: "LightlessSilkString",
+      ascension_boss_material_name: "TourbillonDevice",
+      ascension_gathering_material_name: "BerylConch",
+      ascension_enemy_material_name: :gear
+    ).freeze
+
     CHONGYUN = GenshinObject::Character.new(
       kamera_key: "Chongyun",
       name: "Chongyun",
@@ -315,6 +330,21 @@ module GenshinData::Characters
       ascension_boss_material_name: "ArtificedSpareClockworkComponentCoppelius",
       ascension_gathering_material_name: "RomaritimeFlower",
       ascension_enemy_material_name: :transoceanic
+    ).freeze
+
+    FURINA = GenshinObject::Character.new(
+      kamera_key: "Furina",
+      name: "Furina",
+      nation_name: :fontaine,
+      rarity: 5,
+      element: :hydro,
+      weapon_type: :sword,
+      talent_book_name: :justice,
+      talent_rare_material_name: :nectar,
+      talent_boss_material_name: "LightlessMass",
+      ascension_boss_material_name: "WaterThatFailedToTranscend",
+      ascension_gathering_material_name: "Lakelight Lily",
+      ascension_enemy_material_name: :nectar
     ).freeze
 
     GANYU = GenshinObject::Character.new(
@@ -902,7 +932,20 @@ module GenshinData::Characters
       ascension_enemy_material_name: :handguard
     ).freeze
 
-    # WRIOTHESLEY = GenshinObject::Character.new().freeze
+    WRIOTHESLEY = GenshinObject::Character.new(
+      kamera_key: "Wriothesley",
+      name: "Wriothesley",
+      nation_name: :fontaine,
+      rarity: 5,
+      element: :cryo,
+      weapon_type: :catalyst,
+      talent_book_name: :order,
+      talent_rare_material_name: :gear,
+      talent_boss_material_name: "PrimordialGreenbloom",
+      ascension_boss_material_name: "TourbillonDevice",
+      ascension_gathering_material_name: "SubdetectionUnit",
+      ascension_enemy_material_name: :gear
+    ).freeze
 
     XIANGLING = GenshinObject::Character.new(
       kamera_key: "Xiangling",

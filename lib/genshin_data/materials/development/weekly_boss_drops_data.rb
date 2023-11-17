@@ -267,5 +267,38 @@ module GenshinData::Materials::Development
       source_sub_category: :realm_of_beginnings_drop,
       nation_name: :sumeru,
     ).freeze
+
+    LIGHTLESS_SILK_STRING = GenshinObject::Material.new(
+      kamera_key: "LightlessSilkString",
+      name: "Lightless Silk String",
+      rarity: 5,
+      family: nil,
+      inventory_type: :development_material,
+      source_category: :boss_loot,
+      source_sub_category: :all_devouring_narwhal_drop,
+      nation_name: :sumeru,
+    ).freeze
+
+    LIGHTLESS_EYE_OF_THE_MAELSTROM = GenshinObject::Material.new(
+      kamera_key: "LightlessEyeOfTheMaelstrom",
+      name: "Lightless Eye of the Maelstrom",
+      rarity: 5,
+      family: nil,
+      inventory_type: :development_material,
+      source_category: :boss_loot,
+      source_sub_category: :all_devouring_narwhal_drop,
+      nation_name: :sumeru,
+    ).freeze
+
+    LIGHTLESS_MASS = GenshinObject::Material.new(
+      kamera_key: "LightlessMass",
+      name: "Lightless Mass",
+      rarity: 5,
+      family: nil,
+      inventory_type: :development_material,
+      source_category: :boss_loot,
+      source_sub_category: :all_devouring_narwhal_drop,
+      nation_name: :sumeru,
+    ).freeze
   end
 end
