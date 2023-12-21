@@ -343,7 +343,7 @@ module GenshinData::Characters
       talent_rare_material_name: :nectar,
       talent_boss_material_name: "LightlessMass",
       ascension_boss_material_name: "WaterThatFailedToTranscend",
-      ascension_gathering_material_name: "Lakelight Lily",
+      ascension_gathering_material_name: "LakelightLily",
       ascension_enemy_material_name: :nectar
     ).freeze
 
@@ -660,6 +660,21 @@ module GenshinData::Characters
       ascension_boss_material_name: "QuelledCreeper",
       ascension_gathering_material_name: "KalpalataLotus",
       ascension_enemy_material_name: :pollen
+    ).freeze
+
+    NAVIA = GenshinObject::Character.new(
+      kamera_key: "Navia",
+      name: "Navia",
+      nation_name: :fontaine,
+      rarity: 5,
+      element: :geo,
+      weapon_type: :claymore,
+      talent_book_name: :equity,
+      talent_rare_material_name: :transoceanic,
+      talent_boss_material_name: "LightlessSilkString",
+      ascension_boss_material_name: "ArtificedSpareClockworkComponentCoppelius",
+      ascension_gathering_material_name: "SpringOfTheFirstDewdrop",
+      ascension_enemy_material_name: :transoceanic
     ).freeze
 
     NEUVILLETTE = GenshinObject::Character.new(

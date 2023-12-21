@@ -158,6 +158,17 @@ module GenshinData::Materials::Development
       nation_name: :fontaine,
     ).freeze
 
+    SPRING_OF_THE_FIRST_DEWDROP = GenshinObject::Material.new(
+      kamera_key: "SpringOfTheFirstDewdrop",
+      name: "Spring of the First Dewdrop",
+      rarity: 1,
+      family: nil,
+      inventory_type: :standard_material,
+      source_category: :gathering,
+      source_sub_category: :local_specialty,
+      nation_name: :fontaine,
+    ).freeze
+
     LUMIDOUCE_BELL = GenshinObject::Material.new(
       kamera_key: "LumidouceBell",
       name: "Lumidouce Bell",
