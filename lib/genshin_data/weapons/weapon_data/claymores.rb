@@ -296,6 +296,26 @@ module GenshinData::Weapons::WeaponData
       weapon_material_type: :pristine_sea
     ).freeze
 
+    ULTIMATE_OVERLORDS_MEGA_MAGIC_SWORD = GenshinObject::Weapon.new(
+      kamera_key: "UltimateOverlordsMegaMagicSword",
+      name: "\"Ultimate Overlord's Mega Magic Sword\"",
+      rarity: 5,
+      weapon_type: :claymore,
+      elite_material_type: :pocket_watch,
+      standard_material_type: :gear,
+      weapon_material_type: :pristine_sea
+    ).freeze
+
+    VERDICT = GenshinObject::Weapon.new(
+      kamera_key: "Verdict",
+      name: "Verdict",
+      rarity: 5,
+      weapon_type: :claymore,
+      elite_material_type: :core,
+      standard_material_type: :gear,
+      weapon_material_type: :ancient_chord
+    ).freeze
+
     WASTER_GREATSWORD = GenshinObject::Weapon.new(
       kamera_key: "WasterGreatsword",
       name: "Waster Greatsword",
