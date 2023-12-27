@@ -26,6 +26,7 @@ module GenshinData
           CharacterData::FURINA,
           CharacterData::LYNETTE,
           CharacterData::LYNEY,
+          CharacterData::NAVIA,
           CharacterData::NEUVILLETTE,
           CharacterData::WRIOTHESLEY,
         ].freeze
