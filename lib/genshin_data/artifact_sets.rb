@@ -55,7 +55,7 @@ module GenshinData
           ArtifactData::TRAVELING_DOCTOR,
           ArtifactData::VERMILLION_HEREAFTER,
           ArtifactData::VIRIDESCENT_VENERER,
-          ArtifactData::VOURUKASHAS_GLOW
+          ArtifactData::VOURUKASHAS_GLOW,
           ArtifactData::WANDERERS_TROUPE,
         ]
       end
