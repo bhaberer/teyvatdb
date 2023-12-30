@@ -68,6 +68,12 @@ module GenshinData::ArtifactSets
       max_rarity: 5
     ).freeze
 
+    GOLDEN_TROUPE = GenshinObject::ArtifactSet.new(
+      kamera_key: "GoldenTroupe",
+      name: "Golden Troupe",
+      max_rarity: 5
+    ).freeze
+
     HEART_OF_DEPTH = GenshinObject::ArtifactSet.new(
       kamera_key: "HeartOfDepth",
       name: "Heart of Depth",
@@ -92,9 +98,27 @@ module GenshinData::ArtifactSets
       max_rarity: 5
     ).freeze
 
+    MARECHAUSSEE_HUNTER = GenshinObject::ArtifactSet.new(
+      kamera_key: "MarechausseeHunter",
+      name: "Marechaussee Hunter",
+      max_rarity: 5
+    ).freeze
+
+    NIGHTTIME_WHISPERS_IN_THE_ECHOING_WOODS = GenshinObject::ArtifactSet.new(
+      kamera_key: "NightimeWhispersInTheEchoingWoods",
+      name: "Nightime Whispers in the Echoing Woods",
+      max_rarity: 5
+    ).freeze
+
     NOBLESSE_OBLIGE = GenshinObject::ArtifactSet.new(
       kamera_key: "NoblesseOblige",
       name: "Noblesse Oblige",
+      max_rarity: 5
+    ).freeze
+
+    NYMPHS_DREAM = GenshinObject::ArtifactSet.new(
+      kamera_key: "NymphsDream",
+      name: "Nymph's Dream",
       max_rarity: 5
     ).freeze
 
@@ -119,6 +143,12 @@ module GenshinData::ArtifactSets
     SHIMENAWAS_REMINISCENCE = GenshinObject::ArtifactSet.new(
       kamera_key: "ShimenawasReminiscence",
       name: "Shimenawa's Reminiscence",
+      max_rarity: 5
+    ).freeze
+
+    SONG_OF_DAYS_PAST = GenshinObject::ArtifactSet.new(
+      kamera_key: "SongOfDaysPast",
+      name: "Song of Days Past",
       max_rarity: 5
     ).freeze
 
@@ -149,6 +179,12 @@ module GenshinData::ArtifactSets
     VIRIDESCENT_VENERER = GenshinObject::ArtifactSet.new(
       kamera_key: "ViridescentVenerer",
       name: "Viridescent Venerer",
+      max_rarity: 5
+    ).freeze
+
+    VOURUKASHAS_GLOW = GenshinObject::ArtifactSet.new(
+      kamera_key: "VourukashasGlow",
+      name: "Vourukasha's Glow",
       max_rarity: 5
     ).freeze
 
