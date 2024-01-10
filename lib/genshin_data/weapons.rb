@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 module GenshinData
+  # Module for accessing weapon data
   module Weapons
     require_relative "weapons/weapon_data"
 
@@ -11,7 +12,7 @@ module GenshinData
           catalysts,
           claymores,
           polearms,
-          swords,
+          swords
         ].flatten.sort { |x, y| x.kamera_key <=> y.kamera_key }
       end
 

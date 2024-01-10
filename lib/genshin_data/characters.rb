@@ -3,7 +3,7 @@
 module GenshinData
   # Manager for all characters and attributes
   module Characters
-    require_relative "./characters/character_data"
+    require_relative "characters/character_data"
 
     class << self
       def all
@@ -22,13 +22,14 @@ module GenshinData
       def fontaine
         [
           CharacterData::CHARLOTTE,
+          CharacterData::CHEVREUSE,
           CharacterData::FREMINET,
           CharacterData::FURINA,
           CharacterData::LYNETTE,
           CharacterData::LYNEY,
           CharacterData::NAVIA,
           CharacterData::NEUVILLETTE,
-          CharacterData::WRIOTHESLEY,
+          CharacterData::WRIOTHESLEY
         ].freeze
       end
 
@@ -47,6 +48,7 @@ module GenshinData
           CharacterData::SAYU,
           CharacterData::SHIKANOIN_HEIZOU,
           CharacterData::THOMA,
+          CharacterData::WANDERER,
           CharacterData::YAE_MIKO,
           CharacterData::YOIMIYA
         ]

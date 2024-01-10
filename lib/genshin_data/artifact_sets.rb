@@ -3,7 +3,7 @@
 module GenshinData
   # Manager for all artifact sets and attributes
   module ArtifactSets
-    require_relative "./artifact_sets/artifact_data"
+    require_relative "artifact_sets/artifact_data"
 
     class << self
       def all
@@ -56,7 +56,7 @@ module GenshinData
           ArtifactData::VERMILLION_HEREAFTER,
           ArtifactData::VIRIDESCENT_VENERER,
           ArtifactData::VOURUKASHAS_GLOW,
-          ArtifactData::WANDERERS_TROUPE,
+          ArtifactData::WANDERERS_TROUPE
         ]
       end
     end

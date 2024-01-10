@@ -2,9 +2,9 @@
 
 require "json"
 
-require_relative "./teyvatdb/version"
-require_relative "./genshin_object"
-require_relative "./genshin_data"
+require_relative "teyvatdb/version"
+require_relative "genshin_object"
+require_relative "genshin_data"
 
 # Common helpers
 module TeyvatDB

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    teyvatdb (0.1.12)
+    teyvatdb (0.2.0)
 
 GEM
   remote: https://rubygems.org/
@@ -36,6 +36,8 @@ GEM
       rspec-core (~> 3.12.0)
       rspec-expectations (~> 3.12.0)
       rspec-mocks (~> 3.12.0)
+    rspec-collection_matchers (1.2.1)
+      rspec-expectations (>= 2.99.0.beta1)
     rspec-core (3.12.2)
       rspec-support (~> 3.12.0)
     rspec-expectations (3.12.3)
@@ -92,10 +94,12 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-darwin-22
 
 DEPENDENCIES
   rake (~> 13.0)
   rspec (~> 3.0)
+  rspec-collection_matchers
   rubocop (~> 1.21)
   rubocop-rake
   rubocop-rspec
