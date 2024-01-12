@@ -3,6 +3,7 @@
 # Module that handles higher constants and base classes and behavior
 module GenshinObject
   require_relative "genshin_object/artifact_set"
+  require_relative "genshin_object/boss"
   require_relative "genshin_object/character"
   require_relative "genshin_object/material"
   require_relative "genshin_object/material_family"
@@ -10,4 +11,6 @@ module GenshinObject
   require_relative "genshin_object/schedule"
   require_relative "genshin_object/talent_book"
   require_relative "genshin_object/weapon"
+  require_relative "genshin_object/weekly_boss"
+  require_relative "genshin_object/world_boss"
 end

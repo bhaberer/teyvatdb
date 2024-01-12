@@ -52,16 +52,6 @@ RSpec.describe GenshinData::Weapons do
   end
 
   describe "Weapons Definitions" do
-    # AMOS_BOW = GenshinObject::Weapon.new(
-    #   kamera_key: "AmosBow",
-    #   name: "Amos' Bow",
-    #   rarity: 5,
-    #   weapon_type: :bow,
-    #   elite_material_type: :chaos_core,
-    #   standard_material_type: :slime,
-    #   weapon_material_type: :chains
-    # ).freeze
-
     described_class.all.map do |weapon|
       context "when defining #{weapon.name}" do
         it "has a valid kamera_key" do
