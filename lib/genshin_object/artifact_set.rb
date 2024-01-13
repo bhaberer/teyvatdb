@@ -3,7 +3,7 @@
 module GenshinObject
   # Base class to represent various Genshin Artifact Sets
   class ArtifactSet
-    attr_accessor :kamera_key, :name, :max_rarity, :slots
+    attr_accessor :kamera_key, :name, :max_rarity, :slots, :bonuses
 
     ALL_SLOTS = %i[flower plume sands goblet circlet].freeze
 
