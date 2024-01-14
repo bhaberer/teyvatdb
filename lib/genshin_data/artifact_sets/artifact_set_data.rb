@@ -4,7 +4,7 @@
 
 module GenshinData
   module ArtifactSets
-    module ArtifactData
+    module ArtifactSetData
       ARCHAIC_PETRA = GenshinObject::ArtifactSet.new(
         kamera_key: "ArchaicPetra",
         name: "Archaic Petra",
