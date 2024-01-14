@@ -44,7 +44,7 @@ module GenshinData
         )
       )
       ELIXIR = GenshinObject::WeaponMaterialFamily.new(
-        family: :wolf_tooth,
+        family: :elixir,
         name: "Mist Veiled Elixirs",
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
