@@ -2,12 +2,12 @@
 
 module GenshinData
   # Data representation for Talent Books
-  module TalentBooks
-    require_relative "talent_books/talent_book_data"
+  module WeaponMaterials
+    require_relative "weapon_materials/weapon_material_data"
 
     class << self
       def all
-        GenshinData::TalentBooks::TalentBookData.all
+        GenshinData::WeaponMaterials::WeaponMaterialData.all
       end
     end
   end

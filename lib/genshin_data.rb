@@ -12,6 +12,7 @@ module GenshinData
 
   require_relative "genshin_data/materials"
   require_relative "genshin_data/talent_books"
+  require_relative "genshin_data/weapon_materials"
 
   require_relative "genshin_data/weekly_bosses"
   require_relative "genshin_data/world_bosses"

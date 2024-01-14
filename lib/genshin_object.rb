@@ -12,6 +12,7 @@ module GenshinObject
   require_relative "genshin_object/schedule"
   require_relative "genshin_object/talent_book"
   require_relative "genshin_object/weapon"
+  require_relative "genshin_object/weapon_material_family"
   require_relative "genshin_object/weekly_boss"
   require_relative "genshin_object/world_boss"
 end
