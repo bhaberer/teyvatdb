@@ -5,9 +5,9 @@ module GenshinObject
   class ArtifactSet
     attr_accessor :kamera_key, :name, :max_rarity, :slots, :bonuses
 
-    ALL_SLOTS = %i[flower plume sands goblet circlet].freeze
+    SLOTS = %i[flower plume sands goblet circlet].freeze
 
-    def initialize(kamera_key:, name:, max_rarity:, bonuses:, slots: ALL_SLOTS)
+    def initialize(kamera_key:, name:, max_rarity:, bonuses:, slots: SLOTS)
       @kamera_key = kamera_key
       @name = name
       @max_rarity = max_rarity
