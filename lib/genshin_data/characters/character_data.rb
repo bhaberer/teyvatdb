@@ -363,6 +363,21 @@ module GenshinData
         ascension_enemy_material_name: :nectar
       ).freeze
 
+      GAMING = GenshinObject::Character.new(
+        kamera_key: "Gaming",
+        name: "Gaming",
+        nation_name: :liyue,
+        rarity: 4,
+        element: :pyro,
+        weapon_type: :claymore,
+        talent_book_name: :prosperity,
+        talent_rare_material_name: :slime,
+        talent_boss_material_name: "LightlessMass",
+        ascension_boss_material_name: "EmperorsResolution",
+        ascension_gathering_material_name: "Starconch",
+        ascension_enemy_material_name: :slime
+      ).freeze
+
       GANYU = GenshinObject::Character.new(
         kamera_key: "Ganyu",
         name: "Ganyu",
@@ -991,6 +1006,21 @@ module GenshinData
         ascension_boss_material_name: "EverflameSeed",
         ascension_gathering_material_name: "JueyunChili",
         ascension_enemy_material_name: :slime
+      ).freeze
+
+      XIANYUN = GenshinObject::Character.new(
+        kamera_key: "Xianyun",
+        name: "Xianyun",
+        nation_name: :liyue,
+        rarity: 5,
+        element: :anemo,
+        weapon_type: :catalyst,
+        talent_book_name: :gold,
+        talent_rare_material_name: :scroll,
+        talent_boss_material_name: "LightlessEyeOfTheMaelstrom",
+        ascension_boss_material_name: "CloudseamScale",
+        ascension_gathering_material_name: "ClearwaterJade",
+        ascension_enemy_material_name: :scroll
       ).freeze
 
       XIAO = GenshinObject::Character.new(

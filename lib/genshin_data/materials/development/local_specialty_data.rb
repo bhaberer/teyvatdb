@@ -53,6 +53,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        CLEARWATER_JADE = GenshinObject::Material.new(
+          kamera_key: "ClearwaterJade",
+          name: "ClearwaterJade",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :liyue
+        ).freeze
+
         COR_LAPIS = GenshinObject::Material.new(
           kamera_key: "CorLapis",
           name: "Cor Lapis",

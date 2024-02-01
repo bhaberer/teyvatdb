@@ -163,6 +163,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        CHASMLIGHT_FIN = GenshinObject::Material.new(
+          kamera_key: "ChasmlightFin",
+          name: "Chasmlight Fin",
+          rarity: 4,
+          family: :beast_fin,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         CONCEALED_CLAW = GenshinObject::Material.new(
           kamera_key: "ConcealedClaw",
           name: "Concealed Claw",
@@ -306,6 +317,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        FEATHERY_FIN = GenshinObject::Material.new(
+          kamera_key: "FeatheryFin",
+          name: "Feathery Fin",
+          rarity: 2,
+          family: :beast_fin,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         FOREIGN_SYNAPSE = GenshinObject::Material.new(
           kamera_key: "ForeignSynapse",
           name: "Foreign Synapse",
@@ -399,6 +421,17 @@ module GenshinData
           name: "Ley Line Sprout",
           rarity: 4,
           family: :ley_line,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        LUNAR_FIN = GenshinObject::Material.new(
+          kamera_key: "LunarFin",
+          name: "Lunar Fin",
+          rarity: 3,
+          family: :beast_fin,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

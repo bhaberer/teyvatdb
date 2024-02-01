@@ -53,6 +53,17 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        CLOUDSEAM_SCALE = GenshinObject::Material.new(
+          kamera_key: "CloudseamScale",
+          name: "Cloudseam Scale",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :liyue
+        ).freeze
+
         CRYSTALLINE_BLOOM = GenshinObject::Material.new(
           kamera_key: "CrystallineBloom",
           name: "Crystalline Bloom",

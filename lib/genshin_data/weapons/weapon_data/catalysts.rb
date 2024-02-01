@@ -49,6 +49,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        CRANES_ECHOING_CALL = GenshinObject::Weapon.new(
+          kamera_key: "CranesEchoingCall",
+          name: "Crane's Echoing Call",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :beast_fin,
+          standard_material_type: :scroll,
+          weapon_material_type: :elixir
+        ).freeze
+
         DODOCO_TALES = GenshinObject::Weapon.new(
           kamera_key: "DodocoTales",
           name: "Dodoco Tales",

@@ -176,6 +176,12 @@ module GenshinData
         boss_material: "PseudoStamens"
       )
 
+      SOLITARY_SUANNI = GenshinObject::WorldBoss.new(
+        name: "Solitary Suanni",
+        nation_name: :liyue,
+        boss_material: "CloudseamScale"
+      )
+
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(
         name: "Thunder Manifestation",
         nation_name: :inazuma,
