@@ -23,6 +23,7 @@ module GenshinData
         [
           CharacterData::CHARLOTTE,
           CharacterData::CHEVREUSE,
+          CharacterData::CHIORI,
           CharacterData::FREMINET,
           CharacterData::FURINA,
           CharacterData::LYNETTE,

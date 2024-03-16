@@ -379,6 +379,16 @@ module GenshinData
           weapon_material_type: :chains
         ).freeze
 
+        URAKU_MISUGIRI = GenshinObject::Weapon.new(
+          kamera_key: "UrakuMisugiri",
+          name: "Uraku Misugiri",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :chaos_oculus,
+          standard_material_type: :handguard,
+          weapon_material_type: :coral
+        ).freeze
+
         WOLF_FANG = GenshinObject::Weapon.new(
           kamera_key: "WolfFang",
           name: "Wolf-Fang",

@@ -183,6 +183,21 @@ module GenshinData
         ascension_enemy_material_name: :gear
       ).freeze
 
+      CHIORI = GenshinObject::Character.new(
+        kamera_key: "Chiori",
+        name: "Chiori",
+        nation_name: :fontaine,
+        rarity: 5,
+        element: :geo,
+        weapon_type: :sword,
+        talent_book_name: :light,
+        talent_rare_material_name: :spectral,
+        talent_boss_material_name: "LightlessSilkString",
+        ascension_boss_material_name: "ArtificedSpareClockworkComponentCoppelia",
+        ascension_gathering_material_name: "Dendrobium",
+        ascension_enemy_material_name: :spectral
+      ).freeze
+
       CHONGYUN = GenshinObject::Character.new(
         kamera_key: "Chongyun",
         name: "Chongyun",
