@@ -1,8 +1,8 @@
 # TeyvatDB
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/teyvatdb`. To experiment with that code, run `bin/console` for an interactive prompt.
+This Gem is a convenance tool for other Genshin projects I have that make use of Genshin data.
 
-TODO: Delete this and the text above, and describe your gem
+As of v4.5 of the gem, the gem's version will coincide with content present in the given version of Genshin.
 
 ## Installation
 
