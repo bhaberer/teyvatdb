@@ -79,6 +79,16 @@ module GenshinData
           weapon_material_type: :wolf_tooth
         ).freeze
 
+        DIALOGUES_OF_THE_DESERT_SAGES = GenshinObject::Weapon.new(
+          kamera_key: "DialoguesOfTheDesertSages",
+          name: "Dialogues of the Desert Sages",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :beast_fin,
+          standard_material_type: :spectral,
+          weapon_material_type: :forest_dew
+        ).freeze
+
         DRAGONS_BANE = GenshinObject::Weapon.new(
           kamera_key: "DragonsBane",
           name: "Dragon's Bane",

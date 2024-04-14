@@ -49,6 +49,16 @@ module GenshinData
           source_sub_category: :refine_material
         ).freeze
 
+        EXALTED_EARTH = GenshinObject::Material.new(
+          kamera_key: "ExaltedEarth",
+          name: "Exalted Earth",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :weapon_material,
+          source_sub_category: :refine_material
+        ).freeze
+
         FESTERING_DRAGON_MARROW = GenshinObject::Material.new(
           kamera_key: "FesteringDragonMarrow",
           name: "Festering Dragon Marrow",
