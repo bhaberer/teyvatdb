@@ -119,6 +119,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        CHENYU_ADEPTEA = GenshinObject::Material.new(
+          kamera_key: "ChenyuAdeptea",
+          name: "Chenyu Adeptea",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :cooking,
+          source_sub_category: :cooking
+        ).freeze
+
         CHILLED_MEAT = GenshinObject::Material.new(
           kamera_key: "ChilledMeat",
           name: "Chilled Meat",

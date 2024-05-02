@@ -88,7 +88,7 @@ module GenshinData
         talent_book_name: :order,
         talent_rare_material_name: :fatui_insignia,
         talent_boss_material_name: "FadingCandle",
-        ascension_boss_material_name: "FragmentOfAGoldenMemory",
+        ascension_boss_material_name: "FragmentOfAGoldenMelody",
         ascension_gathering_material_name: "RainbowRose",
         ascension_enemy_material_name: :fatui_insignia
       ).freeze

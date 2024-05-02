@@ -185,7 +185,7 @@ module GenshinData
       STATUE_OF_MARBLE_AND_BRASS = GenshinObject::WorldBoss.new(
         name: "Statue of Marble and Brass",
         nation_name: :fontaine,
-        boss_material: "FragmentOfAGoldenMemory"
+        boss_material: "FragmentOfAGoldenMelody"
       )
 
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(

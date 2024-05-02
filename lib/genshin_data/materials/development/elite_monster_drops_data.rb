@@ -571,7 +571,7 @@ module GenshinData
         ).freeze
 
         RUINED_HILT = GenshinObject::Material.new(
-          kamera_key: "Ruined Hilt",
+          kamera_key: "RuinedHilt",
           name: "Ruined Hilt",
           rarity: 2,
           family: :stone_hilt,
@@ -593,7 +593,7 @@ module GenshinData
         ).freeze
 
         SPLINTERED_HILT = GenshinObject::Material.new(
-          kamera_key: "Splintered Hilt",
+          kamera_key: "SplinteredHilt",
           name: "Splintered Hilt",
           rarity: 3,
           family: :stone_hilt,
@@ -604,7 +604,7 @@ module GenshinData
         ).freeze
 
         STILL_SMOLDERING_HILT = GenshinObject::Material.new(
-          kamera_key: "Still-Smoldering Hilt",
+          kamera_key: "StillSmolderingHilt",
           name: "Still-Smoldering Hilt",
           rarity: 4,
           family: :stone_hilt,

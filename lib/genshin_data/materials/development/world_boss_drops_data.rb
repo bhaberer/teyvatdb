@@ -130,9 +130,9 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
-        FRAGMENT_OF_A_GOLDEN_MEMORY = GenshinObject::Material.new(
-          kamera_key: "FragmentOfAGoldenMemory",
-          name: "Fragment of a Golden Memory",
+        FRAGMENT_OF_A_GOLDEN_MELODY = GenshinObject::Material.new(
+          kamera_key: "FragmentOfAGoldenMelody",
+          name: "Fragment of a Golden Melody",
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
