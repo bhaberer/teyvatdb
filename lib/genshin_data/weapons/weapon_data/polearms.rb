@@ -69,6 +69,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        CRIMSON_MOONS_SEMBLANCE = GenshinObject::Weapon.new(
+          kamera_key: "CrimsonMoonsSemblance",
+          name: "Crimson Moon's Semblance",
+          rarity: 5,
+          weapon_type: :polearm,
+          elite_material_type: :stone_hilt,
+          standard_material_type: :gear,
+          weapon_material_type: :pristine_sea
+        ).freeze
+
         DEATHMATCH = GenshinObject::Weapon.new(
           kamera_key: "Deathmatch",
           name: "Deathmatch",

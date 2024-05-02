@@ -281,7 +281,7 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :boss_loot,
           source_sub_category: :all_devouring_narwhal_drop,
-          nation_name: :sumeru
+          nation_name: :fontaine
         ).freeze
 
         LIGHTLESS_EYE_OF_THE_MAELSTROM = GenshinObject::Material.new(
@@ -292,7 +292,7 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :boss_loot,
           source_sub_category: :all_devouring_narwhal_drop,
-          nation_name: :sumeru
+          nation_name: :fontaine
         ).freeze
 
         LIGHTLESS_MASS = GenshinObject::Material.new(
@@ -303,7 +303,40 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :boss_loot,
           source_sub_category: :all_devouring_narwhal_drop,
-          nation_name: :sumeru
+          nation_name: :fontaine
+        ).freeze
+
+        DENIAL_AND_JUDGEMENT = GenshinObject::Material.new(
+          kamera_key: "DenialAndJudgment",
+          name: "Denial and Judgment",
+          rarity: 5,
+          family: :the_knave_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_knave_drop,
+          nation_name: :fontaine
+        ).freeze
+
+        FADING_CANDLE = GenshinObject::Material.new(
+          kamera_key: "FadingCandle",
+          name: "Fading Candle",
+          rarity: 5,
+          family: :the_knave_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_knave_drop,
+          nation_name: :fontaine
+        ).freeze
+
+        SILKEN_FEATHER = GenshinObject::Material.new(
+          kamera_key: "SilkenFeather",
+          name: "Silken Feather",
+          rarity: 5,
+          family: :the_knave_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_knave_drop,
+          nation_name: :fontaine
         ).freeze
       end
     end

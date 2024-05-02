@@ -570,11 +570,44 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        RUINED_HILT = GenshinObject::Material.new(
+          kamera_key: "Ruined Hilt",
+          name: "Ruined Hilt",
+          rarity: 2,
+          family: :stone_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         SCOOP_OF_TAINTED_WATER = GenshinObject::Material.new(
           kamera_key: "ScoopOfTaintedWater",
           name: "Scoop of Tainted Water",
           rarity: 3,
           family: :tainted_water,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        SPLINTERED_HILT = GenshinObject::Material.new(
+          kamera_key: "Splintered Hilt",
+          name: "Splintered Hilt",
+          rarity: 3,
+          family: :stone_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        STILL_SMOLDERING_HILT = GenshinObject::Material.new(
+          kamera_key: "Still-Smoldering Hilt",
+          name: "Still-Smoldering Hilt",
+          rarity: 4,
+          family: :stone_hilt,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

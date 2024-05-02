@@ -78,6 +78,21 @@ module GenshinData
         ascension_enemy_material_name: :slime
       ).freeze
 
+      ARLECCHINO = GenshinObject::Character.new(
+        kamera_key: "Arlecchino",
+        name: "Arlecchino",
+        nation_name: :fontaine,
+        rarity: 5,
+        element: :pyro,
+        weapon_type: :polearm,
+        talent_book_name: :order,
+        talent_rare_material_name: :fatui_insignia,
+        talent_boss_material_name: "FadingCandle",
+        ascension_boss_material_name: "FragmentOfAGoldenMemory",
+        ascension_gathering_material_name: "RainbowRose",
+        ascension_enemy_material_name: :fatui_insignia
+      ).freeze
+
       BAIZHU = GenshinObject::Character.new(
         kamera_key: "Baizhu",
         name: "Baizhu",

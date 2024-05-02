@@ -21,6 +21,7 @@ module GenshinData
 
       def fontaine
         [
+          CharacterData::ARLECCHINO,
           CharacterData::CHARLOTTE,
           CharacterData::CHEVREUSE,
           CharacterData::CHIORI,

@@ -130,6 +130,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        FRAGMENT_OF_A_GOLDEN_MEMORY = GenshinObject::Material.new(
+          kamera_key: "FragmentOfAGoldenMemory",
+          name: "Fragment of a Golden Memory",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :fontaine
+        ).freeze
+
         FONTEMER_UNIHORN = GenshinObject::Material.new(
           kamera_key: "FontemerUnihorn",
           name: "Fontemer Unihorn",

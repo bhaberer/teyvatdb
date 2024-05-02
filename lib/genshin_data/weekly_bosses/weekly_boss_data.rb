@@ -19,7 +19,7 @@ module GenshinData
         name: "Lupus Boreas, Dominator of Wolves",
         domain_name: "Wolvendom Arena",
         nation_name: :mondstadt,
-        material_family: :stormterror_loot
+        material_family: :wolf_lord_loot
       )
 
       CHILD = GenshinObject::WeeklyBoss.new(
@@ -69,6 +69,13 @@ module GenshinData
         domain_name: "Shadow of Another World",
         nation_name: :fontaine,
         material_family: :all_devouring_narwhal_loot
+      )
+
+      THE_KNAVE = GenshinObject::WeeklyBoss.new(
+        name: "The Knave",
+        domain_name: "Scattered Ruins",
+        nation_name: :fontaine,
+        material_family: :the_knave_loot
       )
     end
   end

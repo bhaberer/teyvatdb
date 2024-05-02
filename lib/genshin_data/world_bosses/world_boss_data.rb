@@ -182,6 +182,12 @@ module GenshinData
         boss_material: "CloudseamScale"
       )
 
+      STATUE_OF_MARBLE_AND_BRASS = GenshinObject::WorldBoss.new(
+        name: "Statue of Marble and Brass",
+        nation_name: :fontaine,
+        boss_material: "FragmentOfAGoldenMemory"
+      )
+
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(
         name: "Thunder Manifestation",
         nation_name: :inazuma,

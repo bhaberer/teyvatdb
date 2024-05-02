@@ -28,5 +28,18 @@ RSpec.describe GenshinData::WeeklyBosses do
         end
       end
     end
+
+    it "defines the corret number of bosses" do
+      defined_boss_loot = GenshinData::Materials::Development::WeeklyBossDropsData.all.count / 3
+      expect(described_class.all.count)
+        .to eq(defined_boss_loot),
+            "Expected #{described_class} to define #{defined_boss_loot} bosses not #{described_class.all.count}."
+    end
+
+    it "defines bosses for every family of loot" do
+      GenshinData::Materials::Development::WeeklyBossDropsData.all.map(&:family).uniq.each do |family|
+        expect(described_class.all.map(&:material_family)).to include(family)
+      end
+    end
   end
 end
