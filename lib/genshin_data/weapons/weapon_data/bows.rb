@@ -49,6 +49,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        CLOUDFORGED = GenshinObject::Weapon.new(
+          kamera_key: "Cloudforged",
+          name: "Cloudforged",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :stone_hilt,
+          standard_material_type: :fatui_insignia,
+          weapon_material_type: :aerosiderite
+        ).freeze
+
         COMPOUND_BOW = GenshinObject::Weapon.new(
           kamera_key: "CompoundBow",
           name: "Compound Bow",
@@ -298,6 +308,16 @@ module GenshinData
           standard_material_type: :arrowhead,
           weapon_material_type: :wolf_tooth
         ).freeze
+
+        # SILVERSHOWER_HEARTSTRINGS = GenshinObject::Weapon.new(
+        #   kamera_key: "SilvershowerHeartstrings",
+        #   name: "Silvershower Heartstrings",
+        #   rarity: 5,
+        #   weapon_type: :bow,
+        #   elite_material_type: :,
+        #   standard_material_type: :,
+        #   weapon_material_type: :
+        # ).freeze
 
         SLINGSHOT = GenshinObject::Weapon.new(
           kamera_key: "Slingshot",

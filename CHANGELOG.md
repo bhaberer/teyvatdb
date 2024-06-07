@@ -1,3 +1,31 @@
+## [0.4.7] - 2024-06-07
+  - Add v4.7 data
+    - New Event Weapon, "Cloudforged"
+    - Add v4.7 Phase 1 characters:
+      - Clorinde
+      - Sethos
+    - Add v4.7 Phase 1 Character weapon
+      - Absolution
+    - Add v4.7 Phase 2 WIP items
+      - Characters
+        - Sigewinne
+      - Weapons
+        - Silvershower Heartstrings
+
+## [0.4.6.1] - 2024-05-02
+  - Fixes various typos from v0.4.6 boss and enemy loot
+  - Add missing materials entry for "Chenyu Adeptea"
+
+## [0.4.6] - 2024-05-02
+  - Add new v4.6 data
+    - Add character
+      - Arlecchino
+    - Add weapon
+      - Crimson Moon's Semblance
+    - Added 'The Knave' weekly boss & loot
+    - Added 'Stone Hilt' Development Material Family
+    - Added 'Statue of Marble and Brass' world boss & loot
+
 ## [0.4.5.1] - 2024-04-14
 - Add v4.5 event Weapon
   - Add polearm, Dialogues of the Desert Sages

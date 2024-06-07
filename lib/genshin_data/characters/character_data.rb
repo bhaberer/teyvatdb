@@ -228,6 +228,21 @@ module GenshinData
         ascension_enemy_material_name: :hilichurl_mask
       ).freeze
 
+      CLORINDE = GenshinObject::Character.new(
+        kamera_key: "Clorinde",
+        name: "Clorinde",
+        nation_name: :fontaine,
+        rarity: 5,
+        element: :electro,
+        weapon_type: :sword,
+        talent_book_name: :justice,
+        talent_rare_material_name: :transoceanic,
+        talent_boss_material_name: "Everamber",
+        ascension_boss_material_name: "FontemerUnihorn",
+        ascension_gathering_material_name: "Lumitoile",
+        ascension_enemy_material_name: :transoceanic
+      ).freeze
+
       COLLEI = GenshinObject::Character.new(
         kamera_key: "Collei",
         name: "Collei",
@@ -888,6 +903,21 @@ module GenshinData
         ascension_enemy_material_name: :nectar
       ).freeze
 
+      SETHOS = GenshinObject::Character.new(
+        kamera_key: "Sethos",
+        name: "Sethos",
+        nation_name: :sumeru,
+        rarity: 4,
+        element: :electro,
+        weapon_type: :bow,
+        talent_book_name: :praxis,
+        talent_rare_material_name: :scarf,
+        talent_boss_material_name: "DakasBell",
+        ascension_boss_material_name: "CloudseamScale",
+        ascension_gathering_material_name: "Trishiraite",
+        ascension_enemy_material_name: :scarf
+      ).freeze
+
       SHENHE = GenshinObject::Character.new(
         kamera_key: "Shenhe",
         name: "Shenhe",
@@ -917,6 +947,21 @@ module GenshinData
         ascension_gathering_material_name: "Onikabuto",
         ascension_enemy_material_name: :hoarder_insignia
       ).freeze
+
+      # SIGEWINNE = GenshinObject::Character.new(
+      #   kamera_key: "Sigewinne",
+      #   name: "Sigewinne",
+      #   nation_name: :fontaine,
+      #   rarity: 5,
+      #   element: :hydro,
+      #   weapon_type: :bow,
+      #   talent_book_name: :,
+      #   talent_rare_material_name: :,
+      #   talent_boss_material_name: "",
+      #   ascension_boss_material_name: "",
+      #   ascension_gathering_material_name: "",
+      #   ascension_enemy_material_name: :
+      # ).freeze
 
       SUCROSE = GenshinObject::Character.new(
         kamera_key: "Sucrose",

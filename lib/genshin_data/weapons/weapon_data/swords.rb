@@ -9,6 +9,16 @@ module GenshinData
           constants.map { |x| GenshinData::Weapons::WeaponData::Swords.const_get(x) }
         end
 
+        ABSOLUTION = GenshinObject::Weapon.new(
+          kamera_key: "Absolution",
+          name: "Absolution",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :pocket_watch,
+          standard_material_type: :gear,
+          weapon_material_type: :ancient_chord
+        ).freeze
+
         THE_ALLEY_FLASH = GenshinObject::Weapon.new(
           kamera_key: "TheAlleyFlash",
           name: "Alley Flash, The",

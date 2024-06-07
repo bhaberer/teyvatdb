@@ -24,6 +24,7 @@ module GenshinData
           CharacterData::ARLECCHINO,
           CharacterData::CHARLOTTE,
           CharacterData::CHEVREUSE,
+          CharacterData::CLORINDE,
           CharacterData::CHIORI,
           CharacterData::FREMINET,
           CharacterData::FURINA,
@@ -128,6 +129,7 @@ module GenshinData
           CharacterData::KAVEH,
           CharacterData::NAHIDA,
           CharacterData::NILOU,
+          CharacterData::SETHOS,
           CharacterData::TIGHNARI
         ]
       end
