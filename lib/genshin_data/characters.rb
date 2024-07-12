@@ -32,6 +32,7 @@ module GenshinData
           CharacterData::LYNEY,
           CharacterData::NAVIA,
           CharacterData::NEUVILLETTE,
+          CharacterData::SIGEWINNE,
           CharacterData::WRIOTHESLEY
         ].freeze
       end

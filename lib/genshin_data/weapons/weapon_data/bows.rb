@@ -309,15 +309,15 @@ module GenshinData
           weapon_material_type: :wolf_tooth
         ).freeze
 
-        # SILVERSHOWER_HEARTSTRINGS = GenshinObject::Weapon.new(
-        #   kamera_key: "SilvershowerHeartstrings",
-        #   name: "Silvershower Heartstrings",
-        #   rarity: 5,
-        #   weapon_type: :bow,
-        #   elite_material_type: :,
-        #   standard_material_type: :,
-        #   weapon_material_type: :
-        # ).freeze
+        SILVERSHOWER_HEARTSTRINGS = GenshinObject::Weapon.new(
+          kamera_key: "SilvershowerHeartstrings",
+          name: "Silvershower Heartstrings",
+          rarity: 5,
+          weapon_type: :bow,
+          elite_material_type: :beast_fin,
+          standard_material_type: :transoceanic,
+          weapon_material_type: :sacred_dewdrop
+        ).freeze
 
         SLINGSHOT = GenshinObject::Weapon.new(
           kamera_key: "Slingshot",

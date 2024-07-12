@@ -948,20 +948,20 @@ module GenshinData
         ascension_enemy_material_name: :hoarder_insignia
       ).freeze
 
-      # SIGEWINNE = GenshinObject::Character.new(
-      #   kamera_key: "Sigewinne",
-      #   name: "Sigewinne",
-      #   nation_name: :fontaine,
-      #   rarity: 5,
-      #   element: :hydro,
-      #   weapon_type: :bow,
-      #   talent_book_name: :,
-      #   talent_rare_material_name: :,
-      #   talent_boss_material_name: "",
-      #   ascension_boss_material_name: "",
-      #   ascension_gathering_material_name: "",
-      #   ascension_enemy_material_name: :
-      # ).freeze
+      SIGEWINNE = GenshinObject::Character.new(
+        kamera_key: "Sigewinne",
+        name: "Sigewinne",
+        nation_name: :fontaine,
+        rarity: 5,
+        element: :hydro,
+        weapon_type: :bow,
+        ascension_boss_material_name: "WaterThatFailedToTranscend",
+        ascension_gathering_material_name: "RomaritimeFlower",
+        ascension_enemy_material_name: :transoceanic,
+        talent_book_name: :equity,
+        talent_rare_material_name: :transoceanic,
+        talent_boss_material_name: "LightlessEyeOfTheMaelstrom"
+      ).freeze
 
       SUCROSE = GenshinObject::Character.new(
         kamera_key: "Sucrose",

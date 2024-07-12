@@ -1,3 +1,10 @@
+## [0.4.71] - 2024-07-12
+  - Add v4.7 Phase 2 items details
+    - Characters
+      - Sigewinne
+    - Weapons
+      - Silvershower Heartstrings
+
 ## [0.4.7] - 2024-06-07
   - Add v4.7 data
     - New Event Weapon, "Cloudforged"
