@@ -317,6 +317,17 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        QUENEPA_BERRY = GenshinObject::Material.new(
+          kamera_key: "QuenepaBerry",
+          name: "Quenepa Berry",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
+        ).freeze
+
         RAINBOW_ROSE = GenshinObject::Material.new(
           kamera_key: "RainbowRose",
           name: "Rainbow Rose",
@@ -383,6 +394,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        SAURIAN_CLAW_SUCCULENT = GenshinObject::Material.new(
+          kamera_key: "SaurianClawSucculent",
+          name: "Saurian Claw Succulent",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
+        ).freeze
+
         SCARAB = GenshinObject::Material.new(
           kamera_key: "Scarab",
           name: "Scarab",
@@ -436,6 +458,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :liyue
+        ).freeze
+
+        SPRAYFEATHER_GILL = GenshinObject::Material.new(
+          kamera_key: "SprayfeatherGill",
+          name: "Sprayfeather Gill",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
         ).freeze
 
         SUBDETECTION_UNIT = GenshinObject::Material.new(

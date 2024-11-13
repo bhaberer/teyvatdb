@@ -149,6 +149,16 @@ module GenshinData
           weapon_material_type: :ancient_chord
         ).freeze
 
+        FLUTE_OF_EZPITZAL = GenshinObject::Weapon.new(
+          kamera_key: "FluteOfEzpitzal",
+          name: "Flute of Ezpitzal",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :stone_hilt,
+          standard_material_type: :fang,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
         FREEDOM_SWORN = GenshinObject::Weapon.new(
           kamera_key: "FreedomSworn",
           name: "Freedom-Sworn",

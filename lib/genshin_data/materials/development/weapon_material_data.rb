@@ -20,6 +20,50 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        BLAZING_SACRIFICIAL_HEARTS_HESITANCE = GenshinObject::Material.new(
+          kamera_key: "BlazingSacrificialHeartsHesitance",
+          name: "Blazing Sacrificial Heart's Hesitance",
+          rarity: 3,
+          family: :blazing_heart,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        BLAZING_SACRIFICIAL_HEARTS_RESOLVE = GenshinObject::Material.new(
+          kamera_key: "BlazingSacrificialHeartsResolve",
+          name: "Blazing Sacrificial Heart's Resolve",
+          rarity: 4,
+          family: :blazing_heart,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        BLAZING_SACRIFICIAL_HEARTS_SPLENDOR = GenshinObject::Material.new(
+          kamera_key: "BlazingSacrificialHeartsSplendor",
+          name: "Blazing Sacrificial Heart's Splendor",
+          rarity: 5,
+          family: :blazing_heart,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        BLAZING_SACRIFICIAL_HEARTS_TERROR = GenshinObject::Material.new(
+          kamera_key: "BlazingSacrificialHeartsTerror",
+          name: "Blazing Sacrificial Heart's Terror",
+          rarity: 2,
+          family: :blazing_heart,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
         BOREAL_WOLFS_BROKEN_FANG = GenshinObject::Material.new(
           kamera_key: "BorealWolfsBrokenFang",
           name: "Boreal Wolf's Broken Fang",
@@ -139,6 +183,50 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        DELIRIOUS_DECADENCE_OF_THE_SACRED_LORD = GenshinObject::Material.new(
+          kamera_key: "DeliriousDecadenceOfTheSacredLord",
+          name: "Delirious Decadence of the Sacred Lord",
+          rarity: 2,
+          family: :sacred_lord,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        DELIRIOUS_DEMEANOR_OF_THE_SACRED_LORD = GenshinObject::Material.new(
+          kamera_key: "DeliriousDemeanorOfTheSacredLord",
+          name: "Delirious Demeanor of the Sacred Lord",
+          rarity: 4,
+          family: :sacred_lord,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        DELIRIOUS_DESOLATION_OF_THE_SACRED_LORD = GenshinObject::Material.new(
+          kamera_key: "DeliriousDesolationOfTheSacredLord",
+          name: "Delirious Desolation of the Sacred Lord",
+          rarity: 3,
+          family: :sacred_lord,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        DELIRIOUS_DIVINITY_OF_THE_SACRED_LORD = GenshinObject::Material.new(
+          kamera_key: "DeliriousDivinityOfTheSacredLord",
+          name: "Delirious Divinity of the Sacred Lord",
+          rarity: 5,
+          family: :sacred_lord,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
         ).freeze
 
         DIVINE_BODY_FROM_GUYUN = GenshinObject::Material.new(
@@ -491,6 +579,50 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        NIGHT_WINDS_MYSTIC_AUGURY = GenshinObject::Material.new(
+          kamera_key: "NightWindsMysticAugury",
+          name: "Night-Wind's Mystic Augury",
+          rarity: 4,
+          family: :night_wind,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        NIGHT_WINDS_MYSTIC_CONSIDERATION = GenshinObject::Material.new(
+          kamera_key: "NightWindsMysticConsideration",
+          name: "Night-Wind's Mystic Consideration",
+          rarity: 2,
+          family: :night_wind,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        NIGHT_WINDS_MYSTIC_PREMONITION = GenshinObject::Material.new(
+          kamera_key: "NightWindsMysticPremonition",
+          name: "Night-Wind's Mystic Premonition",
+          rarity: 3,
+          family: :night_wind,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        NIGHT_WINDS_MYSTIC_REVELATION = GenshinObject::Material.new(
+          kamera_key: "NightWindsMysticRevelation",
+          name: "Night-Wind's Mystic Revelation",
+          rarity: 5,
+          family: :night_wind,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :natlan
         ).freeze
 
         OASIS_GARDENS_KINDNESS = GenshinObject::Material.new(

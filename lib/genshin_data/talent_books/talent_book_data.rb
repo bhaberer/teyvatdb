@@ -26,6 +26,24 @@ module GenshinData
         )
       )
 
+      CONFLICT = GenshinObject::TalentBook.new(
+        family: :conflict,
+        name: "Conflict",
+        nation_name: :natlan,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
+        )
+      )
+
+      CONTENTION = GenshinObject::TalentBook.new(
+        family: :contention,
+        name: "Contention",
+        nation_name: :natlan,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+
       DILIGENCE = GenshinObject::TalentBook.new(
         family: :diligence,
         name: "Diligence",
@@ -84,6 +102,15 @@ module GenshinData
         family: :justice,
         name: "Justice",
         nation_name: :fontaine,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+
+      KINDLING = GenshinObject::TalentBook.new(
+        family: :kindling,
+        name: "Kindling",
+        nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
         )

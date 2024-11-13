@@ -137,6 +137,32 @@ module GenshinData
           wed_sat: true
         )
       )
+
+      # Natlan
+      BLAZING_HEART = GenshinObject::WeaponMaterialFamily.new(
+        family: :blazing_heart,
+        name: "Blazing Hearts",
+        nation_name: :natlan,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+      SACRED_LORD = GenshinObject::WeaponMaterialFamily.new(
+        family: :sacred_lord,
+        name: "Sacred Lord",
+        nation_name: :natlan,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+      NIGHT_WIND = GenshinObject::WeaponMaterialFamily.new(
+        family: :night_wind,
+        name: "Night-Wind",
+        nation_name: :natlan,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
+        )
+      )
     end
   end
 end

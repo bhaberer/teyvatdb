@@ -229,6 +229,28 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        MARK_OF_THE_BINDING_BLESSING = GenshinObject::Material.new(
+          kamera_key: "MarkOfTheBindingBlessing",
+          name: "Mark of the Binding Blessing",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
+        OVERRIPE_FLAMEGRANATE = GenshinObject::Material.new(
+          kamera_key: "OverripeFlamegranate",
+          name: "Overripe Flamegranate",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
         PERPETUAL_HEART = GenshinObject::Material.new(
           kamera_key: "PerpetualHeart",
           name: "Perpetual Heart",

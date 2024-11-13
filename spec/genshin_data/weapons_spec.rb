@@ -71,16 +71,29 @@ RSpec.describe GenshinData::Weapons do
         end
 
         it "has a valid elite_material_type (#{weapon.elite_material_type})" do
+          expect(GenshinData::Materials.for_family(weapon.elite_material_type)).not_to be_empty
+        end
+
+        it "has all three elite_material_types defined (#{weapon.elite_material_type})" do
           expect(GenshinData::Materials.for_family(weapon.elite_material_type)).to have(3).materials
         end
 
         it "has a valid standard_material_type (#{weapon.standard_material_type})" do
+          expect(GenshinData::Materials.for_family(weapon.standard_material_type)).not_to be_empty
+        end
+
+        it "has all three standard_material_types defined (#{weapon.standard_material_type})" do
           expect(GenshinData::Materials.for_family(weapon.standard_material_type)).to have(3).materials
         end
 
         it "has a valid weapon_material_type (#{weapon.weapon_material_type})" do
+          expect(GenshinData::Materials.for_family(weapon.weapon_material_type)).not_to be_empty
+        end
+
+        it "has all four weapon_material_type rarities (#{weapon.weapon_material_type})" do
           expect(GenshinData::Materials.for_family(weapon.weapon_material_type)).to have(4).materials
         end
+
       end
     end
   end

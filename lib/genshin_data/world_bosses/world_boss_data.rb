@@ -74,10 +74,22 @@ module GenshinData
         boss_material: "BasaltPillar"
       )
 
+      GLUTTONOUS_YUMKASAUR_MOUNTAIN_KING = GenshinObject::WorldBoss.new(
+        name: "Gluttonous Yumkasaur Mountain King",
+        nation_name: :natlan,
+        boss_material: "OverripeFlamegranate"
+      )
+
       GOLDEN_WOLFLORD = GenshinObject::WorldBoss.new(
         name: "Golden Wolflord",
         nation_name: :inazuma,
         boss_material: "RiftbornRegalia"
+      )
+
+      GOLDFLAME_QUCUSAUR_TYRANT  = GenshinObject::WorldBoss.new(
+        name: "Goldflame Qucusaur Tyrant",
+        nation_name: :natlan,
+        boss_material: "MarkOfTheBindingBlessing"
       )
 
       HYDRO_HYPOSTASIS = GenshinObject::WorldBoss.new(

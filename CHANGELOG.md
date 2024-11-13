@@ -1,3 +1,24 @@
+## [0.5.0] - 2024-11-13
+  - Add v5.0 data
+    - Add Natlan Characters:
+      - Kachina
+      - Kinich
+      - Mualani
+    - Add Natlan Weapons
+      - Chain Breaker
+      - Ash-Graven Drinking Horn
+      - Ring of Yaxche
+      - Surf's Up
+      - Earth Shaker
+      - Fang of the Mountain King
+      - Footprint of the Rainbow
+      - Flute of Ezpitzal
+    - Add Natlan Materials
+      - Talent Books
+      - World Boss Loot
+      - Local Specialties
+      - Weapon Materials
+
 ## [0.4.71] - 2024-07-12
   - Add v4.7 Phase 2 items details
     - Characters

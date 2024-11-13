@@ -59,6 +59,26 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        EARTH_SHAKER = GenshinObject::Weapon.new(
+          kamera_key: "EarthShaker",
+          name: "Earth Shaker",
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :ignited,
+          standard_material_type: :whistle,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
+        FANG_OF_THE_MOUNTAIN_KING = GenshinObject::Weapon.new(
+          kamera_key: "Fang of the Mountain King",
+          name: "Fang of the Mountain King",
+          rarity: 5,
+          weapon_type: :claymore,
+          elite_material_type: :ignited,
+          standard_material_type: :whistle,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         FAVONIUS_GREATSWORD = GenshinObject::Weapon.new(
           kamera_key: "FavoniusGreatsword",
           name: "Favonius Greatsword",

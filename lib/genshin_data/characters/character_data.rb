@@ -483,6 +483,21 @@ module GenshinData
         ascension_enemy_material_name: :hilichurl_mask
       ).freeze
 
+      KACHINA = GenshinObject::Character.new(
+        kamera_key: "Kachina",
+        name: "Kachina",
+        nation_name: :natlan,
+        rarity: 4,
+        element: :geo,
+        weapon_type: :polearm,
+        talent_book_name: :conflict,
+        talent_rare_material_name: :whistle,
+        talent_boss_material_name: "FadingCandle",
+        ascension_boss_material_name: "OverripeFlamegranate",
+        ascension_gathering_material_name: "QuenepaBerry",
+        ascension_enemy_material_name: :whistle
+      ).freeze
+
       KAEDEHARA_KAZUHA = GenshinObject::Character.new(
         kamera_key: "KaedeharaKazuha",
         name: "Kaedehara Kazuha",
@@ -586,6 +601,21 @@ module GenshinData
         ascension_boss_material_name: "EvergloomRing",
         ascension_gathering_material_name: "AmakumoFruit",
         ascension_enemy_material_name: :spectral
+      ).freeze
+
+      KINICH = GenshinObject::Character.new(
+        kamera_key: "Kinich",
+        name: "Kinich",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :dendro,
+        weapon_type: :claymore,
+        talent_book_name: :kindling,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "DenialAndJudgement",
+        ascension_boss_material_name: "OverripeFlamegranate",
+        ascension_gathering_material_name: "SaurianClawSucculent",
+        ascension_enemy_material_name: :fang
       ).freeze
 
       KLEE = GenshinObject::Character.new(
@@ -706,6 +736,21 @@ module GenshinData
         ascension_boss_material_name: "PseudoStamens",
         ascension_gathering_material_name: "Wolfhook",
         ascension_enemy_material_name: :fatui_insignia
+      ).freeze
+
+      MUALANI = GenshinObject::Character.new(
+        kamera_key: "Mualani",
+        name: "Mualani",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :hydro,
+        weapon_type: :catalyst,
+        talent_book_name: :contention,
+        talent_rare_material_name: :whistle,
+        talent_boss_material_name: "LightlessMass",
+        ascension_boss_material_name: "MarkOfTheBindingBlessing",
+        ascension_gathering_material_name: "SprayfeatherGill",
+        ascension_enemy_material_name: :whistle
       ).freeze
 
       MONA = GenshinObject::Character.new(

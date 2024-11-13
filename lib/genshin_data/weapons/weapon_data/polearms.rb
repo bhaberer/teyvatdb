@@ -139,6 +139,16 @@ module GenshinData
           weapon_material_type: :chains
         ).freeze
 
+        FOOTPRINT_OF_THE_RAINBOW = GenshinObject::Weapon.new(
+          kamera_key: "FootprintOfTheRainbow",
+          name: "Footprint of the Rainbow",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :secret_source,
+          standard_material_type: :whistle,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         HALBERD = GenshinObject::Weapon.new(
           kamera_key: "Halberd",
           name: "Halberd",

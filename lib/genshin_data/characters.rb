@@ -108,7 +108,11 @@ module GenshinData
       end
 
       def natlan
-        []
+        [
+          CharacterData::KACHINA,
+          CharacterData::KINICH,
+          CharacterData::MUALANI,
+        ]
       end
 
       def snezhnaya

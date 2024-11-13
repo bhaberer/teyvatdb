@@ -42,6 +42,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        AXIS_OF_THE_SECRET_SOURCE = GenshinObject::Material.new(
+          kamera_key: "AxisOfTheSecretSource",
+          name: "Axis of the Secret Source",
+          rarity: 2,
+          family: :secret_source,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         BLACK_BRONZE_HORN = GenshinObject::Material.new(
           kamera_key: "BlackBronzeHorn",
           name: "Black Bronze Horn",
@@ -372,6 +383,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        HEART_OF_THE_SECRET_SOURCE = GenshinObject::Material.new(
+          kamera_key: "HeartOfTheSecretSource",
+          name: "Heart of the Secret Source",
+          rarity: 4,
+          family: :secret_source,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         HEAVY_HORN = GenshinObject::Material.new(
           kamera_key: "HeavyHorn",
           name: "Heavy Horn",
@@ -388,6 +410,39 @@ module GenshinData
           name: "Hunters Sacrificial Knife",
           rarity: 2,
           family: :sacrificial_knife,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        IGNITED_SEED_OF_LIFE = GenshinObject::Material.new(
+          kamera_key: "IgnitedSeedOfLife",
+          name: "Ignited Seed of Life",
+          rarity: 3,
+          family: :ignited,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        IGNITED_SEEING_EYE = GenshinObject::Material.new(
+          kamera_key: "IgnitedSeeingEye",
+          name: "Ignited Seeing Eye",
+          rarity: 4,
+          family: :ignited,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        IGNITED_STONE = GenshinObject::Material.new(
+          kamera_key: "IgnitedStone",
+          name: "Ignited Stone",
+          rarity: 2,
+          family: :ignited,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -421,6 +476,17 @@ module GenshinData
           name: "Ley Line Sprout",
           rarity: 4,
           family: :ley_line,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        LOCUS_OF_A_CLEAR_WILL = GenshinObject::Material.new(
+          kamera_key: "LocusOfAClearWill",
+          name: "Locus of a Clear Will",
+          rarity: 3,
+          family: :wayob_will,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -586,6 +652,39 @@ module GenshinData
           name: "Scoop of Tainted Water",
           rarity: 3,
           family: :tainted_water,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        SHARD_OF_A_SHATTERED_WILL = GenshinObject::Material.new(
+          kamera_key: "ShardOfAShatteredWill",
+          name: "Shard of a Shattered Will",
+          rarity: 2,
+          family: :wayob_will,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        SHEATH_OF_THE_SECRET_SOURCE = GenshinObject::Material.new(
+          kamera_key: "SheathOfTheSecretSource ",
+          name: "Sheath of the Secret Source ",
+          rarity: 2,
+          family: :secret_source,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        SIGIL_OF_A_STRIDING_WILL = GenshinObject::Material.new(
+          kamera_key: "SigilOfAStridingWill",
+          name: "Sigil of a Striding Will",
+          rarity: 4,
+          family: :wayob_will,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

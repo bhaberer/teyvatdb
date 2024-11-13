@@ -49,6 +49,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        CHAIN_BREAKER = GenshinObject::Weapon.new(
+          kamera_key: "ChainBreaker",
+          name: "Chain Breaker",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :beast_fin,
+          standard_material_type: :fang,
+          weapon_material_type: :night_wind
+        ).freeze
+
         CLOUDFORGED = GenshinObject::Weapon.new(
           kamera_key: "Cloudforged",
           name: "Cloudforged",

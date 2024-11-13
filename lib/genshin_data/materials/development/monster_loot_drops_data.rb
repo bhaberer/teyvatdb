@@ -130,6 +130,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        JUVENILE_FANG = GenshinObject::Material.new(
+          kamera_key: "JuvenileFang",
+          name: "Juvenile Fang",
+          rarity: 1,
+          family: :fang,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         KAGEUCHI_HANDGUARD = GenshinObject::Material.new(
           kamera_key: "KageuchiHandguard",
           name: "Kageuchi Handguard",
@@ -228,12 +239,44 @@ module GenshinData
           source_sub_category: :general_drop,
           nation_name: nil
         ).freeze
+        SAURIAN_CROWNED_WARRIORS_GOLDEN_WHISTLE = GenshinObject::Material.new(
+          kamera_key: "SaurianCrownedWarriorsGoldenWhistle",
+          name: "Saurian-Crowned Warrior's Golden Whistle",
+          rarity: 3,
+          family: :whistle,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
 
         SEALED_SCROLL = GenshinObject::Material.new(
           kamera_key: "SealedScroll",
           name: "Sealed Scroll",
           rarity: 2,
           family: :scroll,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        SEASONED_FANG = GenshinObject::Material.new(
+          kamera_key: "SeasonedFang",
+          name: "Seasoned Fang",
+          rarity: 2,
+          family: :fang,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        SENTRYS_WOODEN_WHISTLE = GenshinObject::Material.new(
+          kamera_key: "SentrysWoodenWhistle",
+          name: "Sentry's Wooden Whistle",
+          rarity: 1,
+          family: :whistle,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -399,6 +442,28 @@ module GenshinData
           name: "Trimmed Red Silk",
           rarity: 2,
           family: :scarf,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        TYRANTS_FANG = GenshinObject::Material.new(
+          kamera_key: "TyrantsFang",
+          name: "Tyrant's Fang",
+          rarity: 3,
+          family: :fang,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        WARRIORS_METAL_WHISTLE = GenshinObject::Material.new(
+          kamera_key: "WarriorsMetalWhistle",
+          name: "Warrior's Metal Whistle",
+          rarity: 2,
+          family: :whistle,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,

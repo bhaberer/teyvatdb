@@ -29,6 +29,16 @@ module GenshinData
           weapon_material_type: :decarabian
         ).freeze
 
+        ASH_GRAVEN_DRINKING_HORN = GenshinObject::Weapon.new(
+          kamera_key: "AshGravenDrinkingHorn",
+          name: "Ash-Graven Drinking Horn",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :secret_source,
+          standard_material_type: :fang,
+          weapon_material_type: :night_wind
+        ).freeze
+
         BALLAD_OF_THE_BOUNDLESS_BLUE = GenshinObject::Weapon.new(
           kamera_key: "BalladOfTheBoundlessBlue",
           name: "Ballad of the Boundless Blue",
@@ -249,6 +259,16 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        RING_OF_YAXCHE = GenshinObject::Weapon.new(
+          kamera_key: "RingOfYaxche",
+          name: "Ring of Yaxche",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :wayob_will,
+          standard_material_type: :hilichurl_mask,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         ROYAL_GRIMOIRE = GenshinObject::Weapon.new(
           kamera_key: "RoyalGrimoire",
           name: "Royal Grimoire",
@@ -297,6 +317,16 @@ module GenshinData
           elite_material_type: :sacrificial_knife,
           standard_material_type: :nectar,
           weapon_material_type: :guyun
+        ).freeze
+
+        SURFS_UP = GenshinObject::Weapon.new(
+          kamera_key: "SurfsUp",
+          name: "Surf's Up",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :wayob_will,
+          standard_material_type: :fang,
+          weapon_material_type: :blazing_heart
         ).freeze
 
         THE_WIDSITH = GenshinObject::Weapon.new(
