@@ -1,3 +1,13 @@
+## [0.5.1] - 2024-11-13
+  - Add v5.1 data
+    - Added Xilonen
+    - Added weapons
+      - Fruitful Hook
+      - Mountain-Bracing Bolt
+      - Peak Patrol Song
+      - Sturdy Bone
+    - Added new world boss
+
 ## [0.5.0] - 2024-11-13
   - Add v5.0 data
     - Add Natlan Characters:

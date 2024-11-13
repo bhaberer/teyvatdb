@@ -249,6 +249,16 @@ module GenshinData
           weapon_material_type: :coral
         ).freeze
 
+        PEAK_PATROL_SONG = GenshinObject::Weapon.new(
+          kamera_key: "PeakPatrolSong",
+          name: "Peak Patrol Song",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :secret_source,
+          standard_material_type: :fang,
+          weapon_material_type: :night_wind
+        ).freeze
+
         PRIMORDIAL_JADE_CUTTER = GenshinObject::Weapon.new(
           kamera_key: "PrimordialJadeCutter",
           name: "Primordial Jade Cutter",
@@ -327,6 +337,16 @@ module GenshinData
           elite_material_type: :ley_line,
           standard_material_type: :slime,
           weapon_material_type: :wolf_tooth
+        ).freeze
+
+        STURDY_BONE = GenshinObject::Weapon.new(
+          kamera_key: "SturdyBone",
+          name: "Sturdy Bone",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :wayob_will,
+          standard_material_type: :whistle,
+          weapon_material_type: :blazing_heart
         ).freeze
 
         SUMMIT_SHAPER = GenshinObject::Weapon.new(

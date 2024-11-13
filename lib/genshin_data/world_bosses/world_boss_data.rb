@@ -182,6 +182,12 @@ module GenshinData
         boss_material: "RunicFang"
       )
 
+      SECRET_SOURCE_CONSTRUCTOR = GenshinObject::WorldBoss.new(
+        name: "Secret Source Constructor",
+        nation_name: :natlan,
+        boss_material: "GoldInscribedSecretSourceCore"
+      )
+
       SETEKH_WENUT = GenshinObject::WorldBoss.new(
         name: "Setekh Wenut",
         nation_name: :sumeru,

@@ -31,6 +31,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        BRILLIANT_CHRYSANTHEMUM = GenshinObject::Material.new(
+          kamera_key: "BrilliantChrysanthemum",
+          name: "Brilliant Chrysanthemum",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
+        ).freeze
+
         CALLA_LILY = GenshinObject::Material.new(
           kamera_key: "CallaLily",
           name: "Calla Lily",

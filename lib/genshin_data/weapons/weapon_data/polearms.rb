@@ -209,6 +209,16 @@ module GenshinData
           weapon_material_type: :oasis_garden
         ).freeze
 
+        MOUNTAIN_BRACING_BOLT = GenshinObject::Weapon.new(
+          kamera_key: "MountainBracingBolt",
+          name: "Mountain-Bracing Bolt",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :ignited,
+          standard_material_type: :nectar,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         PRIMORDIAL_JADE_WINGED_SPEAR = GenshinObject::Weapon.new(
           kamera_key: "PrimordialJadeWingedSpear",
           name: "Primordial Jade Winged-Spear",

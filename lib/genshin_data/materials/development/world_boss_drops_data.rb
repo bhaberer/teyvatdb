@@ -152,6 +152,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        GOLD_INSCRIBED_SECRET_SOURCE_CORE = GenshinObject::Material.new(
+          kamera_key: "GoldInscribedSecretSourceCore",
+          name: "Gold Inscribed Secret Source Core",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
         HOARFROST_CORE = GenshinObject::Material.new(
           kamera_key: "HoarfrostCore",
           name: "Hoarfrost Core",

@@ -112,6 +112,7 @@ module GenshinData
           CharacterData::KACHINA,
           CharacterData::KINICH,
           CharacterData::MUALANI,
+          CharacterData::XILONEN
         ]
       end
 

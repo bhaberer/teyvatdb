@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    teyvatdb (0.4.7.1)
+    teyvatdb (0.5.0)
 
 GEM
   remote: https://rubygems.org/

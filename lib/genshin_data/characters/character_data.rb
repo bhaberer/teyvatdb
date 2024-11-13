@@ -1158,6 +1158,21 @@ module GenshinData
         ascension_enemy_material_name: :slime
       ).freeze
 
+      XILONEN = GenshinObject::Character.new(
+        kamera_key: "Xilonen",
+        name: "Xilonen",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :geo,
+        weapon_type: :sword,
+        talent_book_name: :kindling,
+        talent_rare_material_name: :whistle,
+        talent_boss_material_name: "MirrorOfMushin",
+        ascension_boss_material_name: "GoldInscribedSecretSourceCore",
+        ascension_gathering_material_name: "BrilliantChrysanthemum",
+        ascension_enemy_material_name: :whistle
+      ).freeze
+
       XINGQIU = GenshinObject::Character.new(
         kamera_key: "Xingqiu",
         name: "Xingqiu",

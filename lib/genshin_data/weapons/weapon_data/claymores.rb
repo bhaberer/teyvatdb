@@ -109,6 +109,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        FRUITFUL_HOOK = GenshinObject::Weapon.new(
+          kamera_key: "FruitfulHook",
+          name: "Fruitful Hook",
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :secret_source,
+          standard_material_type: :fang,
+          weapon_material_type: :night_wind
+        ).freeze
+
         KATSURAGIKIRI_NAGAMASA = GenshinObject::Weapon.new(
           kamera_key: "KatsuragikiriNagamasa",
           name: "Katsuragikiri Nagamasa",
