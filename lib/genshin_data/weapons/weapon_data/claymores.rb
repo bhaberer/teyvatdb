@@ -70,7 +70,7 @@ module GenshinData
         ).freeze
 
         FANG_OF_THE_MOUNTAIN_KING = GenshinObject::Weapon.new(
-          kamera_key: "Fang of the Mountain King",
+          kamera_key: "FangOfTheMountainKing",
           name: "Fang of the Mountain King",
           rarity: 5,
           weapon_type: :claymore,
