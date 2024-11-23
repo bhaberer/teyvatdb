@@ -1,3 +1,15 @@
+## [0.5.2] - 2024-11-13
+- Add Characters:
+  - Chasca (5)
+  - Ororon (4)
+- Add Weapons
+  - Astral Vulture's Crimson Plumage (5)
+  - Waveriding Whirl (4)
+  - Flower-Wreathed Feathers (4)
+  - Calamity of Eshu (4)
+- Add World Boss & Loot
+  - Tenebrous Papilla
+
 ## [0.5.1.1] - 2024-11-13
 - Fix typo
 

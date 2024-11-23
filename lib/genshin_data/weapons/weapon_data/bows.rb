@@ -29,6 +29,16 @@ module GenshinData
           weapon_material_type: :chains
         ).freeze
 
+        ASTRAL_VULTURES_CRIMSON_PLUMAGE = GenshinObject::Weapon.new(
+          kamera_key: "AstralVulturesCrimsonPlumage",
+          name: "Astral Vulture's Crimson Plumage",
+          rarity: 5,
+          weapon_type: :bow,
+          elite_material_type: :abyss_leaf,
+          standard_material_type: :whistle,
+          weapon_material_type: :night_wind
+        ).freeze
+
         AQUA_SIMULACRA = GenshinObject::Weapon.new(
           kamera_key: "AquaSimulacra",
           name: "Aqua Simulacra",
@@ -117,6 +127,16 @@ module GenshinData
           elite_material_type: :chaos_core,
           standard_material_type: :nectar,
           weapon_material_type: :chains
+        ).freeze
+
+        FLOWER_WREATHED_FEATHERS = GenshinObject::Weapon.new(
+          kamera_key: "FlowerWreathedFeathers",
+          name: "Flower-Wreathed Feathers",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :ignited,
+          standard_material_type: :whistle,
+          weapon_material_type: :night_wind
         ).freeze
 
         HAMAYUMI = GenshinObject::Weapon.new(

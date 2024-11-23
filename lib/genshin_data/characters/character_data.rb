@@ -183,6 +183,21 @@ module GenshinData
         ascension_enemy_material_name: :gear
       ).freeze
 
+      CHASCA = GenshinObject::Character.new(
+        kamera_key: "Chasca",
+        name: "Chasca",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :anemo,
+        weapon_type: :bow,
+        talent_book_name: :conflict,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "SilkenFeather",
+        ascension_boss_material_name: "EnsnaringGaze",
+        ascension_gathering_material_name: "WitheringPurpurbloom",
+        ascension_enemy_material_name: :fang
+      ).freeze
+
       CHEVREUSE = GenshinObject::Character.new(
         kamera_key: "Chevreuse",
         name: "Chevreuse",
@@ -856,6 +871,21 @@ module GenshinData
         ascension_boss_material_name: "BasaltPillar",
         ascension_gathering_material_name: "Valberry",
         ascension_enemy_material_name: :hilichurl_mask
+      ).freeze
+
+      ORORON = GenshinObject::Character.new(
+        kamera_key: "Ororon",
+        name: "Ororon",
+        nation_name: :natlan,
+        rarity: 4,
+        element: :electro,
+        weapon_type: :bow,
+        talent_book_name: :kindling,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "LightlessSilkString",
+        ascension_boss_material_name: "MarkOfTheBindingBlessing",
+        ascension_gathering_material_name: "GlowingHornshroom",
+        ascension_enemy_material_name: :fang
       ).freeze
 
       QIQI = GenshinObject::Character.new(

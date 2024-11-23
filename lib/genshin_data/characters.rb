@@ -109,9 +109,11 @@ module GenshinData
 
       def natlan
         [
+          CharacterData::CHASCA,
           CharacterData::KACHINA,
           CharacterData::KINICH,
           CharacterData::MUALANI,
+          CharacterData::ORORON,
           CharacterData::XILONEN
         ]
       end

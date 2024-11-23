@@ -389,6 +389,16 @@ module GenshinData
           weapon_material_type: :oasis_garden
         ).freeze
 
+        WAVERIDING_WHIRL = GenshinObject::Weapon.new(
+          kamera_key: "WaveridingWhirl",
+          name: "Waveriding Whirl",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :wayob_will,
+          standard_material_type: :fang,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
         WINE_AND_SONG = GenshinObject::Weapon.new(
           kamera_key: "WineAndSong",
           name: "Wine and Song",

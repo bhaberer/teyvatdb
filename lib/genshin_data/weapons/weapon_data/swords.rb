@@ -59,6 +59,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        CALAMITY_OF_ESHU = GenshinObject::Weapon.new(
+          kamera_key: "Calamity of Eshu",
+          name: "Calamity of Eshu",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :abyss_leaf,
+          standard_material_type: :whistle,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         CINNABAR_SPINDLE = GenshinObject::Weapon.new(
           kamera_key: "CinnabarSpindle",
           name: "Cinnabar Spindle",

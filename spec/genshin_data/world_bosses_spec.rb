@@ -25,15 +25,15 @@ RSpec.describe GenshinData::WorldBosses do
       end
     end
 
-    it "defines the corret number of bosses" do
+    it "defines the correct number of bosses" do
       defined_boss_loot = GenshinData::Materials::Development::WorldBossDropsData.all.count
       expect(described_class.all.count)
         .to eq(defined_boss_loot),
             "Expected #{described_class} to define #{defined_boss_loot} bosses not #{described_class.all.count}."
     end
 
-    it "defines bosses for every family of loot" do
-      GenshinData::Materials::Development::WorldBossDropsData.all.map(&:kamera_key).each do |family|
+    GenshinData::Materials::Development::WorldBossDropsData.all.map(&:kamera_key).each do |family|
+      it "defines boss that drops #{family} loot" do
         expect(described_class.all.map(&:boss_material)).to include(family)
       end
     end

@@ -108,6 +108,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        ENSNARING_GAZE = GenshinObject::Material.new(
+          kamera_key: "EnsnaringGaze",
+          name: "Ensnaring Gaze",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
         EVERFLAME_SEED = GenshinObject::Material.new(
           kamera_key: "EverflameSeed",
           name: "Everflame Seed",

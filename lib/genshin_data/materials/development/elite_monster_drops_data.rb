@@ -9,6 +9,39 @@ module GenshinData
           constants.map { |x| GenshinData::Materials::Development::EliteMonsterLootDropsData.const_get(x) }
         end
 
+        BEWILDERING_BROADLEAF = GenshinObject::Material.new(
+          kamera_key: "BewilderingBroadleaf",
+          name: "Bewildering Broadleaf",
+          rarity: 3,
+          family: :abyss_leaf,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        ILLUSORY_LEAFCOIL = GenshinObject::Material.new(
+          kamera_key: "IllusoryLeafcoil",
+          name: "Illusory Leafcoil",
+          rarity: 4,
+          family: :abyss_leaf,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        REFRACTIVE_BUD = GenshinObject::Material.new(
+          kamera_key: "RefractiveBud",
+          name: "Refractive Bud",
+          rarity: 2,
+          family: :abyss_leaf,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         A_FLOWER_YET_TO_BLOOM = GenshinObject::Material.new(
           kamera_key: "AFlowerYetToBloom",
           name: "A Flower Yet to Bloom",

@@ -206,6 +206,12 @@ module GenshinData
         boss_material: "FragmentOfAGoldenMelody"
       )
 
+      TENEBROUS_PAPILLA = GenshinObject::WorldBoss.new(
+        name: "Tenebrous Papilla",
+        nation_name: :natlan,
+        boss_material: "EnsnaringGaze"
+      )
+
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(
         name: "Thunder Manifestation",
         nation_name: :inazuma,

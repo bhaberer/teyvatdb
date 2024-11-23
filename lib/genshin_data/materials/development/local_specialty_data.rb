@@ -141,6 +141,17 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        GLOWING_HORNSHROOM = GenshinObject::Material.new(
+          kamera_key: "GlowingHornshroom",
+          name: "Glowing Hornshroom",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
+        ).freeze
+
         HENNA_BERRY = GenshinObject::Material.new(
           kamera_key: "HennaBerry",
           name: "Henna Berry",
@@ -546,6 +557,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :mondstadt
+        ).freeze
+
+        WITHERING_PURPURBLOOM = GenshinObject::Material.new(
+          kamera_key: "WitheringPurpurbloom",
+          name: "Withering Purpurbloom",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
         ).freeze
 
         WOLFHOOK = GenshinObject::Material.new(
