@@ -1,3 +1,7 @@
+## [0.5.2.2] - 2024-11-23
+- Add missing talent books
+- Add better test coverage to catch missing materials and errors in talent books
+
 ## [0.5.2.1] - 2024-11-23
 - Fix typo in Sword key
 - Add better test coverage to catche incorrect names and keys

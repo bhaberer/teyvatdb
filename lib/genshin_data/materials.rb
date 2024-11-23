@@ -18,6 +18,10 @@ module GenshinData
       def for_kamera_key(key)
         all.select { |m| m.kamera_key == key }
       end
+
+      def for_name(name)
+        all.select { |m| m.name == name }
+      end
     end
   end
 end

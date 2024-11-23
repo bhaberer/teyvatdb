@@ -42,6 +42,28 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        GUIDE_TO_CONFLICT = GenshinObject::Material.new(
+          kamera_key: "GuideToConflict",
+          name: "Guide to Conflict",
+          rarity: 3,
+          family: :conflict,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        GUIDE_TO_CONTENTION = GenshinObject::Material.new(
+          kamera_key: "GuideToContention",
+          name: "Guide to Contention",
+          rarity: 3,
+          family: :contention,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
         GUIDE_TO_ELEGANCE = GenshinObject::Material.new(
           kamera_key: "GuideToElegance",
           name: "Guide to Elegance",
@@ -106,6 +128,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :fontaine
+        ).freeze
+
+        GUIDE_TO_KINDLING = GenshinObject::Material.new(
+          kamera_key: "GuideToKindling",
+          name: "Guide to Kindling",
+          rarity: 3,
+          family: :kindling,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
         ).freeze
 
         GUIDE_TO_LIGHT = GenshinObject::Material.new(
@@ -196,6 +229,28 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        PHILOSOPHIES_OF_CONFLICT = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfConflict",
+          name: "Philosophies of Conflict",
+          rarity: 4,
+          family: :conflict,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        PHILOSOPHIES_OF_CONTENTION = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfContention",
+          name: "Philosophies of Contention",
+          rarity: 4,
+          family: :contention,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
         PHILOSOPHIES_OF_DILIGENCE = GenshinObject::Material.new(
           kamera_key: "PhilosophiesOfDiligence",
           name: "Philosophies of Diligence",
@@ -271,6 +326,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :fontaine
+        ).freeze
+
+        PHILOSOPHIES_OF_KINDLING = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfKindling",
+          name: "Philosophies of Kindling",
+          rarity: 4,
+          family: :kindling,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
         ).freeze
 
         PHILOSOPHIES_OF_LIGHT = GenshinObject::Material.new(
@@ -361,6 +427,28 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        TEACHINGS_OF_CONFLICT = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfConflict",
+          name: "Teachings of Conflict",
+          rarity: 2,
+          family: :conflict,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
+        TEACHINGS_OF_CONTENTION = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfContention",
+          name: "Teachings of Contention",
+          rarity: 2,
+          family: :contention,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
+        ).freeze
+
         TEACHINGS_OF_DILIGENCE = GenshinObject::Material.new(
           kamera_key: "TeachingsOfDiligence",
           name: "Teachings of Diligence",
@@ -436,6 +524,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :fontaine
+        ).freeze
+
+        TEACHINGS_OF_KINDLING = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfKindling",
+          name: "Teachings of Kindling",
+          rarity: 2,
+          family: :kindling,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :natlan
         ).freeze
 
         TEACHINGS_OF_LIGHT = GenshinObject::Material.new(

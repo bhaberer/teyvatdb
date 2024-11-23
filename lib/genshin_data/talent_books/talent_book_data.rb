@@ -154,7 +154,7 @@ module GenshinData
 
       RESISTANCE = GenshinObject::TalentBook.new(
         family: :resistance,
-        name: "resistance",
+        name: "Resistance",
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
