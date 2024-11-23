@@ -60,7 +60,7 @@ module GenshinData
         ).freeze
 
         CALAMITY_OF_ESHU = GenshinObject::Weapon.new(
-          kamera_key: "Calamity of Eshu",
+          kamera_key: "CalamityOfEshu",
           name: "Calamity of Eshu",
           rarity: 4,
           weapon_type: :sword,

@@ -2,6 +2,9 @@
 
 # Module that handles higher constants and base classes and behavior
 module GenshinObject
+  KAMERA_KEY_REGEX = /\A[A-Za-z]+\z/
+  NAME_REGEX = /\A[A-Za-z\'\-\.\",\s]+\z/
+
   require_relative "genshin_object/artifact_set"
   require_relative "genshin_object/artifact_set_bonus"
   require_relative "genshin_object/boss"

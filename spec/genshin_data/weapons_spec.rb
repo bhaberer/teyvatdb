@@ -55,11 +55,11 @@ RSpec.describe GenshinData::Weapons do
     described_class.all.map do |weapon|
       context "when defining #{weapon.name}" do
         it "has a valid kamera_key" do
-          expect(weapon.kamera_key).to match(/[A-Za-z]+/)
+          expect(weapon.kamera_key).to match(GenshinObject::KAMERA_KEY_REGEX)
         end
 
         it "has a valid name" do
-          expect(weapon.name).to match(/[A-Za-z\'\s]+/)
+          expect(weapon.name).to match(GenshinObject::NAME_REGEX)
         end
 
         it "has a valid rarity" do

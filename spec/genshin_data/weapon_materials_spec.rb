@@ -20,7 +20,7 @@ RSpec.describe GenshinData::WeaponMaterials do
     described_class.all.map do |material|
       context "when defining #{material.name}" do
         it "has a valid name" do
-          expect(material.name).to match(/[A-Za-z]+/)
+          expect(material.name).to match(GenshinObject::NAME_REGEX)
         end
 
         # it "has a valid domain name" do

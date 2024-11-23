@@ -1,4 +1,8 @@
-## [0.5.2] - 2024-11-13
+## [0.5.2.1] - 2024-11-23
+- Fix typo in Sword key
+- Add better test coverage to catche incorrect names and keys
+
+## [0.5.2] - 2024-11-23
 - Add Characters:
   - Chasca (5)
   - Ororon (4)

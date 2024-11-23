@@ -11,7 +11,7 @@ RSpec.describe GenshinData::WorldBosses do
     described_class.all.map do |boss|
       context "when defining #{boss.name}" do
         it "has a valid name" do
-          expect(boss.name).to match(/[A-Za-z]+/)
+          expect(boss.name).to match(GenshinObject::NAME_REGEX)
         end
 
         it "has a valid nation_name (#{boss.nation_name})" do

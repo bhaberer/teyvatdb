@@ -11,11 +11,11 @@ RSpec.describe GenshinData::ArtifactSets do
     described_class.all.map do |artifact_set|
       context "when defining #{artifact_set.name}" do
         it "has a valid kamera_key" do
-          expect(artifact_set.kamera_key).to match(/[A-Za-z]+/)
+          expect(artifact_set.kamera_key).to match(GenshinObject::KAMERA_KEY_REGEX)
         end
 
         it "has a valid name" do
-          expect(artifact_set.name).to match(/[A-Za-z]+/)
+          expect(artifact_set.name).to match(GenshinObject::NAME_REGEX)
         end
 
         it "has a valid rarity" do

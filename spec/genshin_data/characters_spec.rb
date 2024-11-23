@@ -30,11 +30,11 @@ RSpec.describe GenshinData::Characters do
     described_class.all.map do |character|
       context "when defining #{character.name}" do
         it "has a valid kamera_key" do
-          expect(character.kamera_key).to match(/[A-Za-z]+/)
+          expect(character.kamera_key).to match(GenshinObject::KAMERA_KEY_REGEX)
         end
 
         it "has a valid name" do
-          expect(character.name).to match(/[A-Za-z\'\s]+/)
+          expect(character.name).to match(GenshinObject::NAME_REGEX)
         end
 
         it "has a valid nation_name (#{character.nation_name})" do
