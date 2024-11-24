@@ -1,3 +1,6 @@
+## [0.5.2.4] - 2024-11-23
+- Fix typo in material
+
 ## [0.5.2.3] - 2024-11-23
 - Fix typo in material
 - Add missing cooking and gathering materials

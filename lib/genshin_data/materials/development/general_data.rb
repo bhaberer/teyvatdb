@@ -99,7 +99,7 @@ module GenshinData
           source_sub_category: nil
         ).freeze
 
-        WANDERERS_ADVICE = GenshinObject::Material.new(
+        THE_CORNERSTONE_OF_STARS_AND_FLAMES = GenshinObject::Material.new(
           kamera_key: "TheCornerstoneOfStarsAndFlames",
           name: "The Cornerstone of Stars and Flames",
           rarity: 5,
