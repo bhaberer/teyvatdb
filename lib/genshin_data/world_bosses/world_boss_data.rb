@@ -86,7 +86,7 @@ module GenshinData
         boss_material: "RiftbornRegalia"
       )
 
-      GOLDFLAME_QUCUSAUR_TYRANT  = GenshinObject::WorldBoss.new(
+      GOLDFLAME_QUCUSAUR_TYRANT = GenshinObject::WorldBoss.new(
         name: "Goldflame Qucusaur Tyrant",
         nation_name: :natlan,
         boss_material: "MarkOfTheBindingBlessing"

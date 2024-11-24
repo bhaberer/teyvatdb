@@ -41,56 +41,56 @@ RSpec.describe GenshinData::TalentBooks do
           expect(GenshinData::Materials.for_family(talent_book.family))
             .to have(3).materials
         end
+      end
 
-        context "when defining epic books" do
-          it "has a proper kamera key" do
-            expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}"))
-              .to have(1).materials, "Missing PhilosophiesOf#{talent_book.name}"
-          end
-
-          it "has a proper name" do
-            expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}").first.name)
-              .to eq("Philosophies of #{talent_book.name}")
-          end
-
-          it "has a proper rarity" do
-            expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}").first.rarity)
-              .to eq(4)
-          end
+      context "when defining epic books" do
+        it "has a proper kamera key" do
+          expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}"))
+            .to have(1).materials, "Missing PhilosophiesOf#{talent_book.name}"
         end
 
-        context "when defining rare books" do
-          it "has a proper kamera key" do
-            expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}"))
-              .to have(1).materials, "Missing PhilosophiesOf#{talent_book.name}"
-          end
-
-          it "has a proper name" do
-            expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}").first.name)
-              .to eq("Guide to #{talent_book.name}")
-          end
-
-          it "has a proper rarity" do
-            expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}").first.rarity)
-              .to eq(3)
-          end
+        it "has a proper name" do
+          expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}").first.name)
+            .to eq("Philosophies of #{talent_book.name}")
         end
 
-        context "when defining uncommon books" do
-          it "has a proper kamera key" do
-            expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}"))
-              .to have(1).materials, "Missing TeachingsOf#{talent_book.name}"
-          end
+        it "has a proper rarity" do
+          expect(GenshinData::Materials.for_kamera_key("PhilosophiesOf#{talent_book.name}").first.rarity)
+            .to eq(4)
+        end
+      end
 
-          it "has a proper name" do
-            expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}").first.name)
-              .to eq("Teachings of #{talent_book.name}")
-          end
+      context "when defining rare books" do
+        it "has a proper kamera key" do
+          expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}"))
+            .to have(1).materials, "Missing PhilosophiesOf#{talent_book.name}"
+        end
 
-          it "has a proper rarity" do
-            expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}").first.rarity)
-              .to eq(2)
-          end
+        it "has a proper name" do
+          expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}").first.name)
+            .to eq("Guide to #{talent_book.name}")
+        end
+
+        it "has a proper rarity" do
+          expect(GenshinData::Materials.for_kamera_key("GuideTo#{talent_book.name}").first.rarity)
+            .to eq(3)
+        end
+      end
+
+      context "when defining uncommon books" do
+        it "has a proper kamera key" do
+          expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}"))
+            .to have(1).materials, "Missing TeachingsOf#{talent_book.name}"
+        end
+
+        it "has a proper name" do
+          expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}").first.name)
+            .to eq("Teachings of #{talent_book.name}")
+        end
+
+        it "has a proper rarity" do
+          expect(GenshinData::Materials.for_kamera_key("TeachingsOf#{talent_book.name}").first.rarity)
+            .to eq(2)
         end
       end
     end

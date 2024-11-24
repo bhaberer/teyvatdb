@@ -17,7 +17,6 @@ RSpec.describe GenshinData::Materials do
         it "has a valid rarity" do
           expect(material.rarity).to be_between(1, 5)
         end
-
       end
     end
   end

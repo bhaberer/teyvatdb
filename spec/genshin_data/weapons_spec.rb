@@ -93,7 +93,6 @@ RSpec.describe GenshinData::Weapons do
         it "has all four weapon_material_type rarities (#{weapon.weapon_material_type})" do
           expect(GenshinData::Materials.for_family(weapon.weapon_material_type)).to have(4).materials
         end
-
       end
     end
   end
