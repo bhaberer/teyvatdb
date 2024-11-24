@@ -1,3 +1,8 @@
+## [0.5.2.3] - 2024-11-23
+- Fix typo in material
+- Add missing cooking and gathering materials
+- Add better test coverage to catch materials with bad names and keys
+
 ## [0.5.2.2] - 2024-11-23
 - Add missing talent books
 - Add better test coverage to catch missing materials and errors in talent books

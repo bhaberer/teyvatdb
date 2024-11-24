@@ -99,6 +99,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        CACAHUATL = GenshinObject::Material.new(
+          kamera_key: "Cacahuatl",
+          name: "Cacahuatl",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         CARROT = GenshinObject::Material.new(
           kamera_key: "Carrot",
           name: "Carrot",
@@ -189,6 +199,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        EMBERCORE_FLOWER = GenshinObject::Material.new(
+          kamera_key: "EmbercoreFlower",
+          name: "Embercore Flower",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         FERMENTED_JUICE = GenshinObject::Material.new(
           kamera_key: "FermentedJuice",
           name: "Fermented Juice",
@@ -232,6 +252,16 @@ module GenshinData
         GLABROUS_BEANS = GenshinObject::Material.new(
           kamera_key: "GlabrousBeans",
           name: "Glabrous Beans",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        GRAINFRUIT = GenshinObject::Material.new(
+          kamera_key: "Grainfruit",
+          name: "Grainfruit",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -462,6 +492,16 @@ module GenshinData
         SPICE = GenshinObject::Material.new(
           kamera_key: "Spice",
           name: "Spice",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :cooking,
+          source_sub_category: :cooking
+        ).freeze
+
+        SPINAL_FRUIT = GenshinObject::Material.new(
+          kamera_key: "SpinalFruit",
+          name: "Spinal Fruit",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

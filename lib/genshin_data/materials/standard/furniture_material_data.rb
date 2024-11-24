@@ -129,6 +129,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        FLAMMABOMB_WOOD = GenshinObject::Material.new(
+          kamera_key: "FlammabombWood",
+          name: "Flammabomb Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         FRAGRANT_CEDAR_WOOD = GenshinObject::Material.new(
           kamera_key: "FragrantCedarWood",
           name: "Fragrant Cedar Wood",
@@ -222,6 +232,16 @@ module GenshinData
         SANDBEARER_WOOD = GenshinObject::Material.new(
           kamera_key: "SandbearerWood",
           name: "Sandbearer Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
+        WHITE_CHESTNUT_OAK_WOOD = GenshinObject::Material.new(
+          kamera_key: "WhiteChestnutOakWood",
+          name: "White Chestnut Oak Wood",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

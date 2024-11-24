@@ -100,6 +100,16 @@ module GenshinData
         ).freeze
 
         WANDERERS_ADVICE = GenshinObject::Material.new(
+          kamera_key: "TheCornerstoneOfStarsAndFlames",
+          name: "The Cornerstone of Stars and Flames",
+          rarity: 5,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :general_reward,
+          source_sub_category: nil
+        ).freeze
+
+        WANDERERS_ADVICE = GenshinObject::Material.new(
           kamera_key: "WanderersAdvice",
           name: "Wanderers Advice",
           rarity: 2,

@@ -19,6 +19,56 @@ module GenshinData
           source_sub_category: :forging_material
         ).freeze
 
+        BORDERLAND_BOW_BILLET = GenshinObject::Material.new(
+          kamera_key: "BorderlandBowBillet",
+          name: "Borderland Bow Billet",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :forging_material
+        ).freeze
+
+        BORDERLAND_CATALYST_BILLET = GenshinObject::Material.new(
+          kamera_key: "BorderlandCatalystBillet",
+          name: "Borderland Cataylst Billet",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :forging_material
+        ).freeze
+
+        BORDERLAND_CLAYMORE_BILLET = GenshinObject::Material.new(
+          kamera_key: "BorderlandClaymoreBillet",
+          name: "Borderland Claymore Billet",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :forging_material
+        ).freeze
+
+        BORDERLAND_SWORD_BILLET = GenshinObject::Material.new(
+          kamera_key: "BorderlandSwordBillet",
+          name: "Borderland Sword Billet",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :forging_material
+        ).freeze
+
+        BORDERLAND_POLEARM_BILLET = GenshinObject::Material.new(
+          kamera_key: "BorderlandPolearmBillet",
+          name: "Borderland Polearm Billet",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :forging_material
+        ).freeze
+
         CONDESSENCE_CRYSTAL = GenshinObject::Material.new(
           kamera_key: "CondessenceCrystal",
           name: "Condessence Crystal",

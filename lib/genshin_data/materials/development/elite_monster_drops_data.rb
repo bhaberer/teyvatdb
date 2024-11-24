@@ -703,7 +703,7 @@ module GenshinData
         ).freeze
 
         SHEATH_OF_THE_SECRET_SOURCE = GenshinObject::Material.new(
-          kamera_key: "SheathOfTheSecretSource ",
+          kamera_key: "SheathOfTheSecretSource",
           name: "Sheath of the Secret Source ",
           rarity: 2,
           family: :secret_source,
