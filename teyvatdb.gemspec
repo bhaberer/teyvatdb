@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "TeyvatDB is a gem to provide Genshin game data in a standardized way across my projects"
   spec.description = "Gem to provide basic genshin data to my other projects"
   spec.homepage = "https://github.com/bhaberer/teyvatdb"
-  spec.required_ruby_version = ">= 3.1.0"
+  spec.required_ruby_version = ">= 3.3.6"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 

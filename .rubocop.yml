@@ -1,13 +1,15 @@
 inherit_from: .rubocop_todo.yml
+
+
 require:
 - rubocop-rake
 - rubocop-rspec
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.1
+  TargetRubyVersion: 3.3.6
   Exclude:
-    - 'lib/teyvatdb/import.rb'
+    - 'vendor/*'
 
 Style/StringLiterals:
   Enabled: true
