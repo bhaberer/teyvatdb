@@ -499,9 +499,9 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
-        SPINAL_FRUIT = GenshinObject::Material.new(
-          kamera_key: "SpinalFruit",
-          name: "Spinal Fruit",
+        SPINEL_FRUIT = GenshinObject::Material.new(
+          kamera_key: "SpinelFruit",
+          name: "Spinel Fruit",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
