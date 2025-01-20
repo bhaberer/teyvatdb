@@ -338,6 +338,39 @@ module GenshinData
           source_sub_category: :the_knave_drop,
           nation_name: :fontaine
         ).freeze
+
+        ERODED_HORN = GenshinObject::Material.new(
+          kamera_key: "ErodedHorn",
+          name: "Eroded Horn",
+          rarity: 5,
+          family: :lord_of_primal_fire_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :lord_of_primal_fire_drop,
+          nation_name: :natlan
+        ).freeze
+
+        ERODED_SUNFIRE = GenshinObject::Material.new(
+          kamera_key: "ErodedSunfire",
+          name: "Eroded Sunfire",
+          rarity: 5,
+          family: :lord_of_primal_fire_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :lord_of_primal_fire_drop,
+          nation_name: :natlan
+        ).freeze
+
+        ERODED_SCALE_FEATHER = GenshinObject::Material.new(
+          kamera_key: "ErodedScaleFeather",
+          name: "Eroded Scale-Feather",
+          rarity: 5,
+          family: :lord_of_primal_fire_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :lord_of_primal_fire_drop,
+          nation_name: :natlan
+        ).freeze
       end
     end
   end

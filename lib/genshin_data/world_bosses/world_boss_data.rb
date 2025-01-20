@@ -217,6 +217,12 @@ module GenshinData
         nation_name: :inazuma,
         boss_material: "StormBeads"
       )
+
+      WAYWARD_HERMETIC_SPIRITSPEAKER = GenshinObject::WorldBoss.new(
+        name: "Wayward Hermetic Spiritspeaker",
+        nation_name: :natlan,
+        boss_material: "TalismanOfTheEnigmaticLand"
+      )
     end
   end
 end

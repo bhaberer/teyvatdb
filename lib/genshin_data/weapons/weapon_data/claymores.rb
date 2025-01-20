@@ -9,6 +9,16 @@ module GenshinData
           constants.map { |x| GenshinData::Weapons::WeaponData::Claymores.const_get(x) }
         end
 
+        A_THOUSAND_BLAZING_SUNS = GenshinObject::Weapon.new(
+          kamera_key: "AThousandBlazingSuns",
+          name: "A Thousand Blazing Suns",
+          rarity: 5,
+          weapon_type: :claymore,
+          elite_material_type: :secret_source,
+          standard_material_type: :fang,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
         AKUOUMARU = GenshinObject::Weapon.new(
           kamera_key: "Akuoumaru",
           name: "Akuoumaru",

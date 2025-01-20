@@ -361,6 +361,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        TALISMAN_OF_THE_ENIGMATIC_LAND = GenshinObject::Material.new(
+          kamera_key: "TalismanOfTheEnigmaticLand",
+          name: "Talisman of the Enigmatic Land",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
         THUNDERCLAP_FRUITCORE = GenshinObject::Material.new(
           kamera_key: "ThunderclapFruitcore",
           name: "Thunderclap Fruitcore",

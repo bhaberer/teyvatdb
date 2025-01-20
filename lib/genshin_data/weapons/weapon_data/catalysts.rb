@@ -319,6 +319,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        STARCALLERS_WATCH = GenshinObject::Weapon.new(
+          kamera_key: "StarcallersWatch",
+          name: "Starcaller's Watch",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :wayob_will,
+          standard_material_type: :whistle,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         SURFS_UP = GenshinObject::Weapon.new(
           kamera_key: "SurfsUp",
           name: "Surf's Up",

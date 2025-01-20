@@ -243,6 +243,21 @@ module GenshinData
         ascension_enemy_material_name: :hilichurl_mask
       ).freeze
 
+      CITLALI = GenshinObject::Character.new(
+        kamera_key: "Citlali",
+        name: "Citlali",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :cryo,
+        weapon_type: :catalyst,
+        talent_book_name: :kindling,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "DenialAndJudgement",
+        ascension_boss_material_name: "TalismanOfTheEnigmaticLand",
+        ascension_gathering_material_name: "QuenepaBerry",
+        ascension_enemy_material_name: :fang
+      ).freeze
+
       CLORINDE = GenshinObject::Character.new(
         kamera_key: "Clorinde",
         name: "Clorinde",
@@ -736,6 +751,21 @@ module GenshinData
         ascension_boss_material_name: "EmperorsResolution",
         ascension_gathering_material_name: "RainbowRose",
         ascension_enemy_material_name: :fatui_insignia
+      ).freeze
+
+      MAVUIKA = GenshinObject::Character.new(
+        kamera_key: "Mavuika",
+        name: "Mavuika",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :pyro,
+        weapon_type: :claymore,
+        talent_book_name: :contention,
+        talent_rare_material_name: :whistle,
+        talent_boss_material_name: "ErodedHorn",
+        ascension_boss_material_name: "GoldInscribedSecretSourceCore",
+        ascension_gathering_material_name: "WitheringPurpurbloom",
+        ascension_enemy_material_name: :whistle
       ).freeze
 
       MIKA = GenshinObject::Character.new(

@@ -77,6 +77,13 @@ module GenshinData
         nation_name: :fontaine,
         material_family: :the_knave_loot
       )
+
+      LORD_OF_PRIMAL_FIRE = GenshinObject::WeeklyBoss.new(
+        name: "Lord of Eroded Primal Fire",
+        domain_name: "Scattered Ruins",
+        nation_name: :natlan,
+        material_family: :lord_of_primal_fire_loot
+      )
     end
   end
 end

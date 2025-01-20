@@ -1,3 +1,15 @@
+## [0.5.3] - 2025-01-20
+- Add Characters:
+  - Mavuika (5)
+  - Citlali (5)
+- Add Weapons
+  - A Thousand Blazing Suns (5)
+  - Starcaller's Watch (5)
+- Add Weekly Boss & Loot
+  - Lord of Eroded Primal Fire
+- Add World Boss & Loot
+  - Wayward Hermetic Spiritspeaker
+
 ## [0.5.2.4] - 2024-11-23
 - Fix typo in material
 
