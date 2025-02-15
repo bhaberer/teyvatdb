@@ -289,6 +289,16 @@ module GenshinData
           weapon_material_type: :oasis_garden
         ).freeze
 
+        TAMAYURATEI_NO_OHANASHI = GenshinObject::Weapon.new(
+          kamera_key: "TamayurateiNoOhanashi",
+          name: "Tamayuratei no Ohanashi",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :abyss_leaf,
+          standard_material_type: :handguard,
+          weapon_material_type: :oni_mask
+        ).freeze
+
         THE_CATCH = GenshinObject::Weapon.new(
           kamera_key: "TheCatch",
           name: "Catch, The",

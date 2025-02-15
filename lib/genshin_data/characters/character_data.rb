@@ -1338,6 +1338,21 @@ module GenshinData
         ascension_enemy_material_name: :scroll
       ).freeze
 
+      YUMEMIZUKI_MIZUKI = GenshinObject::Character.new(
+        kamera_key: "YumemizukiMizuki",
+        name: "Yumemizuki Mizuki",
+        nation_name: :inazuma,
+        rarity: 5,
+        element: :anemo,
+        weapon_type: :catalyst,
+        talent_book_name: :transience,
+        talent_rare_material_name: :handguard,
+        talent_boss_material_name: "FadingCandle",
+        ascension_boss_material_name: "TalismanOfTheEnigmaticLand",
+        ascension_gathering_material_name: "SeaGanoderma",
+        ascension_enemy_material_name: :handguard
+      ).freeze
+
       YUN_JIN = GenshinObject::Character.new(
         kamera_key: "YunJin",
         name: "Yun Jin",

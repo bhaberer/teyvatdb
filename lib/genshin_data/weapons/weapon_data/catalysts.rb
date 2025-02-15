@@ -329,6 +329,16 @@ module GenshinData
           weapon_material_type: :sacred_lord
         ).freeze
 
+        SUNNY_MORNING_SLEEP_IN = GenshinObject::Weapon.new(
+          kamera_key: "SunnyMorningSleepIn",
+          name: "Sunny Morning Sleep-In",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :ignited,
+          standard_material_type: :spectral,
+          weapon_material_type: :narukami
+        ).freeze
+
         SURFS_UP = GenshinObject::Weapon.new(
           kamera_key: "SurfsUp",
           name: "Surf's Up",

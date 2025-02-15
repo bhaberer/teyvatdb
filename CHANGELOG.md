@@ -1,3 +1,10 @@
+## [0.5.4] - 2025-02-14
+- Add Character:
+  - Yumemizuki Mizuki
+- Add Weapons
+  - Sunny Morning Sleep-In (5)
+  - Tamayuratei no Ohanashi (4)
+
 ## [0.5.3] - 2025-01-20
 - Add Characters:
   - Mavuika (5)

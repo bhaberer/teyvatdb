@@ -54,7 +54,8 @@ module GenshinData
           CharacterData::THOMA,
           CharacterData::WANDERER,
           CharacterData::YAE_MIKO,
-          CharacterData::YOIMIYA
+          CharacterData::YOIMIYA,
+          CharacterData::YUMEMIZUKI_MIZUKI
         ]
       end
 
