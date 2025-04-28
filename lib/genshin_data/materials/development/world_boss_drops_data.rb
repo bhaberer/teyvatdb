@@ -350,6 +350,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        SPARKLESS_STATUE_CORE  = GenshinObject::Material.new(
+          kamera_key: "SparklessStatueCore",
+          name: "Sparkless Statue Core",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :natlan
+        ).freeze
+
         STORM_BEADS = GenshinObject::Material.new(
           kamera_key: "StormBeads",
           name: "Storm Beads",

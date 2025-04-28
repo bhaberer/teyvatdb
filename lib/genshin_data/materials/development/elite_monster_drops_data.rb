@@ -800,6 +800,39 @@ module GenshinData
           source_sub_category: :elite_drop,
           nation_name: nil
         ).freeze
+
+        COLD_CRACKED_SHELLSHARD = GenshinObject::Material.new(
+          kamera_key: "ColdCrackedShellshard",
+          name: "Cold-Cracked Shellshard",
+          rarity: 2,
+          family: :weasel_shell,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        WARM_BACK_SHELL = GenshinObject::Material.new(
+          kamera_key: "WarmBackShell",
+          name: "Warm Back-Shell",
+          rarity: 3,
+          family: :weasel_shell,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        BLAZING_PRISMSHELL = GenshinObject::Material.new(
+          kamera_key: "BlazingPrismshell",
+          name: "Blazing Prismshell",
+          rarity: 4,
+          family: :weasel_shell,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
       end
     end
   end

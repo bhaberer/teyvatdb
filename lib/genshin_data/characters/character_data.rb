@@ -498,6 +498,21 @@ module GenshinData
         ascension_enemy_material_name: :nectar
       ).freeze
 
+      IANSAN = GenshinObject::Character.new(
+        kamera_key: "Iansan",
+        name: "Iansan",
+        nation_name: :natlan,
+        rarity: 4,
+        element: :electro,
+        weapon_type: :polearm,
+        talent_book_name: :contention,
+        talent_rare_material_name: :whistle,
+        talent_boss_material_name: "DenialAndJudgement",
+        ascension_boss_material_name: "EnsnaringGaze",
+        ascension_gathering_material_name: "Dracolite",
+        ascension_enemy_material_name: :whistle
+      ).freeze
+
       JEAN = GenshinObject::Character.new(
         kamera_key: "Jean",
         name: "Jean",
@@ -1126,6 +1141,21 @@ module GenshinData
         ascension_boss_material_name: "MajesticHookedBeak",
         ascension_gathering_material_name: "NilotpalaLotus",
         ascension_enemy_material_name: :pollen
+      ).freeze
+
+      VARESA = GenshinObject::Character.new(
+        kamera_key: "Varesa",
+        name: "Varesa",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :electro,
+        weapon_type: :catalyst,
+        talent_book_name: :conflict,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "ErodedScaleFeather",
+        ascension_boss_material_name: "SparklessStatueCore",
+        ascension_gathering_material_name: "SkysplitGembloom",
+        ascension_enemy_material_name: :fang
       ).freeze
 
       VENTI = GenshinObject::Character.new(

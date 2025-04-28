@@ -309,6 +309,16 @@ module GenshinData
           weapon_material_type: :oni_mask
         ).freeze
 
+        VIVID_NOTIONS = GenshinObject::Weapon.new(
+          kamera_key: "VividNotions",
+          name: "Vivid Notions",
+          rarity: 5,
+          weapon_type: :polearm,
+          elite_material_type: :weasel_shell,
+          standard_material_type: :fang,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         VORTEX_VANQUISHER = GenshinObject::Weapon.new(
           kamera_key: "VortexVanquisher",
           name: "Vortex Vanquisher",

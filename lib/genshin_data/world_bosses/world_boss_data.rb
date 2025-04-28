@@ -128,6 +128,12 @@ module GenshinData
         boss_material: "MajesticHookedBeak"
       )
 
+      LAVA_DRAGON_STATUE = GenshinObject::WorldBoss.new(
+        name: "Lava Dragon Statue",
+        nation_name: :natlan,
+        boss_material: "SparklessStatueCore"
+      )
+
       MAGUU_KENKI = GenshinObject::WorldBoss.new(
         name: "Maguu Kenki",
         nation_name: :inazuma,

@@ -119,6 +119,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        DRACOLITE = GenshinObject::Material.new(
+          kamera_key: "Dracolite",
+          name: "Dracolite",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
+        ).freeze
+
         FLUORESCENT_FUNGUS = GenshinObject::Material.new(
           kamera_key: "FluorescentFungus",
           name: "Fluorescent Fungus",
@@ -458,6 +469,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :liyue
+        ).freeze
+
+        SKYSPLIT_GEMBLOOM = GenshinObject::Material.new(
+          kamera_key: "SkysplitGembloom",
+          name: "SkysplitGembloom",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :natlan
         ).freeze
 
         SMALL_LAMP_GRASS = GenshinObject::Material.new(

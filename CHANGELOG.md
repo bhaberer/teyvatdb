@@ -1,3 +1,12 @@
+## [0.5.5] - 2025-04-28
+- Add Characters
+  - Varesa (5)
+  - Iansan (4)
+- Add Weapon
+  - Vivid Notions (5)
+- Add Weekly Boss & Loot
+  - Lava Dragon Statue
+
 ## [0.5.4] - 2025-02-14
 - Add Character:
   - Yumemizuki Mizuki

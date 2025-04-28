@@ -112,11 +112,13 @@ module GenshinData
         [
           CharacterData::CHASCA,
           CharacterData::CITLALI,
+          CharacterData::IANSAN,
           CharacterData::KACHINA,
           CharacterData::KINICH,
           CharacterData::MAVUIKA,
           CharacterData::MUALANI,
           CharacterData::ORORON,
+          CharacterData::VARESA,
           CharacterData::XILONEN
         ]
       end
