@@ -289,6 +289,16 @@ module GenshinData
           weapon_material_type: :oasis_garden
         ).freeze
 
+        SYMPHONIST_OF_SCENTS = GenshinObject::Weapon.new(
+          kamera_key: "SymphonistOfScents",
+          name: "Symphonist of Scents",
+          rarity: 5,
+          weapon_type: :polearm,
+          elite_material_type: :tainted_water,
+          standard_material_type: :transoceanic,
+          weapon_material_type: :sacred_dewdrop
+        ).freeze
+
         TAMAYURATEI_NO_OHANASHI = GenshinObject::Weapon.new(
           kamera_key: "TamayurateiNoOhanashi",
           name: "Tamayuratei no Ohanashi",

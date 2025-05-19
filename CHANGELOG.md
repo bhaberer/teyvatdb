@@ -1,61 +1,78 @@
+## [0.5.6] - 2025-04-28
+  - Add new Characters
+    - Escoffier (5)
+    - Ifa (4)
+  - Add missed Character
+    - Lan Yan (4)
+  - Add Weapon
+    - Symphonist of Scents (5)
+    - Sequence of Solitude (4)
+  - Add Weekly Boss & Loot
+    - The Game Before the Gate
+  - Add World Boss & Loot
+    - Secret Source Automaton
+
 ## [0.5.5] - 2025-04-28
-- Add Characters
-  - Varesa (5)
-  - Iansan (4)
-- Add Weapon
-  - Vivid Notions (5)
-- Add Weekly Boss & Loot
-  - Lava Dragon Statue
+  - Add Characters
+    - Varesa (5)
+    - Iansan (4)
+  - Add Weapon
+    - Vivid Notions (5)
+  - Add World Boss & Loot
+    - Lava Dragon Statue
 
 ## [0.5.4] - 2025-02-14
-- Add Character:
-  - Yumemizuki Mizuki
-- Add Weapons
-  - Sunny Morning Sleep-In (5)
-  - Tamayuratei no Ohanashi (4)
+  - Add Character:
+    - Yumemizuki Mizuki
+  - Add Weapons
+    - Sunny Morning Sleep-In (5)
+    - Tamayuratei no Ohanashi (4)
 
 ## [0.5.3] - 2025-01-20
-- Add Characters:
-  - Mavuika (5)
-  - Citlali (5)
-- Add Weapons
-  - A Thousand Blazing Suns (5)
-  - Starcaller's Watch (5)
-- Add Weekly Boss & Loot
-  - Lord of Eroded Primal Fire
-- Add World Boss & Loot
-  - Wayward Hermetic Spiritspeaker
+  - Add Characters:
+    - Mavuika (5)
+    - Citlali (5)
+  - Add Weapons
+    - A Thousand Blazing Suns (5)
+    - Starcaller's Watch (5)
+  - Add Weekly Boss & Loot
+    - Lord of Eroded Primal Fire
+  - Add World Boss & Loot
+    - Wayward Hermetic Spiritspeaker
 
 ## [0.5.2.4] - 2024-11-23
-- Fix typo in material
+  - Fix typo in material
 
 ## [0.5.2.3] - 2024-11-23
-- Fix typo in material
-- Add missing cooking and gathering materials
-- Add better test coverage to catch materials with bad names and keys
+  - Fix typo in material
+  - Add missing cooking and gathering materials
+  - Add better test coverage
+    - Catch materials with bad names and keys
 
 ## [0.5.2.2] - 2024-11-23
-- Add missing talent books
-- Add better test coverage to catch missing materials and errors in talent books
+  - Add missing talent books
+  - Add better test coverage
+    - Catch missing materials and errors in talent books
 
 ## [0.5.2.1] - 2024-11-23
-- Fix typo in Sword key
-- Add better test coverage to catche incorrect names and keys
+  - Fix typo in Sword key
+  - Add better test coverage
+    - Catch incorrect names and keys
 
 ## [0.5.2] - 2024-11-23
-- Add Characters:
-  - Chasca (5)
-  - Ororon (4)
-- Add Weapons
-  - Astral Vulture's Crimson Plumage (5)
-  - Waveriding Whirl (4)
-  - Flower-Wreathed Feathers (4)
-  - Calamity of Eshu (4)
-- Add World Boss & Loot
-  - Tenebrous Papilla
+  - Add Characters:
+    - Chasca (5)
+    - Ororon (4)
+  - Add Weapons
+    - Astral Vulture's Crimson Plumage (5)
+    - Waveriding Whirl (4)
+    - Flower-Wreathed Feathers (4)
+    - Calamity of Eshu (4)
+  - Add World Boss & Loot
+    - Tenebrous Papilla
 
 ## [0.5.1.1] - 2024-11-13
-- Fix typo
+  - Fix typo
 
 ## [0.5.1] - 2024-11-13
   - Add v5.1 data
@@ -124,15 +141,14 @@
     - Added 'Statue of Marble and Brass' world boss & loot
 
 ## [0.4.5.1] - 2024-04-14
-- Add v4.5 event Weapon
-  - Add polearm, Dialogues of the Desert Sages
-  - Add refinement material Exalted Earth
+  - Add v4.5 event Weapon
+    - Add polearm, Dialogues of the Desert Sages
+    - Add refinement material Exalted Earth
 
 ## [0.2.4] - 2024-03-16
-- Add v4.5 Character and weapons
-  - Add Chiori Character
-  - Add signature weapon Uraku Misugiri
+  - Add v4.5 Character and weapons
+    - Add Chiori Character
+    - Add signature weapon Uraku Misugiri
 
 ## [0.1.0] - 2023-07-22
-
-- Initial release
+  - Initial release

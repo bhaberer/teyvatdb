@@ -80,9 +80,16 @@ module GenshinData
 
       LORD_OF_PRIMAL_FIRE = GenshinObject::WeeklyBoss.new(
         name: "Lord of Eroded Primal Fire",
-        domain_name: "Scattered Ruins",
+        domain_name: "Stone Stele Records",
         nation_name: :natlan,
         material_family: :lord_of_primal_fire_loot
+      )
+
+      THE_GAME_BEFORE_THE_GATE = GenshinObject::WeeklyBoss.new(
+        name: "The Game Before the Gate",
+        domain_name: "Unresolved Chess Game",
+        nation_name: :mondstadt,
+        material_family: :the_game_before_the_gate_loot
       )
     end
   end

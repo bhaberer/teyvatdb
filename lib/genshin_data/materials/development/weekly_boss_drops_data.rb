@@ -371,6 +371,39 @@ module GenshinData
           source_sub_category: :lord_of_primal_fire_drop,
           nation_name: :natlan
         ).freeze
+
+        ASCENDED_SAMPLE_KNIGHT = GenshinObject::Material.new(
+          kamera_key: "AscendedSampleKnight",
+          name: "Ascended Sample: Knight",
+          rarity: 5,
+          family: :the_game_before_the_gate_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_game_before_the_gate_drop,
+          nation_name: :mondstadt
+        ).freeze
+
+        ASCENDED_SAMPLE_QUEEN = GenshinObject::Material.new(
+          kamera_key: "AscendedSampleQueen",
+          name: "Ascended Sample: Queen",
+          rarity: 5,
+          family: :the_game_before_the_gate_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_game_before_the_gate_drop,
+          nation_name: :mondstadt
+        ).freeze
+
+        ASCENDED_SAMPLE_ROOK = GenshinObject::Material.new(
+          kamera_key: "AscendedSampleRook",
+          name: "Ascended Sample: Rook",
+          rarity: 5,
+          family: :the_game_before_the_gate_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :the_game_before_the_gate_drop,
+          nation_name: :mondstadt
+        ).freeze
       end
     end
   end

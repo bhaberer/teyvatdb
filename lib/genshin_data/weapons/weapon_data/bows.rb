@@ -319,6 +319,16 @@ module GenshinData
           weapon_material_type: :wolf_tooth
         ).freeze
 
+        SEQUENCE_OF_SOLITUDE = GenshinObject::Weapon.new(
+          kamera_key: "SequenceOfSolitude",
+          name: "Sequence of Solitude",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :weasel_shell,
+          standard_material_type: :gear,
+          weapon_material_type: :ancient_chord
+        ).freeze
+
         SHARPSHOOTERS_OATH = GenshinObject::Weapon.new(
           kamera_key: "SharpshootersOath",
           name: "Sharpshooter's Oath",

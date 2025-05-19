@@ -363,6 +363,21 @@ module GenshinData
         ascension_enemy_material_name: :scarf
       ).freeze
 
+      ESCOFFIER = GenshinObject::Character.new(
+        kamera_key: "Escoffier",
+        name: "Escoffier",
+        nation_name: :fontaine,
+        rarity: 5,
+        element: :cryo,
+        weapon_type: :polearm,
+        talent_book_name: :justice,
+        talent_rare_material_name: :gear,
+        talent_boss_material_name: "ErodedHorn",
+        ascension_boss_material_name: "SecretSourceAirflowAccumulator",
+        ascension_gathering_material_name: "BerylConch",
+        ascension_enemy_material_name: :gear
+      ).freeze
+
       EULA = GenshinObject::Character.new(
         kamera_key: "Eula",
         name: "Eula",
@@ -511,6 +526,21 @@ module GenshinData
         ascension_boss_material_name: "EnsnaringGaze",
         ascension_gathering_material_name: "Dracolite",
         ascension_enemy_material_name: :whistle
+      ).freeze
+
+      IFA = GenshinObject::Character.new(
+        kamera_key: "Ifa",
+        name: "Ifa",
+        nation_name: :natlan,
+        rarity: 4,
+        element: :anemo,
+        weapon_type: :catalyst,
+        talent_book_name: :conflict,
+        talent_rare_material_name: :fang,
+        talent_boss_material_name: "AscendedSampleRook",
+        ascension_boss_material_name: "SparklessStatueCore",
+        ascension_gathering_material_name: "SaurianClawSucculent",
+        ascension_enemy_material_name: :fang
       ).freeze
 
       JEAN = GenshinObject::Character.new(
@@ -706,6 +736,21 @@ module GenshinData
         ascension_boss_material_name: "RunicFang",
         ascension_gathering_material_name: "NakuWeed",
         ascension_enemy_material_name: :spectral
+      ).freeze
+
+      LAN_YAN = GenshinObject::Character.new(
+        kamera_key: "LanYan",
+        name: "Lan Yan",
+        nation_name: :liyue,
+        rarity: 4,
+        element: :anemo,
+        weapon_type: :catalyst,
+        talent_book_name: :diligence,
+        talent_rare_material_name: :nectar,
+        talent_boss_material_name: "ErodedSunfire",
+        ascension_boss_material_name: "GoldInscribedSecretSourceCore",
+        ascension_gathering_material_name: "ClearwaterJade",
+        ascension_enemy_material_name: :nectar
       ).freeze
 
       LAYLA = GenshinObject::Character.new(

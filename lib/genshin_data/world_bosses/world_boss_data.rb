@@ -188,6 +188,12 @@ module GenshinData
         boss_material: "RunicFang"
       )
 
+      SECRET_SOURCE_AUTOMATON = GenshinObject::WorldBoss.new(
+        name: "Secret Source Automaton",
+        nation_name: :natlan,
+        boss_material: "SecretSourceAirflowAccumulator"
+      )
+
       SECRET_SOURCE_CONSTRUCTOR = GenshinObject::WorldBoss.new(
         name: "Secret Source Constructor",
         nation_name: :natlan,
