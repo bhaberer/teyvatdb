@@ -39,6 +39,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        ASHEN_ARATIKU_WOOD = GenshinObject::Material.new(
+          kamera_key: "AshenAratikuWood",
+          name: "Ashen Aratiku Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         ATHEL_WOOD = GenshinObject::Material.new(
           kamera_key: "AthelWood",
           name: "Athel Wood",
@@ -202,6 +212,16 @@ module GenshinData
         OTOGI_WOOD = GenshinObject::Material.new(
           kamera_key: "OtogiWood",
           name: "Otogi Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
+        PEACH_PALM_WOOD = GenshinObject::Material.new(
+          kamera_key: "PeachPalmWood",
+          name: "Peach Palm Wood",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

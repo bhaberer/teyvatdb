@@ -89,6 +89,16 @@ module GenshinData
           source_sub_category: :forging_material
         ).freeze
 
+        EMPOWERED_DRAGONTOOTH = GenshinObject::Material.new(
+          kamera_key: "EmpoweredDragontooth",
+          name: "Empowered Dragontooth",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :forging_material
+        ).freeze
+
         IRON_CHUNK = GenshinObject::Material.new(
           kamera_key: "IronChunk",
           name: "Iron Chunk",
@@ -212,16 +222,6 @@ module GenshinData
         STARSILVER = GenshinObject::Material.new(
           kamera_key: "Starsilver",
           name: "Starsilver",
-          rarity: 1,
-          family: nil,
-          inventory_type: :standard_material,
-          source_category: :gathering,
-          source_sub_category: :forging_material
-        ).freeze
-
-        VITALIZED_DRAGONTOOTH = GenshinObject::Material.new(
-          kamera_key: "VitalizedDragontooth",
-          name: "Vitalized Dragontooth",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

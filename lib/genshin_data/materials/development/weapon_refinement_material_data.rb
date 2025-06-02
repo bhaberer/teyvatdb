@@ -29,6 +29,16 @@ module GenshinData
           source_sub_category: :refine_material
         ).freeze
 
+        COMPOSITE_BOW_TUNING_KIT = GenshinObject::Material.new(
+          kamera_key: "CompositeBowTuningKit",
+          name: "Composite Bow Tuning Kit",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :weapon_material,
+          source_sub_category: :refine_material
+        ).freeze
+
         CONGEALED_PUPA_WAX = GenshinObject::Material.new(
           kamera_key: "CongealedPupaWax",
           name: "Congealed Pupa Wax",

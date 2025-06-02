@@ -1,3 +1,6 @@
+## [0.5.6.1] - 2025-05-31
+  - Add missing materials
+
 ## [0.5.6] - 2025-04-28
   - Add new Characters
     - Escoffier (5)
