@@ -1,3 +1,10 @@
+## [0.5.7] - 2025-06-17
+  - Add new Characters
+    - Skirk (5)
+    - Dahlia (4)
+  - Add Weapon
+    - Azurelight (5)
+
 ## [0.5.6.1] - 2025-05-31
   - Add missing materials
 

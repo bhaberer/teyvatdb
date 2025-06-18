@@ -303,6 +303,21 @@ module GenshinData
         ascension_enemy_material_name: :scroll
       ).freeze
 
+      DAHLIA = GenshinObject::Character.new(
+        kamera_key: "Dahlia",
+        name: "Dahlia",
+        nation_name: :mondstadt,
+        rarity: 4,
+        element: :hydro,
+        weapon_type: :sword,
+        ascension_boss_material_name: "SecretSourceAirflowAccumulator",
+        ascension_gathering_material_name: "CallaLily",
+        ascension_enemy_material_name: :arrowhead,
+        talent_book_name: :ballad,
+        talent_rare_material_name: :arrowhead,
+        talent_boss_material_name: "ErodedScaleFeather"
+      ).freeze
+
       DEHYA = GenshinObject::Character.new(
         kamera_key: "Dehya",
         name: "Dehya",
@@ -1126,6 +1141,21 @@ module GenshinData
         talent_book_name: :equity,
         talent_rare_material_name: :transoceanic,
         talent_boss_material_name: "LightlessEyeOfTheMaelstrom"
+      ).freeze
+
+      SKIRK = GenshinObject::Character.new(
+        kamera_key: "Skirk",
+        name: "Skirk",
+        nation_name: :natlan,
+        rarity: 5,
+        element: :cryo,
+        weapon_type: :sword,
+        ascension_boss_material_name: "EnsnaringGaze",
+        ascension_gathering_material_name: "SkysplitGembloom",
+        ascension_enemy_material_name: :gear,
+        talent_book_name: :contention,
+        talent_rare_material_name: :gear,
+        talent_boss_material_name: "AscendedSampleKnight"
       ).freeze
 
       SUCROSE = GenshinObject::Character.new(

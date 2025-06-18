@@ -92,6 +92,7 @@ module GenshinData
           CharacterData::AMBER,
           CharacterData::BARBARA,
           CharacterData::BENNETT,
+          CharacterData::DAHLIA,
           CharacterData::DILUC,
           CharacterData::DIONA,
           CharacterData::KLEE,
@@ -121,6 +122,7 @@ module GenshinData
           CharacterData::MAVUIKA,
           CharacterData::MUALANI,
           CharacterData::ORORON,
+          CharacterData::SKIRK,
           CharacterData::VARESA,
           CharacterData::XILONEN
         ]

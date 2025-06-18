@@ -49,6 +49,16 @@ module GenshinData
           weapon_material_type: :decarabian
         ).freeze
 
+        AZURELIGHT = GenshinObject::Weapon.new(
+          kamera_key: "Azurelight",
+          name: "Azurelight",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :abyss_leaf,
+          standard_material_type: :whistle,
+          weapon_material_type: :night_wind
+        ).freeze
+
         BLACKCLIFF_LONGSWORD = GenshinObject::Weapon.new(
           kamera_key: "BlackcliffLongsword",
           name: "Blackcliff Longsword",
