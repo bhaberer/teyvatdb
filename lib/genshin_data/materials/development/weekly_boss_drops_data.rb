@@ -306,9 +306,9 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
-        DENIAL_AND_JUDGEMENT = GenshinObject::Material.new(
+        DENIAL_AND_JUDGMENT = GenshinObject::Material.new(
           kamera_key: "DenialAndJudgment",
-          name: "Denial and Judgement",
+          name: "Denial and Judgment",
           rarity: 5,
           family: :the_knave_loot,
           inventory_type: :development_material,
