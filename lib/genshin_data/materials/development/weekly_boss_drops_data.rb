@@ -307,7 +307,7 @@ module GenshinData
         ).freeze
 
         DENIAL_AND_JUDGEMENT = GenshinObject::Material.new(
-          kamera_key: "DenialAndJudgement",
+          kamera_key: "DenialAndJudgment",
           name: "Denial and Judgement",
           rarity: 5,
           family: :the_knave_loot,

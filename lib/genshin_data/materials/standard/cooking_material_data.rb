@@ -429,6 +429,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        RED_BERRYSHROOM = GenshinObject::Material.new(
+          kamera_key: "RedBerryshroom",
+          name: "Red Berryshroom",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         RICE = GenshinObject::Material.new(
           kamera_key: "Rice",
           name: "Rice",

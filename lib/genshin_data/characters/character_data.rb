@@ -252,7 +252,7 @@ module GenshinData
         weapon_type: :catalyst,
         talent_book_name: :kindling,
         talent_rare_material_name: :fang,
-        talent_boss_material_name: "DenialAndJudgement",
+        talent_boss_material_name: "DenialAndJudgment",
         ascension_boss_material_name: "TalismanOfTheEnigmaticLand",
         ascension_gathering_material_name: "QuenepaBerry",
         ascension_enemy_material_name: :fang
@@ -537,7 +537,7 @@ module GenshinData
         weapon_type: :polearm,
         talent_book_name: :contention,
         talent_rare_material_name: :whistle,
-        talent_boss_material_name: "DenialAndJudgement",
+        talent_boss_material_name: "DenialAndJudgment",
         ascension_boss_material_name: "EnsnaringGaze",
         ascension_gathering_material_name: "Dracolite",
         ascension_enemy_material_name: :whistle
@@ -702,7 +702,7 @@ module GenshinData
         weapon_type: :claymore,
         talent_book_name: :kindling,
         talent_rare_material_name: :fang,
-        talent_boss_material_name: "DenialAndJudgement",
+        talent_boss_material_name: "DenialAndJudgment",
         ascension_boss_material_name: "OverripeFlamegranate",
         ascension_gathering_material_name: "SaurianClawSucculent",
         ascension_enemy_material_name: :fang

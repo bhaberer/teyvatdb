@@ -1,3 +1,8 @@
+## [0.5.7.1] - 2025-07-06
+  - Add missing material
+    - Red Berryshroom
+  - Fix typo in DenialAndJudgement
+
 ## [0.5.7] - 2025-06-17
   - Add new Characters
     - Skirk (5)
