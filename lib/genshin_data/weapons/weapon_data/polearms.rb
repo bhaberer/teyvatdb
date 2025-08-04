@@ -149,6 +149,16 @@ module GenshinData
           weapon_material_type: :sacred_lord
         ).freeze
 
+        FRACTURED_HALO = GenshinObject::Weapon.new(
+          kamera_key: "FracturedHalo",
+          name: "Fractured Halo",
+          rarity: 5,
+          weapon_type: :polearm,
+          elite_material_type: :weasel_shell,
+          standard_material_type: :fang,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
         HALBERD = GenshinObject::Weapon.new(
           kamera_key: "Halberd",
           name: "Halberd",

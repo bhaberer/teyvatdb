@@ -1,3 +1,13 @@
+## [0.5.8] - 2025-08-03
+  - Add new character
+    - Inefa (5)
+  - Add missing character
+    - Emilie (5)
+  - Add Weapons
+    - Fractured Halo (5)
+    - Flame-Forged Insight
+  - Add C3/C5 bonuses to all characters
+
 ## [0.5.7.2] - 2025-07-06
   - Really Fix typo in DenialAndJudgment
 

@@ -109,6 +109,16 @@ module GenshinData
           weapon_material_type: :decarabian
         ).freeze
 
+        FLAME_FORGED_INSIGHT = GenshinObject::Weapon.new(
+          kamera_key: "FlameForgedInsight",
+          name: "Flame-Forged Insight",
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :weasel_shell,
+          standard_material_type: :transoceanic,
+          weapon_material_type: :sacred_lord
+        ).freeze
+
         FOREST_REGALIA = GenshinObject::Weapon.new(
           kamera_key: "ForestRegalia",
           name: "Forest Regalia",
