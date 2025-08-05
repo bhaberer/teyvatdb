@@ -5,6 +5,10 @@
 module GenshinData
   module ArtifactSets
     module ArtifactSetData
+      def self.all
+        constants.map { |x| GenshinData::ArtifactSets::ArtifactSetData.const_get(x) }
+      end
+
       ARCHAIC_PETRA = GenshinObject::ArtifactSet.new(
         kamera_key: "ArchaicPetra",
         name: "Archaic Petra",
@@ -190,6 +194,32 @@ module GenshinData
         }
       ).freeze
 
+      FINALE_OF_THE_DEEP_GALLERIES = GenshinObject::ArtifactSet.new(
+        kamera_key: "FinaleOfTheDeepGalleries",
+        name: "Finale of the Deep Galleries",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Cryo DMG Bonus +15%"]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "When the equipping Character has 0 Elemental Energy, Normal Attack DMG is increased by 60% and Elemental Burst DMG is increased by 60%.",
+              "After the equipping character deals Normal Attack DMG, the aforementioned Elemental Burst effect will stop applying for 6s.",
+              "After the equipping character deals Elemental Burst DMG, the aforementioned Normal Attack effect will stop applying for 6s.",
+              "This effect can trigger even if the equipping character is off the field.",
+              "A maximum of 75% bonus DMG can be obtained in this way."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
       FLOWER_OF_PARADISE_LOST = GenshinObject::ArtifactSet.new(
         kamera_key: "FlowerOfParadiseLost",
         name: "Flower of Paradise Lost",
@@ -203,6 +233,32 @@ module GenshinData
               "Each stack of this lasts 10s. Max 4 stacks simultaneously.",
               "This effect can only be triggered once per second.",
               "The character who equips this can still trigger its effects when not on the field."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      FRAGMENT_OF_HARMONIC_WHIMSY = GenshinObject::ArtifactSet.new(
+        kamera_key: "FragmentOfHarmonicWhimsy",
+        name: "Fragment of Harmonic Whimsy",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 2,
+            bonus: ["ATK +18%"]
+          ),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "When the value of a Bond of Life increases or decreases, this character deals 18% increased DMG for 6s.",
+              "Max 3 stacks."
             ]
           )
         ],
@@ -353,6 +409,34 @@ module GenshinData
         }
       ).freeze
 
+      LONG_NIGHTS_OATH = GenshinObject::ArtifactSet.new(
+        kamera_key: "LongNightsOath",
+        name: "Long Night's Oath",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 2,
+            bonus: ["Plunging Attack DMG increased by 25%."]
+          ),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "After the equipping character's Plunging Attack/Charged Attack/Elemental Skill hits an opponent, they will gain 1/2/2 stack(s) of 'Radiance Everlasting.'",
+              "Plunging Attacks, Charged Attacks or Elemental Skills can each trigger this effect once every 1s.",
+              "Radiance Everlasting: Plunging Attacks deal 15%. increased DMG for 6s. Max 5 stacks.",
+              "Each stack's duration is counted independently."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
       MAIDEN_BELOVED = GenshinObject::ArtifactSet.new(
         kamera_key: "MaidenBeloved",
         name: "Maiden Beloved",
@@ -462,6 +546,32 @@ module GenshinData
         }
       ).freeze
 
+      OBSIDIAN_CODEX = GenshinObject::ArtifactSet.new(
+        kamera_key: "ObsidianCodex",
+        name: "Obsidian Codex",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 2,
+            bonus: ["While the equipping character is in Nightsoul's Blessing and is on the field, their DMG dealt is increased by 15%."]
+          ),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "After the equipping character consumes 1 Nightsoul point while on the field, CRIT Rate increases by 40% for 6s.",
+              "This effect can trigger once every second."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
       OCEAN_HUED_CLAM = GenshinObject::ArtifactSet.new(
         kamera_key: "OceanHuedClam",
         name: "Ocean-Hued Clam",
@@ -522,6 +632,33 @@ module GenshinData
           GenshinObject::ArtifactSetBonus.new(
             pieces_count: 4,
             bonus: ["While protected by a shield, gain an additional 40% Normal and Charged Attack DMG."]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      SCROLL_OF_THE_HERO_OF_CINDER_CITY = GenshinObject::ArtifactSet.new(
+        kamera_key: "ScrollOfTheHeroOfCinderCity",
+        name: "Scroll of the Hero of Cinder City",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 2,
+            bonus: ["When a nearby party member triggers a Nightsoul Burst, the equipping character regenerates 6 Elemental Energy."]
+          ),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "After the equipping character triggers a reaction related to their Elemental Type, all nearby party members gain a 12% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 15s.",
+              "If the equipping character is in the Nightsoul's Blessing state when triggering this effect, all nearby party members gain an additional 28% Elemental DMG Bonus for the Elemental Types involved in the elemental reaction for 20s.",
+              "The equipping character can trigger this effect while off-field, and the DMG bonus from Artifact Sets with the same name do not stack."
+            ]
           )
         ],
         max_rarity: 5,
@@ -640,6 +777,34 @@ module GenshinData
           GenshinObject::ArtifactSetBonus.new(
             pieces_count: 4,
             bonus: ["Increases DMG against opponents affected by Electro by 35%."]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      UNFINISHED_REVERIE = GenshinObject::ArtifactSet.new(
+        kamera_key: "UnfinishedReverie",
+        name: "Unfinished Reverie",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 2,
+            bonus: ["ATK +18%"]
+          ),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "After leaving combat for 3s, DMG dealt increased by 50%.",
+              "In combat, if no Burning opponents are nearby for more than 6s, this DMG Bonus will decrease by 10% per second until it reaches 0%.",
+              "When a Burning opponent exists, it will increase by 10% instead until it reaches 50%.",
+              "This effect still triggers if the equipping character is off-field."
+            ]
           )
         ],
         max_rarity: 5,
@@ -809,15 +974,16 @@ module GenshinData
         }
       ).freeze
 
-      INSTRUCTOR = GenshinObject::ArtifactSet.new(
-        kamera_key: "Instructor",
-        name: "Instructor",
+      GAMBLER = GenshinObject::ArtifactSet.new(
+        kamera_key: "Gambler",
+        name: "Gambler",
         bonuses: [
-          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Mastery by 80."]),
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Skill DMG by 20%."]),
           GenshinObject::ArtifactSetBonus.new(
             pieces_count: 4,
             bonus: [
-              "Upon triggering an Elemental Reaction, increases all party members's Elemental Mastery by 120 for 8s."
+              "Defeating an opponent has 100% chance to remove Elemental Skill CD.",
+              "Can only occur once every 15s."
             ]
           )
         ],
@@ -831,16 +997,15 @@ module GenshinData
         }
       ).freeze
 
-      GAMBLER = GenshinObject::ArtifactSet.new(
-        kamera_key: "Gambler",
-        name: "Gambler",
+      INSTRUCTOR = GenshinObject::ArtifactSet.new(
+        kamera_key: "Instructor",
+        name: "Instructor",
         bonuses: [
-          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Skill DMG by 20%."]),
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Mastery by 80."]),
           GenshinObject::ArtifactSetBonus.new(
             pieces_count: 4,
             bonus: [
-              "Defeating an opponent has 100% chance to remove Elemental Skill CD.",
-              "Can only occur once every 15s."
+              "Upon triggering an Elemental Reaction, increases all party members's Elemental Mastery by 120 for 8s."
             ]
           )
         ],

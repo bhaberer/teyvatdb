@@ -1,3 +1,12 @@
+## [0.5.8.1] - 2025-08-04
+  - Add Missing artifact sets
+    - Finale of the Deep Galleries
+    - Fragment of Harmonic Whimsy
+    - Obsidian Codex
+    - Long Night's Oath
+    - Scroll of the Hero of Cinder City
+    - Unfinished Reverie
+
 ## [0.5.8] - 2025-08-03
   - Add new character
     - Inefa (5)
