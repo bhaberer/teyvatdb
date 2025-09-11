@@ -8,16 +8,10 @@ module GenshinData
         constants.map { |x| GenshinData::Nations::NationData.const_get(x) }
       end
 
-      FONTAINE = GenshinObject::Nation.new(
-        order: 5,
-        name: "fontaine",
-        pretty_name: "Fontaine"
-      ).freeze
-
-      INAZUMA = GenshinObject::Nation.new(
-        order: 3,
-        name: "inazuma",
-        pretty_name: "Inazuma"
+      MONDSTADT = GenshinObject::Nation.new(
+        order: 1,
+        name: "mondstadt",
+        pretty_name: "Mondstadt"
       ).freeze
 
       LIYUE = GenshinObject::Nation.new(
@@ -26,22 +20,10 @@ module GenshinData
         pretty_name: "Liyue"
       ).freeze
 
-      MONDSTADT = GenshinObject::Nation.new(
-        order: 1,
-        name: "mondstadt",
-        pretty_name: "Mondstadt"
-      ).freeze
-
-      NATLAN = GenshinObject::Nation.new(
-        order: 6,
-        name: "natlan",
-        pretty_name: "Natlan"
-      ).freeze
-
-      SNEZHNAYA = GenshinObject::Nation.new(
-        order: 7,
-        name: "snezhnaya",
-        pretty_name: "Snezhnaya"
+      INAZUMA = GenshinObject::Nation.new(
+        order: 3,
+        name: "inazuma",
+        pretty_name: "Inazuma"
       ).freeze
 
       SUMERU = GenshinObject::Nation.new(
@@ -50,8 +32,32 @@ module GenshinData
         pretty_name: "Sumeru"
       ).freeze
 
-      UNKNOWN = GenshinObject::Nation.new(
+      FONTAINE = GenshinObject::Nation.new(
+        order: 5,
+        name: "fontaine",
+        pretty_name: "Fontaine"
+      ).freeze
+
+      NATLAN = GenshinObject::Nation.new(
+        order: 6,
+        name: "natlan",
+        pretty_name: "Natlan"
+      ).freeze
+
+      NOD_KRAI = GenshinObject::Nation.new(
+        order: 7,
+        name: "nodkrai",
+        pretty_name: "Nod-Krai"
+      ).freeze
+
+      SNEZHNAYA = GenshinObject::Nation.new(
         order: 8,
+        name: "snezhnaya",
+        pretty_name: "Snezhnaya"
+      ).freeze
+
+      UNKNOWN = GenshinObject::Nation.new(
+        order: 9,
         name: "unknown",
         pretty_name: "Unknown"
       ).freeze

@@ -251,6 +251,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        MOONFALL_SILVER = GenshinObject::Material.new(
+          kamera_key: "MoonfallSilver",
+          name: "Moonfall Silver",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
+        ).freeze
+
         MOURNING_FLOWER = GenshinObject::Material.new(
           kamera_key: "MourningFlower",
           name: "Mourning Flower",
@@ -337,6 +348,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :fontaine
+        ).freeze
+
+        PORTABLE_BEARING = GenshinObject::Material.new(
+          kamera_key: "PortableBearing",
+          name: "Portable Bearing",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
         ).freeze
 
         QINGXIN = GenshinObject::Material.new(

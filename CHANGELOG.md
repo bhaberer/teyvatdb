@@ -1,3 +1,36 @@
+## [0.5.9 / Luna I] - 2025-09-10
+  - Add Nod-Krai
+    - Add New Characters
+      - Aino (4)
+      - Lauma (5)
+    - Add Materials
+      - Enemy Drops
+        - Frostnight
+        - Radiant Bone
+        - Drive Shaft
+        - Warrant
+      - Local Specialties
+        - Moonfall Silver
+        - Portable Bearing
+      - Weapon Materials
+        - Artful Devices
+        - Long Night Flint
+        - Far-North Scions
+    - Talent Books
+      - Elysium
+      - Moonlight
+      - Vagrancy
+    - Artifact Sets
+      - Night of the Sky's Unveiling
+      - Silken Moon's Serenade
+    - Weapons
+      - Nightweaver's Looking Glass (5)
+      - Blackmarrow Lantern (4)
+      - Prospector's Shovel (4)
+      - Master Key (4)
+      - Serenity's Call (4)
+      - Snare Hook (4)
+
 ## [0.5.8.1] - 2025-08-04
   - Add Missing artifact sets
     - Finale of the Deep Galleries

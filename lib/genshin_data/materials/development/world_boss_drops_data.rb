@@ -229,6 +229,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        LIGHTBEARING_SCALE_FEATHER = GenshinObject::Material.new(
+          kamera_key: "LightbearingScaleFeather",
+          name: "Lightbearing Scale-Feather",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
+        ).freeze
+
         MAJESTIC_HOOKED_BEAK = GenshinObject::Material.new(
           kamera_key: "MajesticHookedBeak",
           name: "Majestic Hooked Beak",
@@ -293,6 +304,17 @@ module GenshinData
           source_category: :boss_loot,
           source_sub_category: :world_boss_drop,
           nation_name: :sumeru
+        ).freeze
+
+        PRECISION_KUUVAHKI_STAMPING_DIE = GenshinObject::Material.new(
+          kamera_key: "PrecisionKuuvahkiStampingDie",
+          name: "Precision Kuuvahki Stamping Die",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
         ).freeze
 
         PSEUDO_STAMENS = GenshinObject::Material.new(

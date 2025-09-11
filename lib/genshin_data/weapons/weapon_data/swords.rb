@@ -329,6 +329,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        SERENITYS_CALL = GenshinObject::Weapon.new(
+          kamera_key: "SerenitysCall",
+          name: "Serenity's Call",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :frostnight,
+          standard_material_type: :warrant,
+          weapon_material_type: :artful_device
+        ).freeze
+
         SILVER_SWORD = GenshinObject::Weapon.new(
           kamera_key: "SilverSword",
           name: "Silver Sword",

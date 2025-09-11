@@ -54,6 +54,23 @@ module GenshinData
         ascension_enemy_material_name: :spectral
       ).freeze
 
+      AINO = GenshinObject::Character.new(
+        kamera_key: "Aino",
+        name: "Aino",
+        nation_name: :nodkrai,
+        rarity: 4,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :hydro,
+        weapon_type: :claymore,
+        talent_book_name: :elysium,
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: "SilkenFeather",
+        ascension_boss_material_name: "PrecisionKuuvahkiStampingDie",
+        ascension_gathering_material_name: "PortableBearing",
+        ascension_enemy_material_name: :shaft
+      ).freeze
+
       AMBER = GenshinObject::Character.new(
         kamera_key: "Amber",
         name: "Amber",
@@ -902,6 +919,23 @@ module GenshinData
         ascension_boss_material_name: "GoldInscribedSecretSourceCore",
         ascension_gathering_material_name: "ClearwaterJade",
         ascension_enemy_material_name: :nectar
+      ).freeze
+
+      LAUMA = GenshinObject::Character.new(
+        kamera_key: "Lauma",
+        name: "Lauma",
+        nation_name: :nodkrai,
+        rarity: 5,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :dendro,
+        weapon_type: :catalyst,
+        talent_book_name: :moonlight,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "ErodedScaleFeather",
+        ascension_boss_material_name: "LightbearingScaleFeather",
+        ascension_gathering_material_name: "MoonfallSilver",
+        ascension_enemy_material_name: :warrant
       ).freeze
 
       LAYLA = GenshinObject::Character.new(

@@ -9,6 +9,72 @@ module GenshinData
           constants.map { |x| GenshinData::Materials::Development::WeaponMaterialData.const_get(x) }
         end
 
+        AFTERGLOW_OF_LONG_NIGHT_FLINT = GenshinObject::Material.new(
+          kamera_key: "AfterglowOfLongNightFlint",
+          name: "Afterglow of Long Night Flint",
+          rarity: 3,
+          family: :long_night_flint,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
+        ARTFUL_DEVICE_FRAGMENT = GenshinObject::Material.new(
+          kamera_key: "ArtfulDeviceFragment",
+          name: "Artful Device Fragment",
+          rarity: 2,
+          family: :artful_device,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
+        ARTFUL_DEVICE_INHERITANCE = GenshinObject::Material.new(
+          kamera_key: "ArtfulDeviceInheritance",
+          name: "Artful Device Inheritance",
+          rarity: 4,
+          family: :artful_device,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
+        ARTFUL_DEVICE_REPLICA = GenshinObject::Material.new(
+          kamera_key: "ArtfulDeviceReplica",
+          name: "Artful Device Replica",
+          rarity: 3,
+          family: :artful_device,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
+        ARTFUL_DEVICE_WISH = GenshinObject::Material.new(
+          kamera_key: "ArtfulDeviceWish",
+          name: "Artful Device Wish",
+          rarity: 5,
+          family: :artful_device,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
+        AUREATE_RADIANCE_OF_THE_FAR_NORTH_SCIONS = GenshinObject::Material.new(
+          kamera_key: "AureateRadianceOfTheFarNorthScions",
+          name: "Aureate Radiance of the Far-North Scions",
+          rarity: 5,
+          family: :far_north_scions,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         BIT_OF_AEROSIDERITE = GenshinObject::Material.new(
           kamera_key: "BitOfAerosiderite",
           name: "Bit of Aerosiderite",
@@ -18,6 +84,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :liyue
+        ).freeze
+
+        BLAZE_OF_LONG_NIGHT_FLINT = GenshinObject::Material.new(
+          kamera_key: "BlazeOfLongNightFlint",
+          name: "Blaze of Long Night Flint",
+          rarity: 5,
+          family: :long_night_flint,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         BLAZING_SACRIFICIAL_HEARTS_HESITANCE = GenshinObject::Material.new(
@@ -295,6 +372,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        EMBER_OF_LONG_NIGHT_FLINT = GenshinObject::Material.new(
+          kamera_key: "EmberOfLongNightFlint",
+          name: "Ember of Long Night Flint",
+          rarity: 2,
+          family: :long_night_flint,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         ESSENCE_OF_PURE_SACRED_DEWDROP = GenshinObject::Material.new(
           kamera_key: "EssenceOfPureSacredDewdrop",
           name: "Essence of Pure Sacred Dewdrop",
@@ -315,6 +403,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        FLARE_OF_LONG_NIGHT_FLINT = GenshinObject::Material.new(
+          kamera_key: "FlareOfLongNightFlint",
+          name: "Flare of Long Night Flint",
+          rarity: 4,
+          family: :long_night_flint,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         FRAGMENT_OF_AN_ANCIENT_CHORD = GenshinObject::Material.new(
@@ -669,6 +768,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        OBLATION_OF_THE_FAR_NORTH_SCIONS = GenshinObject::Material.new(
+          kamera_key: "OblationOfTheFarNorthScions",
+          name: "Oblation of the Far-North Scions",
+          rarity: 4,
+          family: :far_north_scions,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         OLDEN_DAYS_OF_SCORCHING_MIGHT = GenshinObject::Material.new(
           kamera_key: "OldenDaysOfScorchingMight",
           name: "Olden Days of Scorching Might",
@@ -779,6 +889,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        SUNDERED_GLORY_OF_THE_FAR_NORTH_SCIONS = GenshinObject::Material.new(
+          kamera_key: "SunderedGloryOfTheFarNorthScions",
+          name: "Sundered Glory of the Far-North Scions",
+          rarity: 2,
+          family: :far_north_scions,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         TILE_OF_DECARABIANS_TOWER = GenshinObject::Material.new(
           kamera_key: "TileOfDecarabiansTower",
           name: "Tile of Decarabian's Tower",
@@ -788,6 +909,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        UNYIELDING_DELUSION_OF_THE_FAR_NORTH_SCIONS = GenshinObject::Material.new(
+          kamera_key: "UnyieldingDelusionOfTheFarNorthScions",
+          name: "Unyielding Delusion of the Far-North Scions",
+          rarity: 3,
+          family: :far_north_scions,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         WINE_GOBLET_OF_THE_PRISTINE_SEA = GenshinObject::Material.new(

@@ -239,6 +239,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        PROSPECTORS_SHOVEL = GenshinObject::Weapon.new(
+          kamera_key: "ProspectorsShovel",
+          name: "Prospector's Shovel",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :mistshroud,
+          standard_material_type: :shaft,
+          weapon_material_type: :long_night_flint
+        ).freeze
+
         PROTOTYPE_STARGLITTER = GenshinObject::Weapon.new(
           kamera_key: "PrototypeStarglitter",
           name: "Prototype Starglitter",

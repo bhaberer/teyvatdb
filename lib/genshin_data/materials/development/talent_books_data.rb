@@ -75,6 +75,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        GUIDE_TO_ELYSIUM = GenshinObject::Material.new(
+          kamera_key: "GuideToElysium",
+          name: "Guide to Elysium",
+          rarity: 3,
+          family: :elysium,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         GUIDE_TO_EQUITY = GenshinObject::Material.new(
           kamera_key: "GuideToEquity",
           name: "Guide to Equity",
@@ -152,6 +163,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        GUIDE_TO_MOONLIGHT = GenshinObject::Material.new(
+          kamera_key: "GuideToMoonlight",
+          name: "Guide to Moonlight",
+          rarity: 3,
+          family: :moonlight,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         GUIDE_TO_ORDER = GenshinObject::Material.new(
           kamera_key: "GuideToOrder",
           name: "Guide to Order",
@@ -205,6 +227,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        GUIDE_TO_VAGRANCY =  GenshinObject::Material.new(
+          kamera_key: "GuideToVagrancy",
+          name: "Guide to Vagrancy",
+          rarity: 3,
+          family: :vagrancy,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         PHILOSOPHIES_OF_ADMONITION = GenshinObject::Material.new(
@@ -271,6 +304,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        PHILOSOPHIES_OF_ELYSIUM = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfElysium",
+          name: "Philosophies of Elysium",
+          rarity: 4,
+          family: :elysium,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         PHILOSOPHIES_OF_EQUITY = GenshinObject::Material.new(
@@ -350,6 +394,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        PHILOSOPHIES_OF_MOONLIGHT = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfMoonlight",
+          name: "Philosophies of Moonlight",
+          rarity: 4,
+          family: :moonlight,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         PHILOSOPHIES_OF_ORDER = GenshinObject::Material.new(
           kamera_key: "PhilosophiesOfOrder",
           name: "Philosophies of Order",
@@ -403,6 +458,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        PHILOSOPHIES_OF_VAGRANCY =  GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfVagrancy",
+          name: "Philosophies of Vagrancy",
+          rarity: 4,
+          family: :vagrancy,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         TEACHINGS_OF_ADMONITION = GenshinObject::Material.new(
@@ -469,6 +535,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        TEACHINGS_OF_ELYSIUM = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfElysium",
+          name: "Teachings of Elysium",
+          rarity: 2,
+          family: :elysium,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
 
         TEACHINGS_OF_EQUITY = GenshinObject::Material.new(
@@ -548,6 +625,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        TEACHINGS_OF_MOONLIGHT = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfMoonlight",
+          name: "Teachings of Moonlight",
+          rarity: 2,
+          family: :moonlight,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
+        ).freeze
+
         TEACHINGS_OF_ORDER = GenshinObject::Material.new(
           kamera_key: "TeachingsOfOrder",
           name: "Teachings of Order",
@@ -601,6 +689,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :inazuma
+        ).freeze
+
+        TEACHINGS_OF_VAGRANCY =  GenshinObject::Material.new(
+          kamera_key: "TeachingsOfVagrancy",
+          name: "Teachings of Vagrancy",
+          rarity: 2,
+          family: :vagrancy,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :nodkrai
         ).freeze
       end
     end

@@ -369,6 +369,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        SNARE_HOOK = GenshinObject::Weapon.new(
+          kamera_key: "SnareHook",
+          name: "Snare Hook",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :mistshroud,
+          standard_material_type: :arrowhead,
+          weapon_material_type: :long_night_flint
+        ).freeze
+
         SONG_OF_STILLNESS = GenshinObject::Weapon.new(
           kamera_key: "SongOfStillness",
           name: "Song of Stillness",

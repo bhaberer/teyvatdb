@@ -62,6 +62,15 @@ module GenshinData
         )
       )
 
+      ELYSIUM = GenshinObject::TalentBook.new(
+        family: :elysium,
+        name: "Elysium",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+
       EQUITY = GenshinObject::TalentBook.new(
         family: :equity,
         name: "Equity",
@@ -125,6 +134,15 @@ module GenshinData
         )
       )
 
+      MOONLIGHT = GenshinObject::TalentBook.new(
+        family: :moonlight,
+        name: "Moonlight",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+
       ORDER = GenshinObject::TalentBook.new(
         family: :order,
         name: "Order",
@@ -167,6 +185,15 @@ module GenshinData
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
+        )
+      )
+
+      VAGRANCY = GenshinObject::TalentBook.new(
+        family: :vagrancy,
+        name: "Vagrancy",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
         )
       )
     end

@@ -59,6 +59,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        BLACKMARROW_LANTERN = GenshinObject::Weapon.new(
+          kamera_key: "BlackmarrowLantern",
+          name: "Blackmarrow Lantern",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :frostnight,
+          standard_material_type: :warrant,
+          weapon_material_type: :artful_device
+        ).freeze
+
         CRANES_ECHOING_CALL = GenshinObject::Weapon.new(
           kamera_key: "CranesEchoingCall",
           name: "Crane's Echoing Call",
@@ -217,6 +227,16 @@ module GenshinData
           elite_material_type: :bone_shard,
           standard_material_type: :hilichurl_mask,
           weapon_material_type: :aerosiderite
+        ).freeze
+
+        NIGHTWEAVERS_LOOKING_GLASS = GenshinObject::Weapon.new(
+          kamera_key: "NightweaversLookingGlass",
+          name: "Nightweaver's Looking Glass",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :frostnight,
+          standard_material_type: :shaft,
+          weapon_material_type: :artful_device
         ).freeze
 
         OATHSWORN_EYE = GenshinObject::Weapon.new(

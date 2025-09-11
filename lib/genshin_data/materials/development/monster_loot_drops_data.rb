@@ -20,6 +20,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        BROKEN_DRIVE_SHAFT = GenshinObject::Material.new(
+          kamera_key: "BrokenDriveShaft",
+          name: "Broken Drive Shaft",
+          rarity: 1,
+          family: :shaft,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         CRYSTALLINE_CYST_DUST = GenshinObject::Material.new(
           kamera_key: "CrystallineCystDust",
           name: "Crystalline Cyst Dust",
@@ -108,6 +119,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        FROST_ETCHED_WARRANT = GenshinObject::Material.new(
+          kamera_key: "FrostEtchedWarrant",
+          name: "Frost-Etched Warrant",
+          rarity: 3,
+          family: :warrant,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         FUNGAL_SPORES = GenshinObject::Material.new(
           kamera_key: "FungalSpores",
           name: "Fungal Spores",
@@ -124,6 +146,17 @@ module GenshinData
           name: "Golden Raven Insignia",
           rarity: 3,
           family: :hoarder_insignia,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        IMMACULATE_WARRANT = GenshinObject::Material.new(
+          kamera_key: "ImmaculateWarrant",
+          name: "Immaculate Warrant",
+          rarity: 2,
+          family: :warrant,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -218,11 +251,33 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        PRECISION_DRIVE_SHAFT = GenshinObject::Material.new(
+          kamera_key: "PrecisionDriveShaft",
+          name: "Precision Drive Shaft",
+          rarity: 3,
+          family: :shaft,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         RECRUITS_INSIGNIA = GenshinObject::Material.new(
           kamera_key: "RecruitsInsignia",
           name: "Recruits Insignia",
           rarity: 1,
           family: :fatui_insignia,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        REINFORCED_DRIVE_SHAFT = GenshinObject::Material.new(
+          kamera_key: "ReinforcedDriveShaft",
+          name: "Reinforced Drive Shaft",
+          rarity: 2,
+          family: :shaft,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -239,6 +294,7 @@ module GenshinData
           source_sub_category: :general_drop,
           nation_name: nil
         ).freeze
+
         SAURIAN_CROWNED_WARRIORS_GOLDEN_WHISTLE = GenshinObject::Material.new(
           kamera_key: "SaurianCrownedWarriorsGoldenWhistle",
           name: "Saurian-Crowned Warrior's Golden Whistle",
@@ -398,6 +454,17 @@ module GenshinData
           name: "Stained Mask",
           rarity: 2,
           family: :hilichurl_mask,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        TATTERED_WARRANT = GenshinObject::Material.new(
+          kamera_key: "TatteredWarrant",
+          name: "Tattered Warrant",
+          rarity: 1,
+          family: :warrant,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,

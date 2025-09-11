@@ -479,6 +479,32 @@ module GenshinData
         }
       ).freeze
 
+      NIGHT_OF_THE_SKYS_UNVEILING = GenshinObject::ArtifactSet.new(
+        kamera_key: "NightOfTheSkysUnveiling",
+        name: "Night of the Sky's Unveiling",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Mastery by 80."]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "When nearby party members trigger Lunar Reactions, if the equipping character is on the field, gain the Gleaming Moon: Intent effect for 4s.",
+              "Gleaming Moon: Intent: Increases CRIT Rate by 15%/30% when the party's Moonsign is Nascent Gleam/Ascendant Gleam.",
+              "All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have.",
+              "Effects from Gleaming Moon cannot stack."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+
       NIGHTTIME_WHISPERS_IN_THE_ECHOING_WOODS = GenshinObject::ArtifactSet.new(
         kamera_key: "NighttimeWhispersInTheEchoingWoods",
         name: "Nighttime Whispers in the Echoing Woods",
@@ -681,6 +707,32 @@ module GenshinData
             bonus: [
               "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s.",
               "This effect will not trigger again during that duration."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      SILKENS_MOONS_SERENADE = GenshinObject::ArtifactSet.new(
+        kamera_key: "SilkenMoonsSerenade",
+        name: "Silken Moon's Serenade",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Energy Recharge +20%"]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "When dealing Elemental DMG, gain the Gleaming Moon: Devotion effect for 8s.",
+              "Gleaming Moon: Devotion: Increases all party members' Elemental Mastery by 60/120 when the party's Moonsign is Nascent Gleam/Ascendant Gleam.",
+              "The equipping character can trigger this effect while off-field.",
+              "All party members' Lunar Reaction DMG is increased by 10% for each different Gleaming Moon effect that party members have.",
+              "Effects from Gleaming Moon cannot stack."
             ]
           )
         ],

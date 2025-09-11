@@ -405,11 +405,55 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        FROSTNIGHTS_GLIMMER = GenshinObject::Material.new(
+          kamera_key: "FrostnightsGlimmer",
+          name: "Frostnight's Glimmer",
+          rarity: 2,
+          family: :frostnight,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        FROSTNIGHTS_GLORY = GenshinObject::Material.new(
+          kamera_key: "FrostnightsGlory",
+          name: "Frostnight's Glory",
+          rarity: 4,
+          family: :frostnight,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        FROSTNIGHTS_GLOW = GenshinObject::Material.new(
+          kamera_key: "FrostnightsGlow",
+          name: "Frostnight's Glow",
+          rarity: 3,
+          family: :frostnight,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         GLOOMY_STATUETTE = GenshinObject::Material.new(
           kamera_key: "GloomyStatuette",
           name: "Gloomy Statuette",
           rarity: 2,
           family: :statuette,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        GLOWING_REMAINS = GenshinObject::Material.new(
+          kamera_key: "GlowingRemains",
+          name: "Glowing Remains",
+          rarity: 3,
+          family: :radiant_bone,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -515,6 +559,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        LIGHTLESS_BONE = GenshinObject::Material.new(
+          kamera_key: "LightlessBone",
+          name: "Lightless Bone",
+          rarity: 2,
+          family: :radiant_bone,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         LOCUS_OF_A_CLEAR_WILL = GenshinObject::Material.new(
           kamera_key: "LocusOfAClearWill",
           name: "Locus of a Clear Will",
@@ -581,6 +636,40 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        MISTSHROUD_HELMET = GenshinObject::Material.new(
+          kamera_key: "MistshroudHelmet",
+          name: "Mistshroud Helmet",
+          rarity: 4,
+          family: :mistshroud,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        MISTSHROUD_MANIFESTATION = GenshinObject::Material.new(
+          kamera_key: "MistshroudManifestation",
+          name: "Mistshroud Manifestation",
+          rarity: 2,
+          family: :mistshroud,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        MISTSHROUD_PLATE = GenshinObject::Material.new(
+          kamera_key: "MistshroudPlate",
+          name: "Mistshroud Plate",
+          rarity: 3,
+          family: :mistshroud,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+
         NEWBORN_TAINTED_HYDRO_PHANTASM = GenshinObject::Material.new(
           kamera_key: "NewbornTaintedHydroPhantasm",
           name: "Newborn Tainted Hydro Phantasm",
@@ -630,6 +719,17 @@ module GenshinData
           name: "Polarizing Prism",
           rarity: 4,
           family: :crystal_prism,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        RADIANT_EXOSKELETON = GenshinObject::Material.new(
+          kamera_key: "RadiantExoskeleton",
+          name: "Radiant Exoskeleton",
+          rarity: 4,
+          family: :radiant_bone,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

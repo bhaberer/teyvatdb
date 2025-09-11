@@ -13,6 +13,7 @@ module GenshinData
           liyue,
           mondstadt,
           natlan,
+          nodkrai,
           snezhnaya,
           sumeru,
           unknown
@@ -127,6 +128,13 @@ module GenshinData
           CharacterData::SKIRK,
           CharacterData::VARESA,
           CharacterData::XILONEN
+        ]
+      end
+
+      def nodkrai
+        [
+          CharacterData::AINO,
+          CharacterData::LAUMA
         ]
       end
 

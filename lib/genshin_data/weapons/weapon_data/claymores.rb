@@ -189,6 +189,16 @@ module GenshinData
           weapon_material_type: :scorching_might
         ).freeze
 
+        MASTER_KEY = GenshinObject::Weapon.new(
+          kamera_key: "MasterKey",
+          name: "Master Key",
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :radiant_bone,
+          standard_material_type: :shaft,
+          weapon_material_type: :far_north_scions
+        ).freeze
+
         OLD_MERCS_PAL = GenshinObject::Weapon.new(
           kamera_key: "OldMercsPal",
           name: "Old Merc's Pal",

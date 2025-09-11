@@ -163,6 +163,32 @@ module GenshinData
           wed_sat: true
         )
       )
+
+      # Nod-Krai
+      ARTFUL_DEVICE = GenshinObject::WeaponMaterialFamily.new(
+        family: :artful_device,
+        name: "Artful Devices",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+      LONG_NIGHT_FLINT = GenshinObject::WeaponMaterialFamily.new(
+        family: :long_night_flint,
+        name: "Long Night Flint",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+      FAR_NORTH_SCIONS = GenshinObject::WeaponMaterialFamily.new(
+        family: :far_north_scions,
+        name: "Far-North Scions",
+        nation_name: :nodkrai,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
+        )
+      )
     end
   end
 end

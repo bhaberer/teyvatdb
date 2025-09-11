@@ -128,6 +128,12 @@ module GenshinData
         boss_material: "MajesticHookedBeak"
       )
 
+      KNUCKLE_DUCKLE = GenshinObject::WorldBoss.new(
+        name: "Knuckle Duckle",
+        nation_name: :nodkrai,
+        boss_material: "PrecisionKuuvahkiStampingDie"
+      )
+
       LAVA_DRAGON_STATUE = GenshinObject::WorldBoss.new(
         name: "Lava Dragon Statue",
         nation_name: :natlan,
@@ -174,6 +180,12 @@ module GenshinData
         name: "Pyro Regisvine",
         nation_name: :liyue,
         boss_material: "EverflameSeed"
+      )
+
+      RADIANT_MOONFLY = GenshinObject::WorldBoss.new(
+        name: "Radiant Moonfly",
+        nation_name: :nodkrai,
+        boss_material: "LightbearingScaleFeather"
       )
 
       RHODEIA_OF_LOCH = GenshinObject::WorldBoss.new(
