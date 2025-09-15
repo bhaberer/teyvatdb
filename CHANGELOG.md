@@ -1,3 +1,12 @@
+## [0.5.9.1 / Luna I] - 2025-09-11
+  - Fix Ineffa (was Inefa -_-)
+  - Add Weapon
+    - Etherlight Spindlelute (4)
+  - Add New Characters
+    - Flins (5) [Draft]
+  - Add Material
+    - Frostlamp Flower
+
 ## [0.5.9 / Luna I] - 2025-09-10
   - Add Nod-Krai
     - Add New Characters

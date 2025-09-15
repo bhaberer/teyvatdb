@@ -99,6 +99,16 @@ module GenshinData
           weapon_material_type: :guyun
         ).freeze
 
+        ETHERLIGHT_SPINDLELUTE = GenshinObject::Weapon.new(
+          kamera_key: "EtherlightSpindlelute",
+          name: "Etherlight Spindlelute",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :radiant_bone,
+          standard_material_type: :warrant,
+          weapon_material_type: :far_north_scions
+        ).freeze
+
         EVERLASTING_MOONGLOW = GenshinObject::Weapon.new(
           kamera_key: "EverlastingMoonglow",
           name: "Everlasting Moonglow",

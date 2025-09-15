@@ -141,6 +141,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        FROSTLAMP_FLOWER = GenshinObject::Material.new(
+          kamera_key: "FrostlampFlower",
+          name: "Frostlamp Flower",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
+        ).freeze
+
         GLAZE_LILY = GenshinObject::Material.new(
           kamera_key: "GlazeLily",
           name: "Glaze Lily",

@@ -530,6 +530,23 @@ module GenshinData
         ascension_enemy_material_name: :arrowhead
       ).freeze
 
+      FLINS = GenshinObject::Character.new(
+        kamera_key: "Flins",
+        name: "Flins",
+        nation_name: :nodkrai,
+        rarity: 5,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :electro,
+        weapon_type: :polearm,
+        talent_book_name: :vagrancy,
+        talent_rare_material_name: :radiant_bone,
+        talent_boss_material_name: 'ErodedScaleFeather',
+        ascension_boss_material_name: "PrecisionKuuvahkiStampingDie",
+        ascension_gathering_material_name: "FrostlampFlower",
+        ascension_enemy_material_name: :shaft
+      ).freeze
+
       FREMINET = GenshinObject::Character.new(
         kamera_key: "Freminet",
         name: "Freminet",
@@ -666,9 +683,9 @@ module GenshinData
         ascension_enemy_material_name: :fang
       ).freeze
 
-      INEFA = GenshinObject::Character.new(
-        kamera_key: "Inefa",
-        name: "Inefa",
+      INEFFA = GenshinObject::Character.new(
+        kamera_key: "Ineffa",
+        name: "Ineffa",
         nation_name: :natlan,
         rarity: 5,
         constellation_three_bonus: :skill,

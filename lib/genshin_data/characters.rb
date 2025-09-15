@@ -118,7 +118,7 @@ module GenshinData
           CharacterData::CHASCA,
           CharacterData::CITLALI,
           CharacterData::IANSAN,
-          CharacterData::INEFA,
+          CharacterData::INEFFA,
           CharacterData::IFA,
           CharacterData::KACHINA,
           CharacterData::KINICH,
@@ -134,6 +134,7 @@ module GenshinData
       def nodkrai
         [
           CharacterData::AINO,
+          CharacterData::FLINS,
           CharacterData::LAUMA
         ]
       end
