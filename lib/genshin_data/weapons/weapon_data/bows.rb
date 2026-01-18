@@ -249,6 +249,16 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        RAINBOW_SERPENTS_RAIN_BOW = GenshinObject::Weapon.new(
+          kamera_key: "RainbowSerpentsRainBow",
+          name: "Rainbow Serpents Rain Bow",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :abyss_leaf,
+          standard_material_type: :warrant,
+          weapon_material_type: :night_wind
+        ).freeze
+
         RAVEN_BOW = GenshinObject::Weapon.new(
           kamera_key: "RavenBow",
           name: "Raven Bow",
@@ -387,6 +397,16 @@ module GenshinData
           elite_material_type: :tainted_water,
           standard_material_type: :arrowhead,
           weapon_material_type: :ancient_chord
+        ).freeze
+
+        THE_DAYBREAK_CHRONICLES = GenshinObject::Weapon.new(
+          kamera_key: "TheDaybreakChronicles",
+          name: "The Daybreak Chronicles",
+          rarity: 5,
+          weapon_type: :bow,
+          elite_material_type: :horn,
+          standard_material_type: :hoarder_insignia,
+          weapon_material_type: :chains
         ).freeze
 
         THE_FIRST_GREAT_MAGIC = GenshinObject::Weapon.new(

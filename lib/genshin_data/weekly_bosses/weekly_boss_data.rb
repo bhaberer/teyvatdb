@@ -91,6 +91,13 @@ module GenshinData
         nation_name: :mondstadt,
         material_family: :the_game_before_the_gate_loot
       )
+
+      HERETIC_OF_THE_FALSE_MOON = GenshinObject::WeeklyBoss.new(
+        name: "Heretic of the False Moon",
+        domain_name: "False Moon Institute",
+        nation_name: :nodkrai,
+        material_family: :heretic_of_the_false_moon_loot
+      )
     end
   end
 end

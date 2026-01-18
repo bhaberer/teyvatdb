@@ -75,6 +75,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        CYCLIC_MILITARY_KUUVAHKI_CORE = GenshinObject::Material.new(
+          kamera_key: "CyclicMilitaryKuuvahkiCore",
+          name: "Cyclic Military Kuuvahki Core",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
+        ).freeze
+
         DEW_OF_REPUDIATION = GenshinObject::Material.new(
           kamera_key: "DewOfRepudiation",
           name: "Dew of Repudiation",
@@ -337,6 +348,17 @@ module GenshinData
           source_category: :boss_loot,
           source_sub_category: :world_boss_drop,
           nation_name: :sumeru
+        ).freeze
+
+        RADIANT_ANTLER = GenshinObject::Material.new(
+          kamera_key: "RadiantAntler",
+          name: "RadiantAntler",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
         ).freeze
 
         RIFTBORN_REGALIA = GenshinObject::Material.new(

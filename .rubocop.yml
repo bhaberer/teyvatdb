@@ -7,7 +7,7 @@ require:
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.3.6
+  TargetRubyVersion: 3.3.10
   Exclude:
     - 'vendor/*'
 

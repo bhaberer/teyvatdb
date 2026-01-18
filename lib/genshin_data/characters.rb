@@ -97,6 +97,7 @@ module GenshinData
           CharacterData::DAHLIA,
           CharacterData::DILUC,
           CharacterData::DIONA,
+          CharacterData::DURIN,
           CharacterData::KLEE,
           CharacterData::EULA,
           CharacterData::FISCHL,
@@ -134,8 +135,11 @@ module GenshinData
       def nodkrai
         [
           CharacterData::AINO,
+          CharacterData::COLUMBINA,
           CharacterData::FLINS,
-          CharacterData::LAUMA
+          CharacterData::JAHODA,
+          CharacterData::LAUMA,
+          CharacterData::NEFER
         ]
       end
 

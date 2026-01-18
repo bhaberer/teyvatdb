@@ -1,4 +1,19 @@
-## [0.5.9.1 / Luna I] - 2025-09-11
+## [0.5.9.2 / Luna I (phase 2), II, III (phase 1)] - 2026-01-17
+  - Add Weapon
+    - Athame Artis (5)
+    - Reliquary of Truth (5)
+    - The Daybreak Chronicles (5)
+    - Dawning Frost (4)
+    - Rainbow Serpents Rain Bow (4)
+    - Sacrificer's Staff (4)
+  - Add New Characters
+    - Columbina (5)
+    - Durin (5)
+    - Flins (5) (Updated)
+    - Nefer (5)
+    - Jahoda (4)
+
+## [0.5.9.1 / Luna I (phase 1)] - 2025-09-11
   - Fix Ineffa (was Inefa -_-)
   - Add Weapon
     - Etherlight Spindlelute (4)

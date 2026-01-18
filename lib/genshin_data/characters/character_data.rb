@@ -343,6 +343,23 @@ module GenshinData
         ascension_enemy_material_name: :arrowhead
       ).freeze
 
+      COLUMBINA = GenshinObject::Character.new(
+        kamera_key: "Columbina",
+        name: "Columbina",
+        nation_name: :nodkrai,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :hydro,
+        weapon_type: :catalyst,
+        ascension_boss_material_name: "RadiantAntler",
+        ascension_gathering_material_name: "WinterIcelea",
+        ascension_enemy_material_name: :slime,
+        talent_book_name: :moonlight,
+        talent_rare_material_name: :slime,
+        talent_boss_material_name: "MaskOfTheVirtuousDoctor",
+      ).freeze
+
       CYNO = GenshinObject::Character.new(
         kamera_key: "Cyno",
         name: "Cyno",
@@ -445,6 +462,23 @@ module GenshinData
         ascension_enemy_material_name: :scarf
       ).freeze
 
+      DURIN = GenshinObject::Character.new(
+        kamera_key: "Durin",
+        name: "Durin",
+        nation_name: :mondstadt,
+        rarity: 5,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :pyro,
+        weapon_type: :sword,
+        ascension_boss_material_name: "CyclicMilitaryKuuvahkiCore",
+        ascension_gathering_material_name: "FrostlampFlower",
+        ascension_enemy_material_name: :warrant,
+        talent_book_name: :ballad,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "ErodedSunfire",
+      ).freeze
+
       EMILIE = GenshinObject::Character.new(
         kamera_key: "Emilie",
         name: "Emilie",
@@ -540,8 +574,8 @@ module GenshinData
         element: :electro,
         weapon_type: :polearm,
         talent_book_name: :vagrancy,
-        talent_rare_material_name: :radiant_bone,
-        talent_boss_material_name: 'ErodedScaleFeather',
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: 'AscendedSampleQueen',
         ascension_boss_material_name: "PrecisionKuuvahkiStampingDie",
         ascension_gathering_material_name: "FrostlampFlower",
         ascension_enemy_material_name: :shaft
@@ -698,6 +732,23 @@ module GenshinData
         ascension_boss_material_name: "SecretSourceAirflowAccumulator",
         ascension_gathering_material_name: "GlowingHornshroom",
         ascension_enemy_material_name: :whistle
+      ).freeze
+
+      JAHODA = GenshinObject::Character.new(
+        kamera_key: "Jahoda",
+        name: "Jahoda",
+        nation_name: :nodkrai,
+        rarity: 4,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :attack,
+        element: :anemo,
+        weapon_type: :bow,
+        ascension_boss_material_name: "LightbearingScaleFeather",
+        ascension_gathering_material_name: "PortableBearing",
+        ascension_enemy_material_name: :shaft,
+        talent_book_name: :vagrancy,
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: "AscendedSampleKnight"
       ).freeze
 
       JEAN = GenshinObject::Character.new(
@@ -1123,6 +1174,23 @@ module GenshinData
         ascension_boss_material_name: "ArtificedSpareClockworkComponentCoppelius",
         ascension_gathering_material_name: "SpringOfTheFirstDewdrop",
         ascension_enemy_material_name: :transoceanic
+      ).freeze
+
+      NEFER = GenshinObject::Character.new(
+        kamera_key: "Nefer",
+        name: "Nefer",
+        nation_name: :nodkrai,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :dendro,
+        weapon_type: :catalyst,
+        talent_book_name: :elysium,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "AscendedSampleRook",
+        ascension_boss_material_name: "RadiantAntler",
+        ascension_gathering_material_name: "MoonfallSilver",
+        ascension_enemy_material_name: :warrant
       ).freeze
 
       NEUVILLETTE = GenshinObject::Character.new(

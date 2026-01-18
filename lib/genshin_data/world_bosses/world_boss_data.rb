@@ -68,6 +68,12 @@ module GenshinData
         boss_material: "EmperorsResolution"
       )
 
+      FROSTNIGHT_HERRA = GenshinObject::WorldBoss.new(
+        name: "Frostnight Herra",
+        nation_name: :nodkrai,
+        boss_material: "RadiantAntler"
+      )
+
       GEO_HYPOSTASIS = GenshinObject::WorldBoss.new(
         name: "Geo Hypostasis",
         nation_name: :liyue,
@@ -228,6 +234,12 @@ module GenshinData
         name: "Statue of Marble and Brass",
         nation_name: :fontaine,
         boss_material: "FragmentOfAGoldenMelody"
+      )
+
+      SUPER_HEAVY_LANDROVER_MECHANIZED_FORTRESS = GenshinObject::WorldBoss.new(
+        name: "Super-Heavy Landrover: Mechanized Fortress",
+        nation_name: :nodkrai,
+        boss_material: "CyclicMilitaryKuuvahkiCore"
       )
 
       TENEBROUS_PAPILLA = GenshinObject::WorldBoss.new(

@@ -614,6 +614,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        WINTER_ICELEA = GenshinObject::Material.new(
+          kamera_key: "WinterIcelea",
+          name: "Winter Icelea",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
+        ).freeze
+
         WITHERING_PURPURBLOOM = GenshinObject::Material.new(
           kamera_key: "WitheringPurpurbloom",
           name: "Withering Purpurbloom",

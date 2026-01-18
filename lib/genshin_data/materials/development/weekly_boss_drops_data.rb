@@ -404,6 +404,39 @@ module GenshinData
           source_sub_category: :the_game_before_the_gate_drop,
           nation_name: :mondstadt
         ).freeze
+
+        ELIXIR_OF_THE_HERETIC = GenshinObject::Material.new(
+          kamera_key: "ElixirOfTheHeretic",
+          name: "Elixir of the Heretic",
+          rarity: 5,
+          family: :heretic_of_the_false_moon_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :heretic_of_the_false_moon_drop,
+          nation_name: :nodkrai
+        ).freeze
+
+        MADMANS_RESTRAINT = GenshinObject::Material.new(
+          kamera_key: "MadmansRestraint",
+          name: "Madman's Restraint",
+          rarity: 5,
+          family: :heretic_of_the_false_moon_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :heretic_of_the_false_moon_drop,
+          nation_name: :nodkrai
+        ).freeze
+
+        MASK_OF_THE_VIRTUOUS_DOCTOR = GenshinObject::Material.new(
+          kamera_key: "MaskOfTheVirtuousDoctor",
+          name: "Mask of the Virtuous Doctor",
+          rarity: 5,
+          family: :heretic_of_the_false_moon_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :heretic_of_the_false_moon_drop,
+          nation_name: :nodkrai
+        ).freeze
       end
     end
   end

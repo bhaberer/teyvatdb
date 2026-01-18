@@ -279,6 +279,16 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        SACRIFICERS_STAFF = GenshinObject::Weapon.new(
+          kamera_key: "SacrificersStaff",
+          name: "Sacrificer's Staff",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :mistshroud,
+          standard_material_type: :shaft,
+          weapon_material_type: :long_night_flint
+        ).freeze
+
         SKYWARD_SPINE = GenshinObject::Weapon.new(
           kamera_key: "SkywardSpine",
           name: "Skyward Spine",

@@ -79,6 +79,16 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        DAWNING_FROST = GenshinObject::Weapon.new(
+          kamera_key: "DawningFrost",
+          name: "Dawning Frost",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :frostnight,
+          standard_material_type: :warrant,
+          weapon_material_type: :artful_device
+        ).freeze
+
         DODOCO_TALES = GenshinObject::Weapon.new(
           kamera_key: "DodocoTales",
           name: "Dodoco Tales",
@@ -287,6 +297,16 @@ module GenshinData
           elite_material_type: :mist_grass,
           standard_material_type: :arrowhead,
           weapon_material_type: :elixir
+        ).freeze
+
+        RELIQUARY_OF_TRUTH = GenshinObject::Weapon.new(
+          kamera_key: "ReliquaryOfTruth",
+          name: "Reliquary of Truth",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :radiant_bone,
+          standard_material_type: :pollen,
+          weapon_material_type: :oasis_garden
         ).freeze
 
         RING_OF_YAXCHE = GenshinObject::Weapon.new(

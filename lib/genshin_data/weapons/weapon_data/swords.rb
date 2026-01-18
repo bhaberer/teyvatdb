@@ -49,6 +49,16 @@ module GenshinData
           weapon_material_type: :decarabian
         ).freeze
 
+        ATHAME_ARTIS = GenshinObject::Weapon.new(
+          kamera_key: "AthameArtis",
+          name: "Athame Artis",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :frostnight,
+          standard_material_type: :shaft,
+          weapon_material_type: :decarabian
+        ).freeze
+
         AZURELIGHT = GenshinObject::Weapon.new(
           kamera_key: "Azurelight",
           name: "Azurelight",
