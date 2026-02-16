@@ -4,10 +4,35 @@
 
 module GenshinData
   module ArtifactSets
+    # Listing of all Artifact sets
     module ArtifactSetData
       def self.all
         constants.map { |x| GenshinData::ArtifactSets::ArtifactSetData.const_get(x) }
       end
+
+      A_DAY_CARVED_FROM_RISING_WINDS = GenshinObject::ArtifactSet.new(
+        kamera_key: "ADayCarvedFromRisingWinds",
+        name: "A Day Carved From Rising Winds",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["ATK +18%"]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, gain the Blessing of Pastoral Winds effect for 6s: ATK is increased by 25%.",
+              "If the equipping character has completed Witch's Homework, Blessing of Pastoral Winds will be upgraded to Resolve of Pastoral Winds, which also increases the CRIT Rate of the equipping character by an additional 20%.",
+              "This effect can be triggered even when the character is off-field."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
 
       ARCHAIC_PETRA = GenshinObject::ArtifactSet.new(
         kamera_key: "ArchaicPetra",
@@ -19,6 +44,30 @@ module GenshinData
             bonus: [
               "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s.",
               "Only one form of Elemental DMG Bonus can be gained in this manner at any one time."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      AUBADE_OF_MORNINGSTAR_AND_MOON = GenshinObject::ArtifactSet.new(
+        kamera_key: "AubadeOfMorningstarAndMoon",
+        name: "Aubade of Morningstar and Moon",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Increases Elemental Mastery by 80"]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "When the equipping character is off-field, Lunar Reaction DMG is increased by 20%.",
+              "When the party's Moonsign Level is at least Ascendant Gleam, Lunar Reaction DMG will be further increased by 40%.",
+              "This effect will disappear after the equipping character is active for 3s."
             ]
           )
         ],
@@ -503,7 +552,6 @@ module GenshinData
           circlet: true
         }
       ).freeze
-
 
       NIGHTTIME_WHISPERS_IN_THE_ECHOING_WOODS = GenshinObject::ArtifactSet.new(
         kamera_key: "NighttimeWhispersInTheEchoingWoods",

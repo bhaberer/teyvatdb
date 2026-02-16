@@ -372,7 +372,6 @@ module GenshinData
           nation_name: :nodkrai
         ).freeze
 
-
         RIFTBORN_REGALIA = GenshinObject::Material.new(
           kamera_key: "RiftbornRegalia",
           name: "Riftborn Regalia",

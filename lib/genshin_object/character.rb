@@ -8,6 +8,7 @@ module GenshinObject
                   :talent_book_name, :talent_rare_material_name, :talent_boss_material_name,
                   :ascension_boss_material_name, :ascension_gathering_material_name, :ascension_enemy_material_name
 
+    # rubocop:disable Metrics/ParameterLists
     def initialize(kamera_key:, name:, nation_name:, rarity:, element:, weapon_type:, talent_book_name:,
                    talent_rare_material_name:, talent_boss_material_name:, ascension_boss_material_name:,
                    ascension_gathering_material_name:, ascension_enemy_material_name:,
@@ -27,5 +28,6 @@ module GenshinObject
       @constellation_three_bonus = constellation_three_bonus
       @constellation_five_bonus = constellation_five_bonus
     end
+    # rubocop:enable Metrics/ParameterLists
   end
 end

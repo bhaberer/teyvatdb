@@ -357,7 +357,7 @@ module GenshinData
         ascension_enemy_material_name: :slime,
         talent_book_name: :moonlight,
         talent_rare_material_name: :slime,
-        talent_boss_material_name: "MaskOfTheVirtuousDoctor",
+        talent_boss_material_name: "MaskOfTheVirtuousDoctor"
       ).freeze
 
       CYNO = GenshinObject::Character.new(
@@ -476,7 +476,7 @@ module GenshinData
         ascension_enemy_material_name: :warrant,
         talent_book_name: :ballad,
         talent_rare_material_name: :warrant,
-        talent_boss_material_name: "ErodedSunfire",
+        talent_boss_material_name: "ErodedSunfire"
       ).freeze
 
       EMILIE = GenshinObject::Character.new(
@@ -575,7 +575,7 @@ module GenshinData
         weapon_type: :polearm,
         talent_book_name: :vagrancy,
         talent_rare_material_name: :shaft,
-        talent_boss_material_name: 'AscendedSampleQueen',
+        talent_boss_material_name: "AscendedSampleQueen",
         ascension_boss_material_name: "PrecisionKuuvahkiStampingDie",
         ascension_gathering_material_name: "FrostlampFlower",
         ascension_enemy_material_name: :shaft

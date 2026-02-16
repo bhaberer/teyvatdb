@@ -691,7 +691,6 @@ module GenshinData
           nation_name: nil
         ).freeze
 
-
         NEWBORN_TAINTED_HYDRO_PHANTASM = GenshinObject::Material.new(
           kamera_key: "NewbornTaintedHydroPhantasm",
           name: "Newborn Tainted Hydro Phantasm",

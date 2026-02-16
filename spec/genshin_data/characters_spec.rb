@@ -51,11 +51,11 @@ RSpec.describe GenshinData::Characters do
         end
 
         it "has a valid C3 bonus (#{character.constellation_three_bonus})" do
-          expect(%i[attack skill burst]).to include(character.constellation_three_bonus)
+          expect(%i[attack skill burst].include?(character.constellation_three_bonus)).to be(true)
         end
 
         it "has a valid C5 bonus (#{character.constellation_five_bonus})" do
-          expect(%i[attack skill burst]).to include(character.constellation_five_bonus)
+          expect(%i[attack skill burst].include?(character.constellation_five_bonus)).to be(true)
         end
 
         it "has a valid weapon_type (#{character.weapon_type})" do

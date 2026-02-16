@@ -229,7 +229,7 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
-        GUIDE_TO_VAGRANCY =  GenshinObject::Material.new(
+        GUIDE_TO_VAGRANCY = GenshinObject::Material.new(
           kamera_key: "GuideToVagrancy",
           name: "Guide to Vagrancy",
           rarity: 3,
@@ -460,7 +460,7 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
-        PHILOSOPHIES_OF_VAGRANCY =  GenshinObject::Material.new(
+        PHILOSOPHIES_OF_VAGRANCY = GenshinObject::Material.new(
           kamera_key: "PhilosophiesOfVagrancy",
           name: "Philosophies of Vagrancy",
           rarity: 4,
@@ -691,7 +691,7 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
-        TEACHINGS_OF_VAGRANCY =  GenshinObject::Material.new(
+        TEACHINGS_OF_VAGRANCY = GenshinObject::Material.new(
           kamera_key: "TeachingsOfVagrancy",
           name: "Teachings of Vagrancy",
           rarity: 2,
