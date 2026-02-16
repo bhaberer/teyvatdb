@@ -146,6 +146,12 @@ module GenshinData
         boss_material: "SparklessStatueCore"
       )
 
+      LORD_OF_THE_HIDDEN_DEPTHS_WHISPERER_OF_NIGHTMARES = GenshinObject::WorldBoss.new(
+        name: "Lord of the Hidden Depths: Whisperer of Nightmares",
+        nation_name: :inazuma,
+        boss_material: "RemnantOfTheDreadwing"
+      )
+
       MAGUU_KENKI = GenshinObject::WorldBoss.new(
         name: "Maguu Kenki",
         nation_name: :inazuma,

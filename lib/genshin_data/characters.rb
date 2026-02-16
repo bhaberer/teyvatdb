@@ -84,7 +84,8 @@ module GenshinData
           CharacterData::YAOYAO,
           CharacterData::YELAN,
           CharacterData::YUN_JIN,
-          CharacterData::ZHONGLI
+          CharacterData::ZHONGLI,
+          CharacterData::ZIBAI
         ]
       end
 
@@ -137,6 +138,7 @@ module GenshinData
           CharacterData::AINO,
           CharacterData::COLUMBINA,
           CharacterData::FLINS,
+          CharacterData::ILLUGA,
           CharacterData::JAHODA,
           CharacterData::LAUMA,
           CharacterData::NEFER

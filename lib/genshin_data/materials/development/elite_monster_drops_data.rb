@@ -9,44 +9,22 @@ module GenshinData
           constants.map { |x| GenshinData::Materials::Development::EliteMonsterLootDropsData.const_get(x) }
         end
 
-        BEWILDERING_BROADLEAF = GenshinObject::Material.new(
-          kamera_key: "BewilderingBroadleaf",
-          name: "Bewildering Broadleaf",
-          rarity: 3,
-          family: :abyss_leaf,
-          inventory_type: :development_material,
-          source_category: :monster_loot,
-          source_sub_category: :elite_drop,
-          nation_name: nil
-        ).freeze
-
-        ILLUSORY_LEAFCOIL = GenshinObject::Material.new(
-          kamera_key: "IllusoryLeafcoil",
-          name: "Illusory Leafcoil",
-          rarity: 4,
-          family: :abyss_leaf,
-          inventory_type: :development_material,
-          source_category: :monster_loot,
-          source_sub_category: :elite_drop,
-          nation_name: nil
-        ).freeze
-
-        REFRACTIVE_BUD = GenshinObject::Material.new(
-          kamera_key: "RefractiveBud",
-          name: "Refractive Bud",
-          rarity: 2,
-          family: :abyss_leaf,
-          inventory_type: :development_material,
-          source_category: :monster_loot,
-          source_sub_category: :elite_drop,
-          nation_name: nil
-        ).freeze
-
         A_FLOWER_YET_TO_BLOOM = GenshinObject::Material.new(
           kamera_key: "AFlowerYetToBloom",
           name: "A Flower Yet to Bloom",
           rarity: 2,
           family: :rogue_flower,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        ABERRANT_CORE_OF_THE_DEEP_SHADOW = GenshinObject::Material.new(
+          kamera_key: "AberrantCoreOfTheDeepShadow",
+          name: "Aberrant Core of the Deep Shadow",
+          rarity: 3,
+          family: :deep_shadow,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -80,6 +58,17 @@ module GenshinData
           name: "Axis of the Secret Source",
           rarity: 2,
           family: :secret_source,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        BEWILDERING_BROADLEAF = GenshinObject::Material.new(
+          kamera_key: "BewilderingBroadleaf",
+          name: "Bewildering Broadleaf",
+          rarity: 3,
+          family: :abyss_leaf,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -394,6 +383,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        FRACTURED_EYE_OF_THE_DEEP_SHADOW = GenshinObject::Material.new(
+          kamera_key: "FracturedEyeOfTheDeepShadow",
+          name: "Fractured Eye of the Deep Shadow",
+          rarity: 2,
+          family: :deep_shadow,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         FRAGILE_BONE_SHARD = GenshinObject::Material.new(
           kamera_key: "FragileBoneShard",
           name: "Fragile Bone Shard",
@@ -482,6 +482,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        HOOKER_BEAK_OF_THE_DEEP_SHADOW = GenshinObject::Material.new(
+          kamera_key: "HookedBeakOfTheDeepShadow",
+          name: "Hooked Beak of the Deep Shadow",
+          rarity: 4,
+          family: :deep_shadow,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         HUNTERS_SACRIFICIAL_KNIFE = GenshinObject::Material.new(
           kamera_key: "HuntersSacrificialKnife",
           name: "Hunters Sacrificial Knife",
@@ -520,6 +531,17 @@ module GenshinData
           name: "Ignited Stone",
           rarity: 2,
           family: :ignited,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        ILLUSORY_LEAFCOIL = GenshinObject::Material.new(
+          kamera_key: "IllusoryLeafcoil",
+          name: "Illusory Leafcoil",
+          rarity: 4,
+          family: :abyss_leaf,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -741,6 +763,17 @@ module GenshinData
           name: "Radiant Prism",
           rarity: 4,
           family: :turbid_prism,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        REFRACTIVE_BUD = GenshinObject::Material.new(
+          kamera_key: "RefractiveBud",
+          name: "Refractive Bud",
+          rarity: 2,
+          family: :abyss_leaf,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

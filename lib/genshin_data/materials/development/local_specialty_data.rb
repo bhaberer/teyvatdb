@@ -339,6 +339,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        PINE_AMBER = GenshinObject::Material.new(
+          kamera_key: "PineAmber",
+          name: "Pine Amber",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
+        ).freeze
+
         PHILANEMO_MUSHROOM = GenshinObject::Material.new(
           kamera_key: "PhilanemoMushroom",
           name: "Philanemo Mushroom",

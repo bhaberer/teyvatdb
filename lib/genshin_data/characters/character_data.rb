@@ -717,6 +717,23 @@ module GenshinData
         ascension_enemy_material_name: :fang
       ).freeze
 
+      ILLUGA = GenshinObject::Character.new(
+        kamera_key: "Illuga",
+        name: "Illuga",
+        nation_name: :nodkrai,
+        rarity: 4,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :geo,
+        weapon_type: :polearm,
+        ascension_boss_material_name: "CyclicMilitaryKuuvahkiCore",
+        ascension_gathering_material_name: "PineAmber",
+        ascension_enemy_material_name: :shaft,
+        talent_book_name: :elysium,
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: "ErodedHorn"
+      ).freeze
+
       INEFFA = GenshinObject::Character.new(
         kamera_key: "Ineffa",
         name: "Ineffa",
@@ -1837,6 +1854,23 @@ module GenshinData
         ascension_boss_material_name: "BasaltPillar",
         ascension_gathering_material_name: "CorLapis",
         ascension_enemy_material_name: :slime
+      ).freeze
+
+      ZIBAI = GenshinObject::Character.new(
+        kamera_key: "Zibai",
+        name: "Zibai",
+        nation_name: :liyue,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :geo,
+        weapon_type: :sword,
+        ascension_boss_material_name: "RemnantOfTheDreadwing",
+        ascension_gathering_material_name: "GlazeLily",
+        ascension_enemy_material_name: :warrant,
+        talent_book_name: :gold,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "AscendedSampleQueen"
       ).freeze
     end
   end

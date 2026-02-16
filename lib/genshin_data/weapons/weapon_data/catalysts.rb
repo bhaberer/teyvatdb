@@ -259,6 +259,16 @@ module GenshinData
           weapon_material_type: :artful_device
         ).freeze
 
+        NOCTURNS_CURTAIN_CALL = GenshinObject::Weapon.new(
+          kamera_key: "NocturnesCurtainCall",
+          name: "Nocturne's Curtain Call",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :deep_shadow,
+          standard_material_type: :warrant,
+          weapon_material_type: :far_north_scions
+        ).freeze
+
         OATHSWORN_EYE = GenshinObject::Weapon.new(
           kamera_key: "OathswornEye",
           name: "Oathsworn Eye",

@@ -1,5 +1,18 @@
-## [0.5.9.2 / Luna I (phase 2), II, III (phase 1)] - 2026-01-17
-  - Add Weapon
+## [0.5.9.3 / Luna IV (phase 2)] - 2026-02-16
+  - Add new Characters
+    - Zibai (5) (Luna IV)
+    - Illuga (4) (Luna IV)
+  - Add new Weapons
+    - Nocturne's Curtain Call (5)
+    - Lightbearing Moonshard (5)
+  - Add new Artifact Sets
+    - Aubade of Morningstar and Moon
+    - A Day Carved From Rising Winds
+  - Add new World Boss
+    - Remnant of the Dreadwing
+
+## [0.5.9.2 / Luna I (phase 2), II, III, IV (phase 1)] - 2026-01-17
+  - Add new Weapons
     - Athame Artis (5)
     - Reliquary of Truth (5)
     - The Daybreak Chronicles (5)
@@ -7,11 +20,13 @@
     - Rainbow Serpents Rain Bow (4)
     - Sacrificer's Staff (4)
   - Add New Characters
-    - Columbina (5)
-    - Durin (5)
-    - Flins (5) (Updated)
+    - Columbina (5) (Luna IV)
+    - Durin (5) (Luna III)
+    - Jahoda (4) (Luna III)
     - Nefer (5)
-    - Jahoda (4)
+    - Flins (5) (Updated)
+  - Add new Weekly Boss
+    - Doctor
 
 ## [0.5.9.1 / Luna I (phase 1)] - 2025-09-11
   - Fix Ineffa (was Inefa -_-)

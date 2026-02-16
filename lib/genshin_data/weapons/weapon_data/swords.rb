@@ -259,6 +259,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        LIGHTBEARING_MOONSHARD = GenshinObject::Weapon.new(
+          kamera_key: "LightbearingMoonshard",
+          name: "Lightbearing Moonshard",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :mistshroud,
+          standard_material_type: :shaft,
+          weapon_material_type: :aerosiderite
+        ).freeze
+
         LIONS_ROAR = GenshinObject::Weapon.new(
           kamera_key: "LionsRoar",
           name: "Lions Roar",

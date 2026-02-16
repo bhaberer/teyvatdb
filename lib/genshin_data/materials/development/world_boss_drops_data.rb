@@ -352,7 +352,7 @@ module GenshinData
 
         RADIANT_ANTLER = GenshinObject::Material.new(
           kamera_key: "RadiantAntler",
-          name: "RadiantAntler",
+          name: "Radiant Antler",
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -360,6 +360,18 @@ module GenshinData
           source_sub_category: :world_boss_drop,
           nation_name: :nodkrai
         ).freeze
+
+        REMNANT_OF_THE_DREADWING = GenshinObject::Material.new(
+          kamera_key: "RemnantOfTheDreadwing",
+          name: "Remnant of the dreadwing",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
+        ).freeze
+
 
         RIFTBORN_REGALIA = GenshinObject::Material.new(
           kamera_key: "RiftbornRegalia",
