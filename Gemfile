@@ -8,7 +8,7 @@ gemspec
 gem "rake", "~> 13.0"
 gem "rspec", "~> 3.0"
 gem "rspec-collection_matchers"
-gem "rubocop", "~> 1.21"
+gem "rubocop", "~> 1.84"
 gem "rubocop-rake"
 gem "rubocop-rspec"
 gem "solargraph", "~> 0.49"
