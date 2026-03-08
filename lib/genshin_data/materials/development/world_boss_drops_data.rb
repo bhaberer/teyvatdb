@@ -328,6 +328,17 @@ module GenshinData
           nation_name: :nodkrai
         ).freeze
 
+        PRISMATIC_SEVERED_TAIL = GenshinObject::Material.new(
+          kamera_key: "PrismaticSeveredTail",
+          name: "Prismatic Severed Tail",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :nodkrai
+        ).freeze
+
         PSEUDO_STAMENS = GenshinObject::Material.new(
           kamera_key: "PseudoStamens",
           name: "Pseudo-Stamens",

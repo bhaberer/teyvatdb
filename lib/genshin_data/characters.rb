@@ -111,6 +111,7 @@ module GenshinData
           CharacterData::RAZOR,
           CharacterData::ROSARIA,
           CharacterData::SUCROSE,
+          CharacterData::VARKA,
           CharacterData::VENTI
         ]
       end

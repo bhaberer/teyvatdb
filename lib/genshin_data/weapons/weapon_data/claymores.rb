@@ -139,6 +139,16 @@ module GenshinData
           weapon_material_type: :night_wind
         ).freeze
 
+        GEST_OF_THE_MIGHTY_WOLF = GenshinObject::Weapon.new(
+          kamera_key: "GestOfTheMightyWolf",
+          name: "Gest of the Mighty Wolf",
+          rarity: 5,
+          weapon_type: :claymore,
+          elite_material_type: :deep_shadow,
+          standard_material_type: :fatui_insignia,
+          weapon_material_type: :wolf_tooth
+        ).freeze
+
         KATSURAGIKIRI_NAGAMASA = GenshinObject::Weapon.new(
           kamera_key: "KatsuragikiriNagamasa",
           name: "Katsuragikiri Nagamasa",

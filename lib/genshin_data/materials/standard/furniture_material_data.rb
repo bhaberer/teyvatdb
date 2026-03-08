@@ -19,6 +19,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        ALDER_WOOD = GenshinObject::Material.new(
+          kamera_key: "AlderWood",
+          name: "Alder Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         ARALIA_WOOD = GenshinObject::Material.new(
           kamera_key: "AraliaWood",
           name: "Aralia Wood",
@@ -159,6 +169,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        HAZELNUT_WOOD = GenshinObject::Material.new(
+          kamera_key: "HazelnutWood",
+          name: "Hazelnut Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         KARMAPHALA_WOOD = GenshinObject::Material.new(
           kamera_key: "KarmaphalaWood",
           name: "Karmaphala Wood",
@@ -229,6 +249,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        PEDUNCULATE_OAK_WOOD = GenshinObject::Material.new(
+          kamera_key: "PedunculateOakWood",
+          name: "Pedunculate Oak Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         PINE_WOOD = GenshinObject::Material.new(
           kamera_key: "PineWood",
           name: "Pine Wood",
@@ -252,6 +282,16 @@ module GenshinData
         SANDBEARER_WOOD = GenshinObject::Material.new(
           kamera_key: "SandbearerWood",
           name: "Sandbearer Wood",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
+        SILVER_FIR_WOOD = GenshinObject::Material.new(
+          kamera_key: "SilverFirWood",
+          name: "Silver Fir Wood",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

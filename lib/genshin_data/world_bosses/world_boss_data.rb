@@ -200,6 +200,12 @@ module GenshinData
         boss_material: "LightbearingScaleFeather"
       )
 
+      RADIANT_MOONGECKO = GenshinObject::WorldBoss.new(
+        name: "Radiant Moongecko",
+        nation_name: :nodkrai,
+        boss_material: "PrismaticSeveredTail"
+      )
+
       RHODEIA_OF_LOCH = GenshinObject::WorldBoss.new(
         name: "Rhodeia of Loch",
         nation_name: :liyue,

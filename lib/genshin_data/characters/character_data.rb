@@ -1550,6 +1550,23 @@ module GenshinData
         ascension_enemy_material_name: :pollen
       ).freeze
 
+      VARKA = GenshinObject::Character.new(
+        kamera_key: "Varka",
+        name: "Varka",
+        nation_name: :mondstadt,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :anemo,
+        weapon_type: :claymore,
+        ascension_boss_material_name: "PrismaticSeveredTail",
+        ascension_gathering_material_name: "Wolfhook",
+        ascension_enemy_material_name: :shaft,
+        talent_book_name: :freedom,
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: "AscendedSampleRook"
+      ).freeze
+
       VARESA = GenshinObject::Character.new(
         kamera_key: "Varesa",
         name: "Varesa",

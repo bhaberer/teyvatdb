@@ -299,6 +299,26 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        ICY_PEBBLE = GenshinObject::Material.new(
+          kamera_key: "IcyPebble",
+          name: "Icy Pebble",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        LAKKABERRY = GenshinObject::Material.new(
+          kamera_key: "Lakkaberry",
+          name: "Lakkaberry",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         LAVENDER_MELON = GenshinObject::Material.new(
           kamera_key: "LavenderMelon",
           name: "Lavender Melon",
@@ -322,6 +342,16 @@ module GenshinData
         MATSUTAKE = GenshinObject::Material.new(
           kamera_key: "Matsutake",
           name: "Matsutake",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        MIDSOMMAR_BERRY = GenshinObject::Material.new(
+          kamera_key: "MidsommarBerry",
+          name: "Midsommar Berry",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -362,6 +392,16 @@ module GenshinData
         MYSTERIOUS_MEAT = GenshinObject::Material.new(
           kamera_key: "MysteriousMeat",
           name: "Mysterious Meat",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        NOCTURNAL_BLOSSOM = GenshinObject::Material.new(
+          kamera_key: "NocturnalBlossom",
+          name: "Nocturnal Blossom",
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -449,6 +489,26 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        RYE = GenshinObject::Material.new(
+          kamera_key: "Rye",
+          name: "Rye",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        RYE_FLOUR = GenshinObject::Material.new(
+          kamera_key: "RyeFlour",
+          name: "Rye Flour",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         SALT = GenshinObject::Material.new(
           kamera_key: "Salt",
           name: "Salt",
@@ -476,6 +536,16 @@ module GenshinData
           family: nil,
           inventory_type: :standard_material,
           source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        SMETANA = GenshinObject::Material.new(
+          kamera_key: "Smetana",
+          name: "Smetana",
+          rarity: 2,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :cooking,
           source_sub_category: :cooking
         ).freeze
 

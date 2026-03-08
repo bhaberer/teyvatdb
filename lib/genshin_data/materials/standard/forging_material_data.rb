@@ -219,6 +219,16 @@ module GenshinData
           source_sub_category: :forging_material
         ).freeze
 
+        RAINBOWDROP_CRYSTAL = GenshinObject::Material.new(
+          kamera_key: "RainbowdropCrystal",
+          name: "Rainbowdrop Crystal",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :forging_material
+        ).freeze
+
         STARSILVER = GenshinObject::Material.new(
           kamera_key: "Starsilver",
           name: "Starsilver",

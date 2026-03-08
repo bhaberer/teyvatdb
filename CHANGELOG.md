@@ -1,3 +1,12 @@
+## [0.5.9.4 / Luna V] - 2026-03-08
+  - Add new Character
+    - Varka (5) (Luna IV)
+  - Add new Weapon
+    - Gest of the Mighty Wolf (5)
+  - Add new World Boss
+    - Radiant Moongecko
+  - Add missing cooking/wood materials
+
 ## [0.5.9.3 / Luna IV (phase 2)] - 2026-02-16
   - Add new Characters
     - Zibai (5) (Luna IV)
