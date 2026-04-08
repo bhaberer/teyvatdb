@@ -260,6 +260,12 @@ module GenshinData
         boss_material: "EnsnaringGaze"
       )
 
+      THE_OPEN_EYED = GenshinObject::WorldBoss.new(
+        name: "The Open-Eyed",
+        nation_name: :mondstadt,
+        boss_material: "PlumeOfTheFallenWatcher"
+      )
+
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(
         name: "Thunder Manifestation",
         nation_name: :inazuma,

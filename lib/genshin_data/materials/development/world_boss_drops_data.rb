@@ -317,6 +317,17 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        PLUME_OF_THE_FALLEN_WATCHER = GenshinObject::Material.new(
+          kamera_key: "PlumeOfTheFallenWatcher",
+          name: "Plume of the Fallen Watcher",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :mondstadt
+        ).freeze
+
         PRECISION_KUUVAHKI_STAMPING_DIE = GenshinObject::Material.new(
           kamera_key: "PrecisionKuuvahkiStampingDie",
           name: "Precision Kuuvahki Stamping Die",

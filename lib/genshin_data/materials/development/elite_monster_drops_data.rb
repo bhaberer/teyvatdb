@@ -350,6 +350,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        FADED_FLAMING_HILT = GenshinObject::Material.new(
+          kamera_key: "FadedFlamingHilt",
+          name: "Faded Flaming Hilt",
+          rarity: 2,
+          family: :flaming_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         FEATHERY_FIN = GenshinObject::Material.new(
           kamera_key: "FeatheryFin",
           name: "Feathery Fin",
@@ -391,6 +402,17 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        FRACTURED_FLAMING_HILT = GenshinObject::Material.new(
+          kamera_key: "FracturedFlamingHilt",
+          name: "Fractured Flaming Hilt",
+          rarity: 3,
+          family: :flaming_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
           nation_name: nil
         ).freeze
 
@@ -567,6 +589,17 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        JEWELED_FLAMING_HILT = GenshinObject::Material.new(
+          kamera_key: "JeweledFlamingHilt",
+          name: "Jeweled Flaming Hilt",
+          rarity: 4,
+          family: :flaming_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
           nation_name: nil
         ).freeze
 

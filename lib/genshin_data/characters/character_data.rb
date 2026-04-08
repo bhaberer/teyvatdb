@@ -1040,6 +1040,23 @@ module GenshinData
         ascension_enemy_material_name: :scroll
       ).freeze
 
+      LINNEA = GenshinObject::Character.new(
+        kamera_key: "Linnea",
+        name: "Linnea",
+        nation_name: :mondstadt,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :geo,
+        weapon_type: :bow,
+        ascension_boss_material_name: "PlumeOfTheFallenWatcher",
+        ascension_gathering_material_name: "EtherwingMoth",
+        ascension_enemy_material_name: :warrant,
+        talent_book_name: :vagrancy,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "ElixirOfTheHeretic"
+      ).freeze
+
       LISA = GenshinObject::Character.new(
         kamera_key: "Lisa",
         name: "Lisa",

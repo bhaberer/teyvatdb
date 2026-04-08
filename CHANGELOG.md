@@ -1,3 +1,11 @@
+## [0.5.9.5 / Luna VI] - 2026-04-08
+  - Add new Character
+    - Linnea (5)
+  - Add new Weapon
+    - Golden Frostboand Oath (5)
+  - Add new World Boss
+    - The Open-Eyed
+
 ## [0.5.9.4 / Luna V] - 2026-03-08
   - Add new Character
     - Varka (5) (Luna IV)

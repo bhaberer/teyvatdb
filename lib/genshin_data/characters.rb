@@ -104,6 +104,7 @@ module GenshinData
           CharacterData::FISCHL,
           CharacterData::JEAN,
           CharacterData::KAEYA,
+          CharacterData::LINNEA,
           CharacterData::LISA,
           CharacterData::MIKA,
           CharacterData::MONA,

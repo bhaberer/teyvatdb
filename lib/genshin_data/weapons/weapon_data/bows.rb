@@ -139,6 +139,16 @@ module GenshinData
           weapon_material_type: :night_wind
         ).freeze
 
+        GOLDEN_FROSTBOUND_OATH = GenshinObject::Weapon.new(
+          kamera_key: "GoldenFrostboundOath",
+          name: "Golden Frostbound Oath",
+          rarity: 5,
+          weapon_type: :bow,
+          elite_material_type: :flaming_hilt,
+          standard_material_type: :warrant,
+          weapon_material_type: :long_night_flint
+        ).freeze
+
         HAMAYUMI = GenshinObject::Weapon.new(
           kamera_key: "Hamayumi",
           name: "Hamayumi",

@@ -130,6 +130,17 @@ module GenshinData
           nation_name: :natlan
         ).freeze
 
+        ETHERWING_MOTH = GenshinObject::Material.new(
+          kamera_key: "EtherwingMoth",
+          name: "Etherwing Moth",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :mondstadt
+        ).freeze
+
         FLUORESCENT_FUNGUS = GenshinObject::Material.new(
           kamera_key: "FluorescentFungus",
           name: "Fluorescent Fungus",
