@@ -97,6 +97,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        BLAZING_PRISMSHELL = GenshinObject::Material.new(
+          kamera_key: "BlazingPrismshell",
+          name: "Blazing Prismshell",
+          rarity: 4,
+          family: :weasel_shell,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         CHAOS_AXIS = GenshinObject::Material.new(
           kamera_key: "ChaosAxis",
           name: "Chaos Axis",
@@ -207,6 +218,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        COLD_CRACKED_SHELLSHARD = GenshinObject::Material.new(
+          kamera_key: "ColdCrackedShellshard",
+          name: "Cold-Cracked Shellshard",
+          rarity: 2,
+          family: :weasel_shell,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         CONCEALED_CLAW = GenshinObject::Material.new(
           kamera_key: "ConcealedClaw",
           name: "Concealed Claw",
@@ -303,6 +325,17 @@ module GenshinData
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+         DEPLETED_LUNAR_IRON = GenshinObject::Material.new(
+          kamera_key: "DepletedLunarIron",
+          name: "Depleted Lunar Iron",
+          rarity: 3,
+          family: :lunar_iron,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
           nation_name: nil
         ).freeze
 
@@ -410,6 +443,17 @@ module GenshinData
           name: "Fractured Flaming Hilt",
           rarity: 3,
           family: :flaming_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        FRACTURED_LUNAR_IRON = GenshinObject::Material.new(
+          kamera_key: "FracturedLunarIron",
+          name: "Fractured Lunar Iron",
+          rarity: 2,
+          family: :lunar_iron,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -955,6 +999,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        UNBLEMISHED_LUNAR_IRON = GenshinObject::Material.new(
+          kamera_key: "UnblemishedLunarIron",
+          name: "Unblemished Lunar Iron",
+          rarity: 4,
+          family: :lunar_iron,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         WANDERERS_BLOOMING_FLOWER = GenshinObject::Material.new(
           kamera_key: "WanderersBloomingFlower",
           name: "Wanderer's Blooming Flower",
@@ -966,32 +1021,10 @@ module GenshinData
           nation_name: nil
         ).freeze
 
-        COLD_CRACKED_SHELLSHARD = GenshinObject::Material.new(
-          kamera_key: "ColdCrackedShellshard",
-          name: "Cold-Cracked Shellshard",
-          rarity: 2,
-          family: :weasel_shell,
-          inventory_type: :development_material,
-          source_category: :monster_loot,
-          source_sub_category: :elite_drop,
-          nation_name: nil
-        ).freeze
-
         WARM_BACK_SHELL = GenshinObject::Material.new(
           kamera_key: "WarmBackShell",
           name: "Warm Back-Shell",
           rarity: 3,
-          family: :weasel_shell,
-          inventory_type: :development_material,
-          source_category: :monster_loot,
-          source_sub_category: :elite_drop,
-          nation_name: nil
-        ).freeze
-
-        BLAZING_PRISMSHELL = GenshinObject::Material.new(
-          kamera_key: "BlazingPrismshell",
-          name: "Blazing Prismshell",
-          rarity: 4,
           family: :weasel_shell,
           inventory_type: :development_material,
           source_category: :monster_loot,

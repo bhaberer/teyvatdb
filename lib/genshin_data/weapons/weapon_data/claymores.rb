@@ -9,6 +9,16 @@ module GenshinData
           constants.map { |x| GenshinData::Weapons::WeaponData::Claymores.const_get(x) }
         end
 
+        A_TEASPOON_OF_TRANSCENDENCE = GenshinObject::Weapon.new(
+          kamera_key: "ATeaspoonOfTranscendence",
+          name: "A Teaspoon of Transcendence",
+          rarity: 5,
+          weapon_type: :claymore,
+          elite_material_type: :lunar_iron,
+          standard_material_type: :warrant,
+          weapon_material_type: :far_north_scions
+        ).freeze
+
         A_THOUSAND_BLAZING_SUNS = GenshinObject::Weapon.new(
           kamera_key: "AThousandBlazingSuns",
           name: "A Thousand Blazing Suns",

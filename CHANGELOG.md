@@ -1,12 +1,21 @@
+## [0.6.7] - 2026-08-08
+  - Luna VIII
+    - Add new Character(s)
+      - Sandrone (5)
+    - Add New Weapon(s)
+      - A Teaspoon of Transcendence (5)
+
 ## [0.6.6] - 2026-08-08
   - Luna VII
-    - Add new Characters
+    - Add new Character(s)
       - Nicole (5)
       - Lohen (5)
       - Prune (4)
-    - Add New Weapons
+    - Add New Weapon(s)
       - Angelos' Heptades (5)
       - Disaster and Remorse (5)
+    - Add new Weekly boss
+      - Exalted Master of the Heretical Path
 
 ## [0.5.9.5 / Luna VI] - 2026-04-08
   - Add new Character

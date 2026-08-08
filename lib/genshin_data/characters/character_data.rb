@@ -1431,6 +1431,23 @@ module GenshinData
         ascension_enemy_material_name: :fatui_insignia
       ).freeze
 
+      SANDRONE = GenshinObject::Character.new(
+        kamera_key: "Sandrone",
+        name: "Sandrone",
+        nation_name: :snezhnaya,
+        rarity: 5,
+        constellation_three_bonus: :attack,
+        constellation_five_bonus: :burst,
+        element: :cryo,
+        weapon_type: :claymore,
+        ascension_boss_material_name: "PlumeOfTheFallenWatcher",
+        ascension_gathering_material_name: "SubdetectionUnit",
+        ascension_enemy_material_name: :shaft,
+        talent_book_name: :vagrancy,
+        talent_rare_material_name: :shaft,
+        talent_boss_material_name: "MadmansRestraint"
+      ).freeze
+
       SANGONOMIYA_KOKOMI = GenshinObject::Character.new(
         kamera_key: "SangonomiyaKokomi",
         name: "Sangonomiya Kokomi",

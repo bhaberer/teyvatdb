@@ -22,7 +22,6 @@ module GenshinData
 
       def fontaine
         [
-          CharacterData::ARLECCHINO,
           CharacterData::CHARLOTTE,
           CharacterData::CHEVREUSE,
           CharacterData::CLORINDE,
@@ -152,6 +151,8 @@ module GenshinData
 
       def snezhnaya
         [
+          CharacterData::ARLECCHINO,
+          CharacterData::SANDRONE,
           CharacterData::TARTAGLIA
         ]
       end
