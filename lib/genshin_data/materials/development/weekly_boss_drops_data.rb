@@ -437,6 +437,40 @@ module GenshinData
           source_sub_category: :heretic_of_the_false_moon_drop,
           nation_name: :nodkrai
         ).freeze
+
+        COUNTERFEIT_RESIN = GenshinObject::Material.new(
+          kamera_key: "CounterfeitResin",
+          name: "Counterfeit Resin",
+          rarity: 5,
+          family: :exalted_master_of_the_heretical_path_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :exalted_master_of_the_heretical_path_drop,
+          nation_name: :nodkrai
+        ).freeze
+
+        PROFANED_SPROUT = GenshinObject::Material.new(
+          kamera_key: "ProfanedSprout",
+          name: "Profaned Sprout",
+          rarity: 5,
+          family: :exalted_master_of_the_heretical_path_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :exalted_master_of_the_heretical_path_drop,
+          nation_name: :nodkrai
+        ).freeze
+
+        TWISTED_WITHERED_BRANCH = GenshinObject::Material.new(
+          kamera_key: "TwistedWitheredBranch",
+          name: "Twisted Withered Branch",
+          rarity: 5,
+          family: :exalted_master_of_the_heretical_path_loot,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :exalted_master_of_the_heretical_path_drop,
+          nation_name: :nodkrai
+        ).freeze
+
       end
     end
   end

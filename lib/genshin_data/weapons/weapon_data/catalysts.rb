@@ -19,6 +19,16 @@ module GenshinData
           weapon_material_type: :oasis_garden
         ).freeze
 
+        ANGELOS_HEPTADES = GenshinObject::Weapon.new(
+          kamera_key: "AngelosHeptades",
+          name: "Angelos' Heptades",
+          rarity: 5,
+          weapon_type: :catalyst,
+          elite_material_type: :flaming_hilt,
+          standard_material_type: :shaft,
+          weapon_material_type: :artful_device
+        ).freeze
+
         APPRENTICES_NOTES = GenshinObject::Weapon.new(
           kamera_key: "ApprenticesNotes",
           name: "Apprentice's Notes",

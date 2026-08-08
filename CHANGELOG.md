@@ -1,3 +1,13 @@
+## [0.6.6] - 2026-08-08
+  - Luna VII
+    - Add new Characters
+      - Nicole (5)
+      - Lohen (5)
+      - Prune (4)
+    - Add New Weapons
+      - Angelos' Heptades (5)
+      - Disaster and Remorse (5)
+
 ## [0.5.9.5 / Luna VI] - 2026-04-08
   - Add new Character
     - Linnea (5)

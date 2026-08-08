@@ -99,6 +99,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        DISASTER_AND_REMORSE = GenshinObject::Weapon.new(
+          kamera_key: "DisasterAndRemorse",
+          name: "Disaster and Remorse",
+          rarity: 5,
+          weapon_type: :polearm,
+          elite_material_type: :radiant_bone,
+          standard_material_type: :nectar,
+          weapon_material_type: :decarabian
+        ).freeze
+
         DRAGONS_BANE = GenshinObject::Weapon.new(
           kamera_key: "DragonsBane",
           name: "Dragon's Bane",

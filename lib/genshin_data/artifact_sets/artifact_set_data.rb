@@ -127,6 +127,33 @@ module GenshinData
         }
       ).freeze
 
+      CELESTIAL_GIFT = GenshinObject::ArtifactSet.new(
+        kamera_key: "CelestialGift",
+        name: "Celestial Gift",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["Energy Recharge + 20%"]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "If the equipping character has completed Witch's Homework, after they use an Elemental Skill, they also gain 'Light's Guidance' for 20s:",
+              "All nearby party members gain a 20% Elemental DMG Bonus corresponding to the equipping character's Elemental Type.",
+              "The equipping character can trigger this effect while off-field. DMG Bonuses provided by Artifact Sets with the same name do not stack.",
+              "When your party has the Hexerei: Secret Rite effect, Light's Guidance is upgraded to 'Mortal Hymn':",
+              "All nearby party members gain a 40% Elemental DMG Bonus corresponding to both the equipping character and the current active party member's Elemental Type instead.",
+              "If both characters have the same Elemental Type, these bonuses will not stack."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
       CRIMSON_WITCH_OF_FLAMES = GenshinObject::ArtifactSet.new(
         kamera_key: "CrimsonWitchOfFlames",
         name: "Crimson Witch of Flames",
@@ -183,6 +210,29 @@ module GenshinData
             pieces_count: 4,
             bonus: [
               "When Charged Attacks hit opponents, the equipping character's Normal Attack SPD will increase by 10% while Normal, Charged, and Plunging Attack DMG will increase by 40% for 15s."
+            ]
+          )
+        ],
+        max_rarity: 5,
+        slots: {
+          flower: true,
+          plume: true,
+          sands: true,
+          goblet: true,
+          circlet: true
+        }
+      ).freeze
+
+      DISENCHANTMENT_IN_DEEP_SHADOW = GenshinObject::ArtifactSet.new(
+        kamera_key: "DisenchantmentInDeepShadow",
+        name: "Disenchantment in Deep Shadow",
+        bonuses: [
+          GenshinObject::ArtifactSetBonus.new(pieces_count: 2, bonus: ["ATK +18%."]),
+          GenshinObject::ArtifactSetBonus.new(
+            pieces_count: 4,
+            bonus: [
+              "Increases Superconduct Reaction DMG by 80% and Stellar-Conduct Reaction DMG by 40%.",
+              "When the wielder attacks opponents affected by Superconduct or Stellar-Conduct, this attack's CRIT Rate is increased by 16%."
             ]
           )
         ],

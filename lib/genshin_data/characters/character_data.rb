@@ -1074,6 +1074,23 @@ module GenshinData
         ascension_enemy_material_name: :slime
       ).freeze
 
+      LOHEN = GenshinObject::Character.new(
+        kamera_key: "Lohen",
+        name: "Lohen",
+        nation_name: :mondstadt,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :cryo,
+        weapon_type: :polearm,
+        ascension_boss_material_name: "PrismaticSeveredTail",
+        ascension_gathering_material_name: "EtherwingMoth",
+        ascension_enemy_material_name: :arrowhead,
+        talent_book_name: :resistance,
+        talent_rare_material_name: :arrowhead,
+        talent_boss_material_name: "AscendedSampleKnight"
+      ).freeze
+
       LYNETTE = GenshinObject::Character.new(
         kamera_key: "Lynette",
         name: "Lynette",
@@ -1244,6 +1261,23 @@ module GenshinData
         ascension_enemy_material_name: :transoceanic
       ).freeze
 
+      NICOLE = GenshinObject::Character.new(
+        kamera_key: "Nicole",
+        name: "Nicole",
+        nation_name: :mondstadt,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :pyro,
+        weapon_type: :catalyst,
+        ascension_boss_material_name: "RemnantOfTheDreadwing",
+        ascension_gathering_material_name: "PineAmber",
+        ascension_enemy_material_name: :warrant,
+        talent_book_name: :elysium,
+        talent_rare_material_name: :warrant,
+        talent_boss_material_name: "CounterfeitResin"
+      ).freeze
+
       NILOU = GenshinObject::Character.new(
         kamera_key: "Nilou",
         name: "Nilou",
@@ -1310,6 +1344,23 @@ module GenshinData
         ascension_boss_material_name: "MarkOfTheBindingBlessing",
         ascension_gathering_material_name: "GlowingHornshroom",
         ascension_enemy_material_name: :fang
+      ).freeze
+
+      PRUNE = GenshinObject::Character.new(
+        kamera_key: "Prune",
+        name: "Prune",
+        nation_name: :mondstadt,
+        rarity: 4,
+        constellation_three_bonus: :burst,
+        constellation_five_bonus: :skill,
+        element: :anemo,
+        weapon_type: :catalyst,
+        ascension_boss_material_name: 'RadiantAntler',
+        ascension_gathering_material_name: 'WinterIcelea',
+        ascension_enemy_material_name: :hoarder_insignia,
+        talent_book_name: :resistance,
+        talent_rare_material_name: :hoarder_insignia,
+        talent_boss_material_name: 'MaskOfTheVirtuousDoctor'
       ).freeze
 
       QIQI = GenshinObject::Character.new(

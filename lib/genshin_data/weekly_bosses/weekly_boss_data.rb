@@ -98,6 +98,14 @@ module GenshinData
         nation_name: :nodkrai,
         material_family: :heretic_of_the_false_moon_loot
       )
+
+      EXALTED_MASTER_OF_THE_HERETICAL_PATH = GenshinObject::WeeklyBoss.new(
+        name: "Exalted Master of the Heretical Path",
+        domain_name: "Binding Field of Universal Nirvana. ",
+        nation_name: :sumeru,
+        material_family: :exalted_master_of_the_heretical_path_loot
+      )
+
     end
   end
 end
