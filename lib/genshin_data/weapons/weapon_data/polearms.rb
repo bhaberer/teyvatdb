@@ -309,6 +309,16 @@ module GenshinData
           weapon_material_type: :chains
         ).freeze
 
+        SONG_OF_THE_VIGIL = GenshinObject::Weapon.new(
+          kamera_key: "SongOfTheVigil",
+          name: "Song of the Vigil",
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :life_node,
+          standard_material_type: :ethereal,
+          weapon_material_type: :frost_emperor
+        ).freeze
+
         STAFF_OF_HOMA = GenshinObject::Weapon.new(
           kamera_key: "StaffOfHoma",
           name: "Staff of Homa",

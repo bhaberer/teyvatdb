@@ -1,3 +1,19 @@
+## [0.7.0] - 2026-08-21
+  - Add new Character(s)
+    - Odette (5)
+    - Alyosha (4)
+  - Add New Weapon(s)
+    - Whitelake Frostfeather (5)
+    - Exaiphanes Blade (4)
+    - Emberwell (4)
+    - Covenant of Frost and Snow (4)
+    - Blade of Atonement (4)
+    - Echoes of the Heart (4)
+    - Song of the Vigil (4)
+  - Add new artifact set(s)
+    - Scarlet Proof
+    - Heart of the Furnace
+
 ## [0.6.7] - 2026-08-08
   - Luna VIII
     - Add new Character(s)

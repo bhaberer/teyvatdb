@@ -189,6 +189,32 @@ module GenshinData
           wed_sat: true
         )
       )
+
+      # Snezhnaya
+      PALE_STAR = GenshinObject::WeaponMaterialFamily.new(
+        family: :pale_star,
+        name: "Pale Star Army",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+      SPIRITUAL_NECTAR = GenshinObject::WeaponMaterialFamily.new(
+        family: :spiritual_nectar,
+        name: "Cellared Spiritual Nectar",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+      FROST_EMPEROR = GenshinObject::WeaponMaterialFamily.new(
+        family: :frost_emperor,
+        name: "Frost Emperor's",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
+        )
+      )
     end
   end
 end

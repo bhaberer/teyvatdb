@@ -427,6 +427,17 @@ module GenshinData
           nation_name: :natlan
         ).freeze
 
+        SEVERED_TAIL_OF_THE_SKY_ROAMER = GenshinObject::Material.new(
+          kamera_key: "SeveredTailOfTheSkyRoamer",
+          name: "Severed Tail of the Sky-Roamer",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :snezhnaya
+        ).freeze
+
         SMOLDERING_PEARL = GenshinObject::Material.new(
           kamera_key: "SmolderingPearl",
           name: "Smoldering Pearl",
@@ -491,6 +502,17 @@ module GenshinData
           source_category: :boss_loot,
           source_sub_category: :world_boss_drop,
           nation_name: :fontaine
+        ).freeze
+
+        UNSCORCHED_BLOSSOM_BRANCH = GenshinObject::Material.new(
+          kamera_key: "UnscorchedBlossomBranch",
+          name: "Unscorched Blossom Branch",
+          rarity: 4,
+          family: nil,
+          inventory_type: :development_material,
+          source_category: :boss_loot,
+          source_sub_category: :world_boss_drop,
+          nation_name: :snezhnaya
         ).freeze
 
         WATER_THAT_FAILED_TO_TRANSCEND = GenshinObject::Material.new(

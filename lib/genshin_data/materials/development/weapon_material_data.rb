@@ -229,6 +229,17 @@ module GenshinData
           nation_name: :liyue
         ).freeze
 
+        CLARION_OF_THE_PALE_STAR_ARMY = GenshinObject::Material.new(
+          kamera_key: "ClarionOfThePaleStarArmy",
+          name: "Clarion of the Pale Star Army",
+          rarity: 4,
+          family: :pale_star,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         COPPER_TALISMAN_OF_THE_FOREST_DEW = GenshinObject::Material.new(
           kamera_key: "CopperTalismanOfTheForestDew",
           name: "Copper Talisman of the Forest Dew",
@@ -394,6 +405,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        EXHILARATION_OF_THE_CELLARED_SPIRITUAL_NECTAR = GenshinObject::Material.new(
+          kamera_key: "ExhilarationOfTheCellaredSpiritualNectar",
+          name: "Exhilaration of the Cellared Spiritual Nectar",
+          rarity: 4,
+          family: :spiritual_nectar,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         FETTERS_OF_THE_DANDELION_GLADIATOR = GenshinObject::Material.new(
           kamera_key: "FettersOfTheDandelionGladiator",
           name: "Fetters of the Dandelion Gladiator",
@@ -480,6 +502,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :liyue
+        ).freeze
+
+        INTOXICATION_OF_THE_CELLARED_SPIRITUAL_NECTAR = GenshinObject::Material.new(
+          kamera_key: "IntoxicationOfTheCellaredSpiritualNectar",
+          name: "Intoxication of the Cellared Spiritual Nectar",
+          rarity: 3,
+          family: :spiritual_nectar,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         IRON_TALISMAN_OF_THE_FOREST_DEW = GenshinObject::Material.new(
@@ -581,6 +614,17 @@ module GenshinData
           nation_name: :inazuma
         ).freeze
 
+        MEASURED_POUR_OF_THE_CELLARED_SPIRITUAL_NECTAR = GenshinObject::Material.new(
+          kamera_key: "MeasuredPourOfTheCellaredSpiritualNectar",
+          name: "Measured Pour of the Cellared Spiritual Nectar",
+          rarity: 2,
+          family: :spiritual_nectar,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         MIST_VEILED_GOLD_ELIXIR = GenshinObject::Material.new(
           kamera_key: "MistVeiledGoldElixir",
           name: "Mist Veiled Gold Elixir",
@@ -634,6 +678,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :fontaine
+        ).freeze
+
+        MUSTER_OF_THE_PALE_STAR_ARMY = GenshinObject::Material.new(
+          kamera_key: "MusterOfThePaleStarArmy",
+          name: "Muster of the Pale Star Army",
+          rarity: 3,
+          family: :pale_star,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         NARUKAMIS_AFFECTION = GenshinObject::Material.new(
@@ -823,6 +878,28 @@ module GenshinData
           nation_name: :sumeru
         ).freeze
 
+        REVELRY_OF_THE_CELLARED_SPIRITUAL_NECTAR = GenshinObject::Material.new(
+          kamera_key: "RevelryOfTheCellaredSpiritualNectar",
+          name: "Revelry of the Cellared Spiritual Nectar",
+          rarity: 5,
+          family: :spiritual_nectar,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
+        RISE_OF_THE_PALE_STAR_ARMY = GenshinObject::Material.new(
+          kamera_key: "RiseOfThePaleStarArmy",
+          name: "Rise of the Pale Star Army",
+          rarity: 2,
+          family: :pale_star,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         SCATTERED_PIECE_OF_DECARABIANS_DREAM = GenshinObject::Material.new(
           kamera_key: "ScatteredPieceOfDecarabiansDream",
           name: "Scattered Piece of Decarabian's Dream",
@@ -900,6 +977,50 @@ module GenshinData
           nation_name: :nodkrai
         ).freeze
 
+        THE_FROST_EMPERORS_CEREMONY = GenshinObject::Material.new(
+          kamera_key: "TheFrostEmperorsCeremony",
+          name: "The Frost Emperor's Ceremony",
+          rarity: 3,
+          family: :frost_emperor,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
+        THE_FROST_EMPERORS_FAREWELL = GenshinObject::Material.new(
+          kamera_key: "TheFrostEmperorsFarewell",
+          name: "The Frost Emperor's Farewell",
+          rarity: 5,
+          family: :frost_emperor,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
+        THE_FROST_EMPERORS_LAMENT = GenshinObject::Material.new(
+          kamera_key: "TheFrostEmperorsLament",
+          name: "The Frost Emperor's Lament",
+          rarity: 4,
+          family: :frost_emperor,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
+        THE_FROST_EMPERORS_REVIVAL = GenshinObject::Material.new(
+          kamera_key: "TheFrostEmperorsRevival",
+          name: "The Frost Emperor's Revival",
+          rarity: 2,
+          family: :frost_emperor,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         TILE_OF_DECARABIANS_TOWER = GenshinObject::Material.new(
           kamera_key: "TileOfDecarabiansTower",
           name: "Tile of Decarabian's Tower",
@@ -909,6 +1030,17 @@ module GenshinData
           source_category: :domain_material,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        TRIUMPH_OF_THE_PALE_STAR_ARMY = GenshinObject::Material.new(
+          kamera_key: "TriumphOfThePaleStarArmy",
+          name: "Triumph of the Pale Star Army",
+          rarity: 5,
+          family: :pale_star,
+          inventory_type: :development_material,
+          source_category: :domain_material,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         UNYIELDING_DELUSION_OF_THE_FAR_NORTH_SCIONS = GenshinObject::Material.new(

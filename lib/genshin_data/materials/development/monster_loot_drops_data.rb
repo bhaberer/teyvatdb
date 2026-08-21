@@ -31,6 +31,17 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        CHIMERIC_CORE = GenshinObject::Material.new(
+          kamera_key: "ChimericCore",
+          name: "Chimeric Core",
+          rarity: 1,
+          family: :chimeric,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
         CRYSTALLINE_CYST_DUST = GenshinObject::Material.new(
           kamera_key: "CrystallineCystDust",
           name: "Crystalline Cyst Dust",
@@ -69,6 +80,39 @@ module GenshinData
           name: "Energy Nectar",
           rarity: 3,
           family: :nectar,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        ETHEREAL_CRYSTAL = GenshinObject::Material.new(
+          kamera_key: "EtherealCrystal",
+          name: "Ethereal Crystal",
+          rarity: 2,
+          family: :ethereal,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        ETHEREAL_CRYSTALSCALE_STONE = GenshinObject::Material.new(
+          kamera_key: "EtherealCrystalscaleStone",
+          name: "Ethereal Crystalscale Stone",
+          rarity: 3,
+          family: :ethereal,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        ETHEREAL_GLIMMERSHARD = GenshinObject::Material.new(
+          kamera_key: "EtherealGlimmershard",
+          name: "Ethereal Glimmershard",
+          rarity: 1,
+          family: :ethereal,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -256,6 +300,17 @@ module GenshinData
           name: "Precision Drive Shaft",
           rarity: 3,
           family: :shaft,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        PRIME_CHIMERIC_NEXUS = GenshinObject::Material.new(
+          kamera_key: "PrimeChimericNexus",
+          name: "Prime Chimeric Nexus",
+          rarity: 3,
+          family: :chimeric,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,
@@ -454,6 +509,17 @@ module GenshinData
           name: "Stained Mask",
           rarity: 2,
           family: :hilichurl_mask,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :general_drop,
+          nation_name: nil
+        ).freeze
+
+        SYMBIOTIC_CHIMERIC_NUCLEUS = GenshinObject::Material.new(
+          kamera_key: "SymbioticChimericNucleus",
+          name: "Symbiotic Chimeric Nucleus",
+          rarity: 2,
+          family: :chimeric,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :general_drop,

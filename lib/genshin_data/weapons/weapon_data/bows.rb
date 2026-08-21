@@ -89,6 +89,16 @@ module GenshinData
           weapon_material_type: :aerosiderite
         ).freeze
 
+        COVENANT_OF_FROST_AND_SNOW = GenshinObject::Weapon.new(
+          kamera_key: "CovenantOfFrostAndSnow",
+          name: "Covenant of Frost and Snow",
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :life_node,
+          standard_material_type: :chimeric,
+          weapon_material_type: :pale_star
+        ).freeze
+
         ELEGY_FOR_THE_END = GenshinObject::Weapon.new(
           kamera_key: "ElegyForTheEnd",
           name: "Elegy for the End",

@@ -129,6 +129,26 @@ module GenshinData
           weapon_material_type: :decarabian
         ).freeze
 
+        EMBERWELL = GenshinObject::Weapon.new(
+          kamera_key: "Emberwell",
+          name: "Emberwell",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :accreted,
+          standard_material_type: :ethereal,
+          weapon_material_type: :pale_star
+        ).freeze
+
+        # EXAIPHANES_BLADE = GenshinObject::Weapon.new(
+        #   kamera_key: "ExaiphanesBlade",
+        #   name: "Exaiphanes Blade",
+        #   rarity: 5,
+        #   weapon_type: :sword,
+        #   elite_material_type: nil,
+        #   standard_material_type: nil,
+        #   weapon_material_type: nil
+        # ).freeze
+
         FAVONIUS_SWORD = GenshinObject::Weapon.new(
           kamera_key: "FavoniusSword",
           name: "Favonius Sword",
@@ -477,6 +497,16 @@ module GenshinData
           elite_material_type: :chaos_oculus,
           standard_material_type: :handguard,
           weapon_material_type: :coral
+        ).freeze
+
+        WHITELAKE_FROSTFEATHER = GenshinObject::Weapon.new(
+          kamera_key: "WhitelakeFrostfeather",
+          name: "Whitelake Frostfeather",
+          rarity: 5,
+          weapon_type: :sword,
+          elite_material_type: :life_node,
+          standard_material_type: :chimeric,
+          weapon_material_type: :spiritual_nectar
         ).freeze
 
         WOLF_FANG = GenshinObject::Weapon.new(

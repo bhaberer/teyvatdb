@@ -31,15 +31,15 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
-        GUIDE_TO_DILIGENCE = GenshinObject::Material.new(
-          kamera_key: "GuideToDiligence",
-          name: "Guide to Diligence",
+        GUIDE_TO_CHARITY = GenshinObject::Material.new(
+          kamera_key: "GuideToCharity",
+          name: "Guide to Charity",
           rarity: 3,
-          family: :diligence,
+          family: :charity,
           inventory_type: :development_material,
           source_category: :talent_book,
           source_sub_category: nil,
-          nation_name: :liyue
+          nation_name: :snezhnaya
         ).freeze
 
         GUIDE_TO_CONFLICT = GenshinObject::Material.new(
@@ -62,6 +62,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :natlan
+        ).freeze
+
+        GUIDE_TO_DILIGENCE = GenshinObject::Material.new(
+          kamera_key: "GuideToDiligence",
+          name: "Guide to Diligence",
+          rarity: 3,
+          family: :diligence,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :liyue
         ).freeze
 
         GUIDE_TO_ELEGANCE = GenshinObject::Material.new(
@@ -97,6 +108,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        GUIDE_TO_FORTITUDE = GenshinObject::Material.new(
+          kamera_key: "GuideToFortitude",
+          name: "Guide to Fortitude",
+          rarity: 3,
+          family: :fortitude,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         GUIDE_TO_FREEDOM = GenshinObject::Material.new(
           kamera_key: "GuideToFreedom",
           name: "Guide to Freedom",
@@ -106,6 +128,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        GUIDE_TO_GLORY = GenshinObject::Material.new(
+          kamera_key: "GuideToGlory",
+          name: "Guide to Glory",
+          rarity: 3,
+          family: :glory,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         GUIDE_TO_GOLD = GenshinObject::Material.new(
@@ -262,6 +295,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        PHILOSOPHIES_OF_CHARITY = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfCharity",
+          name: "Philosophies of Charity",
+          rarity: 4,
+          family: :charity,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         PHILOSOPHIES_OF_CONFLICT = GenshinObject::Material.new(
           kamera_key: "PhilosophiesOfConflict",
           name: "Philosophies of Conflict",
@@ -328,6 +372,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        PHILOSOPHIES_OF_FORTITUDE = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfFortitude",
+          name: "Philosophies of Fortitude",
+          rarity: 4,
+          family: :fortitude,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         PHILOSOPHIES_OF_FREEDOM = GenshinObject::Material.new(
           kamera_key: "PhilosophiesOfFreedom",
           name: "Philosophies of Freedom",
@@ -337,6 +392,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        PHILOSOPHIES_OF_GLORY = GenshinObject::Material.new(
+          kamera_key: "PhilosophiesOfGlory",
+          name: "Philosophies of Glory",
+          rarity: 4,
+          family: :glory,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         PHILOSOPHIES_OF_GOLD = GenshinObject::Material.new(
@@ -493,6 +559,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        TEACHINGS_OF_CHARITY = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfCharity",
+          name: "Teachings of Charity",
+          rarity: 2,
+          family: :charity,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         TEACHINGS_OF_CONFLICT = GenshinObject::Material.new(
           kamera_key: "TeachingsOfConflict",
           name: "Teachings of Conflict",
@@ -559,6 +636,17 @@ module GenshinData
           nation_name: :fontaine
         ).freeze
 
+        TEACHINGS_OF_FORTITUDE = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfFortitude",
+          name: "Teachings of Fortitude",
+          rarity: 2,
+          family: :fortitude,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
+        ).freeze
+
         TEACHINGS_OF_FREEDOM = GenshinObject::Material.new(
           kamera_key: "TeachingsOfFreedom",
           name: "Teachings of Freedom",
@@ -568,6 +656,17 @@ module GenshinData
           source_category: :talent_book,
           source_sub_category: nil,
           nation_name: :mondstadt
+        ).freeze
+
+        TEACHINGS_OF_GLORY = GenshinObject::Material.new(
+          kamera_key: "TeachingsOfGlory",
+          name: "Teachings of Glory",
+          rarity: 2,
+          family: :glory,
+          inventory_type: :development_material,
+          source_category: :talent_book,
+          source_sub_category: nil,
+          nation_name: :snezhnaya
         ).freeze
 
         TEACHINGS_OF_GOLD = GenshinObject::Material.new(

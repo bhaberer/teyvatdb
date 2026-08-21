@@ -59,6 +59,16 @@ module GenshinData
           weapon_material_type: :elixir
         ).freeze
 
+        BLADE_OF_ATONEMENT = GenshinObject::Weapon.new(
+          kamera_key: "BladeOfAtonement",
+          name: "Blade of Atonement",
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :life_node,
+          standard_material_type: :chimeric,
+          weapon_material_type: :pale_star
+        ).freeze
+
         BLOODTAINTED_GREATSWORD = GenshinObject::Weapon.new(
           kamera_key: "BloodtaintedGreatsword",
           name: "Bloodtainted Greatsword",

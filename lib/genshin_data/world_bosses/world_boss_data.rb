@@ -26,6 +26,12 @@ module GenshinData
         boss_material: "HurricaneSeed"
       )
 
+      CHIMERIC_WINGED_LION = GenshinObject::WorldBoss.new(
+        name: "Chimeric Winged Lion",
+        nation_name: :snezhnaya,
+        boss_material: "SeveredTailOfTheSkyRoamer"
+      )
+
       CORAL_DEFENDERS = GenshinObject::WorldBoss.new(
         name: "Coral Defenders",
         nation_name: :inazuma,
@@ -120,6 +126,12 @@ module GenshinData
         name: "Icewind Suite - Coppelius",
         nation_name: :fontaine,
         boss_material: "ArtificedSpareClockworkComponentCoppelius"
+      )
+
+      IMMORTAL_CONSTRUCT = GenshinObject::WorldBoss.new(
+        name: "Immortal Construct",
+        nation_name: :snezhnaya,
+        boss_material: "UnscorchedBlossomBranch"
       )
 
       INIQUITOUS_BAPTIST = GenshinObject::WorldBoss.new(

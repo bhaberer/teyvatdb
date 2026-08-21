@@ -151,7 +151,9 @@ module GenshinData
 
       def snezhnaya
         [
+          CharacterData::ALYOSHA,
           CharacterData::ARLECCHINO,
+          CharacterData::ODETTE,
           CharacterData::SANDRONE,
           CharacterData::TARTAGLIA
         ]

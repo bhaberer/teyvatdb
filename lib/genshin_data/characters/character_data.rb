@@ -54,6 +54,23 @@ module GenshinData
         ascension_enemy_material_name: :spectral
       ).freeze
 
+      ALYOSHA = GenshinObject::Character.new(
+        kamera_key: "Alyosha",
+        name: "Alyosha",
+        nation_name: :snezhnaya,
+        rarity: 4,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :electro,
+        weapon_type: :polearm,
+        ascension_boss_material_name: "SeveredTailOfTheSkyRoamer",
+        ascension_gathering_material_name: "Flockingweed",
+        ascension_enemy_material_name: :chimeric,
+        talent_book_name: :fortitude,
+        talent_rare_material_name: :chimeric,
+        talent_boss_material_name: "MoltenMoment"
+      ).freeze
+
       AINO = GenshinObject::Character.new(
         kamera_key: "Aino",
         name: "Aino",
@@ -1327,6 +1344,23 @@ module GenshinData
         ascension_boss_material_name: "BasaltPillar",
         ascension_gathering_material_name: "Valberry",
         ascension_enemy_material_name: :hilichurl_mask
+      ).freeze
+
+      ODETTE = GenshinObject::Character.new(
+        kamera_key: "Odette",
+        name: "Odette",
+        nation_name: :snezhnaya,
+        rarity: 5,
+        constellation_three_bonus: :skill,
+        constellation_five_bonus: :burst,
+        element: :cryo,
+        weapon_type: :sword,
+        ascension_boss_material_name: "UnscorchedBlossomBranch",
+        ascension_gathering_material_name: "FrostfairyFlower",
+        ascension_enemy_material_name: :ethereal,
+        talent_book_name: :charity,
+        talent_rare_material_name: :ethereal,
+        talent_boss_material_name: "TwistedWitheredBranch"
       ).freeze
 
       ORORON = GenshinObject::Character.new(

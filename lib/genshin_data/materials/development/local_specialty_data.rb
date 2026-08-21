@@ -141,6 +141,17 @@ module GenshinData
           nation_name: :mondstadt
         ).freeze
 
+        FLOCKINGWEED = GenshinObject::Material.new(
+          kamera_key: "Flockingweed",
+          name: "Flockingweed",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :snezhnaya
+        ).freeze
+
         FLUORESCENT_FUNGUS = GenshinObject::Material.new(
           kamera_key: "FluorescentFungus",
           name: "Fluorescent Fungus",
@@ -150,6 +161,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :sumeru
+        ).freeze
+
+        FROSTFAIRY_FLOWER = GenshinObject::Material.new(
+          kamera_key: "FrostfairyFlower",
+          name: "Frostfairy Flower",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :snezhnaya
         ).freeze
 
         FROSTLAMP_FLOWER = GenshinObject::Material.new(
@@ -183,6 +205,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :natlan
+        ).freeze
+
+        GOLDEN_FERN = GenshinObject::Material.new(
+          kamera_key: "GoldenFern",
+          name: "Golden Fern",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :snezhnaya
         ).freeze
 
         HENNA_BERRY = GenshinObject::Material.new(
@@ -579,6 +612,17 @@ module GenshinData
           source_category: :gathering,
           source_sub_category: :local_specialty,
           nation_name: :fontaine
+        ).freeze
+
+        TEARDROP_OF_THE_MOON = GenshinObject::Material.new(
+          kamera_key: "TeardropOfTheMoon",
+          name: "Teardrop of the Moon",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :local_specialty,
+          nation_name: :nodkrai
         ).freeze
 
         TRISHIRAITE = GenshinObject::Material.new(

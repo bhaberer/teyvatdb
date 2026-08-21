@@ -31,6 +31,39 @@ module GenshinData
           nation_name: nil
         ).freeze
 
+        ACCRETED_FRAGMENT = GenshinObject::Material.new(
+          kamera_key: "AccretedFragment",
+          name: "Accreted Fragment",
+          rarity: 2,
+          family: :accreted,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        ACCRETED_GROWTH= GenshinObject::Material.new(
+          kamera_key: "AccretedGrowth",
+          name: "Accreted Growth",
+          rarity: 4,
+          family: :accreted,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        ACCRETED_MASS = GenshinObject::Material.new(
+          kamera_key: "AccretedMass",
+          name: "Accreted Mass",
+          rarity: 3,
+          family: :accreted,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
         AGENTS_SACRIFICIAL_KNIFE = GenshinObject::Material.new(
           kamera_key: "AgentsSacrificialKnife",
           name: "Agents Sacrificial Knife",
@@ -212,6 +245,17 @@ module GenshinData
           name: "Chasmlight Fin",
           rarity: 4,
           family: :beast_fin,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        COILED_CORE_OF_LIFE = GenshinObject::Material.new(
+          kamera_key: "CoiledCoreOfLife",
+          name: "Coiled Core of Life",
+          rarity: 4,
+          family: :life_node,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -553,6 +597,17 @@ module GenshinData
           name: "Hooked Beak of the Deep Shadow",
           rarity: 4,
           family: :deep_shadow,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        HOLLOW_ROOT_OF_LIFE = GenshinObject::Material.new(
+          kamera_key: "HollowRootOfLife",
+          name: "Hollow Root of Life",
+          rarity: 2,
+          family: :life_node,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,
@@ -938,6 +993,17 @@ module GenshinData
           name: "Splintered Hilt",
           rarity: 3,
           family: :stone_hilt,
+          inventory_type: :development_material,
+          source_category: :monster_loot,
+          source_sub_category: :elite_drop,
+          nation_name: nil
+        ).freeze
+
+        SPROUT_NODE_OF_LIFE = GenshinObject::Material.new(
+          kamera_key: "SproutNodeOfLife",
+          name: "Sprout Node of Life",
+          rarity: 3,
+          family: :life_node,
           inventory_type: :development_material,
           source_category: :monster_loot,
           source_sub_category: :elite_drop,

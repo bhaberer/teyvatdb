@@ -489,6 +489,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        RIMECURRANT = GenshinObject::Material.new(
+          kamera_key: "Rimecurrant",
+          name: "Rimecurrant",
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         RYE = GenshinObject::Material.new(
           kamera_key: "Rye",
           name: "Rye",

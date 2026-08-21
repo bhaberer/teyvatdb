@@ -109,6 +109,16 @@ module GenshinData
           weapon_material_type: :wolf_tooth
         ).freeze
 
+        ECHOES_OF_THE_HEART = GenshinObject::Weapon.new(
+          kamera_key: "EchoesOfTheHeart",
+          name: "Echoes of the Heart",
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :accreted,
+          standard_material_type: :ethereal,
+          weapon_material_type: :pale_star
+        ).freeze
+
         EMERALD_ORB = GenshinObject::Weapon.new(
           kamera_key: "EmeraldOrb",
           name: "Emerald Orb",

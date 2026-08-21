@@ -26,6 +26,15 @@ module GenshinData
         )
       )
 
+      CHARITY = GenshinObject::TalentBook.new(
+        family: :charity,
+        name: "Charity",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          mon_thurs: true
+        )
+      )
+
       CONFLICT = GenshinObject::TalentBook.new(
         family: :conflict,
         name: "Conflict",
@@ -80,12 +89,30 @@ module GenshinData
         )
       )
 
+      FORTITUDE = GenshinObject::TalentBook.new(
+        family: :fortitude,
+        name: "Fortitude",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          tues_fri: true
+        )
+      )
+
       FREEDOM = GenshinObject::TalentBook.new(
         family: :freedom,
         name: "Freedom",
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
+        )
+      )
+
+      GLORY = GenshinObject::TalentBook.new(
+        family: :glory,
+        name: "Glory",
+        nation_name: :snezhnaya,
+        schedule: GenshinObject::Schedule.new(
+          wed_sat: true
         )
       )
 
