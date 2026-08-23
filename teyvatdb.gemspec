@@ -32,4 +32,13 @@ Gem::Specification.new do |spec|
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
   spec.metadata["rubygems_mfa_required"] = "true"
+
+  spec.add_development_dependency "rake", "~> 13.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec-collection_matchers"
+  spec.add_development_dependency "rubocop", "~> 1.84"
+  spec.add_development_dependency "rubocop-rake"
+  spec.add_development_dependency "rubocop-rspec"
+  spec.add_development_dependency "solargraph", "~> 0.49"
+  spec.add_development_dependency "brakeman"
 end

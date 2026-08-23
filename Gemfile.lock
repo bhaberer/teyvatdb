@@ -9,6 +9,8 @@ GEM
     ast (2.4.3)
     backport (1.2.0)
     benchmark (0.5.0)
+    brakeman (8.0.6)
+      racc
     commander (5.0.0)
       highline (~> 3.0.0)
     date (3.5.1)
@@ -165,6 +167,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  brakeman
   rake (~> 13.0)
   rspec (~> 3.0)
   rspec-collection_matchers
@@ -178,6 +181,7 @@ CHECKSUMS
   ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
   backport (1.2.0) sha256=912c7dfdd9ee4625d013ddfccb6205c3f92da69a8990f65c440e40f5b2fc7f75
   benchmark (0.5.0) sha256=465df122341aedcb81a2a24b4d3bd19b6c67c1530713fd533f3ff034e419236c
+  brakeman (8.0.6) sha256=759cc69341115e6c2dcd47b6fd8649a0b9bd540e3585ac8a0a94e31c66fee386
   bundler (4.0.18) sha256=02d9a17429de1847b4e0c9f27a9ee4b20c0a74c0a641b4e77195d6019e3618ac
   commander (5.0.0) sha256=22ca42866ce5ed1a7f3e9a9c831a23d03b75b3743c7ad0302c3cbcd9eb5f257d
   date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
@@ -239,6 +243,9 @@ CHECKSUMS
   yard (0.9.45) sha256=52e211493f7cb8a3ebf7e104a25a1e73937a3103092545d34cb88fafebb3dc51
   yard-activesupport-concern (0.0.1) sha256=be790cb0efc23e2e87677063598ac8b743586154657bbd9655a7f03ce78390ef
   yard-solargraph (0.1.0) sha256=a19a4619c942181a618fb9458970a9d2534cf7fda69fc43949629a7948a5930e
+
+RUBY VERSION
+  ruby 3.4.8
 
 BUNDLED WITH
   4.0.18
