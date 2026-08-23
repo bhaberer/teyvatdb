@@ -11,7 +11,7 @@ jobs:
     name: CI Rubocop
     runs-on: ubuntu-latest
     env:
-      api-dir: ./
+      api-dir: /home/runner/work/teyvatdb/teyvatdb
 
     steps:
       - uses: actions/checkout@v4
