@@ -10,7 +10,7 @@ module GenshinData
 
       ADMONITION = GenshinObject::TalentBook.new(
         family: :admonition,
-        name: "Admonition",
+        name: 'Admonition',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -19,7 +19,7 @@ module GenshinData
 
       BALLAD = GenshinObject::TalentBook.new(
         family: :ballad,
-        name: "Ballad",
+        name: 'Ballad',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -28,7 +28,7 @@ module GenshinData
 
       CHARITY = GenshinObject::TalentBook.new(
         family: :charity,
-        name: "Charity",
+        name: 'Charity',
         nation_name: :snezhnaya,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -37,7 +37,7 @@ module GenshinData
 
       CONFLICT = GenshinObject::TalentBook.new(
         family: :conflict,
-        name: "Conflict",
+        name: 'Conflict',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -46,7 +46,7 @@ module GenshinData
 
       CONTENTION = GenshinObject::TalentBook.new(
         family: :contention,
-        name: "Contention",
+        name: 'Contention',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -55,7 +55,7 @@ module GenshinData
 
       DILIGENCE = GenshinObject::TalentBook.new(
         family: :diligence,
-        name: "Diligence",
+        name: 'Diligence',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -64,7 +64,7 @@ module GenshinData
 
       ELEGANCE = GenshinObject::TalentBook.new(
         family: :elegance,
-        name: "Elegance",
+        name: 'Elegance',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -73,7 +73,7 @@ module GenshinData
 
       ELYSIUM = GenshinObject::TalentBook.new(
         family: :elysium,
-        name: "Elysium",
+        name: 'Elysium',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -82,7 +82,7 @@ module GenshinData
 
       EQUITY = GenshinObject::TalentBook.new(
         family: :equity,
-        name: "Equity",
+        name: 'Equity',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -91,7 +91,7 @@ module GenshinData
 
       FORTITUDE = GenshinObject::TalentBook.new(
         family: :fortitude,
-        name: "Fortitude",
+        name: 'Fortitude',
         nation_name: :snezhnaya,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -100,7 +100,7 @@ module GenshinData
 
       FREEDOM = GenshinObject::TalentBook.new(
         family: :freedom,
-        name: "Freedom",
+        name: 'Freedom',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -109,7 +109,7 @@ module GenshinData
 
       GLORY = GenshinObject::TalentBook.new(
         family: :glory,
-        name: "Glory",
+        name: 'Glory',
         nation_name: :snezhnaya,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -118,7 +118,7 @@ module GenshinData
 
       GOLD = GenshinObject::TalentBook.new(
         family: :gold,
-        name: "Gold",
+        name: 'Gold',
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -127,7 +127,7 @@ module GenshinData
 
       INGENUITY = GenshinObject::TalentBook.new(
         family: :ingenuity,
-        name: "Ingenuity",
+        name: 'Ingenuity',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -136,7 +136,7 @@ module GenshinData
 
       JUSTICE = GenshinObject::TalentBook.new(
         family: :justice,
-        name: "Justice",
+        name: 'Justice',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -145,7 +145,7 @@ module GenshinData
 
       KINDLING = GenshinObject::TalentBook.new(
         family: :kindling,
-        name: "Kindling",
+        name: 'Kindling',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -154,7 +154,7 @@ module GenshinData
 
       LIGHT = GenshinObject::TalentBook.new(
         family: :light,
-        name: "Light",
+        name: 'Light',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -163,7 +163,7 @@ module GenshinData
 
       MOONLIGHT = GenshinObject::TalentBook.new(
         family: :moonlight,
-        name: "Moonlight",
+        name: 'Moonlight',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -172,7 +172,7 @@ module GenshinData
 
       ORDER = GenshinObject::TalentBook.new(
         family: :order,
-        name: "Order",
+        name: 'Order',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -181,7 +181,7 @@ module GenshinData
 
       PRAXIS = GenshinObject::TalentBook.new(
         family: :praxis,
-        name: "Praxis",
+        name: 'Praxis',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -190,7 +190,7 @@ module GenshinData
 
       PROSPERITY = GenshinObject::TalentBook.new(
         family: :prosperity,
-        name: "Prosperity",
+        name: 'Prosperity',
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -199,7 +199,7 @@ module GenshinData
 
       RESISTANCE = GenshinObject::TalentBook.new(
         family: :resistance,
-        name: "Resistance",
+        name: 'Resistance',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -208,7 +208,7 @@ module GenshinData
 
       TRANSIENCE = GenshinObject::TalentBook.new(
         family: :transience,
-        name: "Transience",
+        name: 'Transience',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -217,7 +217,7 @@ module GenshinData
 
       VAGRANCY = GenshinObject::TalentBook.new(
         family: :vagrancy,
-        name: "Vagrancy",
+        name: 'Vagrancy',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true

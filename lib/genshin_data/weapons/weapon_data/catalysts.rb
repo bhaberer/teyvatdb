@@ -10,8 +10,8 @@ module GenshinData
         end
 
         A_THOUSAND_FLOATING_DREAMS = GenshinObject::Weapon.new(
-          kamera_key: "AThousandFloatingDreams",
-          name: "A Thousand Floating Dreams",
+          kamera_key: 'AThousandFloatingDreams',
+          name: 'A Thousand Floating Dreams',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :turbid_prism,
@@ -20,7 +20,7 @@ module GenshinData
         ).freeze
 
         ANGELOS_HEPTADES = GenshinObject::Weapon.new(
-          kamera_key: "AngelosHeptades",
+          kamera_key: 'AngelosHeptades',
           name: "Angelos' Heptades",
           rarity: 5,
           weapon_type: :catalyst,
@@ -30,7 +30,7 @@ module GenshinData
         ).freeze
 
         APPRENTICES_NOTES = GenshinObject::Weapon.new(
-          kamera_key: "ApprenticesNotes",
+          kamera_key: 'ApprenticesNotes',
           name: "Apprentice's Notes",
           rarity: 1,
           weapon_type: :catalyst,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         ASH_GRAVEN_DRINKING_HORN = GenshinObject::Weapon.new(
-          kamera_key: "AshGravenDrinkingHorn",
-          name: "Ash-Graven Drinking Horn",
+          kamera_key: 'AshGravenDrinkingHorn',
+          name: 'Ash-Graven Drinking Horn',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :secret_source,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         BALLAD_OF_THE_BOUNDLESS_BLUE = GenshinObject::Weapon.new(
-          kamera_key: "BalladOfTheBoundlessBlue",
-          name: "Ballad of the Boundless Blue",
+          kamera_key: 'BalladOfTheBoundlessBlue',
+          name: 'Ballad of the Boundless Blue',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :bone_shard,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         BLACKCLIFF_AGATE = GenshinObject::Weapon.new(
-          kamera_key: "BlackcliffAgate",
-          name: "Blackcliff Agate",
+          kamera_key: 'BlackcliffAgate',
+          name: 'Blackcliff Agate',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :sacrificial_knife,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         BLACKMARROW_LANTERN = GenshinObject::Weapon.new(
-          kamera_key: "BlackmarrowLantern",
-          name: "Blackmarrow Lantern",
+          kamera_key: 'BlackmarrowLantern',
+          name: 'Blackmarrow Lantern',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :frostnight,
@@ -80,7 +80,7 @@ module GenshinData
         ).freeze
 
         CRANES_ECHOING_CALL = GenshinObject::Weapon.new(
-          kamera_key: "CranesEchoingCall",
+          kamera_key: 'CranesEchoingCall',
           name: "Crane's Echoing Call",
           rarity: 5,
           weapon_type: :catalyst,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         DAWNING_FROST = GenshinObject::Weapon.new(
-          kamera_key: "DawningFrost",
-          name: "Dawning Frost",
+          kamera_key: 'DawningFrost',
+          name: 'Dawning Frost',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :frostnight,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         DODOCO_TALES = GenshinObject::Weapon.new(
-          kamera_key: "DodocoTales",
-          name: "Dodoco Tales",
+          kamera_key: 'DodocoTales',
+          name: 'Dodoco Tales',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :ley_line,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         ECHOES_OF_THE_HEART = GenshinObject::Weapon.new(
-          kamera_key: "EchoesOfTheHeart",
-          name: "Echoes of the Heart",
+          kamera_key: 'EchoesOfTheHeart',
+          name: 'Echoes of the Heart',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :accreted,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         EMERALD_ORB = GenshinObject::Weapon.new(
-          kamera_key: "EmeraldOrb",
-          name: "Emerald Orb",
+          kamera_key: 'EmeraldOrb',
+          name: 'Emerald Orb',
           rarity: 3,
           weapon_type: :catalyst,
           elite_material_type: :sacrificial_knife,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         ETHERLIGHT_SPINDLELUTE = GenshinObject::Weapon.new(
-          kamera_key: "EtherlightSpindlelute",
-          name: "Etherlight Spindlelute",
+          kamera_key: 'EtherlightSpindlelute',
+          name: 'Etherlight Spindlelute',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :radiant_bone,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         EVERLASTING_MOONGLOW = GenshinObject::Weapon.new(
-          kamera_key: "EverlastingMoonglow",
-          name: "Everlasting Moonglow",
+          kamera_key: 'EverlastingMoonglow',
+          name: 'Everlasting Moonglow',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :crystal_prism,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         EYE_OF_PERCEPTION = GenshinObject::Weapon.new(
-          kamera_key: "EyeOfPerception",
-          name: "Eye of Perception",
+          kamera_key: 'EyeOfPerception',
+          name: 'Eye of Perception',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :mist_grass,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         FAVONIUS_CODEX = GenshinObject::Weapon.new(
-          kamera_key: "FavoniusCodex",
-          name: "Favonius Codex",
+          kamera_key: 'FavoniusCodex',
+          name: 'Favonius Codex',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :horn,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         FLOWING_PURITY = GenshinObject::Weapon.new(
-          kamera_key: "FlowingPurity",
-          name: "Flowing Purity",
+          kamera_key: 'FlowingPurity',
+          name: 'Flowing Purity',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :core,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         FROSTBEARER = GenshinObject::Weapon.new(
-          kamera_key: "Frostbearer",
-          name: "Frostbearer",
+          kamera_key: 'Frostbearer',
+          name: 'Frostbearer',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :chaos_core,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         FRUIT_OF_FULFILLMENT = GenshinObject::Weapon.new(
-          kamera_key: "FruitOfFulfillment",
-          name: "Fruit of Fulfillment",
+          kamera_key: 'FruitOfFulfillment',
+          name: 'Fruit of Fulfillment',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :statuette,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         HAKUSHIN_RING = GenshinObject::Weapon.new(
-          kamera_key: "HakushinRing",
-          name: "Hakushin Ring",
+          kamera_key: 'HakushinRing',
+          name: 'Hakushin Ring',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :crystal_prism,
@@ -210,7 +210,7 @@ module GenshinData
         ).freeze
 
         JADEFALLS_SPLENDOR = GenshinObject::Weapon.new(
-          kamera_key: "JadefallsSplendor",
+          kamera_key: 'JadefallsSplendor',
           name: "Jadefall's Splendor",
           rarity: 5,
           weapon_type: :catalyst,
@@ -220,7 +220,7 @@ module GenshinData
         ).freeze
 
         KAGURAS_VERITY = GenshinObject::Weapon.new(
-          kamera_key: "KagurasVerity",
+          kamera_key: 'KagurasVerity',
           name: "Kagura's Verity",
           rarity: 5,
           weapon_type: :catalyst,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         LOST_PRAYER_TO_THE_SACRED_WINDS = GenshinObject::Weapon.new(
-          kamera_key: "LostPrayerToTheSacredWinds",
-          name: "Lost Prayer to the Sacred Winds",
+          kamera_key: 'LostPrayerToTheSacredWinds',
+          name: 'Lost Prayer to the Sacred Winds',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :chaos_core,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         MAGIC_GUIDE = GenshinObject::Weapon.new(
-          kamera_key: "MagicGuide",
-          name: "Magic Guide",
+          kamera_key: 'MagicGuide',
+          name: 'Magic Guide',
           rarity: 3,
           weapon_type: :catalyst,
           elite_material_type: :horn,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         MAPPA_MARE = GenshinObject::Weapon.new(
-          kamera_key: "MappaMare",
-          name: "Mappa Mare",
+          kamera_key: 'MappaMare',
+          name: 'Mappa Mare',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :bone_shard,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         MEMORY_OF_DUST = GenshinObject::Weapon.new(
-          kamera_key: "MemoryOfDust",
-          name: "Memory of Dust",
+          kamera_key: 'MemoryOfDust',
+          name: 'Memory of Dust',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :bone_shard,
@@ -270,7 +270,7 @@ module GenshinData
         ).freeze
 
         NIGHTWEAVERS_LOOKING_GLASS = GenshinObject::Weapon.new(
-          kamera_key: "NightweaversLookingGlass",
+          kamera_key: 'NightweaversLookingGlass',
           name: "Nightweaver's Looking Glass",
           rarity: 5,
           weapon_type: :catalyst,
@@ -280,7 +280,7 @@ module GenshinData
         ).freeze
 
         NOCTURNS_CURTAIN_CALL = GenshinObject::Weapon.new(
-          kamera_key: "NocturnesCurtainCall",
+          kamera_key: 'NocturnesCurtainCall',
           name: "Nocturne's Curtain Call",
           rarity: 5,
           weapon_type: :catalyst,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         OATHSWORN_EYE = GenshinObject::Weapon.new(
-          kamera_key: "OathswornEye",
-          name: "Oathsworn Eye",
+          kamera_key: 'OathswornEye',
+          name: 'Oathsworn Eye',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :concealed_talon,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         OTHERWORLDLY_STORY = GenshinObject::Weapon.new(
-          kamera_key: "OtherworldlyStory",
-          name: "Otherworldly Story",
+          kamera_key: 'OtherworldlyStory',
+          name: 'Otherworldly Story',
           rarity: 3,
           weapon_type: :catalyst,
           elite_material_type: :chaos_core,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         POCKET_GRIMOIRE = GenshinObject::Weapon.new(
-          kamera_key: "PocketGrimoire",
-          name: "Pocket Grimoire",
+          kamera_key: 'PocketGrimoire',
+          name: 'Pocket Grimoire',
           rarity: 2,
           weapon_type: :catalyst,
           elite_material_type: :horn,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         PROTOTYPE_AMBER = GenshinObject::Weapon.new(
-          kamera_key: "PrototypeAmber",
-          name: "Prototype Amber",
+          kamera_key: 'PrototypeAmber',
+          name: 'Prototype Amber',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :mist_grass,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         RELIQUARY_OF_TRUTH = GenshinObject::Weapon.new(
-          kamera_key: "ReliquaryOfTruth",
-          name: "Reliquary of Truth",
+          kamera_key: 'ReliquaryOfTruth',
+          name: 'Reliquary of Truth',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :radiant_bone,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         RING_OF_YAXCHE = GenshinObject::Weapon.new(
-          kamera_key: "RingOfYaxche",
-          name: "Ring of Yaxche",
+          kamera_key: 'RingOfYaxche',
+          name: 'Ring of Yaxche',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :wayob_will,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         ROYAL_GRIMOIRE = GenshinObject::Weapon.new(
-          kamera_key: "RoyalGrimoire",
-          name: "Royal Grimoire",
+          kamera_key: 'RoyalGrimoire',
+          name: 'Royal Grimoire',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :horn,
@@ -360,8 +360,8 @@ module GenshinData
         ).freeze
 
         SACRIFICIAL_FRAGMENTS = GenshinObject::Weapon.new(
-          kamera_key: "SacrificialFragments",
-          name: "Sacrificial Fragments",
+          kamera_key: 'SacrificialFragments',
+          name: 'Sacrificial Fragments',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :chaos_core,
@@ -370,8 +370,8 @@ module GenshinData
         ).freeze
 
         SACRIFICIAL_JADE = GenshinObject::Weapon.new(
-          kamera_key: "SacrificialJade",
-          name: "Sacrificial Jade",
+          kamera_key: 'SacrificialJade',
+          name: 'Sacrificial Jade',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :mist_grass,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         SKYWARD_ATLAS = GenshinObject::Weapon.new(
-          kamera_key: "SkywardAtlas",
-          name: "Skyward Atlas",
+          kamera_key: 'SkywardAtlas',
+          name: 'Skyward Atlas',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :ley_line,
@@ -390,8 +390,8 @@ module GenshinData
         ).freeze
 
         SOLAR_PEARL = GenshinObject::Weapon.new(
-          kamera_key: "SolarPearl",
-          name: "Solar Pearl",
+          kamera_key: 'SolarPearl',
+          name: 'Solar Pearl',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :sacrificial_knife,
@@ -400,7 +400,7 @@ module GenshinData
         ).freeze
 
         STARCALLERS_WATCH = GenshinObject::Weapon.new(
-          kamera_key: "StarcallersWatch",
+          kamera_key: 'StarcallersWatch',
           name: "Starcaller's Watch",
           rarity: 5,
           weapon_type: :catalyst,
@@ -410,8 +410,8 @@ module GenshinData
         ).freeze
 
         SUNNY_MORNING_SLEEP_IN = GenshinObject::Weapon.new(
-          kamera_key: "SunnyMorningSleepIn",
-          name: "Sunny Morning Sleep-In",
+          kamera_key: 'SunnyMorningSleepIn',
+          name: 'Sunny Morning Sleep-In',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :ignited,
@@ -420,7 +420,7 @@ module GenshinData
         ).freeze
 
         SURFS_UP = GenshinObject::Weapon.new(
-          kamera_key: "SurfsUp",
+          kamera_key: 'SurfsUp',
           name: "Surf's Up",
           rarity: 5,
           weapon_type: :catalyst,
@@ -430,8 +430,8 @@ module GenshinData
         ).freeze
 
         THE_WIDSITH = GenshinObject::Weapon.new(
-          kamera_key: "TheWidsith",
-          name: "Widsith, The",
+          kamera_key: 'TheWidsith',
+          name: 'Widsith, The',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :ley_line,
@@ -440,8 +440,8 @@ module GenshinData
         ).freeze
 
         THRILLING_TALES_OF_DRAGON_SLAYERS = GenshinObject::Weapon.new(
-          kamera_key: "ThrillingTalesOfDragonSlayers",
-          name: "Thrilling Tales of Dragon Slayers",
+          kamera_key: 'ThrillingTalesOfDragonSlayers',
+          name: 'Thrilling Tales of Dragon Slayers',
           rarity: 3,
           weapon_type: :catalyst,
           elite_material_type: :ley_line,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         TOME_OF_THE_ETERNAL_FLOW = GenshinObject::Weapon.new(
-          kamera_key: "TomeOfTheEternalFlow",
-          name: "Tome of the Eternal Flow",
+          kamera_key: 'TomeOfTheEternalFlow',
+          name: 'Tome of the Eternal Flow',
           rarity: 5,
           weapon_type: :catalyst,
           elite_material_type: :core,
@@ -460,7 +460,7 @@ module GenshinData
         ).freeze
 
         TULAYTULLAHS_REMEMBRANCE = GenshinObject::Weapon.new(
-          kamera_key: "TulaytullahsRemembrance",
+          kamera_key: 'TulaytullahsRemembrance',
           name: "Tulaytullah's Remembrance",
           rarity: 5,
           weapon_type: :catalyst,
@@ -470,8 +470,8 @@ module GenshinData
         ).freeze
 
         TWIN_NEPHRITE = GenshinObject::Weapon.new(
-          kamera_key: "TwinNephrite",
-          name: "Twin Nephrite",
+          kamera_key: 'TwinNephrite',
+          name: 'Twin Nephrite',
           rarity: 3,
           weapon_type: :catalyst,
           elite_material_type: :mist_grass,
@@ -480,8 +480,8 @@ module GenshinData
         ).freeze
 
         WANDERING_EVENSTAR = GenshinObject::Weapon.new(
-          kamera_key: "WanderingEvenstar",
-          name: "Wandering Evenstar",
+          kamera_key: 'WanderingEvenstar',
+          name: 'Wandering Evenstar',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :fungal_nucleus,
@@ -490,8 +490,8 @@ module GenshinData
         ).freeze
 
         WAVERIDING_WHIRL = GenshinObject::Weapon.new(
-          kamera_key: "WaveridingWhirl",
-          name: "Waveriding Whirl",
+          kamera_key: 'WaveridingWhirl',
+          name: 'Waveriding Whirl',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :wayob_will,
@@ -500,8 +500,8 @@ module GenshinData
         ).freeze
 
         WINE_AND_SONG = GenshinObject::Weapon.new(
-          kamera_key: "WineAndSong",
-          name: "Wine and Song",
+          kamera_key: 'WineAndSong',
+          name: 'Wine and Song',
           rarity: 4,
           weapon_type: :catalyst,
           elite_material_type: :ley_line,

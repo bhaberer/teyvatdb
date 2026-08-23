@@ -3,7 +3,7 @@
 module GenshinData
   # Base Nation Data
   module Nations
-    require_relative "nations/nation_data"
+    require_relative 'nations/nation_data'
 
     def self.all
       NationData.all

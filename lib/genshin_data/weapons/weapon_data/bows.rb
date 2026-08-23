@@ -10,8 +10,8 @@ module GenshinData
         end
 
         ALLEY_HUNTER = GenshinObject::Weapon.new(
-          kamera_key: "AlleyHunter",
-          name: "AlleyHunter",
+          kamera_key: 'AlleyHunter',
+          name: 'AlleyHunter',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :chaos_core,
@@ -20,7 +20,7 @@ module GenshinData
         ).freeze
 
         AMOS_BOW = GenshinObject::Weapon.new(
-          kamera_key: "AmosBow",
+          kamera_key: 'AmosBow',
           name: "Amos' Bow",
           rarity: 5,
           weapon_type: :bow,
@@ -30,7 +30,7 @@ module GenshinData
         ).freeze
 
         ASTRAL_VULTURES_CRIMSON_PLUMAGE = GenshinObject::Weapon.new(
-          kamera_key: "AstralVulturesCrimsonPlumage",
+          kamera_key: 'AstralVulturesCrimsonPlumage',
           name: "Astral Vulture's Crimson Plumage",
           rarity: 5,
           weapon_type: :bow,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         AQUA_SIMULACRA = GenshinObject::Weapon.new(
-          kamera_key: "AquaSimulacra",
-          name: "Aqua Simulacra",
+          kamera_key: 'AquaSimulacra',
+          name: 'Aqua Simulacra',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :statuette,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         BLACKCLIFF_WARBOW = GenshinObject::Weapon.new(
-          kamera_key: "BlackcliffWarbow",
-          name: "Blackcliff Warbow",
+          kamera_key: 'BlackcliffWarbow',
+          name: 'Blackcliff Warbow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :sacrificial_knife,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         CHAIN_BREAKER = GenshinObject::Weapon.new(
-          kamera_key: "ChainBreaker",
-          name: "Chain Breaker",
+          kamera_key: 'ChainBreaker',
+          name: 'Chain Breaker',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :beast_fin,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         CLOUDFORGED = GenshinObject::Weapon.new(
-          kamera_key: "Cloudforged",
-          name: "Cloudforged",
+          kamera_key: 'Cloudforged',
+          name: 'Cloudforged',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :stone_hilt,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         COMPOUND_BOW = GenshinObject::Weapon.new(
-          kamera_key: "CompoundBow",
-          name: "Compound Bow",
+          kamera_key: 'CompoundBow',
+          name: 'Compound Bow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :bone_shard,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         COVENANT_OF_FROST_AND_SNOW = GenshinObject::Weapon.new(
-          kamera_key: "CovenantOfFrostAndSnow",
-          name: "Covenant of Frost and Snow",
+          kamera_key: 'CovenantOfFrostAndSnow',
+          name: 'Covenant of Frost and Snow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :life_node,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         ELEGY_FOR_THE_END = GenshinObject::Weapon.new(
-          kamera_key: "ElegyForTheEnd",
-          name: "Elegy for the End",
+          kamera_key: 'ElegyForTheEnd',
+          name: 'Elegy for the End',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         END_OF_THE_LINE = GenshinObject::Weapon.new(
-          kamera_key: "EndOfTheLine",
-          name: "End of the Line",
+          kamera_key: 'EndOfTheLine',
+          name: 'End of the Line',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :fungal_nucleus,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         FADING_TWILIGHT = GenshinObject::Weapon.new(
-          kamera_key: "FadingTwilight",
-          name: "Fading Twilight",
+          kamera_key: 'FadingTwilight',
+          name: 'Fading Twilight',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :sacrificial_knife,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         FAVONIUS_WARBOW = GenshinObject::Weapon.new(
-          kamera_key: "FavoniusWarbow",
-          name: "Favonius Warbow",
+          kamera_key: 'FavoniusWarbow',
+          name: 'Favonius Warbow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :chaos_core,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         FLOWER_WREATHED_FEATHERS = GenshinObject::Weapon.new(
-          kamera_key: "FlowerWreathedFeathers",
-          name: "Flower-Wreathed Feathers",
+          kamera_key: 'FlowerWreathedFeathers',
+          name: 'Flower-Wreathed Feathers',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :ignited,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         GOLDEN_FROSTBOUND_OATH = GenshinObject::Weapon.new(
-          kamera_key: "GoldenFrostboundOath",
-          name: "Golden Frostbound Oath",
+          kamera_key: 'GoldenFrostboundOath',
+          name: 'Golden Frostbound Oath',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :flaming_hilt,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         HAMAYUMI = GenshinObject::Weapon.new(
-          kamera_key: "Hamayumi",
-          name: "Hamayumi",
+          kamera_key: 'Hamayumi',
+          name: 'Hamayumi',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :crystal_prism,
@@ -170,7 +170,7 @@ module GenshinData
         ).freeze
 
         HUNTERS_BOW = GenshinObject::Weapon.new(
-          kamera_key: "HuntersBow",
+          kamera_key: 'HuntersBow',
           name: "Hunter's Bow",
           rarity: 1,
           weapon_type: :bow,
@@ -180,7 +180,7 @@ module GenshinData
         ).freeze
 
         HUNTERS_PATH = GenshinObject::Weapon.new(
-          kamera_key: "HuntersPath",
+          kamera_key: 'HuntersPath',
           name: "Hunter's Path",
           rarity: 5,
           weapon_type: :bow,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         IBIS_PIERCER = GenshinObject::Weapon.new(
-          kamera_key: "IbisPiercer",
-          name: "Ibis Piercer",
+          kamera_key: 'IbisPiercer',
+          name: 'Ibis Piercer',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :rogue_flower,
@@ -200,7 +200,7 @@ module GenshinData
         ).freeze
 
         KINGS_SQUIRE = GenshinObject::Weapon.new(
-          kamera_key: "KingsSquire",
+          kamera_key: 'KingsSquire',
           name: "King's Squire",
           rarity: 4,
           weapon_type: :bow,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         MESSENGER = GenshinObject::Weapon.new(
-          kamera_key: "Messenger",
-          name: "Messenger",
+          kamera_key: 'Messenger',
+          name: 'Messenger',
           rarity: 3,
           weapon_type: :bow,
           elite_material_type: :mist_grass,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         MITTERNACHTS_WALTZ = GenshinObject::Weapon.new(
-          kamera_key: "MitternachtsWaltz",
-          name: "Mitternachts Waltz",
+          kamera_key: 'MitternachtsWaltz',
+          name: 'Mitternachts Waltz',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -230,7 +230,7 @@ module GenshinData
         ).freeze
 
         MOUUNS_MOON = GenshinObject::Weapon.new(
-          kamera_key: "MouunsMoon",
+          kamera_key: 'MouunsMoon',
           name: "Mouun's Moon",
           rarity: 4,
           weapon_type: :bow,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         POLAR_STAR = GenshinObject::Weapon.new(
-          kamera_key: "PolarStar",
-          name: "Polar Star",
+          kamera_key: 'PolarStar',
+          name: 'Polar Star',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :concealed_talon,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         PREDATOR = GenshinObject::Weapon.new(
-          kamera_key: "Predator",
-          name: "Predator",
+          kamera_key: 'Predator',
+          name: 'Predator',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :crystal_prism,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         PROTOTYPE_CRESCENT = GenshinObject::Weapon.new(
-          kamera_key: "PrototypeCrescent",
-          name: "Prototype Crescent",
+          kamera_key: 'PrototypeCrescent',
+          name: 'Prototype Crescent',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :mist_grass,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         RAINBOW_SERPENTS_RAIN_BOW = GenshinObject::Weapon.new(
-          kamera_key: "RainbowSerpentsRainBow",
-          name: "Rainbow Serpents Rain Bow",
+          kamera_key: 'RainbowSerpentsRainBow',
+          name: 'Rainbow Serpents Rain Bow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :abyss_leaf,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         RAVEN_BOW = GenshinObject::Weapon.new(
-          kamera_key: "RavenBow",
-          name: "Raven Bow",
+          kamera_key: 'RavenBow',
+          name: 'Raven Bow',
           rarity: 3,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         RECURVE_BOW = GenshinObject::Weapon.new(
-          kamera_key: "RecurveBow",
-          name: "Recurve Bow",
+          kamera_key: 'RecurveBow',
+          name: 'Recurve Bow',
           rarity: 3,
           weapon_type: :bow,
           elite_material_type: :chaos_core,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         ROYAL_BOW = GenshinObject::Weapon.new(
-          kamera_key: "RoyalBow",
-          name: "Royal Bow",
+          kamera_key: 'RoyalBow',
+          name: 'Royal Bow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :chaos_core,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         RUST = GenshinObject::Weapon.new(
-          kamera_key: "Rust",
-          name: "Rust",
+          kamera_key: 'Rust',
+          name: 'Rust',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :sacrificial_knife,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         SACRIFICIAL_BOW = GenshinObject::Weapon.new(
-          kamera_key: "SacrificialBow",
-          name: "Sacrificial Bow",
+          kamera_key: 'SacrificialBow',
+          name: 'Sacrificial Bow',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :ley_line,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         SCION_OF_THE_BLAZING_SUN = GenshinObject::Weapon.new(
-          kamera_key: "ScionOfTheBlazingSun",
-          name: "Scion of the Blazing Sun",
+          kamera_key: 'ScionOfTheBlazingSun',
+          name: 'Scion of the Blazing Sun',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :rogue_flower,
@@ -340,7 +340,7 @@ module GenshinData
         ).freeze
 
         SEASONED_HUNTERS_BOW = GenshinObject::Weapon.new(
-          kamera_key: "SeasonedHuntersBow",
+          kamera_key: 'SeasonedHuntersBow',
           name: "Seasoned Hunter's Bow",
           rarity: 2,
           weapon_type: :bow,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         SEQUENCE_OF_SOLITUDE = GenshinObject::Weapon.new(
-          kamera_key: "SequenceOfSolitude",
-          name: "Sequence of Solitude",
+          kamera_key: 'SequenceOfSolitude',
+          name: 'Sequence of Solitude',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :weasel_shell,
@@ -360,7 +360,7 @@ module GenshinData
         ).freeze
 
         SHARPSHOOTERS_OATH = GenshinObject::Weapon.new(
-          kamera_key: "SharpshootersOath",
+          kamera_key: 'SharpshootersOath',
           name: "Sharpshooter's Oath",
           rarity: 3,
           weapon_type: :bow,
@@ -370,8 +370,8 @@ module GenshinData
         ).freeze
 
         SKYWARD_HARP = GenshinObject::Weapon.new(
-          kamera_key: "SkywardHarp",
-          name: "Skyward Harp",
+          kamera_key: 'SkywardHarp',
+          name: 'Skyward Harp',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :ley_line,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         SILVERSHOWER_HEARTSTRINGS = GenshinObject::Weapon.new(
-          kamera_key: "SilvershowerHeartstrings",
-          name: "Silvershower Heartstrings",
+          kamera_key: 'SilvershowerHeartstrings',
+          name: 'Silvershower Heartstrings',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :beast_fin,
@@ -390,8 +390,8 @@ module GenshinData
         ).freeze
 
         SLINGSHOT = GenshinObject::Weapon.new(
-          kamera_key: "Slingshot",
-          name: "Slingshot",
+          kamera_key: 'Slingshot',
+          name: 'Slingshot',
           rarity: 3,
           weapon_type: :bow,
           elite_material_type: :sacrificial_knife,
@@ -400,8 +400,8 @@ module GenshinData
         ).freeze
 
         SNARE_HOOK = GenshinObject::Weapon.new(
-          kamera_key: "SnareHook",
-          name: "Snare Hook",
+          kamera_key: 'SnareHook',
+          name: 'Snare Hook',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :mistshroud,
@@ -410,8 +410,8 @@ module GenshinData
         ).freeze
 
         SONG_OF_STILLNESS = GenshinObject::Weapon.new(
-          kamera_key: "SongOfStillness",
-          name: "Song of Stillness",
+          kamera_key: 'SongOfStillness',
+          name: 'Song of Stillness',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :tainted_water,
@@ -420,8 +420,8 @@ module GenshinData
         ).freeze
 
         THE_DAYBREAK_CHRONICLES = GenshinObject::Weapon.new(
-          kamera_key: "TheDaybreakChronicles",
-          name: "The Daybreak Chronicles",
+          kamera_key: 'TheDaybreakChronicles',
+          name: 'The Daybreak Chronicles',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -430,8 +430,8 @@ module GenshinData
         ).freeze
 
         THE_FIRST_GREAT_MAGIC = GenshinObject::Weapon.new(
-          kamera_key: "TheFirstGreatMagic",
-          name: "First Great Magic, The",
+          kamera_key: 'TheFirstGreatMagic',
+          name: 'First Great Magic, The',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :tainted_water,
@@ -440,8 +440,8 @@ module GenshinData
         ).freeze
 
         THE_STRINGLESS = GenshinObject::Weapon.new(
-          kamera_key: "TheStringless",
-          name: "Stringless, The",
+          kamera_key: 'TheStringless',
+          name: 'Stringless, The',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         THE_VIRIDESCENT_HUNT = GenshinObject::Weapon.new(
-          kamera_key: "TheViridescentHunt",
-          name: "Viridescent Hunt, The",
+          kamera_key: 'TheViridescentHunt',
+          name: 'Viridescent Hunt, The',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :horn,
@@ -460,8 +460,8 @@ module GenshinData
         ).freeze
 
         THUNDERING_PULSE = GenshinObject::Weapon.new(
-          kamera_key: "ThunderingPulse",
-          name: "Thundering Pulse",
+          kamera_key: 'ThunderingPulse',
+          name: 'Thundering Pulse',
           rarity: 5,
           weapon_type: :bow,
           elite_material_type: :crystal_prism,
@@ -470,8 +470,8 @@ module GenshinData
         ).freeze
 
         WINDBLUME_ODE = GenshinObject::Weapon.new(
-          kamera_key: "WindblumeOde",
-          name: "Windblume Ode",
+          kamera_key: 'WindblumeOde',
+          name: 'Windblume Ode',
           rarity: 4,
           weapon_type: :bow,
           elite_material_type: :ley_line,

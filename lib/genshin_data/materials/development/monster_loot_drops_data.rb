@@ -10,8 +10,8 @@ module GenshinData
         end
 
         ARTIFICED_DYNAMIC_GEAR = GenshinObject::Material.new(
-          kamera_key: "ArtificedDynamicGear",
-          name: "Artificed Dynamic Gear",
+          kamera_key: 'ArtificedDynamicGear',
+          name: 'Artificed Dynamic Gear',
           rarity: 3,
           family: :gear,
           inventory_type: :development_material,
@@ -21,8 +21,8 @@ module GenshinData
         ).freeze
 
         BROKEN_DRIVE_SHAFT = GenshinObject::Material.new(
-          kamera_key: "BrokenDriveShaft",
-          name: "Broken Drive Shaft",
+          kamera_key: 'BrokenDriveShaft',
+          name: 'Broken Drive Shaft',
           rarity: 1,
           family: :shaft,
           inventory_type: :development_material,
@@ -32,8 +32,8 @@ module GenshinData
         ).freeze
 
         CHIMERIC_CORE = GenshinObject::Material.new(
-          kamera_key: "ChimericCore",
-          name: "Chimeric Core",
+          kamera_key: 'ChimericCore',
+          name: 'Chimeric Core',
           rarity: 1,
           family: :chimeric,
           inventory_type: :development_material,
@@ -43,8 +43,8 @@ module GenshinData
         ).freeze
 
         CRYSTALLINE_CYST_DUST = GenshinObject::Material.new(
-          kamera_key: "CrystallineCystDust",
-          name: "Crystalline Cyst Dust",
+          kamera_key: 'CrystallineCystDust',
+          name: 'Crystalline Cyst Dust',
           rarity: 3,
           family: :pollen,
           inventory_type: :development_material,
@@ -54,8 +54,8 @@ module GenshinData
         ).freeze
 
         DAMAGED_MASK = GenshinObject::Material.new(
-          kamera_key: "DamagedMask",
-          name: "Damaged Mask",
+          kamera_key: 'DamagedMask',
+          name: 'Damaged Mask',
           rarity: 1,
           family: :hilichurl_mask,
           inventory_type: :development_material,
@@ -65,8 +65,8 @@ module GenshinData
         ).freeze
 
         DIVINING_SCROLL = GenshinObject::Material.new(
-          kamera_key: "DiviningScroll",
-          name: "Divining Scroll",
+          kamera_key: 'DiviningScroll',
+          name: 'Divining Scroll',
           rarity: 1,
           family: :scroll,
           inventory_type: :development_material,
@@ -76,8 +76,8 @@ module GenshinData
         ).freeze
 
         ENERGY_NECTAR = GenshinObject::Material.new(
-          kamera_key: "EnergyNectar",
-          name: "Energy Nectar",
+          kamera_key: 'EnergyNectar',
+          name: 'Energy Nectar',
           rarity: 3,
           family: :nectar,
           inventory_type: :development_material,
@@ -87,8 +87,8 @@ module GenshinData
         ).freeze
 
         ETHEREAL_CRYSTAL = GenshinObject::Material.new(
-          kamera_key: "EtherealCrystal",
-          name: "Ethereal Crystal",
+          kamera_key: 'EtherealCrystal',
+          name: 'Ethereal Crystal',
           rarity: 2,
           family: :ethereal,
           inventory_type: :development_material,
@@ -98,8 +98,8 @@ module GenshinData
         ).freeze
 
         ETHEREAL_CRYSTALSCALE_STONE = GenshinObject::Material.new(
-          kamera_key: "EtherealCrystalscaleStone",
-          name: "Ethereal Crystalscale Stone",
+          kamera_key: 'EtherealCrystalscaleStone',
+          name: 'Ethereal Crystalscale Stone',
           rarity: 3,
           family: :ethereal,
           inventory_type: :development_material,
@@ -109,8 +109,8 @@ module GenshinData
         ).freeze
 
         ETHEREAL_GLIMMERSHARD = GenshinObject::Material.new(
-          kamera_key: "EtherealGlimmershard",
-          name: "Ethereal Glimmershard",
+          kamera_key: 'EtherealGlimmershard',
+          name: 'Ethereal Glimmershard',
           rarity: 1,
           family: :ethereal,
           inventory_type: :development_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         FADED_RED_SATIN = GenshinObject::Material.new(
-          kamera_key: "FadedRedSatin",
-          name: "Faded Red Satin",
+          kamera_key: 'FadedRedSatin',
+          name: 'Faded Red Satin',
           rarity: 1,
           family: :scarf,
           inventory_type: :development_material,
@@ -131,8 +131,8 @@ module GenshinData
         ).freeze
 
         FAMED_HANDGUARD = GenshinObject::Material.new(
-          kamera_key: "FamedHandguard",
-          name: "Famed Handguard",
+          kamera_key: 'FamedHandguard',
+          name: 'Famed Handguard',
           rarity: 3,
           family: :handguard,
           inventory_type: :development_material,
@@ -142,8 +142,8 @@ module GenshinData
         ).freeze
 
         FIRM_ARROWHEAD = GenshinObject::Material.new(
-          kamera_key: "FirmArrowhead",
-          name: "Firm Arrowhead",
+          kamera_key: 'FirmArrowhead',
+          name: 'Firm Arrowhead',
           rarity: 1,
           family: :arrowhead,
           inventory_type: :development_material,
@@ -153,8 +153,8 @@ module GenshinData
         ).freeze
 
         FORBIDDEN_CURSE_SCROLL = GenshinObject::Material.new(
-          kamera_key: "ForbiddenCurseScroll",
-          name: "Forbidden Curse Scroll",
+          kamera_key: 'ForbiddenCurseScroll',
+          name: 'Forbidden Curse Scroll',
           rarity: 3,
           family: :scroll,
           inventory_type: :development_material,
@@ -164,8 +164,8 @@ module GenshinData
         ).freeze
 
         FROST_ETCHED_WARRANT = GenshinObject::Material.new(
-          kamera_key: "FrostEtchedWarrant",
-          name: "Frost-Etched Warrant",
+          kamera_key: 'FrostEtchedWarrant',
+          name: 'Frost-Etched Warrant',
           rarity: 3,
           family: :warrant,
           inventory_type: :development_material,
@@ -175,8 +175,8 @@ module GenshinData
         ).freeze
 
         FUNGAL_SPORES = GenshinObject::Material.new(
-          kamera_key: "FungalSpores",
-          name: "Fungal Spores",
+          kamera_key: 'FungalSpores',
+          name: 'Fungal Spores',
           rarity: 1,
           family: :pollen,
           inventory_type: :development_material,
@@ -186,8 +186,8 @@ module GenshinData
         ).freeze
 
         GOLDEN_RAVEN_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "GoldenRavenInsignia",
-          name: "Golden Raven Insignia",
+          kamera_key: 'GoldenRavenInsignia',
+          name: 'Golden Raven Insignia',
           rarity: 3,
           family: :hoarder_insignia,
           inventory_type: :development_material,
@@ -197,8 +197,8 @@ module GenshinData
         ).freeze
 
         IMMACULATE_WARRANT = GenshinObject::Material.new(
-          kamera_key: "ImmaculateWarrant",
-          name: "Immaculate Warrant",
+          kamera_key: 'ImmaculateWarrant',
+          name: 'Immaculate Warrant',
           rarity: 2,
           family: :warrant,
           inventory_type: :development_material,
@@ -208,8 +208,8 @@ module GenshinData
         ).freeze
 
         JUVENILE_FANG = GenshinObject::Material.new(
-          kamera_key: "JuvenileFang",
-          name: "Juvenile Fang",
+          kamera_key: 'JuvenileFang',
+          name: 'Juvenile Fang',
           rarity: 1,
           family: :fang,
           inventory_type: :development_material,
@@ -219,8 +219,8 @@ module GenshinData
         ).freeze
 
         KAGEUCHI_HANDGUARD = GenshinObject::Material.new(
-          kamera_key: "KageuchiHandguard",
-          name: "Kageuchi Handguard",
+          kamera_key: 'KageuchiHandguard',
+          name: 'Kageuchi Handguard',
           rarity: 2,
           family: :handguard,
           inventory_type: :development_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         LIEUTENANTS_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "LieutenantsInsignia",
-          name: "Lieutenants Insignia",
+          kamera_key: 'LieutenantsInsignia',
+          name: 'Lieutenants Insignia',
           rarity: 3,
           family: :fatui_insignia,
           inventory_type: :development_material,
@@ -241,8 +241,8 @@ module GenshinData
         ).freeze
 
         LUMINESCENT_POLLEN = GenshinObject::Material.new(
-          kamera_key: "LuminescentPollen",
-          name: "Luminescent Pollen",
+          kamera_key: 'LuminescentPollen',
+          name: 'Luminescent Pollen',
           rarity: 2,
           family: :pollen,
           inventory_type: :development_material,
@@ -252,8 +252,8 @@ module GenshinData
         ).freeze
 
         MECHANICAL_SPUR_GEAR = GenshinObject::Material.new(
-          kamera_key: "MechanicalSpurGear",
-          name: "Mechanical Spur Gear",
+          kamera_key: 'MechanicalSpurGear',
+          name: 'Mechanical Spur Gear',
           rarity: 2,
           family: :gear,
           inventory_type: :development_material,
@@ -263,8 +263,8 @@ module GenshinData
         ).freeze
 
         MESHING_GEAR = GenshinObject::Material.new(
-          kamera_key: "MeshingGear",
-          name: "Meshing Gear",
+          kamera_key: 'MeshingGear',
+          name: 'Meshing Gear',
           rarity: 1,
           family: :gear,
           inventory_type: :development_material,
@@ -274,8 +274,8 @@ module GenshinData
         ).freeze
 
         OLD_HANDGUARD = GenshinObject::Material.new(
-          kamera_key: "OldHandguard",
-          name: "Old Handguard",
+          kamera_key: 'OldHandguard',
+          name: 'Old Handguard',
           rarity: 1,
           family: :handguard,
           inventory_type: :development_material,
@@ -285,8 +285,8 @@ module GenshinData
         ).freeze
 
         OMINOUS_MASK = GenshinObject::Material.new(
-          kamera_key: "OminousMask",
-          name: "Ominous Mask",
+          kamera_key: 'OminousMask',
+          name: 'Ominous Mask',
           rarity: 3,
           family: :hilichurl_mask,
           inventory_type: :development_material,
@@ -296,8 +296,8 @@ module GenshinData
         ).freeze
 
         PRECISION_DRIVE_SHAFT = GenshinObject::Material.new(
-          kamera_key: "PrecisionDriveShaft",
-          name: "Precision Drive Shaft",
+          kamera_key: 'PrecisionDriveShaft',
+          name: 'Precision Drive Shaft',
           rarity: 3,
           family: :shaft,
           inventory_type: :development_material,
@@ -307,8 +307,8 @@ module GenshinData
         ).freeze
 
         PRIME_CHIMERIC_NEXUS = GenshinObject::Material.new(
-          kamera_key: "PrimeChimericNexus",
-          name: "Prime Chimeric Nexus",
+          kamera_key: 'PrimeChimericNexus',
+          name: 'Prime Chimeric Nexus',
           rarity: 3,
           family: :chimeric,
           inventory_type: :development_material,
@@ -318,8 +318,8 @@ module GenshinData
         ).freeze
 
         RECRUITS_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "RecruitsInsignia",
-          name: "Recruits Insignia",
+          kamera_key: 'RecruitsInsignia',
+          name: 'Recruits Insignia',
           rarity: 1,
           family: :fatui_insignia,
           inventory_type: :development_material,
@@ -329,8 +329,8 @@ module GenshinData
         ).freeze
 
         REINFORCED_DRIVE_SHAFT = GenshinObject::Material.new(
-          kamera_key: "ReinforcedDriveShaft",
-          name: "Reinforced Drive Shaft",
+          kamera_key: 'ReinforcedDriveShaft',
+          name: 'Reinforced Drive Shaft',
           rarity: 2,
           family: :shaft,
           inventory_type: :development_material,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         RICH_RED_BROCADE = GenshinObject::Material.new(
-          kamera_key: "RichRedBrocade",
-          name: "Rich Red Brocade",
+          kamera_key: 'RichRedBrocade',
+          name: 'Rich Red Brocade',
           rarity: 3,
           family: :scarf,
           inventory_type: :development_material,
@@ -351,7 +351,7 @@ module GenshinData
         ).freeze
 
         SAURIAN_CROWNED_WARRIORS_GOLDEN_WHISTLE = GenshinObject::Material.new(
-          kamera_key: "SaurianCrownedWarriorsGoldenWhistle",
+          kamera_key: 'SaurianCrownedWarriorsGoldenWhistle',
           name: "Saurian-Crowned Warrior's Golden Whistle",
           rarity: 3,
           family: :whistle,
@@ -362,8 +362,8 @@ module GenshinData
         ).freeze
 
         SEALED_SCROLL = GenshinObject::Material.new(
-          kamera_key: "SealedScroll",
-          name: "Sealed Scroll",
+          kamera_key: 'SealedScroll',
+          name: 'Sealed Scroll',
           rarity: 2,
           family: :scroll,
           inventory_type: :development_material,
@@ -373,8 +373,8 @@ module GenshinData
         ).freeze
 
         SEASONED_FANG = GenshinObject::Material.new(
-          kamera_key: "SeasonedFang",
-          name: "Seasoned Fang",
+          kamera_key: 'SeasonedFang',
+          name: 'Seasoned Fang',
           rarity: 2,
           family: :fang,
           inventory_type: :development_material,
@@ -384,7 +384,7 @@ module GenshinData
         ).freeze
 
         SENTRYS_WOODEN_WHISTLE = GenshinObject::Material.new(
-          kamera_key: "SentrysWoodenWhistle",
+          kamera_key: 'SentrysWoodenWhistle',
           name: "Sentry's Wooden Whistle",
           rarity: 1,
           family: :whistle,
@@ -395,8 +395,8 @@ module GenshinData
         ).freeze
 
         SERGEANTS_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "SergeantsInsignia",
-          name: "Sergeants Insignia",
+          kamera_key: 'SergeantsInsignia',
+          name: 'Sergeants Insignia',
           rarity: 2,
           family: :fatui_insignia,
           inventory_type: :development_material,
@@ -406,8 +406,8 @@ module GenshinData
         ).freeze
 
         SHARP_ARROWHEAD = GenshinObject::Material.new(
-          kamera_key: "SharpArrowhead",
-          name: "Sharp Arrowhead",
+          kamera_key: 'SharpArrowhead',
+          name: 'Sharp Arrowhead',
           rarity: 2,
           family: :arrowhead,
           inventory_type: :development_material,
@@ -417,8 +417,8 @@ module GenshinData
         ).freeze
 
         SHIMMERING_NECTAR = GenshinObject::Material.new(
-          kamera_key: "ShimmeringNectar",
-          name: "Shimmering Nectar",
+          kamera_key: 'ShimmeringNectar',
+          name: 'Shimmering Nectar',
           rarity: 2,
           family: :nectar,
           inventory_type: :development_material,
@@ -428,8 +428,8 @@ module GenshinData
         ).freeze
 
         SILVER_RAVEN_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "SilverRavenInsignia",
-          name: "Silver Raven Insignia",
+          kamera_key: 'SilverRavenInsignia',
+          name: 'Silver Raven Insignia',
           rarity: 2,
           family: :hoarder_insignia,
           inventory_type: :development_material,
@@ -439,8 +439,8 @@ module GenshinData
         ).freeze
 
         SLIME_CONCENTRATE = GenshinObject::Material.new(
-          kamera_key: "SlimeConcentrate",
-          name: "Slime Concentrate",
+          kamera_key: 'SlimeConcentrate',
+          name: 'Slime Concentrate',
           rarity: 3,
           family: :slime,
           inventory_type: :development_material,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         SLIME_CONDENSATE = GenshinObject::Material.new(
-          kamera_key: "SlimeCondensate",
-          name: "Slime Condensate",
+          kamera_key: 'SlimeCondensate',
+          name: 'Slime Condensate',
           rarity: 1,
           family: :slime,
           inventory_type: :development_material,
@@ -461,8 +461,8 @@ module GenshinData
         ).freeze
 
         SLIME_SECRETIONS = GenshinObject::Material.new(
-          kamera_key: "SlimeSecretions",
-          name: "Slime Secretions",
+          kamera_key: 'SlimeSecretions',
+          name: 'Slime Secretions',
           rarity: 2,
           family: :slime,
           inventory_type: :development_material,
@@ -472,8 +472,8 @@ module GenshinData
         ).freeze
 
         SPECTRAL_HEART = GenshinObject::Material.new(
-          kamera_key: "SpectralHeart",
-          name: "Spectral Heart",
+          kamera_key: 'SpectralHeart',
+          name: 'Spectral Heart',
           rarity: 2,
           family: :spectral,
           inventory_type: :development_material,
@@ -483,8 +483,8 @@ module GenshinData
         ).freeze
 
         SPECTRAL_HUSK = GenshinObject::Material.new(
-          kamera_key: "SpectralHusk",
-          name: "Spectral Husk",
+          kamera_key: 'SpectralHusk',
+          name: 'Spectral Husk',
           rarity: 1,
           family: :spectral,
           inventory_type: :development_material,
@@ -494,8 +494,8 @@ module GenshinData
         ).freeze
 
         SPECTRAL_NUCLEUS = GenshinObject::Material.new(
-          kamera_key: "SpectralNucleus",
-          name: "Spectral Nucleus",
+          kamera_key: 'SpectralNucleus',
+          name: 'Spectral Nucleus',
           rarity: 3,
           family: :spectral,
           inventory_type: :development_material,
@@ -505,8 +505,8 @@ module GenshinData
         ).freeze
 
         STAINED_MASK = GenshinObject::Material.new(
-          kamera_key: "StainedMask",
-          name: "Stained Mask",
+          kamera_key: 'StainedMask',
+          name: 'Stained Mask',
           rarity: 2,
           family: :hilichurl_mask,
           inventory_type: :development_material,
@@ -516,8 +516,8 @@ module GenshinData
         ).freeze
 
         SYMBIOTIC_CHIMERIC_NUCLEUS = GenshinObject::Material.new(
-          kamera_key: "SymbioticChimericNucleus",
-          name: "Symbiotic Chimeric Nucleus",
+          kamera_key: 'SymbioticChimericNucleus',
+          name: 'Symbiotic Chimeric Nucleus',
           rarity: 2,
           family: :chimeric,
           inventory_type: :development_material,
@@ -527,8 +527,8 @@ module GenshinData
         ).freeze
 
         TATTERED_WARRANT = GenshinObject::Material.new(
-          kamera_key: "TatteredWarrant",
-          name: "Tattered Warrant",
+          kamera_key: 'TatteredWarrant',
+          name: 'Tattered Warrant',
           rarity: 1,
           family: :warrant,
           inventory_type: :development_material,
@@ -538,8 +538,8 @@ module GenshinData
         ).freeze
 
         TRANSOCEANIC_CHUNK = GenshinObject::Material.new(
-          kamera_key: "TransoceanicChunk",
-          name: "Transoceanic Chunk",
+          kamera_key: 'TransoceanicChunk',
+          name: 'Transoceanic Chunk',
           rarity: 2,
           family: :transoceanic,
           inventory_type: :development_material,
@@ -549,8 +549,8 @@ module GenshinData
         ).freeze
 
         TRANSOCEANIC_PEARL = GenshinObject::Material.new(
-          kamera_key: "TransoceanicPearl",
-          name: "Transoceanic Pearl",
+          kamera_key: 'TransoceanicPearl',
+          name: 'Transoceanic Pearl',
           rarity: 1,
           family: :transoceanic,
           inventory_type: :development_material,
@@ -560,8 +560,8 @@ module GenshinData
         ).freeze
 
         TREASURE_HOARDER_INSIGNIA = GenshinObject::Material.new(
-          kamera_key: "TreasureHoarderInsignia",
-          name: "Treasure Hoarder Insignia",
+          kamera_key: 'TreasureHoarderInsignia',
+          name: 'Treasure Hoarder Insignia',
           rarity: 1,
           family: :hoarder_insignia,
           inventory_type: :development_material,
@@ -571,8 +571,8 @@ module GenshinData
         ).freeze
 
         TRIMMED_RED_SILK = GenshinObject::Material.new(
-          kamera_key: "TrimmedRedSilk",
-          name: "Trimmed Red Silk",
+          kamera_key: 'TrimmedRedSilk',
+          name: 'Trimmed Red Silk',
           rarity: 2,
           family: :scarf,
           inventory_type: :development_material,
@@ -582,7 +582,7 @@ module GenshinData
         ).freeze
 
         TYRANTS_FANG = GenshinObject::Material.new(
-          kamera_key: "TyrantsFang",
+          kamera_key: 'TyrantsFang',
           name: "Tyrant's Fang",
           rarity: 3,
           family: :fang,
@@ -593,7 +593,7 @@ module GenshinData
         ).freeze
 
         WARRIORS_METAL_WHISTLE = GenshinObject::Material.new(
-          kamera_key: "WarriorsMetalWhistle",
+          kamera_key: 'WarriorsMetalWhistle',
           name: "Warrior's Metal Whistle",
           rarity: 2,
           family: :whistle,
@@ -604,8 +604,8 @@ module GenshinData
         ).freeze
 
         WEATHERED_ARROWHEAD = GenshinObject::Material.new(
-          kamera_key: "WeatheredArrowhead",
-          name: "Weathered Arrowhead",
+          kamera_key: 'WeatheredArrowhead',
+          name: 'Weathered Arrowhead',
           rarity: 3,
           family: :arrowhead,
           inventory_type: :development_material,
@@ -615,8 +615,8 @@ module GenshinData
         ).freeze
 
         WHOPPERFLOWER_NECTAR = GenshinObject::Material.new(
-          kamera_key: "WhopperflowerNectar",
-          name: "Whopperflower Nectar",
+          kamera_key: 'WhopperflowerNectar',
+          name: 'Whopperflower Nectar',
           rarity: 1,
           family: :nectar,
           inventory_type: :development_material,
@@ -626,8 +626,8 @@ module GenshinData
         ).freeze
 
         XENOCHROMATIC_CRYSTAL = GenshinObject::Material.new(
-          kamera_key: "XenochromaticCrystal",
-          name: "Xenochromatic Crystal",
+          kamera_key: 'XenochromaticCrystal',
+          name: 'Xenochromatic Crystal',
           rarity: 3,
           family: :transoceanic,
           inventory_type: :development_material,

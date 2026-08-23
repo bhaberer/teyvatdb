@@ -10,7 +10,7 @@ module GenshinData
         end
 
         DVALINS_CLAW = GenshinObject::Material.new(
-          kamera_key: "DvalinsClaw",
+          kamera_key: 'DvalinsClaw',
           name: "Dvalin's Claw",
           rarity: 5,
           family: :stormterror_loot,
@@ -21,7 +21,7 @@ module GenshinData
         ).freeze
 
         DVALINS_PLUME = GenshinObject::Material.new(
-          kamera_key: "DvalinsPlume",
+          kamera_key: 'DvalinsPlume',
           name: "Dvalin's Plume",
           rarity: 5,
           family: :stormterror_loot,
@@ -32,7 +32,7 @@ module GenshinData
         ).freeze
 
         DVALINS_SIGH = GenshinObject::Material.new(
-          kamera_key: "DvalinsSigh",
+          kamera_key: 'DvalinsSigh',
           name: "Dvalin's Sigh",
           rarity: 5,
           family: :stormterror_loot,
@@ -43,8 +43,8 @@ module GenshinData
         ).freeze
 
         RING_OF_BOREAS = GenshinObject::Material.new(
-          kamera_key: "RingOfBoreas",
-          name: "Ring of Boreas",
+          kamera_key: 'RingOfBoreas',
+          name: 'Ring of Boreas',
           rarity: 5,
           family: :wolf_lord_loot,
           inventory_type: :development_material,
@@ -54,8 +54,8 @@ module GenshinData
         ).freeze
 
         SPIRIT_LOCKET_OF_BOREAS = GenshinObject::Material.new(
-          kamera_key: "SpiritLocketOfBoreas",
-          name: "Spirit Locket of Boreas",
+          kamera_key: 'SpiritLocketOfBoreas',
+          name: 'Spirit Locket of Boreas',
           rarity: 5,
           family: :wolf_lord_loot,
           inventory_type: :development_material,
@@ -65,8 +65,8 @@ module GenshinData
         ).freeze
 
         TAIL_OF_BOREAS = GenshinObject::Material.new(
-          kamera_key: "TailOfBoreas",
-          name: "Tail of Boreas",
+          kamera_key: 'TailOfBoreas',
+          name: 'Tail of Boreas',
           rarity: 5,
           family: :wolf_lord_loot,
           inventory_type: :development_material,
@@ -76,8 +76,8 @@ module GenshinData
         ).freeze
 
         SHADOW_OF_THE_WARRIOR = GenshinObject::Material.new(
-          kamera_key: "ShadowOfTheWarrior",
-          name: "Shadow of the Warrior",
+          kamera_key: 'ShadowOfTheWarrior',
+          name: 'Shadow of the Warrior',
           rarity: 5,
           family: :childe_loot,
           inventory_type: :development_material,
@@ -87,8 +87,8 @@ module GenshinData
         ).freeze
 
         SHARD_OF_A_FOUL_LEGACY = GenshinObject::Material.new(
-          kamera_key: "ShardOfAFoulLegacy",
-          name: "Shard of a Foul Legacy",
+          kamera_key: 'ShardOfAFoulLegacy',
+          name: 'Shard of a Foul Legacy',
           rarity: 5,
           family: :childe_loot,
           inventory_type: :development_material,
@@ -98,8 +98,8 @@ module GenshinData
         ).freeze
 
         TUSK_OF_MONOCEROS_CAELI = GenshinObject::Material.new(
-          kamera_key: "TuskOfMonocerosCaeli",
-          name: "Tusk of Monoceros Caeli",
+          kamera_key: 'TuskOfMonocerosCaeli',
+          name: 'Tusk of Monoceros Caeli',
           rarity: 5,
           family: :childe_loot,
           inventory_type: :development_material,
@@ -109,8 +109,8 @@ module GenshinData
         ).freeze
 
         ASHEN_HEART = GenshinObject::Material.new(
-          kamera_key: "AshenHeart",
-          name: "Ashen Heart",
+          kamera_key: 'AshenHeart',
+          name: 'Ashen Heart',
           rarity: 5,
           family: :signora_loot,
           inventory_type: :development_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         HELLFIRE_BUTTERFLY = GenshinObject::Material.new(
-          kamera_key: "HellfireButterfly",
-          name: "Hellfire Butterfly",
+          kamera_key: 'HellfireButterfly',
+          name: 'Hellfire Butterfly',
           rarity: 5,
           family: :signora_loot,
           inventory_type: :development_material,
@@ -131,8 +131,8 @@ module GenshinData
         ).freeze
 
         MOLTEN_MOMENT = GenshinObject::Material.new(
-          kamera_key: "MoltenMoment",
-          name: "Molten Moment",
+          kamera_key: 'MoltenMoment',
+          name: 'Molten Moment',
           rarity: 5,
           family: :signora_loot,
           inventory_type: :development_material,
@@ -142,8 +142,8 @@ module GenshinData
         ).freeze
 
         BLOODJADE_BRANCH = GenshinObject::Material.new(
-          kamera_key: "BloodjadeBranch",
-          name: "Bloodjade Branch",
+          kamera_key: 'BloodjadeBranch',
+          name: 'Bloodjade Branch',
           rarity: 5,
           family: :azhdaha_loot,
           inventory_type: :development_material,
@@ -153,7 +153,7 @@ module GenshinData
         ).freeze
 
         DRAGON_LORDS_CROWN = GenshinObject::Material.new(
-          kamera_key: "DragonLordsCrown",
+          kamera_key: 'DragonLordsCrown',
           name: "Dragon Lord's Crown",
           rarity: 5,
           family: :azhdaha_loot,
@@ -164,8 +164,8 @@ module GenshinData
         ).freeze
 
         GILDED_SCALE = GenshinObject::Material.new(
-          kamera_key: "GildedScale",
-          name: "Gilded Scale",
+          kamera_key: 'GildedScale',
+          name: 'Gilded Scale',
           rarity: 5,
           family: :azhdaha_loot,
           inventory_type: :development_material,
@@ -175,8 +175,8 @@ module GenshinData
         ).freeze
 
         MUDRA_OF_THE_MALEFIC_GENERAL = GenshinObject::Material.new(
-          kamera_key: "MudraOfTheMaleficGeneral",
-          name: "Mudra of the Malefic General",
+          kamera_key: 'MudraOfTheMaleficGeneral',
+          name: 'Mudra of the Malefic General',
           rarity: 5,
           family: :guardian_of_eternity_loot,
           inventory_type: :development_material,
@@ -186,8 +186,8 @@ module GenshinData
         ).freeze
 
         TEARS_OF_THE_CALAMITOUS_GOD = GenshinObject::Material.new(
-          kamera_key: "TearsOfTheCalamitousGod",
-          name: "Tears of the Calamitous God",
+          kamera_key: 'TearsOfTheCalamitousGod',
+          name: 'Tears of the Calamitous God',
           rarity: 5,
           family: :guardian_of_eternity_loot,
           inventory_type: :development_material,
@@ -197,8 +197,8 @@ module GenshinData
         ).freeze
 
         THE_MEANING_OF_AEONS = GenshinObject::Material.new(
-          kamera_key: "TheMeaningOfAeons",
-          name: "The Meaning of Aeons",
+          kamera_key: 'TheMeaningOfAeons',
+          name: 'The Meaning of Aeons',
           rarity: 5,
           family: :guardian_of_eternity_loot,
           inventory_type: :development_material,
@@ -208,7 +208,7 @@ module GenshinData
         ).freeze
 
         DAKAS_BELL = GenshinObject::Material.new(
-          kamera_key: "DakasBell",
+          kamera_key: 'DakasBell',
           name: "Daka's Bell",
           rarity: 5,
           family: :scaramouche_loot,
@@ -219,8 +219,8 @@ module GenshinData
         ).freeze
 
         MIRROR_OF_MUSHIN = GenshinObject::Material.new(
-          kamera_key: "MirrorOfMushin",
-          name: "Mirror of Mushin",
+          kamera_key: 'MirrorOfMushin',
+          name: 'Mirror of Mushin',
           rarity: 5,
           family: :scaramouche_loot,
           inventory_type: :development_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         PUPPET_STRINGS = GenshinObject::Material.new(
-          kamera_key: "PuppetStrings",
-          name: "Puppet Strings",
+          kamera_key: 'PuppetStrings',
+          name: 'Puppet Strings',
           rarity: 5,
           family: :scaramouche_loot,
           inventory_type: :development_material,
@@ -241,8 +241,8 @@ module GenshinData
         ).freeze
 
         EVERAMBER = GenshinObject::Material.new(
-          kamera_key: "Everamber",
-          name: "Everamber",
+          kamera_key: 'Everamber',
+          name: 'Everamber',
           rarity: 5,
           family: :guardian_of_apeps_oasis_loot,
           inventory_type: :development_material,
@@ -252,8 +252,8 @@ module GenshinData
         ).freeze
 
         PRIMORDIAL_GREENBLOOM = GenshinObject::Material.new(
-          kamera_key: "PrimordialGreenbloom",
-          name: "Primordial Greenbloom",
+          kamera_key: 'PrimordialGreenbloom',
+          name: 'Primordial Greenbloom',
           rarity: 5,
           family: :guardian_of_apeps_oasis_loot,
           inventory_type: :development_material,
@@ -263,8 +263,8 @@ module GenshinData
         ).freeze
 
         WORLDSPAN_FERN = GenshinObject::Material.new(
-          kamera_key: "WorldspanFern",
-          name: "Worldspan Fern",
+          kamera_key: 'WorldspanFern',
+          name: 'Worldspan Fern',
           rarity: 5,
           family: :guardian_of_apeps_oasis_loot,
           inventory_type: :development_material,
@@ -274,8 +274,8 @@ module GenshinData
         ).freeze
 
         LIGHTLESS_SILK_STRING = GenshinObject::Material.new(
-          kamera_key: "LightlessSilkString",
-          name: "Lightless Silk String",
+          kamera_key: 'LightlessSilkString',
+          name: 'Lightless Silk String',
           rarity: 5,
           family: :all_devouring_narwhal_loot,
           inventory_type: :development_material,
@@ -285,8 +285,8 @@ module GenshinData
         ).freeze
 
         LIGHTLESS_EYE_OF_THE_MAELSTROM = GenshinObject::Material.new(
-          kamera_key: "LightlessEyeOfTheMaelstrom",
-          name: "Lightless Eye of the Maelstrom",
+          kamera_key: 'LightlessEyeOfTheMaelstrom',
+          name: 'Lightless Eye of the Maelstrom',
           rarity: 5,
           family: :all_devouring_narwhal_loot,
           inventory_type: :development_material,
@@ -296,8 +296,8 @@ module GenshinData
         ).freeze
 
         LIGHTLESS_MASS = GenshinObject::Material.new(
-          kamera_key: "LightlessMass",
-          name: "Lightless Mass",
+          kamera_key: 'LightlessMass',
+          name: 'Lightless Mass',
           rarity: 5,
           family: :all_devouring_narwhal_loot,
           inventory_type: :development_material,
@@ -307,8 +307,8 @@ module GenshinData
         ).freeze
 
         DENIAL_AND_JUDGMENT = GenshinObject::Material.new(
-          kamera_key: "DenialAndJudgment",
-          name: "Denial and Judgment",
+          kamera_key: 'DenialAndJudgment',
+          name: 'Denial and Judgment',
           rarity: 5,
           family: :the_knave_loot,
           inventory_type: :development_material,
@@ -318,8 +318,8 @@ module GenshinData
         ).freeze
 
         FADING_CANDLE = GenshinObject::Material.new(
-          kamera_key: "FadingCandle",
-          name: "Fading Candle",
+          kamera_key: 'FadingCandle',
+          name: 'Fading Candle',
           rarity: 5,
           family: :the_knave_loot,
           inventory_type: :development_material,
@@ -329,8 +329,8 @@ module GenshinData
         ).freeze
 
         SILKEN_FEATHER = GenshinObject::Material.new(
-          kamera_key: "SilkenFeather",
-          name: "Silken Feather",
+          kamera_key: 'SilkenFeather',
+          name: 'Silken Feather',
           rarity: 5,
           family: :the_knave_loot,
           inventory_type: :development_material,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         ERODED_HORN = GenshinObject::Material.new(
-          kamera_key: "ErodedHorn",
-          name: "Eroded Horn",
+          kamera_key: 'ErodedHorn',
+          name: 'Eroded Horn',
           rarity: 5,
           family: :lord_of_primal_fire_loot,
           inventory_type: :development_material,
@@ -351,8 +351,8 @@ module GenshinData
         ).freeze
 
         ERODED_SUNFIRE = GenshinObject::Material.new(
-          kamera_key: "ErodedSunfire",
-          name: "Eroded Sunfire",
+          kamera_key: 'ErodedSunfire',
+          name: 'Eroded Sunfire',
           rarity: 5,
           family: :lord_of_primal_fire_loot,
           inventory_type: :development_material,
@@ -362,8 +362,8 @@ module GenshinData
         ).freeze
 
         ERODED_SCALE_FEATHER = GenshinObject::Material.new(
-          kamera_key: "ErodedScaleFeather",
-          name: "Eroded Scale-Feather",
+          kamera_key: 'ErodedScaleFeather',
+          name: 'Eroded Scale-Feather',
           rarity: 5,
           family: :lord_of_primal_fire_loot,
           inventory_type: :development_material,
@@ -373,8 +373,8 @@ module GenshinData
         ).freeze
 
         ASCENDED_SAMPLE_KNIGHT = GenshinObject::Material.new(
-          kamera_key: "AscendedSampleKnight",
-          name: "Ascended Sample: Knight",
+          kamera_key: 'AscendedSampleKnight',
+          name: 'Ascended Sample: Knight',
           rarity: 5,
           family: :the_game_before_the_gate_loot,
           inventory_type: :development_material,
@@ -384,8 +384,8 @@ module GenshinData
         ).freeze
 
         ASCENDED_SAMPLE_QUEEN = GenshinObject::Material.new(
-          kamera_key: "AscendedSampleQueen",
-          name: "Ascended Sample: Queen",
+          kamera_key: 'AscendedSampleQueen',
+          name: 'Ascended Sample: Queen',
           rarity: 5,
           family: :the_game_before_the_gate_loot,
           inventory_type: :development_material,
@@ -395,8 +395,8 @@ module GenshinData
         ).freeze
 
         ASCENDED_SAMPLE_ROOK = GenshinObject::Material.new(
-          kamera_key: "AscendedSampleRook",
-          name: "Ascended Sample: Rook",
+          kamera_key: 'AscendedSampleRook',
+          name: 'Ascended Sample: Rook',
           rarity: 5,
           family: :the_game_before_the_gate_loot,
           inventory_type: :development_material,
@@ -406,8 +406,8 @@ module GenshinData
         ).freeze
 
         ELIXIR_OF_THE_HERETIC = GenshinObject::Material.new(
-          kamera_key: "ElixirOfTheHeretic",
-          name: "Elixir of the Heretic",
+          kamera_key: 'ElixirOfTheHeretic',
+          name: 'Elixir of the Heretic',
           rarity: 5,
           family: :heretic_of_the_false_moon_loot,
           inventory_type: :development_material,
@@ -417,7 +417,7 @@ module GenshinData
         ).freeze
 
         MADMANS_RESTRAINT = GenshinObject::Material.new(
-          kamera_key: "MadmansRestraint",
+          kamera_key: 'MadmansRestraint',
           name: "Madman's Restraint",
           rarity: 5,
           family: :heretic_of_the_false_moon_loot,
@@ -428,8 +428,8 @@ module GenshinData
         ).freeze
 
         MASK_OF_THE_VIRTUOUS_DOCTOR = GenshinObject::Material.new(
-          kamera_key: "MaskOfTheVirtuousDoctor",
-          name: "Mask of the Virtuous Doctor",
+          kamera_key: 'MaskOfTheVirtuousDoctor',
+          name: 'Mask of the Virtuous Doctor',
           rarity: 5,
           family: :heretic_of_the_false_moon_loot,
           inventory_type: :development_material,
@@ -439,8 +439,8 @@ module GenshinData
         ).freeze
 
         COUNTERFEIT_RESIN = GenshinObject::Material.new(
-          kamera_key: "CounterfeitResin",
-          name: "Counterfeit Resin",
+          kamera_key: 'CounterfeitResin',
+          name: 'Counterfeit Resin',
           rarity: 5,
           family: :exalted_master_of_the_heretical_path_loot,
           inventory_type: :development_material,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         PROFANED_SPROUT = GenshinObject::Material.new(
-          kamera_key: "ProfanedSprout",
-          name: "Profaned Sprout",
+          kamera_key: 'ProfanedSprout',
+          name: 'Profaned Sprout',
           rarity: 5,
           family: :exalted_master_of_the_heretical_path_loot,
           inventory_type: :development_material,
@@ -461,8 +461,8 @@ module GenshinData
         ).freeze
 
         TWISTED_WITHERED_BRANCH = GenshinObject::Material.new(
-          kamera_key: "TwistedWitheredBranch",
-          name: "Twisted Withered Branch",
+          kamera_key: 'TwistedWitheredBranch',
+          name: 'Twisted Withered Branch',
           rarity: 5,
           family: :exalted_master_of_the_heretical_path_loot,
           inventory_type: :development_material,

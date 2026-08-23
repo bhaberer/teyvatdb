@@ -9,285 +9,285 @@ module GenshinData
       end
 
       AEONBLIGHT_DRAKE = GenshinObject::WorldBoss.new(
-        name: "Aeonblight Drake",
+        name: 'Aeonblight Drake',
         nation_name: :sumeru,
-        boss_material: "PerpetualCaliber"
+        boss_material: 'PerpetualCaliber'
       )
 
       ALGORITHM_OF_SEMI_INTRANSIENT_MATRIX_OF_OVERSEER_NETWORK = GenshinObject::WorldBoss.new(
-        name: "Algorithm of Semi-Intransient Matrix of Overseer Network",
+        name: 'Algorithm of Semi-Intransient Matrix of Overseer Network',
         nation_name: :sumeru,
-        boss_material: "LightGuidingTetrahedron"
+        boss_material: 'LightGuidingTetrahedron'
       )
 
       ANEMO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Anemo Hypostasis",
+        name: 'Anemo Hypostasis',
         nation_name: :mondstadt,
-        boss_material: "HurricaneSeed"
+        boss_material: 'HurricaneSeed'
       )
 
       CHIMERIC_WINGED_LION = GenshinObject::WorldBoss.new(
-        name: "Chimeric Winged Lion",
+        name: 'Chimeric Winged Lion',
         nation_name: :snezhnaya,
-        boss_material: "SeveredTailOfTheSkyRoamer"
+        boss_material: 'SeveredTailOfTheSkyRoamer'
       )
 
       CORAL_DEFENDERS = GenshinObject::WorldBoss.new(
-        name: "Coral Defenders",
+        name: 'Coral Defenders',
         nation_name: :inazuma,
-        boss_material: "DragonheirsFalseFin"
+        boss_material: 'DragonheirsFalseFin'
       )
 
       CRYO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Cryo Hypostasis",
+        name: 'Cryo Hypostasis',
         nation_name: :mondstadt,
-        boss_material: "CrystallineBloom"
+        boss_material: 'CrystallineBloom'
       )
 
       CRYO_REGISVINE = GenshinObject::WorldBoss.new(
-        name: "Cryo Regisvine",
+        name: 'Cryo Regisvine',
         nation_name: :mondstadt,
-        boss_material: "HoarfrostCore"
+        boss_material: 'HoarfrostCore'
       )
 
       DENDRO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Dendro Hypostasis",
+        name: 'Dendro Hypostasis',
         nation_name: :sumeru,
-        boss_material: "QuelledCreeper"
+        boss_material: 'QuelledCreeper'
       )
 
       ELECTRO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Electro Hypostasis",
+        name: 'Electro Hypostasis',
         nation_name: :mondstadt,
-        boss_material: "LightningPrism"
+        boss_material: 'LightningPrism'
       )
 
       ELECTRO_REGISVINE = GenshinObject::WorldBoss.new(
-        name: "Electro Regisvine",
+        name: 'Electro Regisvine',
         nation_name: :sumeru,
-        boss_material: "ThunderclapFruitcore"
+        boss_material: 'ThunderclapFruitcore'
       )
 
       EMPEROR_OF_FIRE_AND_IRON = GenshinObject::WorldBoss.new(
-        name: "Emperor of Fire and Iron",
+        name: 'Emperor of Fire and Iron',
         nation_name: :fontaine,
-        boss_material: "EmperorsResolution"
+        boss_material: 'EmperorsResolution'
       )
 
       FROSTNIGHT_HERRA = GenshinObject::WorldBoss.new(
-        name: "Frostnight Herra",
+        name: 'Frostnight Herra',
         nation_name: :nodkrai,
-        boss_material: "RadiantAntler"
+        boss_material: 'RadiantAntler'
       )
 
       GEO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Geo Hypostasis",
+        name: 'Geo Hypostasis',
         nation_name: :liyue,
-        boss_material: "BasaltPillar"
+        boss_material: 'BasaltPillar'
       )
 
       GLUTTONOUS_YUMKASAUR_MOUNTAIN_KING = GenshinObject::WorldBoss.new(
-        name: "Gluttonous Yumkasaur Mountain King",
+        name: 'Gluttonous Yumkasaur Mountain King',
         nation_name: :natlan,
-        boss_material: "OverripeFlamegranate"
+        boss_material: 'OverripeFlamegranate'
       )
 
       GOLDEN_WOLFLORD = GenshinObject::WorldBoss.new(
-        name: "Golden Wolflord",
+        name: 'Golden Wolflord',
         nation_name: :inazuma,
-        boss_material: "RiftbornRegalia"
+        boss_material: 'RiftbornRegalia'
       )
 
       GOLDFLAME_QUCUSAUR_TYRANT = GenshinObject::WorldBoss.new(
-        name: "Goldflame Qucusaur Tyrant",
+        name: 'Goldflame Qucusaur Tyrant',
         nation_name: :natlan,
-        boss_material: "MarkOfTheBindingBlessing"
+        boss_material: 'MarkOfTheBindingBlessing'
       )
 
       HYDRO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Hydro Hypostasis",
+        name: 'Hydro Hypostasis',
         nation_name: :inazuma,
-        boss_material: "DewOfRepudiation"
+        boss_material: 'DewOfRepudiation'
       )
 
       HYDRO_TULPA = GenshinObject::WorldBoss.new(
-        name: "Hydro Tulpa",
+        name: 'Hydro Tulpa',
         nation_name: :fontaine,
-        boss_material: "WaterThatFailedToTranscend"
+        boss_material: 'WaterThatFailedToTranscend'
       )
 
       ICEWIND_SUITE_COPPELIA = GenshinObject::WorldBoss.new(
-        name: "Icewind Suite - Coppelia",
+        name: 'Icewind Suite - Coppelia',
         nation_name: :fontaine,
-        boss_material: "ArtificedSpareClockworkComponentCoppelia"
+        boss_material: 'ArtificedSpareClockworkComponentCoppelia'
       )
 
       ICEWIND_SUITE_COPPELIUS = GenshinObject::WorldBoss.new(
-        name: "Icewind Suite - Coppelius",
+        name: 'Icewind Suite - Coppelius',
         nation_name: :fontaine,
-        boss_material: "ArtificedSpareClockworkComponentCoppelius"
+        boss_material: 'ArtificedSpareClockworkComponentCoppelius'
       )
 
       IMMORTAL_CONSTRUCT = GenshinObject::WorldBoss.new(
-        name: "Immortal Construct",
+        name: 'Immortal Construct',
         nation_name: :snezhnaya,
-        boss_material: "UnscorchedBlossomBranch"
+        boss_material: 'UnscorchedBlossomBranch'
       )
 
       INIQUITOUS_BAPTIST = GenshinObject::WorldBoss.new(
-        name: "Iniquitous Baptist",
+        name: 'Iniquitous Baptist',
         nation_name: :sumeru,
-        boss_material: "EvergloomRing"
+        boss_material: 'EvergloomRing'
       )
 
       JADEPLUME_TERRORSHROOM = GenshinObject::WorldBoss.new(
-        name: "Jadeplume Terrorshroom",
+        name: 'Jadeplume Terrorshroom',
         nation_name: :sumeru,
-        boss_material: "MajesticHookedBeak"
+        boss_material: 'MajesticHookedBeak'
       )
 
       KNUCKLE_DUCKLE = GenshinObject::WorldBoss.new(
-        name: "Knuckle Duckle",
+        name: 'Knuckle Duckle',
         nation_name: :nodkrai,
-        boss_material: "PrecisionKuuvahkiStampingDie"
+        boss_material: 'PrecisionKuuvahkiStampingDie'
       )
 
       LAVA_DRAGON_STATUE = GenshinObject::WorldBoss.new(
-        name: "Lava Dragon Statue",
+        name: 'Lava Dragon Statue',
         nation_name: :natlan,
-        boss_material: "SparklessStatueCore"
+        boss_material: 'SparklessStatueCore'
       )
 
       LORD_OF_THE_HIDDEN_DEPTHS_WHISPERER_OF_NIGHTMARES = GenshinObject::WorldBoss.new(
-        name: "Lord of the Hidden Depths: Whisperer of Nightmares",
+        name: 'Lord of the Hidden Depths: Whisperer of Nightmares',
         nation_name: :inazuma,
-        boss_material: "RemnantOfTheDreadwing"
+        boss_material: 'RemnantOfTheDreadwing'
       )
 
       MAGUU_KENKI = GenshinObject::WorldBoss.new(
-        name: "Maguu Kenki",
+        name: 'Maguu Kenki',
         nation_name: :inazuma,
-        boss_material: "MarionetteCore"
+        boss_material: 'MarionetteCore'
       )
 
       MILLENNIAL_PEARL_SEAHORSE = GenshinObject::WorldBoss.new(
-        name: "Millennial Pearl Seahorse",
+        name: 'Millennial Pearl Seahorse',
         nation_name: :fontaine,
-        boss_material: "FontemerUnihorn"
+        boss_material: 'FontemerUnihorn'
       )
 
       PERPETUAL_MECHANICAL_ARRAY = GenshinObject::WorldBoss.new(
-        name: "Perpetual Mechanical Array",
+        name: 'Perpetual Mechanical Array',
         nation_name: :inazuma,
-        boss_material: "PerpetualHeart"
+        boss_material: 'PerpetualHeart'
       )
 
       PRIMO_GEOVISHAP = GenshinObject::WorldBoss.new(
-        name: "Primo Geovishap",
+        name: 'Primo Geovishap',
         nation_name: :liyue,
-        boss_material: "JuvenileJade"
+        boss_material: 'JuvenileJade'
       )
 
       PROTOTYPE_CAL_BREGUET = GenshinObject::WorldBoss.new(
-        name: "Prototype Cal. Breguet",
+        name: 'Prototype Cal. Breguet',
         nation_name: :fontaine,
-        boss_material: "TourbillonDevice"
+        boss_material: 'TourbillonDevice'
       )
 
       PYRO_HYPOSTASIS = GenshinObject::WorldBoss.new(
-        name: "Pyro Hypostasis",
+        name: 'Pyro Hypostasis',
         nation_name: :inazuma,
-        boss_material: "SmolderingPearl"
+        boss_material: 'SmolderingPearl'
       )
 
       PYRO_REGISVINE = GenshinObject::WorldBoss.new(
-        name: "Pyro Regisvine",
+        name: 'Pyro Regisvine',
         nation_name: :liyue,
-        boss_material: "EverflameSeed"
+        boss_material: 'EverflameSeed'
       )
 
       RADIANT_MOONFLY = GenshinObject::WorldBoss.new(
-        name: "Radiant Moonfly",
+        name: 'Radiant Moonfly',
         nation_name: :nodkrai,
-        boss_material: "LightbearingScaleFeather"
+        boss_material: 'LightbearingScaleFeather'
       )
 
       RADIANT_MOONGECKO = GenshinObject::WorldBoss.new(
-        name: "Radiant Moongecko",
+        name: 'Radiant Moongecko',
         nation_name: :nodkrai,
-        boss_material: "PrismaticSeveredTail"
+        boss_material: 'PrismaticSeveredTail'
       )
 
       RHODEIA_OF_LOCH = GenshinObject::WorldBoss.new(
-        name: "Rhodeia of Loch",
+        name: 'Rhodeia of Loch',
         nation_name: :liyue,
-        boss_material: "CleansingHeart"
+        boss_material: 'CleansingHeart'
       )
 
       RUIN_SERPENT = GenshinObject::WorldBoss.new(
-        name: "Ruin Serpent",
+        name: 'Ruin Serpent',
         nation_name: :liyue,
-        boss_material: "RunicFang"
+        boss_material: 'RunicFang'
       )
 
       SECRET_SOURCE_AUTOMATON = GenshinObject::WorldBoss.new(
-        name: "Secret Source Automaton",
+        name: 'Secret Source Automaton',
         nation_name: :natlan,
-        boss_material: "SecretSourceAirflowAccumulator"
+        boss_material: 'SecretSourceAirflowAccumulator'
       )
 
       SECRET_SOURCE_CONSTRUCTOR = GenshinObject::WorldBoss.new(
-        name: "Secret Source Constructor",
+        name: 'Secret Source Constructor',
         nation_name: :natlan,
-        boss_material: "GoldInscribedSecretSourceCore"
+        boss_material: 'GoldInscribedSecretSourceCore'
       )
 
       SETEKH_WENUT = GenshinObject::WorldBoss.new(
-        name: "Setekh Wenut",
+        name: 'Setekh Wenut',
         nation_name: :sumeru,
-        boss_material: "PseudoStamens"
+        boss_material: 'PseudoStamens'
       )
 
       SOLITARY_SUANNI = GenshinObject::WorldBoss.new(
-        name: "Solitary Suanni",
+        name: 'Solitary Suanni',
         nation_name: :liyue,
-        boss_material: "CloudseamScale"
+        boss_material: 'CloudseamScale'
       )
 
       STATUE_OF_MARBLE_AND_BRASS = GenshinObject::WorldBoss.new(
-        name: "Statue of Marble and Brass",
+        name: 'Statue of Marble and Brass',
         nation_name: :fontaine,
-        boss_material: "FragmentOfAGoldenMelody"
+        boss_material: 'FragmentOfAGoldenMelody'
       )
 
       SUPER_HEAVY_LANDROVER_MECHANIZED_FORTRESS = GenshinObject::WorldBoss.new(
-        name: "Super-Heavy Landrover: Mechanized Fortress",
+        name: 'Super-Heavy Landrover: Mechanized Fortress',
         nation_name: :nodkrai,
-        boss_material: "CyclicMilitaryKuuvahkiCore"
+        boss_material: 'CyclicMilitaryKuuvahkiCore'
       )
 
       TENEBROUS_PAPILLA = GenshinObject::WorldBoss.new(
-        name: "Tenebrous Papilla",
+        name: 'Tenebrous Papilla',
         nation_name: :natlan,
-        boss_material: "EnsnaringGaze"
+        boss_material: 'EnsnaringGaze'
       )
 
       THE_OPEN_EYED = GenshinObject::WorldBoss.new(
-        name: "The Open-Eyed",
+        name: 'The Open-Eyed',
         nation_name: :mondstadt,
-        boss_material: "PlumeOfTheFallenWatcher"
+        boss_material: 'PlumeOfTheFallenWatcher'
       )
 
       THUNDER_MANIFESTATION = GenshinObject::WorldBoss.new(
-        name: "Thunder Manifestation",
+        name: 'Thunder Manifestation',
         nation_name: :inazuma,
-        boss_material: "StormBeads"
+        boss_material: 'StormBeads'
       )
 
       WAYWARD_HERMETIC_SPIRITSPEAKER = GenshinObject::WorldBoss.new(
-        name: "Wayward Hermetic Spiritspeaker",
+        name: 'Wayward Hermetic Spiritspeaker',
         nation_name: :natlan,
-        boss_material: "TalismanOfTheEnigmaticLand"
+        boss_material: 'TalismanOfTheEnigmaticLand'
       )
     end
   end

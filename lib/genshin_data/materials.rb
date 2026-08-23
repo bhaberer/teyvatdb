@@ -3,8 +3,8 @@
 module GenshinData
   # Manager for all characters and attributes
   module Materials
-    require_relative "materials/development"
-    require_relative "materials/standard"
+    require_relative 'materials/development'
+    require_relative 'materials/standard'
 
     class << self
       def all

@@ -3,7 +3,7 @@
 module GenshinData
   # Manager for all characters and attributes
   module Characters
-    require_relative "characters/character_data"
+    require_relative 'characters/character_data'
 
     class << self
       def all

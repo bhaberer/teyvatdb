@@ -10,8 +10,8 @@ module GenshinData
         end
 
         ABSOLUTION = GenshinObject::Weapon.new(
-          kamera_key: "Absolution",
-          name: "Absolution",
+          kamera_key: 'Absolution',
+          name: 'Absolution',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :pocket_watch,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         THE_ALLEY_FLASH = GenshinObject::Weapon.new(
-          kamera_key: "TheAlleyFlash",
-          name: "Alley Flash, The",
+          kamera_key: 'TheAlleyFlash',
+          name: 'Alley Flash, The',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         AMENOMA_KAGEUCHI = GenshinObject::Weapon.new(
-          kamera_key: "AmenomaKageuchi",
-          name: "Amenoma Kageuchi",
+          kamera_key: 'AmenomaKageuchi',
+          name: 'Amenoma Kageuchi',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :chaos_oculus,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         AQUILA_FAVONIA = GenshinObject::Weapon.new(
-          kamera_key: "AquilaFavonia",
-          name: "Aquila Favonia",
+          kamera_key: 'AquilaFavonia',
+          name: 'Aquila Favonia',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         ATHAME_ARTIS = GenshinObject::Weapon.new(
-          kamera_key: "AthameArtis",
-          name: "Athame Artis",
+          kamera_key: 'AthameArtis',
+          name: 'Athame Artis',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :frostnight,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         AZURELIGHT = GenshinObject::Weapon.new(
-          kamera_key: "Azurelight",
-          name: "Azurelight",
+          kamera_key: 'Azurelight',
+          name: 'Azurelight',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :abyss_leaf,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         BLACKCLIFF_LONGSWORD = GenshinObject::Weapon.new(
-          kamera_key: "BlackcliffLongsword",
-          name: "Blackcliff Longsword",
+          kamera_key: 'BlackcliffLongsword',
+          name: 'Blackcliff Longsword',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :sacrificial_knife,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         CALAMITY_OF_ESHU = GenshinObject::Weapon.new(
-          kamera_key: "CalamityOfEshu",
-          name: "Calamity of Eshu",
+          kamera_key: 'CalamityOfEshu',
+          name: 'Calamity of Eshu',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :abyss_leaf,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         CINNABAR_SPINDLE = GenshinObject::Weapon.new(
-          kamera_key: "CinnabarSpindle",
-          name: "Cinnabar Spindle",
+          kamera_key: 'CinnabarSpindle',
+          name: 'Cinnabar Spindle',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :chaos_core,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         COOL_STEEL = GenshinObject::Weapon.new(
-          kamera_key: "CoolSteel",
-          name: "Cool Steel",
+          kamera_key: 'CoolSteel',
+          name: 'Cool Steel',
           rarity: 3,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         DARK_IRON_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "DarkIronSword",
-          name: "Dark Iron Sword",
+          kamera_key: 'DarkIronSword',
+          name: 'Dark Iron Sword',
           rarity: 3,
           weapon_type: :sword,
           elite_material_type: :sacrificial_knife,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         DULL_BLADE = GenshinObject::Weapon.new(
-          kamera_key: "DullBlade",
-          name: "Dull Blade",
+          kamera_key: 'DullBlade',
+          name: 'Dull Blade',
           rarity: 1,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         EMBERWELL = GenshinObject::Weapon.new(
-          kamera_key: "Emberwell",
-          name: "Emberwell",
+          kamera_key: 'Emberwell',
+          name: 'Emberwell',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :accreted,
@@ -150,8 +150,8 @@ module GenshinData
         # ).freeze
 
         FAVONIUS_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "FavoniusSword",
-          name: "Favonius Sword",
+          kamera_key: 'FavoniusSword',
+          name: 'Favonius Sword',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         FESTERING_DESIRE = GenshinObject::Weapon.new(
-          kamera_key: "FesteringDesire",
-          name: "Festering Desire",
+          kamera_key: 'FesteringDesire',
+          name: 'Festering Desire',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         FILLET_BLADE = GenshinObject::Weapon.new(
-          kamera_key: "FilletBlade",
-          name: "Fillet Blade",
+          kamera_key: 'FilletBlade',
+          name: 'Fillet Blade',
           rarity: 3,
           weapon_type: :sword,
           elite_material_type: :mist_grass,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         FINALE_OF_THE_DEEP = GenshinObject::Weapon.new(
-          kamera_key: "FinaleOfTheDeep",
-          name: "Finale of the Deep",
+          kamera_key: 'FinaleOfTheDeep',
+          name: 'Finale of the Deep',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :tainted_water,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         FLEUVE_CENDRE_FERRYMAN = GenshinObject::Weapon.new(
-          kamera_key: "FleuveCendreFerryman",
-          name: "Fleuve Cendre Ferryman",
+          kamera_key: 'FleuveCendreFerryman',
+          name: 'Fleuve Cendre Ferryman',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :tainted_water,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         FLUTE_OF_EZPITZAL = GenshinObject::Weapon.new(
-          kamera_key: "FluteOfEzpitzal",
-          name: "Flute of Ezpitzal",
+          kamera_key: 'FluteOfEzpitzal',
+          name: 'Flute of Ezpitzal',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :stone_hilt,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         FREEDOM_SWORN = GenshinObject::Weapon.new(
-          kamera_key: "FreedomSworn",
-          name: "Freedom-Sworn",
+          kamera_key: 'FreedomSworn',
+          name: 'Freedom-Sworn',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :chaos_core,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         HARAN_GEPPAKU_FUTSU = GenshinObject::Weapon.new(
-          kamera_key: "HaranGeppakuFutsu",
-          name: "Haran Geppaku Futsu",
+          kamera_key: 'HaranGeppakuFutsu',
+          name: 'Haran Geppaku Futsu',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :statuette,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         HARBINGER_OF_DAWN = GenshinObject::Weapon.new(
-          kamera_key: "HarbingerOfDawn",
-          name: "Harbinger of Dawn",
+          kamera_key: 'HarbingerOfDawn',
+          name: 'Harbinger of Dawn',
           rarity: 3,
           weapon_type: :sword,
           elite_material_type: :ley_line,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         IRON_STING = GenshinObject::Weapon.new(
-          kamera_key: "IronSting",
-          name: "Iron Sting",
+          kamera_key: 'IronSting',
+          name: 'Iron Sting',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :bone_shard,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         KAGOTSURUBE_ISSHIN = GenshinObject::Weapon.new(
-          kamera_key: "KagotsurubeIsshin",
-          name: "Kagotsurube Isshin",
+          kamera_key: 'KagotsurubeIsshin',
+          name: 'Kagotsurube Isshin',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :statuette,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         KEY_OF_KHAJ_NISUT = GenshinObject::Weapon.new(
-          kamera_key: "KeyOfKhajNisut",
-          name: "Key of Khaj-Nisut",
+          kamera_key: 'KeyOfKhajNisut',
+          name: 'Key of Khaj-Nisut',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :turbid_prism,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         LIGHT_OF_FOLIAR_INCISION = GenshinObject::Weapon.new(
-          kamera_key: "LightOfFoliarIncision",
-          name: "Light of Foliar Incision",
+          kamera_key: 'LightOfFoliarIncision',
+          name: 'Light of Foliar Incision',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :shell,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         LIGHTBEARING_MOONSHARD = GenshinObject::Weapon.new(
-          kamera_key: "LightbearingMoonshard",
-          name: "Lightbearing Moonshard",
+          kamera_key: 'LightbearingMoonshard',
+          name: 'Lightbearing Moonshard',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :mistshroud,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         LIONS_ROAR = GenshinObject::Weapon.new(
-          kamera_key: "LionsRoar",
-          name: "Lions Roar",
+          kamera_key: 'LionsRoar',
+          name: 'Lions Roar',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :sacrificial_knife,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         MISTSPLITTER_REFORGED = GenshinObject::Weapon.new(
-          kamera_key: "MistsplitterReforged",
-          name: "Mistsplitter Reforged",
+          kamera_key: 'MistsplitterReforged',
+          name: 'Mistsplitter Reforged',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :chaos_oculus,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         PEAK_PATROL_SONG = GenshinObject::Weapon.new(
-          kamera_key: "PeakPatrolSong",
-          name: "Peak Patrol Song",
+          kamera_key: 'PeakPatrolSong',
+          name: 'Peak Patrol Song',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :secret_source,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         PRIMORDIAL_JADE_CUTTER = GenshinObject::Weapon.new(
-          kamera_key: "PrimordialJadeCutter",
-          name: "Primordial Jade Cutter",
+          kamera_key: 'PrimordialJadeCutter',
+          name: 'Primordial Jade Cutter',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :mist_grass,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         PROTOTYPE_RANCOUR = GenshinObject::Weapon.new(
-          kamera_key: "PrototypeRancour",
-          name: "Prototype Rancour",
+          kamera_key: 'PrototypeRancour',
+          name: 'Prototype Rancour',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :mist_grass,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         ROYAL_LONGSWORD = GenshinObject::Weapon.new(
-          kamera_key: "RoyalLongsword",
-          name: "Royal Longsword",
+          kamera_key: 'RoyalLongsword',
+          name: 'Royal Longsword',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         SACRIFICIAL_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "SacrificialSword",
-          name: "Sacrificial Sword",
+          kamera_key: 'SacrificialSword',
+          name: 'Sacrificial Sword',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :chaos_core,
@@ -360,8 +360,8 @@ module GenshinData
         ).freeze
 
         SAPWOOD_BLADE = GenshinObject::Weapon.new(
-          kamera_key: "SapwoodBlade",
-          name: "Sapwood Blade",
+          kamera_key: 'SapwoodBlade',
+          name: 'Sapwood Blade',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :chaos_bolt,
@@ -370,7 +370,7 @@ module GenshinData
         ).freeze
 
         SERENITYS_CALL = GenshinObject::Weapon.new(
-          kamera_key: "SerenitysCall",
+          kamera_key: 'SerenitysCall',
           name: "Serenity's Call",
           rarity: 4,
           weapon_type: :sword,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         SILVER_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "SilverSword",
-          name: "Silver Sword",
+          kamera_key: 'SilverSword',
+          name: 'Silver Sword',
           rarity: 2,
           weapon_type: :sword,
           elite_material_type: :horn,
@@ -390,8 +390,8 @@ module GenshinData
         ).freeze
 
         SKYRIDER_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "SkyriderSword",
-          name: "Skyrider Sword",
+          kamera_key: 'SkyriderSword',
+          name: 'Skyrider Sword',
           rarity: 3,
           weapon_type: :sword,
           elite_material_type: :bone_shard,
@@ -400,8 +400,8 @@ module GenshinData
         ).freeze
 
         SKYWARD_BLADE = GenshinObject::Weapon.new(
-          kamera_key: "SkywardBlade",
-          name: "Skyward Blade",
+          kamera_key: 'SkywardBlade',
+          name: 'Skyward Blade',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :ley_line,
@@ -410,8 +410,8 @@ module GenshinData
         ).freeze
 
         STURDY_BONE = GenshinObject::Weapon.new(
-          kamera_key: "SturdyBone",
-          name: "Sturdy Bone",
+          kamera_key: 'SturdyBone',
+          name: 'Sturdy Bone',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :wayob_will,
@@ -420,8 +420,8 @@ module GenshinData
         ).freeze
 
         SUMMIT_SHAPER = GenshinObject::Weapon.new(
-          kamera_key: "SummitShaper",
-          name: "Summit Shaper",
+          kamera_key: 'SummitShaper',
+          name: 'Summit Shaper',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :sacrificial_knife,
@@ -430,8 +430,8 @@ module GenshinData
         ).freeze
 
         SWORD_OF_DESCENSION = GenshinObject::Weapon.new(
-          kamera_key: "SwordOfDescension",
-          name: "Sword of Descension",
+          kamera_key: 'SwordOfDescension',
+          name: 'Sword of Descension',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :ley_line,
@@ -440,8 +440,8 @@ module GenshinData
         ).freeze
 
         THE_BLACK_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "TheBlackSword",
-          name: "Black Sword, The",
+          kamera_key: 'TheBlackSword',
+          name: 'Black Sword, The',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :ley_line,
@@ -450,7 +450,7 @@ module GenshinData
         ).freeze
 
         THE_DOCKHANDS_ASSISTANT = GenshinObject::Weapon.new(
-          kamera_key: "TheDockhandsAssistant",
+          kamera_key: 'TheDockhandsAssistant',
           name: "Dockhand's Assistant, The",
           rarity: 4,
           weapon_type: :sword,
@@ -460,8 +460,8 @@ module GenshinData
         ).freeze
 
         THE_FLUTE = GenshinObject::Weapon.new(
-          kamera_key: "TheFlute",
-          name: "Flute, The",
+          kamera_key: 'TheFlute',
+          name: 'Flute, The',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :ley_line,
@@ -470,8 +470,8 @@ module GenshinData
         ).freeze
 
         TOUKABOU_SHIGURE = GenshinObject::Weapon.new(
-          kamera_key: "ToukabouShigure",
-          name: "Toukabou Shigure",
+          kamera_key: 'ToukabouShigure',
+          name: 'Toukabou Shigure',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :turbid_prism,
@@ -480,7 +480,7 @@ module GenshinData
         ).freeze
 
         TRAVELERS_HANDY_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "TravelersHandySword",
+          kamera_key: 'TravelersHandySword',
           name: "Traveler's Handy Sword",
           rarity: 3,
           weapon_type: :sword,
@@ -490,8 +490,8 @@ module GenshinData
         ).freeze
 
         URAKU_MISUGIRI = GenshinObject::Weapon.new(
-          kamera_key: "UrakuMisugiri",
-          name: "Uraku Misugiri",
+          kamera_key: 'UrakuMisugiri',
+          name: 'Uraku Misugiri',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :chaos_oculus,
@@ -500,8 +500,8 @@ module GenshinData
         ).freeze
 
         WHITELAKE_FROSTFEATHER = GenshinObject::Weapon.new(
-          kamera_key: "WhitelakeFrostfeather",
-          name: "Whitelake Frostfeather",
+          kamera_key: 'WhitelakeFrostfeather',
+          name: 'Whitelake Frostfeather',
           rarity: 5,
           weapon_type: :sword,
           elite_material_type: :life_node,
@@ -510,8 +510,8 @@ module GenshinData
         ).freeze
 
         WOLF_FANG = GenshinObject::Weapon.new(
-          kamera_key: "WolfFang",
-          name: "Wolf-Fang",
+          kamera_key: 'WolfFang',
+          name: 'Wolf-Fang',
           rarity: 4,
           weapon_type: :sword,
           elite_material_type: :chaos_core,
@@ -520,7 +520,7 @@ module GenshinData
         ).freeze
 
         XIPHOS_MOONLIGHT = GenshinObject::Weapon.new(
-          kamera_key: "XiphosMoonlight",
+          kamera_key: 'XiphosMoonlight',
           name: "Xiphos' Moonlight",
           rarity: 4,
           weapon_type: :sword,

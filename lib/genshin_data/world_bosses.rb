@@ -3,7 +3,7 @@
 module GenshinData
   # Module for accessing weapon data
   module WorldBosses
-    require_relative "world_bosses/world_boss_data"
+    require_relative 'world_bosses/world_boss_data'
 
     class << self
       def all

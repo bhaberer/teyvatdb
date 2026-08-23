@@ -1,20 +1,20 @@
 # frozen_string_literal: true
 
-require "spec_helper"
+require 'spec_helper'
 
 RSpec.describe GenshinData::WeeklyBosses do
   let(:bosses) { described_class.all }
 
-  describe "WeeklyBosses Definitions" do
+  describe 'WeeklyBosses Definitions' do
     let(:nation_names) { GenshinData::Nations.all.map(&:name).map(&:to_sym) }
 
     described_class.all.map do |boss|
       context "when defining #{boss.name}" do
-        it "has a valid name" do
+        it 'has a valid name' do
           expect(boss.name).to match(GenshinObject::NAME_REGEX)
         end
 
-        it "has a valid domain name" do
+        it 'has a valid domain name' do
           expect(boss.domain_name).to match(/[A-Za-z\s]+/)
         end
 
@@ -29,14 +29,14 @@ RSpec.describe GenshinData::WeeklyBosses do
       end
     end
 
-    it "defines the corret number of bosses" do
+    it 'defines the corret number of bosses' do
       defined_boss_loot = GenshinData::Materials::Development::WeeklyBossDropsData.all.count / 3
       expect(described_class.all.count)
         .to eq(defined_boss_loot),
             "Expected #{described_class} to define #{defined_boss_loot} bosses not #{described_class.all.count}."
     end
 
-    it "defines bosses for every family of loot" do
+    it 'defines bosses for every family of loot' do
       GenshinData::Materials::Development::WeeklyBossDropsData.all.map(&:family).uniq.each do |family|
         expect(described_class.all.map(&:material_family)).to include(family)
       end

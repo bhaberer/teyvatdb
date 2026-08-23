@@ -10,8 +10,8 @@ module GenshinData
         end
 
         AMETHYST_LUMP = GenshinObject::Material.new(
-          kamera_key: "AmethystLump",
-          name: "Amethyst Lump",
+          kamera_key: 'AmethystLump',
+          name: 'Amethyst Lump',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         BORDERLAND_BOW_BILLET = GenshinObject::Material.new(
-          kamera_key: "BorderlandBowBillet",
-          name: "Borderland Bow Billet",
+          kamera_key: 'BorderlandBowBillet',
+          name: 'Borderland Bow Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         BORDERLAND_CATALYST_BILLET = GenshinObject::Material.new(
-          kamera_key: "BorderlandCatalystBillet",
-          name: "Borderland Cataylst Billet",
+          kamera_key: 'BorderlandCatalystBillet',
+          name: 'Borderland Cataylst Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         BORDERLAND_CLAYMORE_BILLET = GenshinObject::Material.new(
-          kamera_key: "BorderlandClaymoreBillet",
-          name: "Borderland Claymore Billet",
+          kamera_key: 'BorderlandClaymoreBillet',
+          name: 'Borderland Claymore Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         BORDERLAND_SWORD_BILLET = GenshinObject::Material.new(
-          kamera_key: "BorderlandSwordBillet",
-          name: "Borderland Sword Billet",
+          kamera_key: 'BorderlandSwordBillet',
+          name: 'Borderland Sword Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         BORDERLAND_POLEARM_BILLET = GenshinObject::Material.new(
-          kamera_key: "BorderlandPolearmBillet",
-          name: "Borderland Polearm Billet",
+          kamera_key: 'BorderlandPolearmBillet',
+          name: 'Borderland Polearm Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         CONDESSENCE_CRYSTAL = GenshinObject::Material.new(
-          kamera_key: "CondessenceCrystal",
-          name: "Condessence Crystal",
+          kamera_key: 'CondessenceCrystal',
+          name: 'Condessence Crystal',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         CRYSTAL_CHUNK = GenshinObject::Material.new(
-          kamera_key: "CrystalChunk",
-          name: "Crystal Chunk",
+          kamera_key: 'CrystalChunk',
+          name: 'Crystal Chunk',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         EMPOWERED_DRAGONTOOTH = GenshinObject::Material.new(
-          kamera_key: "EmpoweredDragontooth",
-          name: "Empowered Dragontooth",
+          kamera_key: 'EmpoweredDragontooth',
+          name: 'Empowered Dragontooth',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         IRON_CHUNK = GenshinObject::Material.new(
-          kamera_key: "IronChunk",
-          name: "Iron Chunk",
+          kamera_key: 'IronChunk',
+          name: 'Iron Chunk',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         MAGICAL_CRYSTAL_CHUNK = GenshinObject::Material.new(
-          kamera_key: "MagicalCrystalChunk",
-          name: "Magical Crystal Chunk",
+          kamera_key: 'MagicalCrystalChunk',
+          name: 'Magical Crystal Chunk',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         MIDLANDER_BOW_BILLET = GenshinObject::Material.new(
-          kamera_key: "MidlanderBowBillet",
-          name: "Midlander Bow Billet",
+          kamera_key: 'MidlanderBowBillet',
+          name: 'Midlander Bow Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         MIDLANDER_CATALYST_BILLET = GenshinObject::Material.new(
-          kamera_key: "MidlanderCatalystBillet",
-          name: "Midlander Cataylst Billet",
+          kamera_key: 'MidlanderCatalystBillet',
+          name: 'Midlander Cataylst Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         MIDLANDER_CLAYMORE_BILLET = GenshinObject::Material.new(
-          kamera_key: "MidlanderClaymoreBillet",
-          name: "Midlander Claymore Billet",
+          kamera_key: 'MidlanderClaymoreBillet',
+          name: 'Midlander Claymore Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         MIDLANDER_SWORD_BILLET = GenshinObject::Material.new(
-          kamera_key: "MidlanderSwordBillet",
-          name: "Midlander Sword Billet",
+          kamera_key: 'MidlanderSwordBillet',
+          name: 'Midlander Sword Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         MIDLANDER_POLEARM_BILLET = GenshinObject::Material.new(
-          kamera_key: "MidlanderPolearmBillet",
-          name: "Midlander Polearm Billet",
+          kamera_key: 'MidlanderPolearmBillet',
+          name: 'Midlander Polearm Billet',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         NORTHLANDER_BOW_BILLET = GenshinObject::Material.new(
-          kamera_key: "NorthlanderBowBillet",
-          name: "Northlander Bow Billet",
+          kamera_key: 'NorthlanderBowBillet',
+          name: 'Northlander Bow Billet',
           rarity: 4,
           family: nil,
           inventory_type: :standard_material,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         NORTHLANDER_CATALYST_BILLET = GenshinObject::Material.new(
-          kamera_key: "NorthlanderCatalystBillet",
-          name: "Northlander Catalyst Billet",
+          kamera_key: 'NorthlanderCatalystBillet',
+          name: 'Northlander Catalyst Billet',
           rarity: 4,
           family: nil,
           inventory_type: :standard_material,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         NORTHLANDER_CLAYMORE_BILLET = GenshinObject::Material.new(
-          kamera_key: "NorthlanderClaymoreBillet",
-          name: "Northlander Claymore Billet",
+          kamera_key: 'NorthlanderClaymoreBillet',
+          name: 'Northlander Claymore Billet',
           rarity: 4,
           family: nil,
           inventory_type: :standard_material,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         NORTHLANDER_POLEARM_BILLET = GenshinObject::Material.new(
-          kamera_key: "NorthlanderPolearmBillet",
-          name: "Northlander Polearm Billet",
+          kamera_key: 'NorthlanderPolearmBillet',
+          name: 'Northlander Polearm Billet',
           rarity: 4,
           family: nil,
           inventory_type: :standard_material,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         NORTHLANDER_SWORD_BILLET = GenshinObject::Material.new(
-          kamera_key: "NorthlanderSwordBillet",
-          name: "Northlander Sword Billet",
+          kamera_key: 'NorthlanderSwordBillet',
+          name: 'Northlander Sword Billet',
           rarity: 4,
           family: nil,
           inventory_type: :standard_material,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         RAINBOWDROP_CRYSTAL = GenshinObject::Material.new(
-          kamera_key: "RainbowdropCrystal",
-          name: "Rainbowdrop Crystal",
+          kamera_key: 'RainbowdropCrystal',
+          name: 'Rainbowdrop Crystal',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         STARSILVER = GenshinObject::Material.new(
-          kamera_key: "Starsilver",
-          name: "Starsilver",
+          kamera_key: 'Starsilver',
+          name: 'Starsilver',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         WHITE_IRON_CHUNK = GenshinObject::Material.new(
-          kamera_key: "WhiteIronChunk",
-          name: "White Iron Chunk",
+          kamera_key: 'WhiteIronChunk',
+          name: 'White Iron Chunk',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

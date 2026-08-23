@@ -11,7 +11,7 @@ module GenshinData
       # Mondstadt
       DECARABIAN = GenshinObject::WeaponMaterialFamily.new(
         family: :decarabian,
-        name: "Fragments of Decarabian",
+        name: 'Fragments of Decarabian',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -19,7 +19,7 @@ module GenshinData
       )
       BOREAL_WOLF_TEETH = GenshinObject::WeaponMaterialFamily.new(
         family: :wolf_tooth,
-        name: "Teeth of the Boreal Wolf",
+        name: 'Teeth of the Boreal Wolf',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -27,7 +27,7 @@ module GenshinData
       )
       DANDELION_GLADIATOR = GenshinObject::WeaponMaterialFamily.new(
         family: :chains,
-        name: "Dandelion Gladiator",
+        name: 'Dandelion Gladiator',
         nation_name: :mondstadt,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -37,7 +37,7 @@ module GenshinData
       # Liyue
       GUYUN = GenshinObject::WeaponMaterialFamily.new(
         family: :guyun,
-        name: "Remants of Guyun",
+        name: 'Remants of Guyun',
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -45,7 +45,7 @@ module GenshinData
       )
       ELIXIR = GenshinObject::WeaponMaterialFamily.new(
         family: :elixir,
-        name: "Mist Veiled Elixirs",
+        name: 'Mist Veiled Elixirs',
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -53,7 +53,7 @@ module GenshinData
       )
       AEROSIDERITE = GenshinObject::WeaponMaterialFamily.new(
         family: :aerosiderite,
-        name: "Aerosiderite Fragments",
+        name: 'Aerosiderite Fragments',
         nation_name: :liyue,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -63,7 +63,7 @@ module GenshinData
       # Inazuma
       CORAL = GenshinObject::WeaponMaterialFamily.new(
         family: :coral,
-        name: "Branches of Coral",
+        name: 'Branches of Coral',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -71,7 +71,7 @@ module GenshinData
       )
       NARUKAMI = GenshinObject::WeaponMaterialFamily.new(
         family: :narukami,
-        name: "Teachings of Narukami",
+        name: 'Teachings of Narukami',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -79,7 +79,7 @@ module GenshinData
       )
       ONI_MASK = GenshinObject::WeaponMaterialFamily.new(
         family: :oni_mask,
-        name: "Masks of the Oni",
+        name: 'Masks of the Oni',
         nation_name: :inazuma,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -89,7 +89,7 @@ module GenshinData
       # Sumaru
       FOREST_DEW = GenshinObject::WeaponMaterialFamily.new(
         family: :forest_dew,
-        name: "Talismans of Forest Dew",
+        name: 'Talismans of Forest Dew',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -97,7 +97,7 @@ module GenshinData
       )
       OASIS_GARDEN = GenshinObject::WeaponMaterialFamily.new(
         family: :oasis_garden,
-        name: "Blessings of the Oasis",
+        name: 'Blessings of the Oasis',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -105,7 +105,7 @@ module GenshinData
       )
       SCORCHING_MASK = GenshinObject::WeaponMaterialFamily.new(
         family: :scorching_might,
-        name: "Aspects of Scorching Might",
+        name: 'Aspects of Scorching Might',
         nation_name: :sumeru,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -115,7 +115,7 @@ module GenshinData
       # Fontaine
       ANCIENT_CHORD = GenshinObject::WeaponMaterialFamily.new(
         family: :ancient_chord,
-        name: "Ancient Chords",
+        name: 'Ancient Chords',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -123,7 +123,7 @@ module GenshinData
       )
       SACRED_DEWDROP = GenshinObject::WeaponMaterialFamily.new(
         family: :sacred_dewdrop,
-        name: "Sacred Dewdrops",
+        name: 'Sacred Dewdrops',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -131,7 +131,7 @@ module GenshinData
       )
       PRISTINE_SEA = GenshinObject::WeaponMaterialFamily.new(
         family: :pristine_sea,
-        name: "Goblets of the Pristine Sea",
+        name: 'Goblets of the Pristine Sea',
         nation_name: :fontaine,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -141,7 +141,7 @@ module GenshinData
       # Natlan
       BLAZING_HEART = GenshinObject::WeaponMaterialFamily.new(
         family: :blazing_heart,
-        name: "Blazing Hearts",
+        name: 'Blazing Hearts',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -149,7 +149,7 @@ module GenshinData
       )
       SACRED_LORD = GenshinObject::WeaponMaterialFamily.new(
         family: :sacred_lord,
-        name: "Sacred Lord",
+        name: 'Sacred Lord',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -157,7 +157,7 @@ module GenshinData
       )
       NIGHT_WIND = GenshinObject::WeaponMaterialFamily.new(
         family: :night_wind,
-        name: "Night-Wind",
+        name: 'Night-Wind',
         nation_name: :natlan,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -167,7 +167,7 @@ module GenshinData
       # Nod-Krai
       ARTFUL_DEVICE = GenshinObject::WeaponMaterialFamily.new(
         family: :artful_device,
-        name: "Artful Devices",
+        name: 'Artful Devices',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -175,7 +175,7 @@ module GenshinData
       )
       LONG_NIGHT_FLINT = GenshinObject::WeaponMaterialFamily.new(
         family: :long_night_flint,
-        name: "Long Night Flint",
+        name: 'Long Night Flint',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true
@@ -183,7 +183,7 @@ module GenshinData
       )
       FAR_NORTH_SCIONS = GenshinObject::WeaponMaterialFamily.new(
         family: :far_north_scions,
-        name: "Far-North Scions",
+        name: 'Far-North Scions',
         nation_name: :nodkrai,
         schedule: GenshinObject::Schedule.new(
           wed_sat: true
@@ -193,7 +193,7 @@ module GenshinData
       # Snezhnaya
       PALE_STAR = GenshinObject::WeaponMaterialFamily.new(
         family: :pale_star,
-        name: "Pale Star Army",
+        name: 'Pale Star Army',
         nation_name: :snezhnaya,
         schedule: GenshinObject::Schedule.new(
           mon_thurs: true
@@ -201,7 +201,7 @@ module GenshinData
       )
       SPIRITUAL_NECTAR = GenshinObject::WeaponMaterialFamily.new(
         family: :spiritual_nectar,
-        name: "Cellared Spiritual Nectar",
+        name: 'Cellared Spiritual Nectar',
         nation_name: :snezhnaya,
         schedule: GenshinObject::Schedule.new(
           tues_fri: true

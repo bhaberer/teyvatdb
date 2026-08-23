@@ -4,11 +4,11 @@ module GenshinData
   module Materials
     # Top level access class for all non development materials
     module Standard
-      require_relative "standard/cooking_material_data"
-      require_relative "standard/crafting_material_data"
-      require_relative "standard/fishing_material_data"
-      require_relative "standard/forging_material_data"
-      require_relative "standard/furniture_material_data"
+      require_relative 'standard/cooking_material_data'
+      require_relative 'standard/crafting_material_data'
+      require_relative 'standard/fishing_material_data'
+      require_relative 'standard/forging_material_data'
+      require_relative 'standard/furniture_material_data'
 
       class << self
         def all

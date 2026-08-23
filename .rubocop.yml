@@ -12,14 +12,3 @@ AllCops:
   TargetRubyVersion: 3.4.8
   Exclude:
     - 'vendor/*'
-
-Style/StringLiterals:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Style/StringLiteralsInInterpolation:
-  Enabled: true
-  EnforcedStyle: double_quotes
-
-Layout/LineLength:
-  Max: 120

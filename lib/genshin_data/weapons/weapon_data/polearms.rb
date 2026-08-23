@@ -10,8 +10,8 @@ module GenshinData
         end
 
         BALLAD_OF_THE_FJORDS = GenshinObject::Weapon.new(
-          kamera_key: "BalladOfTheFjords",
-          name: "Ballad of the Fjords",
+          kamera_key: 'BalladOfTheFjords',
+          name: 'Ballad of the Fjords',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :rogue_flower,
@@ -20,7 +20,7 @@ module GenshinData
         ).freeze
 
         BEGINNERS_PROTECTOR = GenshinObject::Weapon.new(
-          kamera_key: "BeginnersProtector",
+          kamera_key: 'BeginnersProtector',
           name: "Beginner's Protector",
           rarity: 1,
           weapon_type: :polearm,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         BLACK_TASSEL = GenshinObject::Weapon.new(
-          kamera_key: "BlackTassel",
-          name: "Black Tassel",
+          kamera_key: 'BlackTassel',
+          name: 'Black Tassel',
           rarity: 3,
           weapon_type: :polearm,
           elite_material_type: :bone_shard,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         BLACKCLIFF_POLE = GenshinObject::Weapon.new(
-          kamera_key: "BlackcliffPole",
-          name: "Blackcliff Pole",
+          kamera_key: 'BlackcliffPole',
+          name: 'Blackcliff Pole',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :mist_grass,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         CALAMITY_QUELLER = GenshinObject::Weapon.new(
-          kamera_key: "CalamityQueller",
-          name: "Calamity Queller",
+          kamera_key: 'CalamityQueller',
+          name: 'Calamity Queller',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :mist_grass,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         CRESCENT_PIKE = GenshinObject::Weapon.new(
-          kamera_key: "CrescentPike",
-          name: "Crescent Pike",
+          kamera_key: 'CrescentPike',
+          name: 'Crescent Pike',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :sacrificial_knife,
@@ -70,7 +70,7 @@ module GenshinData
         ).freeze
 
         CRIMSON_MOONS_SEMBLANCE = GenshinObject::Weapon.new(
-          kamera_key: "CrimsonMoonsSemblance",
+          kamera_key: 'CrimsonMoonsSemblance',
           name: "Crimson Moon's Semblance",
           rarity: 5,
           weapon_type: :polearm,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         DEATHMATCH = GenshinObject::Weapon.new(
-          kamera_key: "Deathmatch",
-          name: "Deathmatch",
+          kamera_key: 'Deathmatch',
+          name: 'Deathmatch',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :ley_line,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         DIALOGUES_OF_THE_DESERT_SAGES = GenshinObject::Weapon.new(
-          kamera_key: "DialoguesOfTheDesertSages",
-          name: "Dialogues of the Desert Sages",
+          kamera_key: 'DialoguesOfTheDesertSages',
+          name: 'Dialogues of the Desert Sages',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :beast_fin,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         DISASTER_AND_REMORSE = GenshinObject::Weapon.new(
-          kamera_key: "DisasterAndRemorse",
-          name: "Disaster and Remorse",
+          kamera_key: 'DisasterAndRemorse',
+          name: 'Disaster and Remorse',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :radiant_bone,
@@ -110,7 +110,7 @@ module GenshinData
         ).freeze
 
         DRAGONS_BANE = GenshinObject::Weapon.new(
-          kamera_key: "DragonsBane",
+          kamera_key: 'DragonsBane',
           name: "Dragon's Bane",
           rarity: 4,
           weapon_type: :polearm,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         DRAGONSPINE_SPEAR = GenshinObject::Weapon.new(
-          kamera_key: "DragonspineSpear",
-          name: "Dragonspine Spear",
+          kamera_key: 'DragonspineSpear',
+          name: 'Dragonspine Spear',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :mist_grass,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         ENGULFING_LIGHTNING = GenshinObject::Weapon.new(
-          kamera_key: "EngulfingLightning",
-          name: "Engulfing Lightning",
+          kamera_key: 'EngulfingLightning',
+          name: 'Engulfing Lightning',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :chaos_oculus,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         FAVONIUS_LANCE = GenshinObject::Weapon.new(
-          kamera_key: "FavoniusLance",
-          name: "Favonius Lance",
+          kamera_key: 'FavoniusLance',
+          name: 'Favonius Lance',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :chaos_core,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         FOOTPRINT_OF_THE_RAINBOW = GenshinObject::Weapon.new(
-          kamera_key: "FootprintOfTheRainbow",
-          name: "Footprint of the Rainbow",
+          kamera_key: 'FootprintOfTheRainbow',
+          name: 'Footprint of the Rainbow',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :secret_source,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         FRACTURED_HALO = GenshinObject::Weapon.new(
-          kamera_key: "FracturedHalo",
-          name: "Fractured Halo",
+          kamera_key: 'FracturedHalo',
+          name: 'Fractured Halo',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :weasel_shell,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         HALBERD = GenshinObject::Weapon.new(
-          kamera_key: "Halberd",
-          name: "Halberd",
+          kamera_key: 'Halberd',
+          name: 'Halberd',
           rarity: 3,
           weapon_type: :polearm,
           elite_material_type: :mist_grass,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         IRON_POINT = GenshinObject::Weapon.new(
-          kamera_key: "IronPoint",
-          name: "Iron Point",
+          kamera_key: 'IronPoint',
+          name: 'Iron Point',
           rarity: 2,
           weapon_type: :polearm,
           elite_material_type: :chaos_core,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         KITAIN_CROSS_SPEAR = GenshinObject::Weapon.new(
-          kamera_key: "KitainCrossSpear",
-          name: "Kitain Cross Spear",
+          kamera_key: 'KitainCrossSpear',
+          name: 'Kitain Cross Spear',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :chaos_oculus,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         LITHIC_SPEAR = GenshinObject::Weapon.new(
-          kamera_key: "LithicSpear",
-          name: "Lithic Spear",
+          kamera_key: 'LithicSpear',
+          name: 'Lithic Spear',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :bone_shard,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         MISSIVE_WINDSPEAR = GenshinObject::Weapon.new(
-          kamera_key: "MissiveWindspear",
-          name: "Missive Windspear",
+          kamera_key: 'MissiveWindspear',
+          name: 'Missive Windspear',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :statuette,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         MOONPIERCER = GenshinObject::Weapon.new(
-          kamera_key: "Moonpiercer",
-          name: "Moonpiercer",
+          kamera_key: 'Moonpiercer',
+          name: 'Moonpiercer',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :chaos_bolt,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         MOUNTAIN_BRACING_BOLT = GenshinObject::Weapon.new(
-          kamera_key: "MountainBracingBolt",
-          name: "Mountain-Bracing Bolt",
+          kamera_key: 'MountainBracingBolt',
+          name: 'Mountain-Bracing Bolt',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :ignited,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         PRIMORDIAL_JADE_WINGED_SPEAR = GenshinObject::Weapon.new(
-          kamera_key: "PrimordialJadeWingedSpear",
-          name: "Primordial Jade Winged-Spear",
+          kamera_key: 'PrimordialJadeWingedSpear',
+          name: 'Primordial Jade Winged-Spear',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :sacrificial_knife,
@@ -250,7 +250,7 @@ module GenshinData
         ).freeze
 
         PROSPECTORS_SHOVEL = GenshinObject::Weapon.new(
-          kamera_key: "ProspectorsShovel",
+          kamera_key: 'ProspectorsShovel',
           name: "Prospector's Shovel",
           rarity: 4,
           weapon_type: :polearm,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         PROTOTYPE_STARGLITTER = GenshinObject::Weapon.new(
-          kamera_key: "PrototypeStarglitter",
-          name: "Prototype Starglitter",
+          kamera_key: 'PrototypeStarglitter',
+          name: 'Prototype Starglitter',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :bone_shard,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         RIGHTFUL_REWARD = GenshinObject::Weapon.new(
-          kamera_key: "RightfulReward",
-          name: "Rightful Reward",
+          kamera_key: 'RightfulReward',
+          name: 'Rightful Reward',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :core,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         ROYAL_SPEAR = GenshinObject::Weapon.new(
-          kamera_key: "RoyalSpear",
-          name: "Royal Spear",
+          kamera_key: 'RoyalSpear',
+          name: 'Royal Spear',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :mist_grass,
@@ -290,7 +290,7 @@ module GenshinData
         ).freeze
 
         SACRIFICERS_STAFF = GenshinObject::Weapon.new(
-          kamera_key: "SacrificersStaff",
+          kamera_key: 'SacrificersStaff',
           name: "Sacrificer's Staff",
           rarity: 4,
           weapon_type: :polearm,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         SKYWARD_SPINE = GenshinObject::Weapon.new(
-          kamera_key: "SkywardSpine",
-          name: "Skyward Spine",
+          kamera_key: 'SkywardSpine',
+          name: 'Skyward Spine',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :chaos_core,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         SONG_OF_THE_VIGIL = GenshinObject::Weapon.new(
-          kamera_key: "SongOfTheVigil",
-          name: "Song of the Vigil",
+          kamera_key: 'SongOfTheVigil',
+          name: 'Song of the Vigil',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :life_node,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         STAFF_OF_HOMA = GenshinObject::Weapon.new(
-          kamera_key: "StaffOfHoma",
-          name: "Staff of Homa",
+          kamera_key: 'StaffOfHoma',
+          name: 'Staff of Homa',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :ley_line,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         STAFF_OF_THE_SCARLET_SANDS = GenshinObject::Weapon.new(
-          kamera_key: "StaffOfTheScarletSands",
-          name: "Staff of the Scarlet Sands",
+          kamera_key: 'StaffOfTheScarletSands',
+          name: 'Staff of the Scarlet Sands',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :chaos_bolt,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         SYMPHONIST_OF_SCENTS = GenshinObject::Weapon.new(
-          kamera_key: "SymphonistOfScents",
-          name: "Symphonist of Scents",
+          kamera_key: 'SymphonistOfScents',
+          name: 'Symphonist of Scents',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :tainted_water,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         TAMAYURATEI_NO_OHANASHI = GenshinObject::Weapon.new(
-          kamera_key: "TamayurateiNoOhanashi",
-          name: "Tamayuratei no Ohanashi",
+          kamera_key: 'TamayurateiNoOhanashi',
+          name: 'Tamayuratei no Ohanashi',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :abyss_leaf,
@@ -360,8 +360,8 @@ module GenshinData
         ).freeze
 
         THE_CATCH = GenshinObject::Weapon.new(
-          kamera_key: "TheCatch",
-          name: "Catch, The",
+          kamera_key: 'TheCatch',
+          name: 'Catch, The',
           rarity: 4,
           weapon_type: :polearm,
           elite_material_type: :chaos_oculus,
@@ -370,8 +370,8 @@ module GenshinData
         ).freeze
 
         VIVID_NOTIONS = GenshinObject::Weapon.new(
-          kamera_key: "VividNotions",
-          name: "Vivid Notions",
+          kamera_key: 'VividNotions',
+          name: 'Vivid Notions',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :weasel_shell,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         VORTEX_VANQUISHER = GenshinObject::Weapon.new(
-          kamera_key: "VortexVanquisher",
-          name: "Vortex Vanquisher",
+          kamera_key: 'VortexVanquisher',
+          name: 'Vortex Vanquisher',
           rarity: 5,
           weapon_type: :polearm,
           elite_material_type: :bone_shard,
@@ -390,7 +390,7 @@ module GenshinData
         ).freeze
 
         WAVEBREAKERS_FIN = GenshinObject::Weapon.new(
-          kamera_key: "WavebreakersFin",
+          kamera_key: 'WavebreakersFin',
           name: "Wavebreaker's Fin",
           rarity: 4,
           weapon_type: :polearm,
@@ -400,8 +400,8 @@ module GenshinData
         ).freeze
 
         WHITE_TASSEL = GenshinObject::Weapon.new(
-          kamera_key: "WhiteTassel",
-          name: "White Tassel",
+          kamera_key: 'WhiteTassel',
+          name: 'White Tassel',
           rarity: 3,
           weapon_type: :polearm,
           elite_material_type: :sacrificial_knife,

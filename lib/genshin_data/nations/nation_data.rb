@@ -10,56 +10,56 @@ module GenshinData
 
       MONDSTADT = GenshinObject::Nation.new(
         order: 1,
-        name: "mondstadt",
-        pretty_name: "Mondstadt"
+        name: 'mondstadt',
+        pretty_name: 'Mondstadt'
       ).freeze
 
       LIYUE = GenshinObject::Nation.new(
         order: 2,
-        name: "liyue",
-        pretty_name: "Liyue"
+        name: 'liyue',
+        pretty_name: 'Liyue'
       ).freeze
 
       INAZUMA = GenshinObject::Nation.new(
         order: 3,
-        name: "inazuma",
-        pretty_name: "Inazuma"
+        name: 'inazuma',
+        pretty_name: 'Inazuma'
       ).freeze
 
       SUMERU = GenshinObject::Nation.new(
         order: 4,
-        name: "sumeru",
-        pretty_name: "Sumeru"
+        name: 'sumeru',
+        pretty_name: 'Sumeru'
       ).freeze
 
       FONTAINE = GenshinObject::Nation.new(
         order: 5,
-        name: "fontaine",
-        pretty_name: "Fontaine"
+        name: 'fontaine',
+        pretty_name: 'Fontaine'
       ).freeze
 
       NATLAN = GenshinObject::Nation.new(
         order: 6,
-        name: "natlan",
-        pretty_name: "Natlan"
+        name: 'natlan',
+        pretty_name: 'Natlan'
       ).freeze
 
       NOD_KRAI = GenshinObject::Nation.new(
         order: 7,
-        name: "nodkrai",
-        pretty_name: "Nod-Krai"
+        name: 'nodkrai',
+        pretty_name: 'Nod-Krai'
       ).freeze
 
       SNEZHNAYA = GenshinObject::Nation.new(
         order: 8,
-        name: "snezhnaya",
-        pretty_name: "Snezhnaya"
+        name: 'snezhnaya',
+        pretty_name: 'Snezhnaya'
       ).freeze
 
       UNKNOWN = GenshinObject::Nation.new(
         order: 9,
-        name: "unknown",
-        pretty_name: "Unknown"
+        name: 'unknown',
+        pretty_name: 'Unknown'
       ).freeze
     end
   end

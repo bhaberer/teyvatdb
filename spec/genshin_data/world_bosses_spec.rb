@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require "spec_helper"
+require 'spec_helper'
 
 RSpec.describe GenshinData::WorldBosses do
   let(:bosses) { described_class.all }
 
-  describe "WorldBoss Definitions" do
+  describe 'WorldBoss Definitions' do
     let(:nation_names) { GenshinData::Nations.all.map(&:name).map(&:to_sym) }
 
     described_class.all.map do |boss|
       context "when defining #{boss.name}" do
-        it "has a valid name" do
+        it 'has a valid name' do
           expect(boss.name).to match(GenshinObject::NAME_REGEX)
         end
 
@@ -25,7 +25,7 @@ RSpec.describe GenshinData::WorldBosses do
       end
     end
 
-    it "defines the correct number of bosses" do
+    it 'defines the correct number of bosses' do
       defined_boss_loot = GenshinData::Materials::Development::WorldBossDropsData.all.count
       expect(described_class.all.count)
         .to eq(defined_boss_loot),

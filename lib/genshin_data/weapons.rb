@@ -3,7 +3,7 @@
 module GenshinData
   # Module for accessing weapon data
   module Weapons
-    require_relative "weapons/weapon_data"
+    require_relative 'weapons/weapon_data'
 
     class << self
       def all

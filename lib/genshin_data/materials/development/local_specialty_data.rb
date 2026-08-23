@@ -10,8 +10,8 @@ module GenshinData
         end
 
         AMAKUMO_FRUIT = GenshinObject::Material.new(
-          kamera_key: "AmakumoFruit",
-          name: "Amakumo Fruit",
+          kamera_key: 'AmakumoFruit',
+          name: 'Amakumo Fruit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -21,8 +21,8 @@ module GenshinData
         ).freeze
 
         BERYL_CONCH = GenshinObject::Material.new(
-          kamera_key: "BerylConch",
-          name: "Beryl Conch",
+          kamera_key: 'BerylConch',
+          name: 'Beryl Conch',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -32,8 +32,8 @@ module GenshinData
         ).freeze
 
         BRILLIANT_CHRYSANTHEMUM = GenshinObject::Material.new(
-          kamera_key: "BrilliantChrysanthemum",
-          name: "Brilliant Chrysanthemum",
+          kamera_key: 'BrilliantChrysanthemum',
+          name: 'Brilliant Chrysanthemum',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -43,8 +43,8 @@ module GenshinData
         ).freeze
 
         CALLA_LILY = GenshinObject::Material.new(
-          kamera_key: "CallaLily",
-          name: "Calla Lily",
+          kamera_key: 'CallaLily',
+          name: 'Calla Lily',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -54,8 +54,8 @@ module GenshinData
         ).freeze
 
         CECILIA = GenshinObject::Material.new(
-          kamera_key: "Cecilia",
-          name: "Cecilia",
+          kamera_key: 'Cecilia',
+          name: 'Cecilia',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -65,8 +65,8 @@ module GenshinData
         ).freeze
 
         CLEARWATER_JADE = GenshinObject::Material.new(
-          kamera_key: "ClearwaterJade",
-          name: "ClearwaterJade",
+          kamera_key: 'ClearwaterJade',
+          name: 'ClearwaterJade',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -76,8 +76,8 @@ module GenshinData
         ).freeze
 
         COR_LAPIS = GenshinObject::Material.new(
-          kamera_key: "CorLapis",
-          name: "Cor Lapis",
+          kamera_key: 'CorLapis',
+          name: 'Cor Lapis',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -87,8 +87,8 @@ module GenshinData
         ).freeze
 
         CRYSTAL_MARROW = GenshinObject::Material.new(
-          kamera_key: "CrystalMarrow",
-          name: "Crystal Marrow",
+          kamera_key: 'CrystalMarrow',
+          name: 'Crystal Marrow',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -98,8 +98,8 @@ module GenshinData
         ).freeze
 
         DANDELION_SEED = GenshinObject::Material.new(
-          kamera_key: "DandelionSeed",
-          name: "Dandelion Seed",
+          kamera_key: 'DandelionSeed',
+          name: 'Dandelion Seed',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -109,8 +109,8 @@ module GenshinData
         ).freeze
 
         DENDROBIUM = GenshinObject::Material.new(
-          kamera_key: "Dendrobium",
-          name: "Dendrobium",
+          kamera_key: 'Dendrobium',
+          name: 'Dendrobium',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         DRACOLITE = GenshinObject::Material.new(
-          kamera_key: "Dracolite",
-          name: "Dracolite",
+          kamera_key: 'Dracolite',
+          name: 'Dracolite',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -131,8 +131,8 @@ module GenshinData
         ).freeze
 
         ETHERWING_MOTH = GenshinObject::Material.new(
-          kamera_key: "EtherwingMoth",
-          name: "Etherwing Moth",
+          kamera_key: 'EtherwingMoth',
+          name: 'Etherwing Moth',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -142,8 +142,8 @@ module GenshinData
         ).freeze
 
         FLOCKINGWEED = GenshinObject::Material.new(
-          kamera_key: "Flockingweed",
-          name: "Flockingweed",
+          kamera_key: 'Flockingweed',
+          name: 'Flockingweed',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -153,8 +153,8 @@ module GenshinData
         ).freeze
 
         FLUORESCENT_FUNGUS = GenshinObject::Material.new(
-          kamera_key: "FluorescentFungus",
-          name: "Fluorescent Fungus",
+          kamera_key: 'FluorescentFungus',
+          name: 'Fluorescent Fungus',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -164,8 +164,8 @@ module GenshinData
         ).freeze
 
         FROSTFAIRY_FLOWER = GenshinObject::Material.new(
-          kamera_key: "FrostfairyFlower",
-          name: "Frostfairy Flower",
+          kamera_key: 'FrostfairyFlower',
+          name: 'Frostfairy Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -175,8 +175,8 @@ module GenshinData
         ).freeze
 
         FROSTLAMP_FLOWER = GenshinObject::Material.new(
-          kamera_key: "FrostlampFlower",
-          name: "Frostlamp Flower",
+          kamera_key: 'FrostlampFlower',
+          name: 'Frostlamp Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -186,8 +186,8 @@ module GenshinData
         ).freeze
 
         GLAZE_LILY = GenshinObject::Material.new(
-          kamera_key: "GlazeLily",
-          name: "Glaze Lily",
+          kamera_key: 'GlazeLily',
+          name: 'Glaze Lily',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -197,8 +197,8 @@ module GenshinData
         ).freeze
 
         GLOWING_HORNSHROOM = GenshinObject::Material.new(
-          kamera_key: "GlowingHornshroom",
-          name: "Glowing Hornshroom",
+          kamera_key: 'GlowingHornshroom',
+          name: 'Glowing Hornshroom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -208,8 +208,8 @@ module GenshinData
         ).freeze
 
         GOLDEN_FERN = GenshinObject::Material.new(
-          kamera_key: "GoldenFern",
-          name: "Golden Fern",
+          kamera_key: 'GoldenFern',
+          name: 'Golden Fern',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -219,8 +219,8 @@ module GenshinData
         ).freeze
 
         HENNA_BERRY = GenshinObject::Material.new(
-          kamera_key: "HennaBerry",
-          name: "Henna Berry",
+          kamera_key: 'HennaBerry',
+          name: 'Henna Berry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         JUEYUN_CHILI = GenshinObject::Material.new(
-          kamera_key: "JueyunChili",
-          name: "Jueyun Chili",
+          kamera_key: 'JueyunChili',
+          name: 'Jueyun Chili',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -241,8 +241,8 @@ module GenshinData
         ).freeze
 
         KALPALATA_LOTUS = GenshinObject::Material.new(
-          kamera_key: "KalpalataLotus",
-          name: "Kalpalata Lotus",
+          kamera_key: 'KalpalataLotus',
+          name: 'Kalpalata Lotus',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -252,8 +252,8 @@ module GenshinData
         ).freeze
 
         LAKELIGHT_LILY = GenshinObject::Material.new(
-          kamera_key: "LakelightLily",
-          name: "Lakelight Lily",
+          kamera_key: 'LakelightLily',
+          name: 'Lakelight Lily',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -263,8 +263,8 @@ module GenshinData
         ).freeze
 
         SPRING_OF_THE_FIRST_DEWDROP = GenshinObject::Material.new(
-          kamera_key: "SpringOfTheFirstDewdrop",
-          name: "Spring of the First Dewdrop",
+          kamera_key: 'SpringOfTheFirstDewdrop',
+          name: 'Spring of the First Dewdrop',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -274,8 +274,8 @@ module GenshinData
         ).freeze
 
         LUMIDOUCE_BELL = GenshinObject::Material.new(
-          kamera_key: "LumidouceBell",
-          name: "Lumidouce Bell",
+          kamera_key: 'LumidouceBell',
+          name: 'Lumidouce Bell',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -285,8 +285,8 @@ module GenshinData
         ).freeze
 
         LUMITOILE = GenshinObject::Material.new(
-          kamera_key: "Lumitoile",
-          name: "Lumitoile",
+          kamera_key: 'Lumitoile',
+          name: 'Lumitoile',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -296,8 +296,8 @@ module GenshinData
         ).freeze
 
         MARCOTTE = GenshinObject::Material.new(
-          kamera_key: "Marcotte",
-          name: "Marcotte",
+          kamera_key: 'Marcotte',
+          name: 'Marcotte',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -307,8 +307,8 @@ module GenshinData
         ).freeze
 
         MOONFALL_SILVER = GenshinObject::Material.new(
-          kamera_key: "MoonfallSilver",
-          name: "Moonfall Silver",
+          kamera_key: 'MoonfallSilver',
+          name: 'Moonfall Silver',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -318,8 +318,8 @@ module GenshinData
         ).freeze
 
         MOURNING_FLOWER = GenshinObject::Material.new(
-          kamera_key: "MourningFlower",
-          name: "Mourning Flower",
+          kamera_key: 'MourningFlower',
+          name: 'Mourning Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -329,8 +329,8 @@ module GenshinData
         ).freeze
 
         NAKU_WEED = GenshinObject::Material.new(
-          kamera_key: "NakuWeed",
-          name: "Naku Weed",
+          kamera_key: 'NakuWeed',
+          name: 'Naku Weed',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         NILOTPALA_LOTUS = GenshinObject::Material.new(
-          kamera_key: "NilotpalaLotus",
-          name: "Nilotpala Lotus",
+          kamera_key: 'NilotpalaLotus',
+          name: 'Nilotpala Lotus',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -351,8 +351,8 @@ module GenshinData
         ).freeze
 
         NOCTILUCOUS_JADE = GenshinObject::Material.new(
-          kamera_key: "NoctilucousJade",
-          name: "Noctilucous Jade",
+          kamera_key: 'NoctilucousJade',
+          name: 'Noctilucous Jade',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -362,8 +362,8 @@ module GenshinData
         ).freeze
 
         ONIKABUTO = GenshinObject::Material.new(
-          kamera_key: "Onikabuto",
-          name: "Onikabuto",
+          kamera_key: 'Onikabuto',
+          name: 'Onikabuto',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -373,8 +373,8 @@ module GenshinData
         ).freeze
 
         PADISARAH = GenshinObject::Material.new(
-          kamera_key: "Padisarah",
-          name: "Padisarah",
+          kamera_key: 'Padisarah',
+          name: 'Padisarah',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -384,8 +384,8 @@ module GenshinData
         ).freeze
 
         PINE_AMBER = GenshinObject::Material.new(
-          kamera_key: "PineAmber",
-          name: "Pine Amber",
+          kamera_key: 'PineAmber',
+          name: 'Pine Amber',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -395,8 +395,8 @@ module GenshinData
         ).freeze
 
         PHILANEMO_MUSHROOM = GenshinObject::Material.new(
-          kamera_key: "PhilanemoMushroom",
-          name: "Philanemo Mushroom",
+          kamera_key: 'PhilanemoMushroom',
+          name: 'Philanemo Mushroom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -406,8 +406,8 @@ module GenshinData
         ).freeze
 
         PLUIE_LOTUS = GenshinObject::Material.new(
-          kamera_key: "PluieLotus",
-          name: "Pluie Lotus",
+          kamera_key: 'PluieLotus',
+          name: 'Pluie Lotus',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -417,8 +417,8 @@ module GenshinData
         ).freeze
 
         PORTABLE_BEARING = GenshinObject::Material.new(
-          kamera_key: "PortableBearing",
-          name: "Portable Bearing",
+          kamera_key: 'PortableBearing',
+          name: 'Portable Bearing',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -428,8 +428,8 @@ module GenshinData
         ).freeze
 
         QINGXIN = GenshinObject::Material.new(
-          kamera_key: "Qingxin",
-          name: "Qingxin",
+          kamera_key: 'Qingxin',
+          name: 'Qingxin',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -439,8 +439,8 @@ module GenshinData
         ).freeze
 
         QUENEPA_BERRY = GenshinObject::Material.new(
-          kamera_key: "QuenepaBerry",
-          name: "Quenepa Berry",
+          kamera_key: 'QuenepaBerry',
+          name: 'Quenepa Berry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         RAINBOW_ROSE = GenshinObject::Material.new(
-          kamera_key: "RainbowRose",
-          name: "Rainbow Rose",
+          kamera_key: 'RainbowRose',
+          name: 'Rainbow Rose',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -461,8 +461,8 @@ module GenshinData
         ).freeze
 
         ROMARITIME_FLOWER = GenshinObject::Material.new(
-          kamera_key: "RomaritimeFlower",
-          name: "Romaritime Flower",
+          kamera_key: 'RomaritimeFlower',
+          name: 'Romaritime Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -472,8 +472,8 @@ module GenshinData
         ).freeze
 
         RUKKHASHAVA_MUSHROOMS = GenshinObject::Material.new(
-          kamera_key: "RukkhashavaMushrooms",
-          name: "Rukkhashava Mushrooms",
+          kamera_key: 'RukkhashavaMushrooms',
+          name: 'Rukkhashava Mushrooms',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -483,8 +483,8 @@ module GenshinData
         ).freeze
 
         SAKURA_BLOOM = GenshinObject::Material.new(
-          kamera_key: "SakuraBloom",
-          name: "Sakura Bloom",
+          kamera_key: 'SakuraBloom',
+          name: 'Sakura Bloom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -494,8 +494,8 @@ module GenshinData
         ).freeze
 
         SAND_GREASE_PUPA = GenshinObject::Material.new(
-          kamera_key: "SandGreasePupa",
-          name: "Sand Grease Pupa",
+          kamera_key: 'SandGreasePupa',
+          name: 'Sand Grease Pupa',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -505,8 +505,8 @@ module GenshinData
         ).freeze
 
         SANGO_PEARL = GenshinObject::Material.new(
-          kamera_key: "SangoPearl",
-          name: "SangoPearl",
+          kamera_key: 'SangoPearl',
+          name: 'SangoPearl',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -516,8 +516,8 @@ module GenshinData
         ).freeze
 
         SAURIAN_CLAW_SUCCULENT = GenshinObject::Material.new(
-          kamera_key: "SaurianClawSucculent",
-          name: "Saurian Claw Succulent",
+          kamera_key: 'SaurianClawSucculent',
+          name: 'Saurian Claw Succulent',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -527,8 +527,8 @@ module GenshinData
         ).freeze
 
         SCARAB = GenshinObject::Material.new(
-          kamera_key: "Scarab",
-          name: "Scarab",
+          kamera_key: 'Scarab',
+          name: 'Scarab',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -538,8 +538,8 @@ module GenshinData
         ).freeze
 
         SEA_GANODERMA = GenshinObject::Material.new(
-          kamera_key: "SeaGanoderma",
-          name: "Sea Ganoderma",
+          kamera_key: 'SeaGanoderma',
+          name: 'Sea Ganoderma',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -549,8 +549,8 @@ module GenshinData
         ).freeze
 
         SILK_FLOWER = GenshinObject::Material.new(
-          kamera_key: "SilkFlower",
-          name: "Silk Flower",
+          kamera_key: 'SilkFlower',
+          name: 'Silk Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -560,8 +560,8 @@ module GenshinData
         ).freeze
 
         SKYSPLIT_GEMBLOOM = GenshinObject::Material.new(
-          kamera_key: "SkysplitGembloom",
-          name: "SkysplitGembloom",
+          kamera_key: 'SkysplitGembloom',
+          name: 'SkysplitGembloom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -571,8 +571,8 @@ module GenshinData
         ).freeze
 
         SMALL_LAMP_GRASS = GenshinObject::Material.new(
-          kamera_key: "SmallLampGrass",
-          name: "Small Lamp Grass",
+          kamera_key: 'SmallLampGrass',
+          name: 'Small Lamp Grass',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -582,8 +582,8 @@ module GenshinData
         ).freeze
 
         STARCONCH = GenshinObject::Material.new(
-          kamera_key: "Starconch",
-          name: "Starconch",
+          kamera_key: 'Starconch',
+          name: 'Starconch',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -593,8 +593,8 @@ module GenshinData
         ).freeze
 
         SPRAYFEATHER_GILL = GenshinObject::Material.new(
-          kamera_key: "SprayfeatherGill",
-          name: "Sprayfeather Gill",
+          kamera_key: 'SprayfeatherGill',
+          name: 'Sprayfeather Gill',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -604,8 +604,8 @@ module GenshinData
         ).freeze
 
         SUBDETECTION_UNIT = GenshinObject::Material.new(
-          kamera_key: "SubdetectionUnit",
-          name: "Subdetection Unit",
+          kamera_key: 'SubdetectionUnit',
+          name: 'Subdetection Unit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -615,8 +615,8 @@ module GenshinData
         ).freeze
 
         TEARDROP_OF_THE_MOON = GenshinObject::Material.new(
-          kamera_key: "TeardropOfTheMoon",
-          name: "Teardrop of the Moon",
+          kamera_key: 'TeardropOfTheMoon',
+          name: 'Teardrop of the Moon',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -626,8 +626,8 @@ module GenshinData
         ).freeze
 
         TRISHIRAITE = GenshinObject::Material.new(
-          kamera_key: "Trishiraite",
-          name: "Trishiraite",
+          kamera_key: 'Trishiraite',
+          name: 'Trishiraite',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -637,8 +637,8 @@ module GenshinData
         ).freeze
 
         VALBERRY = GenshinObject::Material.new(
-          kamera_key: "Valberry",
-          name: "Valberry",
+          kamera_key: 'Valberry',
+          name: 'Valberry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -648,8 +648,8 @@ module GenshinData
         ).freeze
 
         VIOLETGRASS = GenshinObject::Material.new(
-          kamera_key: "Violetgrass",
-          name: "Violetgrass",
+          kamera_key: 'Violetgrass',
+          name: 'Violetgrass',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -659,8 +659,8 @@ module GenshinData
         ).freeze
 
         VIPARYAS = GenshinObject::Material.new(
-          kamera_key: "Viparyas",
-          name: "Viparyas",
+          kamera_key: 'Viparyas',
+          name: 'Viparyas',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -670,8 +670,8 @@ module GenshinData
         ).freeze
 
         WINDWHEEL_ASTER = GenshinObject::Material.new(
-          kamera_key: "WindwheelAster",
-          name: "Windwheel Aster",
+          kamera_key: 'WindwheelAster',
+          name: 'Windwheel Aster',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -681,8 +681,8 @@ module GenshinData
         ).freeze
 
         WINTER_ICELEA = GenshinObject::Material.new(
-          kamera_key: "WinterIcelea",
-          name: "Winter Icelea",
+          kamera_key: 'WinterIcelea',
+          name: 'Winter Icelea',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -692,8 +692,8 @@ module GenshinData
         ).freeze
 
         WITHERING_PURPURBLOOM = GenshinObject::Material.new(
-          kamera_key: "WitheringPurpurbloom",
-          name: "Withering Purpurbloom",
+          kamera_key: 'WitheringPurpurbloom',
+          name: 'Withering Purpurbloom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -703,8 +703,8 @@ module GenshinData
         ).freeze
 
         WOLFHOOK = GenshinObject::Material.new(
-          kamera_key: "Wolfhook",
-          name: "Wolfhook",
+          kamera_key: 'Wolfhook',
+          name: 'Wolfhook',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

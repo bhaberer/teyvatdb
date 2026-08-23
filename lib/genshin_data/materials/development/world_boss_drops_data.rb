@@ -10,8 +10,8 @@ module GenshinData
         end
 
         ARTIFICED_SPARE_CLOCKWORK_COMPONENT_COPPELIA = GenshinObject::Material.new(
-          kamera_key: "ArtificedSpareClockworkComponentCoppelia",
-          name: "Artificed Spare Clockwork Component - Coppelia",
+          kamera_key: 'ArtificedSpareClockworkComponentCoppelia',
+          name: 'Artificed Spare Clockwork Component - Coppelia',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -21,8 +21,8 @@ module GenshinData
         ).freeze
 
         ARTIFICED_SPARE_CLOCKWORK_COMPONENT_COPPELIUS = GenshinObject::Material.new(
-          kamera_key: "ArtificedSpareClockworkComponentCoppelius",
-          name: "Artificed Spare Clockwork Component - Coppelius",
+          kamera_key: 'ArtificedSpareClockworkComponentCoppelius',
+          name: 'Artificed Spare Clockwork Component - Coppelius',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -32,8 +32,8 @@ module GenshinData
         ).freeze
 
         BASALT_PILLAR = GenshinObject::Material.new(
-          kamera_key: "BasaltPillar",
-          name: "Basalt Pillar",
+          kamera_key: 'BasaltPillar',
+          name: 'Basalt Pillar',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -43,8 +43,8 @@ module GenshinData
         ).freeze
 
         CLEANSING_HEART = GenshinObject::Material.new(
-          kamera_key: "CleansingHeart",
-          name: "Cleansing Heart",
+          kamera_key: 'CleansingHeart',
+          name: 'Cleansing Heart',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -54,8 +54,8 @@ module GenshinData
         ).freeze
 
         CLOUDSEAM_SCALE = GenshinObject::Material.new(
-          kamera_key: "CloudseamScale",
-          name: "Cloudseam Scale",
+          kamera_key: 'CloudseamScale',
+          name: 'Cloudseam Scale',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -65,8 +65,8 @@ module GenshinData
         ).freeze
 
         CRYSTALLINE_BLOOM = GenshinObject::Material.new(
-          kamera_key: "CrystallineBloom",
-          name: "Crystalline Bloom",
+          kamera_key: 'CrystallineBloom',
+          name: 'Crystalline Bloom',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -76,8 +76,8 @@ module GenshinData
         ).freeze
 
         CYCLIC_MILITARY_KUUVAHKI_CORE = GenshinObject::Material.new(
-          kamera_key: "CyclicMilitaryKuuvahkiCore",
-          name: "Cyclic Military Kuuvahki Core",
+          kamera_key: 'CyclicMilitaryKuuvahkiCore',
+          name: 'Cyclic Military Kuuvahki Core',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -87,8 +87,8 @@ module GenshinData
         ).freeze
 
         DEW_OF_REPUDIATION = GenshinObject::Material.new(
-          kamera_key: "DewOfRepudiation",
-          name: "Dew of Repudiation",
+          kamera_key: 'DewOfRepudiation',
+          name: 'Dew of Repudiation',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -98,7 +98,7 @@ module GenshinData
         ).freeze
 
         DRAGONHEIRS_FALSE_FIN = GenshinObject::Material.new(
-          kamera_key: "DragonheirsFalseFin",
+          kamera_key: 'DragonheirsFalseFin',
           name: "Dragonheirs' False Fin",
           rarity: 4,
           family: nil,
@@ -109,7 +109,7 @@ module GenshinData
         ).freeze
 
         EMPERORS_RESOLUTION = GenshinObject::Material.new(
-          kamera_key: "EmperorsResolution",
+          kamera_key: 'EmperorsResolution',
           name: "Emperor's Resolution",
           rarity: 4,
           family: nil,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         ENSNARING_GAZE = GenshinObject::Material.new(
-          kamera_key: "EnsnaringGaze",
-          name: "Ensnaring Gaze",
+          kamera_key: 'EnsnaringGaze',
+          name: 'Ensnaring Gaze',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -131,8 +131,8 @@ module GenshinData
         ).freeze
 
         EVERFLAME_SEED = GenshinObject::Material.new(
-          kamera_key: "EverflameSeed",
-          name: "Everflame Seed",
+          kamera_key: 'EverflameSeed',
+          name: 'Everflame Seed',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -142,8 +142,8 @@ module GenshinData
         ).freeze
 
         EVERGLOOM_RING = GenshinObject::Material.new(
-          kamera_key: "EvergloomRing",
-          name: "Evergloom Ring",
+          kamera_key: 'EvergloomRing',
+          name: 'Evergloom Ring',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -153,8 +153,8 @@ module GenshinData
         ).freeze
 
         FRAGMENT_OF_A_GOLDEN_MELODY = GenshinObject::Material.new(
-          kamera_key: "FragmentOfAGoldenMelody",
-          name: "Fragment of a Golden Melody",
+          kamera_key: 'FragmentOfAGoldenMelody',
+          name: 'Fragment of a Golden Melody',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -164,8 +164,8 @@ module GenshinData
         ).freeze
 
         FONTEMER_UNIHORN = GenshinObject::Material.new(
-          kamera_key: "FontemerUnihorn",
-          name: "Fontemer Unihorn",
+          kamera_key: 'FontemerUnihorn',
+          name: 'Fontemer Unihorn',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -175,8 +175,8 @@ module GenshinData
         ).freeze
 
         GOLD_INSCRIBED_SECRET_SOURCE_CORE = GenshinObject::Material.new(
-          kamera_key: "GoldInscribedSecretSourceCore",
-          name: "Gold Inscribed Secret Source Core",
+          kamera_key: 'GoldInscribedSecretSourceCore',
+          name: 'Gold Inscribed Secret Source Core',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -186,8 +186,8 @@ module GenshinData
         ).freeze
 
         HOARFROST_CORE = GenshinObject::Material.new(
-          kamera_key: "HoarfrostCore",
-          name: "Hoarfrost Core",
+          kamera_key: 'HoarfrostCore',
+          name: 'Hoarfrost Core',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -197,8 +197,8 @@ module GenshinData
         ).freeze
 
         HURRICANE_SEED = GenshinObject::Material.new(
-          kamera_key: "HurricaneSeed",
-          name: "Hurricane Seed",
+          kamera_key: 'HurricaneSeed',
+          name: 'Hurricane Seed',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -208,8 +208,8 @@ module GenshinData
         ).freeze
 
         JUVENILE_JADE = GenshinObject::Material.new(
-          kamera_key: "JuvenileJade",
-          name: "Juvenile Jade",
+          kamera_key: 'JuvenileJade',
+          name: 'Juvenile Jade',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -219,8 +219,8 @@ module GenshinData
         ).freeze
 
         LIGHT_GUIDING_TETRAHEDRON = GenshinObject::Material.new(
-          kamera_key: "LightGuidingTetrahedron",
-          name: "Light Guiding Tetrahedron",
+          kamera_key: 'LightGuidingTetrahedron',
+          name: 'Light Guiding Tetrahedron',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         LIGHTNING_PRISM = GenshinObject::Material.new(
-          kamera_key: "LightningPrism",
-          name: "Lightning Prism",
+          kamera_key: 'LightningPrism',
+          name: 'Lightning Prism',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -241,8 +241,8 @@ module GenshinData
         ).freeze
 
         LIGHTBEARING_SCALE_FEATHER = GenshinObject::Material.new(
-          kamera_key: "LightbearingScaleFeather",
-          name: "Lightbearing Scale-Feather",
+          kamera_key: 'LightbearingScaleFeather',
+          name: 'Lightbearing Scale-Feather',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -252,8 +252,8 @@ module GenshinData
         ).freeze
 
         MAJESTIC_HOOKED_BEAK = GenshinObject::Material.new(
-          kamera_key: "MajesticHookedBeak",
-          name: "Majestic Hooked Beak",
+          kamera_key: 'MajesticHookedBeak',
+          name: 'Majestic Hooked Beak',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -263,8 +263,8 @@ module GenshinData
         ).freeze
 
         MARIONETTE_CORE = GenshinObject::Material.new(
-          kamera_key: "MarionetteCore",
-          name: "Marionette Core",
+          kamera_key: 'MarionetteCore',
+          name: 'Marionette Core',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -274,8 +274,8 @@ module GenshinData
         ).freeze
 
         MARK_OF_THE_BINDING_BLESSING = GenshinObject::Material.new(
-          kamera_key: "MarkOfTheBindingBlessing",
-          name: "Mark of the Binding Blessing",
+          kamera_key: 'MarkOfTheBindingBlessing',
+          name: 'Mark of the Binding Blessing',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -285,8 +285,8 @@ module GenshinData
         ).freeze
 
         OVERRIPE_FLAMEGRANATE = GenshinObject::Material.new(
-          kamera_key: "OverripeFlamegranate",
-          name: "Overripe Flamegranate",
+          kamera_key: 'OverripeFlamegranate',
+          name: 'Overripe Flamegranate',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -296,8 +296,8 @@ module GenshinData
         ).freeze
 
         PERPETUAL_HEART = GenshinObject::Material.new(
-          kamera_key: "PerpetualHeart",
-          name: "Perpetual Heart",
+          kamera_key: 'PerpetualHeart',
+          name: 'Perpetual Heart',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -307,8 +307,8 @@ module GenshinData
         ).freeze
 
         PERPETUAL_CALIBER = GenshinObject::Material.new(
-          kamera_key: "PerpetualCaliber",
-          name: "Perpetual Caliber",
+          kamera_key: 'PerpetualCaliber',
+          name: 'Perpetual Caliber',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -318,8 +318,8 @@ module GenshinData
         ).freeze
 
         PLUME_OF_THE_FALLEN_WATCHER = GenshinObject::Material.new(
-          kamera_key: "PlumeOfTheFallenWatcher",
-          name: "Plume of the Fallen Watcher",
+          kamera_key: 'PlumeOfTheFallenWatcher',
+          name: 'Plume of the Fallen Watcher',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -329,8 +329,8 @@ module GenshinData
         ).freeze
 
         PRECISION_KUUVAHKI_STAMPING_DIE = GenshinObject::Material.new(
-          kamera_key: "PrecisionKuuvahkiStampingDie",
-          name: "Precision Kuuvahki Stamping Die",
+          kamera_key: 'PrecisionKuuvahkiStampingDie',
+          name: 'Precision Kuuvahki Stamping Die',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         PRISMATIC_SEVERED_TAIL = GenshinObject::Material.new(
-          kamera_key: "PrismaticSeveredTail",
-          name: "Prismatic Severed Tail",
+          kamera_key: 'PrismaticSeveredTail',
+          name: 'Prismatic Severed Tail',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -351,8 +351,8 @@ module GenshinData
         ).freeze
 
         PSEUDO_STAMENS = GenshinObject::Material.new(
-          kamera_key: "PseudoStamens",
-          name: "Pseudo-Stamens",
+          kamera_key: 'PseudoStamens',
+          name: 'Pseudo-Stamens',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -362,8 +362,8 @@ module GenshinData
         ).freeze
 
         QUELLED_CREEPER = GenshinObject::Material.new(
-          kamera_key: "QuelledCreeper",
-          name: "Quelled Creeper",
+          kamera_key: 'QuelledCreeper',
+          name: 'Quelled Creeper',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -373,8 +373,8 @@ module GenshinData
         ).freeze
 
         RADIANT_ANTLER = GenshinObject::Material.new(
-          kamera_key: "RadiantAntler",
-          name: "Radiant Antler",
+          kamera_key: 'RadiantAntler',
+          name: 'Radiant Antler',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -384,8 +384,8 @@ module GenshinData
         ).freeze
 
         REMNANT_OF_THE_DREADWING = GenshinObject::Material.new(
-          kamera_key: "RemnantOfTheDreadwing",
-          name: "Remnant of the dreadwing",
+          kamera_key: 'RemnantOfTheDreadwing',
+          name: 'Remnant of the dreadwing',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -395,8 +395,8 @@ module GenshinData
         ).freeze
 
         RIFTBORN_REGALIA = GenshinObject::Material.new(
-          kamera_key: "RiftbornRegalia",
-          name: "Riftborn Regalia",
+          kamera_key: 'RiftbornRegalia',
+          name: 'Riftborn Regalia',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -406,8 +406,8 @@ module GenshinData
         ).freeze
 
         RUNIC_FANG = GenshinObject::Material.new(
-          kamera_key: "RunicFang",
-          name: "Runic Fang",
+          kamera_key: 'RunicFang',
+          name: 'Runic Fang',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -417,8 +417,8 @@ module GenshinData
         ).freeze
 
         SECRET_SOURCE_AIRFLOW_ACCUMULATOR = GenshinObject::Material.new(
-          kamera_key: "SecretSourceAirflowAccumulator",
-          name: "Secret Source Airflow Accumulator",
+          kamera_key: 'SecretSourceAirflowAccumulator',
+          name: 'Secret Source Airflow Accumulator',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -428,8 +428,8 @@ module GenshinData
         ).freeze
 
         SEVERED_TAIL_OF_THE_SKY_ROAMER = GenshinObject::Material.new(
-          kamera_key: "SeveredTailOfTheSkyRoamer",
-          name: "Severed Tail of the Sky-Roamer",
+          kamera_key: 'SeveredTailOfTheSkyRoamer',
+          name: 'Severed Tail of the Sky-Roamer',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -439,8 +439,8 @@ module GenshinData
         ).freeze
 
         SMOLDERING_PEARL = GenshinObject::Material.new(
-          kamera_key: "SmolderingPearl",
-          name: "Smoldering Pearl",
+          kamera_key: 'SmolderingPearl',
+          name: 'Smoldering Pearl',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         SPARKLESS_STATUE_CORE = GenshinObject::Material.new(
-          kamera_key: "SparklessStatueCore",
-          name: "Sparkless Statue Core",
+          kamera_key: 'SparklessStatueCore',
+          name: 'Sparkless Statue Core',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -461,8 +461,8 @@ module GenshinData
         ).freeze
 
         STORM_BEADS = GenshinObject::Material.new(
-          kamera_key: "StormBeads",
-          name: "Storm Beads",
+          kamera_key: 'StormBeads',
+          name: 'Storm Beads',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -472,8 +472,8 @@ module GenshinData
         ).freeze
 
         TALISMAN_OF_THE_ENIGMATIC_LAND = GenshinObject::Material.new(
-          kamera_key: "TalismanOfTheEnigmaticLand",
-          name: "Talisman of the Enigmatic Land",
+          kamera_key: 'TalismanOfTheEnigmaticLand',
+          name: 'Talisman of the Enigmatic Land',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -483,8 +483,8 @@ module GenshinData
         ).freeze
 
         THUNDERCLAP_FRUITCORE = GenshinObject::Material.new(
-          kamera_key: "ThunderclapFruitcore",
-          name: "Thunderclap Fruitcore",
+          kamera_key: 'ThunderclapFruitcore',
+          name: 'Thunderclap Fruitcore',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -494,8 +494,8 @@ module GenshinData
         ).freeze
 
         TOURBILLON_DEVICE = GenshinObject::Material.new(
-          kamera_key: "TourbillonDevice",
-          name: "Tourbillon Device",
+          kamera_key: 'TourbillonDevice',
+          name: 'Tourbillon Device',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -505,8 +505,8 @@ module GenshinData
         ).freeze
 
         UNSCORCHED_BLOSSOM_BRANCH = GenshinObject::Material.new(
-          kamera_key: "UnscorchedBlossomBranch",
-          name: "Unscorched Blossom Branch",
+          kamera_key: 'UnscorchedBlossomBranch',
+          name: 'Unscorched Blossom Branch',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -516,8 +516,8 @@ module GenshinData
         ).freeze
 
         WATER_THAT_FAILED_TO_TRANSCEND = GenshinObject::Material.new(
-          kamera_key: "WaterThatFailedToTranscend",
-          name: "Water That Failed To Transcend",
+          kamera_key: 'WaterThatFailedToTranscend',
+          name: 'Water That Failed To Transcend',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,

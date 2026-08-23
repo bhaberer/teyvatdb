@@ -10,7 +10,7 @@ module GenshinData
         end
 
         AKOS_SAKE_VESSEL = GenshinObject::Material.new(
-          kamera_key: "AkosSakeVessel",
+          kamera_key: 'AkosSakeVessel',
           name: "Ako's Sake Vessel",
           rarity: 4,
           family: nil,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         ALKAHEST = GenshinObject::Material.new(
-          kamera_key: "Alkahest",
-          name: "Alkahest",
+          kamera_key: 'Alkahest',
+          name: 'Alkahest',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         COMPOSITE_BOW_TUNING_KIT = GenshinObject::Material.new(
-          kamera_key: "CompositeBowTuningKit",
-          name: "Composite Bow Tuning Kit",
+          kamera_key: 'CompositeBowTuningKit',
+          name: 'Composite Bow Tuning Kit',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         CONGEALED_PUPA_WAX = GenshinObject::Material.new(
-          kamera_key: "CongealedPupaWax",
-          name: "Congealed Pupa Wax",
+          kamera_key: 'CongealedPupaWax',
+          name: 'Congealed Pupa Wax',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -50,7 +50,7 @@ module GenshinData
         ).freeze
 
         EMPERORS_BALSAM = GenshinObject::Material.new(
-          kamera_key: "EmperorsBalsam",
+          kamera_key: 'EmperorsBalsam',
           name: "Emperor's Balsam",
           rarity: 4,
           family: nil,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         EXALTED_EARTH = GenshinObject::Material.new(
-          kamera_key: "ExaltedEarth",
-          name: "Exalted Earth",
+          kamera_key: 'ExaltedEarth',
+          name: 'Exalted Earth',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         FESTERING_DRAGON_MARROW = GenshinObject::Material.new(
-          kamera_key: "FesteringDragonMarrow",
-          name: "Festering Dragon Marrow",
+          kamera_key: 'FesteringDragonMarrow',
+          name: 'Festering Dragon Marrow',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         FRAGMENTS_OF_INNOCENCE = GenshinObject::Material.new(
-          kamera_key: "FragmentsOfInnocence",
-          name: "Fragments of Innocence",
+          kamera_key: 'FragmentsOfInnocence',
+          name: 'Fragments of Innocence',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         GLOWING_GEM = GenshinObject::Material.new(
-          kamera_key: "GlowingGem",
-          name: "Glowing Gem",
+          kamera_key: 'GlowingGem',
+          name: 'Glowing Gem',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         OINTMENT_OF_INSIGHT = GenshinObject::Material.new(
-          kamera_key: "OintmentOfInsight",
-          name: "Ointment of Insight",
+          kamera_key: 'OintmentOfInsight',
+          name: 'Ointment of Insight',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         ORIGINAL_FISH_OINTMENT = GenshinObject::Material.new(
-          kamera_key: "OriginalFishOintment",
-          name: "Original Fish Ointment",
+          kamera_key: 'OriginalFishOintment',
+          name: 'Original Fish Ointment',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         PARASOL_TALCUM = GenshinObject::Material.new(
-          kamera_key: "ParasolTalcum",
-          name: "Parasol Talcum",
+          kamera_key: 'ParasolTalcum',
+          name: 'Parasol Talcum',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         PLUME_OF_THE_CHANGING_WINDS = GenshinObject::Material.new(
-          kamera_key: "PlumeOfTheChangingWinds",
-          name: "Plume of the Changing Winds",
+          kamera_key: 'PlumeOfTheChangingWinds',
+          name: 'Plume of the Changing Winds',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         THE_VISIBLE_WINDS = GenshinObject::Material.new(
-          kamera_key: "TheVisibleWinds",
-          name: "The Visible Winds",
+          kamera_key: 'TheVisibleWinds',
+          name: 'The Visible Winds',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         UNFADING_SILKY_GRACE = GenshinObject::Material.new(
-          kamera_key: "UnfadingSilkyGrace",
-          name: "Unfading Silky Grace",
+          kamera_key: 'UnfadingSilkyGrace',
+          name: 'Unfading Silky Grace',
           rarity: 4,
           family: nil,
           inventory_type: :development_material,

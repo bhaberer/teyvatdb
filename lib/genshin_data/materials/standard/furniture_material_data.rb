@@ -10,8 +10,8 @@ module GenshinData
         end
 
         ADHIGAMA_WOOD = GenshinObject::Material.new(
-          kamera_key: "AdhigamaWood",
-          name: "Adhigama Wood",
+          kamera_key: 'AdhigamaWood',
+          name: 'Adhigama Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         ALDER_WOOD = GenshinObject::Material.new(
-          kamera_key: "AlderWood",
-          name: "Alder Wood",
+          kamera_key: 'AlderWood',
+          name: 'Alder Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         ARALIA_WOOD = GenshinObject::Material.new(
-          kamera_key: "AraliaWood",
-          name: "Aralia Wood",
+          kamera_key: 'AraliaWood',
+          name: 'Aralia Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         ASH_WOOD = GenshinObject::Material.new(
-          kamera_key: "AshWood",
-          name: "Ash Wood",
+          kamera_key: 'AshWood',
+          name: 'Ash Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         ASHEN_ARATIKU_WOOD = GenshinObject::Material.new(
-          kamera_key: "AshenAratikuWood",
-          name: "Ashen Aratiku Wood",
+          kamera_key: 'AshenAratikuWood',
+          name: 'Ashen Aratiku Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         ATHEL_WOOD = GenshinObject::Material.new(
-          kamera_key: "AthelWood",
-          name: "Athel Wood",
+          kamera_key: 'AthelWood',
+          name: 'Athel Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         BAMBOO_SEGMENT = GenshinObject::Material.new(
-          kamera_key: "BambooSegment",
-          name: "Bamboo Segment",
+          kamera_key: 'BambooSegment',
+          name: 'Bamboo Segment',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         BLUE_DYE = GenshinObject::Material.new(
-          kamera_key: "BlueDye",
-          name: "Blue Dye",
+          kamera_key: 'BlueDye',
+          name: 'Blue Dye',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         BIRCH_WOOD = GenshinObject::Material.new(
-          kamera_key: "BirchWood",
-          name: "Birch Wood",
+          kamera_key: 'BirchWood',
+          name: 'Birch Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         BRIGHTWOOD = GenshinObject::Material.new(
-          kamera_key: "Brightwood",
-          name: "Brightwood",
+          kamera_key: 'Brightwood',
+          name: 'Brightwood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         CUIHUA_WOOD = GenshinObject::Material.new(
-          kamera_key: "CuihuaWood",
-          name: "Cuihua Wood",
+          kamera_key: 'CuihuaWood',
+          name: 'Cuihua Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         CYPRESS_WOOD = GenshinObject::Material.new(
-          kamera_key: "CypressWood",
-          name: "Cypress Wood",
+          kamera_key: 'CypressWood',
+          name: 'Cypress Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         FABRIC = GenshinObject::Material.new(
-          kamera_key: "Fabric",
-          name: "Fabric",
+          kamera_key: 'Fabric',
+          name: 'Fabric',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         FIR_WOOD = GenshinObject::Material.new(
-          kamera_key: "FirWood",
-          name: "Fir Wood",
+          kamera_key: 'FirWood',
+          name: 'Fir Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         FLAMMABOMB_WOOD = GenshinObject::Material.new(
-          kamera_key: "FlammabombWood",
-          name: "Flammabomb Wood",
+          kamera_key: 'FlammabombWood',
+          name: 'Flammabomb Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         FRAGRANT_CEDAR_WOOD = GenshinObject::Material.new(
-          kamera_key: "FragrantCedarWood",
-          name: "Fragrant Cedar Wood",
+          kamera_key: 'FragrantCedarWood',
+          name: 'Fragrant Cedar Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         HAZELNUT_WOOD = GenshinObject::Material.new(
-          kamera_key: "HazelnutWood",
-          name: "Hazelnut Wood",
+          kamera_key: 'HazelnutWood',
+          name: 'Hazelnut Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         KARMAPHALA_WOOD = GenshinObject::Material.new(
-          kamera_key: "KarmaphalaWood",
-          name: "Karmaphala Wood",
+          kamera_key: 'KarmaphalaWood',
+          name: 'Karmaphala Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         LINDEN_WOOD = GenshinObject::Material.new(
-          kamera_key: "LindenWood",
-          name: "Linden Wood",
+          kamera_key: 'LindenWood',
+          name: 'Linden Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         MALLOW_WOOD = GenshinObject::Material.new(
-          kamera_key: "MallowWood",
-          name: "Mallow Wood",
+          kamera_key: 'MallowWood',
+          name: 'Mallow Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         MAPLE_WOOD = GenshinObject::Material.new(
-          kamera_key: "MapleWood",
-          name: "Maple Wood",
+          kamera_key: 'MapleWood',
+          name: 'Maple Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         MOUNTAIN_DATE_WOOD = GenshinObject::Material.new(
-          kamera_key: "MountainDateWood",
-          name: "Mountain Date Wood",
+          kamera_key: 'MountainDateWood',
+          name: 'Mountain Date Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         OTOGI_WOOD = GenshinObject::Material.new(
-          kamera_key: "OtogiWood",
-          name: "Otogi Wood",
+          kamera_key: 'OtogiWood',
+          name: 'Otogi Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         PEACH_PALM_WOOD = GenshinObject::Material.new(
-          kamera_key: "PeachPalmWood",
-          name: "Peach Palm Wood",
+          kamera_key: 'PeachPalmWood',
+          name: 'Peach Palm Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         PEDUNCULATE_OAK_WOOD = GenshinObject::Material.new(
-          kamera_key: "PedunculateOakWood",
-          name: "Pedunculate Oak Wood",
+          kamera_key: 'PedunculateOakWood',
+          name: 'Pedunculate Oak Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         PINE_WOOD = GenshinObject::Material.new(
-          kamera_key: "PineWood",
-          name: "Pine Wood",
+          kamera_key: 'PineWood',
+          name: 'Pine Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         RED_DYE = GenshinObject::Material.new(
-          kamera_key: "RedDye",
-          name: "Red Dye",
+          kamera_key: 'RedDye',
+          name: 'Red Dye',
           rarity: 2,
           family: nil,
           inventory_type: :standard_material,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         SANDBEARER_WOOD = GenshinObject::Material.new(
-          kamera_key: "SandbearerWood",
-          name: "Sandbearer Wood",
+          kamera_key: 'SandbearerWood',
+          name: 'Sandbearer Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         SILVER_FIR_WOOD = GenshinObject::Material.new(
-          kamera_key: "SilverFirWood",
-          name: "Silver Fir Wood",
+          kamera_key: 'SilverFirWood',
+          name: 'Silver Fir Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         WHITE_CHESTNUT_OAK_WOOD = GenshinObject::Material.new(
-          kamera_key: "WhiteChestnutOakWood",
-          name: "White Chestnut Oak Wood",
+          kamera_key: 'WhiteChestnutOakWood',
+          name: 'White Chestnut Oak Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         YELLOW_DYE = GenshinObject::Material.new(
-          kamera_key: "YellowDye",
-          name: "Yellow Dye",
+          kamera_key: 'YellowDye',
+          name: 'Yellow Dye',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         YUMEMIRU_WOOD = GenshinObject::Material.new(
-          kamera_key: "YumemiruWood",
-          name: "Yumemiru Wood",
+          kamera_key: 'YumemiruWood',
+          name: 'Yumemiru Wood',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

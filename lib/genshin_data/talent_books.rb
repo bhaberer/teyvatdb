@@ -3,7 +3,7 @@
 module GenshinData
   # Data representation for Talent Books
   module TalentBooks
-    require_relative "talent_books/talent_book_data"
+    require_relative 'talent_books/talent_book_data'
 
     class << self
       def all

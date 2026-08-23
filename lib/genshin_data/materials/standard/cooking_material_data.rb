@@ -10,8 +10,8 @@ module GenshinData
         end
 
         AJILENAKH_NUT = GenshinObject::Material.new(
-          kamera_key: "AjilenakhNut",
-          name: "Ajilenakh Nut",
+          kamera_key: 'AjilenakhNut',
+          name: 'Ajilenakh Nut',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         ALMOND = GenshinObject::Material.new(
-          kamera_key: "Almond",
-          name: "Almond",
+          kamera_key: 'Almond',
+          name: 'Almond',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         BACON = GenshinObject::Material.new(
-          kamera_key: "Bacon",
-          name: "Bacon",
+          kamera_key: 'Bacon',
+          name: 'Bacon',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         BAMBOO_SHOOT = GenshinObject::Material.new(
-          kamera_key: "BambooShoot",
-          name: "Bamboo Shoot",
+          kamera_key: 'BambooShoot',
+          name: 'Bamboo Shoot',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         BERRY = GenshinObject::Material.new(
-          kamera_key: "Berry",
-          name: "Berry",
+          kamera_key: 'Berry',
+          name: 'Berry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         BIRD_EGG = GenshinObject::Material.new(
-          kamera_key: "BirdEgg",
-          name: "Bird Egg",
+          kamera_key: 'BirdEgg',
+          name: 'Bird Egg',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         BULLE_FRUIT = GenshinObject::Material.new(
-          kamera_key: "BulleFruit",
-          name: "Bulle Fruit",
+          kamera_key: 'BulleFruit',
+          name: 'Bulle Fruit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         BUTTER = GenshinObject::Material.new(
-          kamera_key: "Butter",
-          name: "Butter",
+          kamera_key: 'Butter',
+          name: 'Butter',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         CABBAGE = GenshinObject::Material.new(
-          kamera_key: "Cabbage",
-          name: "Cabbage",
+          kamera_key: 'Cabbage',
+          name: 'Cabbage',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         CACAHUATL = GenshinObject::Material.new(
-          kamera_key: "Cacahuatl",
-          name: "Cacahuatl",
+          kamera_key: 'Cacahuatl',
+          name: 'Cacahuatl',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         CARROT = GenshinObject::Material.new(
-          kamera_key: "Carrot",
-          name: "Carrot",
+          kamera_key: 'Carrot',
+          name: 'Carrot',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         CHEESE = GenshinObject::Material.new(
-          kamera_key: "Cheese",
-          name: "Cheese",
+          kamera_key: 'Cheese',
+          name: 'Cheese',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         CHENYU_ADEPTEA = GenshinObject::Material.new(
-          kamera_key: "ChenyuAdeptea",
-          name: "Chenyu Adeptea",
+          kamera_key: 'ChenyuAdeptea',
+          name: 'Chenyu Adeptea',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         CHILLED_MEAT = GenshinObject::Material.new(
-          kamera_key: "ChilledMeat",
-          name: "Chilled Meat",
+          kamera_key: 'ChilledMeat',
+          name: 'Chilled Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         CRAB = GenshinObject::Material.new(
-          kamera_key: "Crab",
-          name: "Crab",
+          kamera_key: 'Crab',
+          name: 'Crab',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         COFFEE_BEANS = GenshinObject::Material.new(
-          kamera_key: "CoffeeBeans",
-          name: "CoffeeBeans",
+          kamera_key: 'CoffeeBeans',
+          name: 'CoffeeBeans',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         CRAB_ROE = GenshinObject::Material.new(
-          kamera_key: "CrabRoe",
-          name: "Crab Roe",
+          kamera_key: 'CrabRoe',
+          name: 'Crab Roe',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         CREAM = GenshinObject::Material.new(
-          kamera_key: "Cream",
-          name: "Cream",
+          kamera_key: 'Cream',
+          name: 'Cream',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         EEL_MEAT = GenshinObject::Material.new(
-          kamera_key: "EelMeat",
-          name: "Eel Meat",
+          kamera_key: 'EelMeat',
+          name: 'Eel Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         EMBERCORE_FLOWER = GenshinObject::Material.new(
-          kamera_key: "EmbercoreFlower",
-          name: "Embercore Flower",
+          kamera_key: 'EmbercoreFlower',
+          name: 'Embercore Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         FERMENTED_JUICE = GenshinObject::Material.new(
-          kamera_key: "FermentedJuice",
-          name: "Fermented Juice",
+          kamera_key: 'FermentedJuice',
+          name: 'Fermented Juice',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         FISH = GenshinObject::Material.new(
-          kamera_key: "Fish",
-          name: "Fish",
+          kamera_key: 'Fish',
+          name: 'Fish',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -230,8 +230,8 @@ module GenshinData
         ).freeze
 
         FLOUR = GenshinObject::Material.new(
-          kamera_key: "Flour",
-          name: "Flour",
+          kamera_key: 'Flour',
+          name: 'Flour',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         FOWL = GenshinObject::Material.new(
-          kamera_key: "Fowl",
-          name: "Fowl",
+          kamera_key: 'Fowl',
+          name: 'Fowl',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         GLABROUS_BEANS = GenshinObject::Material.new(
-          kamera_key: "GlabrousBeans",
-          name: "Glabrous Beans",
+          kamera_key: 'GlabrousBeans',
+          name: 'Glabrous Beans',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         GRAINFRUIT = GenshinObject::Material.new(
-          kamera_key: "Grainfruit",
-          name: "Grainfruit",
+          kamera_key: 'Grainfruit',
+          name: 'Grainfruit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         HAM = GenshinObject::Material.new(
-          kamera_key: "Ham",
-          name: "Ham",
+          kamera_key: 'Ham',
+          name: 'Ham',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         HARRA_FRUIT = GenshinObject::Material.new(
-          kamera_key: "HarraFruit",
-          name: "Harra Fruit",
+          kamera_key: 'HarraFruit',
+          name: 'Harra Fruit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         HORSETAIL = GenshinObject::Material.new(
-          kamera_key: "Horsetail",
-          name: "Horsetail",
+          kamera_key: 'Horsetail',
+          name: 'Horsetail',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         ICY_PEBBLE = GenshinObject::Material.new(
-          kamera_key: "IcyPebble",
-          name: "Icy Pebble",
+          kamera_key: 'IcyPebble',
+          name: 'Icy Pebble',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         LAKKABERRY = GenshinObject::Material.new(
-          kamera_key: "Lakkaberry",
-          name: "Lakkaberry",
+          kamera_key: 'Lakkaberry',
+          name: 'Lakkaberry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         LAVENDER_MELON = GenshinObject::Material.new(
-          kamera_key: "LavenderMelon",
-          name: "Lavender Melon",
+          kamera_key: 'LavenderMelon',
+          name: 'Lavender Melon',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         LOTUS_HEAD = GenshinObject::Material.new(
-          kamera_key: "LotusHead",
-          name: "Lotus Head",
+          kamera_key: 'LotusHead',
+          name: 'Lotus Head',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         MATSUTAKE = GenshinObject::Material.new(
-          kamera_key: "Matsutake",
-          name: "Matsutake",
+          kamera_key: 'Matsutake',
+          name: 'Matsutake',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         MIDSOMMAR_BERRY = GenshinObject::Material.new(
-          kamera_key: "MidsommarBerry",
-          name: "Midsommar Berry",
+          kamera_key: 'MidsommarBerry',
+          name: 'Midsommar Berry',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -360,8 +360,8 @@ module GenshinData
         ).freeze
 
         MILK = GenshinObject::Material.new(
-          kamera_key: "Milk",
-          name: "Milk",
+          kamera_key: 'Milk',
+          name: 'Milk',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -370,8 +370,8 @@ module GenshinData
         ).freeze
 
         MINT = GenshinObject::Material.new(
-          kamera_key: "Mint",
-          name: "Mint",
+          kamera_key: 'Mint',
+          name: 'Mint',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         MUSHROOM = GenshinObject::Material.new(
-          kamera_key: "Mushroom",
-          name: "Mushroom",
+          kamera_key: 'Mushroom',
+          name: 'Mushroom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -390,8 +390,8 @@ module GenshinData
         ).freeze
 
         MYSTERIOUS_MEAT = GenshinObject::Material.new(
-          kamera_key: "MysteriousMeat",
-          name: "Mysterious Meat",
+          kamera_key: 'MysteriousMeat',
+          name: 'Mysterious Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -400,8 +400,8 @@ module GenshinData
         ).freeze
 
         NOCTURNAL_BLOSSOM = GenshinObject::Material.new(
-          kamera_key: "NocturnalBlossom",
-          name: "Nocturnal Blossom",
+          kamera_key: 'NocturnalBlossom',
+          name: 'Nocturnal Blossom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -410,8 +410,8 @@ module GenshinData
         ).freeze
 
         ONION = GenshinObject::Material.new(
-          kamera_key: "Onion",
-          name: "Onion",
+          kamera_key: 'Onion',
+          name: 'Onion',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -420,8 +420,8 @@ module GenshinData
         ).freeze
 
         PEPPER = GenshinObject::Material.new(
-          kamera_key: "Pepper",
-          name: "Pepper",
+          kamera_key: 'Pepper',
+          name: 'Pepper',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -430,8 +430,8 @@ module GenshinData
         ).freeze
 
         PINECONE = GenshinObject::Material.new(
-          kamera_key: "Pinecone",
-          name: "Pinecone",
+          kamera_key: 'Pinecone',
+          name: 'Pinecone',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -440,8 +440,8 @@ module GenshinData
         ).freeze
 
         POTATO = GenshinObject::Material.new(
-          kamera_key: "Potato",
-          name: "Potato",
+          kamera_key: 'Potato',
+          name: 'Potato',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -450,8 +450,8 @@ module GenshinData
         ).freeze
 
         RADISH = GenshinObject::Material.new(
-          kamera_key: "Radish",
-          name: "Radish",
+          kamera_key: 'Radish',
+          name: 'Radish',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -460,8 +460,8 @@ module GenshinData
         ).freeze
 
         RAW_MEAT = GenshinObject::Material.new(
-          kamera_key: "RawMeat",
-          name: "Raw Meat",
+          kamera_key: 'RawMeat',
+          name: 'Raw Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -470,8 +470,8 @@ module GenshinData
         ).freeze
 
         RED_BERRYSHROOM = GenshinObject::Material.new(
-          kamera_key: "RedBerryshroom",
-          name: "Red Berryshroom",
+          kamera_key: 'RedBerryshroom',
+          name: 'Red Berryshroom',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -480,8 +480,8 @@ module GenshinData
         ).freeze
 
         RICE = GenshinObject::Material.new(
-          kamera_key: "Rice",
-          name: "Rice",
+          kamera_key: 'Rice',
+          name: 'Rice',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -490,8 +490,8 @@ module GenshinData
         ).freeze
 
         RIMECURRANT = GenshinObject::Material.new(
-          kamera_key: "Rimecurrant",
-          name: "Rimecurrant",
+          kamera_key: 'Rimecurrant',
+          name: 'Rimecurrant',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -500,8 +500,8 @@ module GenshinData
         ).freeze
 
         RYE = GenshinObject::Material.new(
-          kamera_key: "Rye",
-          name: "Rye",
+          kamera_key: 'Rye',
+          name: 'Rye',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -510,8 +510,8 @@ module GenshinData
         ).freeze
 
         RYE_FLOUR = GenshinObject::Material.new(
-          kamera_key: "RyeFlour",
-          name: "Rye Flour",
+          kamera_key: 'RyeFlour',
+          name: 'Rye Flour',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -520,8 +520,8 @@ module GenshinData
         ).freeze
 
         SALT = GenshinObject::Material.new(
-          kamera_key: "Salt",
-          name: "Salt",
+          kamera_key: 'Salt',
+          name: 'Salt',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -530,8 +530,8 @@ module GenshinData
         ).freeze
 
         SAUSAGE = GenshinObject::Material.new(
-          kamera_key: "Sausage",
-          name: "Sausage",
+          kamera_key: 'Sausage',
+          name: 'Sausage',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -540,8 +540,8 @@ module GenshinData
         ).freeze
 
         SEAGRASS = GenshinObject::Material.new(
-          kamera_key: "Seagrass",
-          name: "Seagrass",
+          kamera_key: 'Seagrass',
+          name: 'Seagrass',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -550,8 +550,8 @@ module GenshinData
         ).freeze
 
         SMETANA = GenshinObject::Material.new(
-          kamera_key: "Smetana",
-          name: "Smetana",
+          kamera_key: 'Smetana',
+          name: 'Smetana',
           rarity: 2,
           family: nil,
           inventory_type: :standard_material,
@@ -560,8 +560,8 @@ module GenshinData
         ).freeze
 
         SMOKED_FOWL = GenshinObject::Material.new(
-          kamera_key: "SmokedFowl",
-          name: "Smoked Fowl",
+          kamera_key: 'SmokedFowl',
+          name: 'Smoked Fowl',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -570,8 +570,8 @@ module GenshinData
         ).freeze
 
         SNAPDRAGON = GenshinObject::Material.new(
-          kamera_key: "Snapdragon",
-          name: "Snapdragon",
+          kamera_key: 'Snapdragon',
+          name: 'Snapdragon',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -580,8 +580,8 @@ module GenshinData
         ).freeze
 
         SPICE = GenshinObject::Material.new(
-          kamera_key: "Spice",
-          name: "Spice",
+          kamera_key: 'Spice',
+          name: 'Spice',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -590,8 +590,8 @@ module GenshinData
         ).freeze
 
         SPINEL_FRUIT = GenshinObject::Material.new(
-          kamera_key: "SpinelFruit",
-          name: "Spinel Fruit",
+          kamera_key: 'SpinelFruit',
+          name: 'Spinel Fruit',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -600,8 +600,8 @@ module GenshinData
         ).freeze
 
         SHRIMP_MEAT = GenshinObject::Material.new(
-          kamera_key: "ShrimpMeat",
-          name: "Shrimp Meat",
+          kamera_key: 'ShrimpMeat',
+          name: 'Shrimp Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -610,8 +610,8 @@ module GenshinData
         ).freeze
 
         SUGAR = GenshinObject::Material.new(
-          kamera_key: "Sugar",
-          name: "Sugar",
+          kamera_key: 'Sugar',
+          name: 'Sugar',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -620,8 +620,8 @@ module GenshinData
         ).freeze
 
         SUMERU_ROSE = GenshinObject::Material.new(
-          kamera_key: "SumeruRose",
-          name: "Sumeru Rose",
+          kamera_key: 'SumeruRose',
+          name: 'Sumeru Rose',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -630,8 +630,8 @@ module GenshinData
         ).freeze
 
         SWEET_FLOWER = GenshinObject::Material.new(
-          kamera_key: "SweetFlower",
-          name: "Sweet Flower",
+          kamera_key: 'SweetFlower',
+          name: 'Sweet Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -640,8 +640,8 @@ module GenshinData
         ).freeze
 
         TIDALGA = GenshinObject::Material.new(
-          kamera_key: "Tidalga",
-          name: "Tidalga",
+          kamera_key: 'Tidalga',
+          name: 'Tidalga',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -650,8 +650,8 @@ module GenshinData
         ).freeze
 
         TOFU = GenshinObject::Material.new(
-          kamera_key: "Tofu",
-          name: "Tofu",
+          kamera_key: 'Tofu',
+          name: 'Tofu',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -660,8 +660,8 @@ module GenshinData
         ).freeze
 
         TOMATO = GenshinObject::Material.new(
-          kamera_key: "Tomato",
-          name: "Tomato",
+          kamera_key: 'Tomato',
+          name: 'Tomato',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -670,8 +670,8 @@ module GenshinData
         ).freeze
 
         UNAGI_MEAT = GenshinObject::Material.new(
-          kamera_key: "UnagiMeat",
-          name: "Unagi Meat",
+          kamera_key: 'UnagiMeat',
+          name: 'Unagi Meat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -680,8 +680,8 @@ module GenshinData
         ).freeze
 
         WHEAT = GenshinObject::Material.new(
-          kamera_key: "Wheat",
-          name: "Wheat",
+          kamera_key: 'Wheat',
+          name: 'Wheat',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -690,8 +690,8 @@ module GenshinData
         ).freeze
 
         ZAYTUN_PEACH = GenshinObject::Material.new(
-          kamera_key: "ZaytunPeach",
-          name: "Zaytun Peach",
+          kamera_key: 'ZaytunPeach',
+          name: 'Zaytun Peach',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,

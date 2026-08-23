@@ -4,16 +4,16 @@ module GenshinData
   module Materials
     # Top level access class for all development materials
     module Development
-      require_relative "development/elite_monster_drops_data"
-      require_relative "development/gems_data"
-      require_relative "development/general_data"
-      require_relative "development/local_specialty_data"
-      require_relative "development/monster_loot_drops_data"
-      require_relative "development/talent_books_data"
-      require_relative "development/weapon_material_data"
-      require_relative "development/weapon_refinement_material_data"
-      require_relative "development/weekly_boss_drops_data"
-      require_relative "development/world_boss_drops_data"
+      require_relative 'development/elite_monster_drops_data'
+      require_relative 'development/gems_data'
+      require_relative 'development/general_data'
+      require_relative 'development/local_specialty_data'
+      require_relative 'development/monster_loot_drops_data'
+      require_relative 'development/talent_books_data'
+      require_relative 'development/weapon_material_data'
+      require_relative 'development/weapon_refinement_material_data'
+      require_relative 'development/weekly_boss_drops_data'
+      require_relative 'development/world_boss_drops_data'
 
       class << self
         def all

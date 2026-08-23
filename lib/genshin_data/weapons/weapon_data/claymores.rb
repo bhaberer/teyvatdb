@@ -10,8 +10,8 @@ module GenshinData
         end
 
         A_TEASPOON_OF_TRANSCENDENCE = GenshinObject::Weapon.new(
-          kamera_key: "ATeaspoonOfTranscendence",
-          name: "A Teaspoon of Transcendence",
+          kamera_key: 'ATeaspoonOfTranscendence',
+          name: 'A Teaspoon of Transcendence',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :lunar_iron,
@@ -20,8 +20,8 @@ module GenshinData
         ).freeze
 
         A_THOUSAND_BLAZING_SUNS = GenshinObject::Weapon.new(
-          kamera_key: "AThousandBlazingSuns",
-          name: "A Thousand Blazing Suns",
+          kamera_key: 'AThousandBlazingSuns',
+          name: 'A Thousand Blazing Suns',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :secret_source,
@@ -30,8 +30,8 @@ module GenshinData
         ).freeze
 
         AKUOUMARU = GenshinObject::Weapon.new(
-          kamera_key: "Akuoumaru",
-          name: "Akuoumaru",
+          kamera_key: 'Akuoumaru',
+          name: 'Akuoumaru',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :concealed_talon,
@@ -40,8 +40,8 @@ module GenshinData
         ).freeze
 
         BEACON_OF_THE_REED_SEA = GenshinObject::Weapon.new(
-          kamera_key: "BeaconOfTheReedSea",
-          name: "Beacon of the Reed Sea",
+          kamera_key: 'BeaconOfTheReedSea',
+          name: 'Beacon of the Reed Sea',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :shell,
@@ -50,8 +50,8 @@ module GenshinData
         ).freeze
 
         BLACKCLIFF_SLASHER = GenshinObject::Weapon.new(
-          kamera_key: "BlackcliffSlasher",
-          name: "Blackcliff Slasher",
+          kamera_key: 'BlackcliffSlasher',
+          name: 'Blackcliff Slasher',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :mist_grass,
@@ -60,8 +60,8 @@ module GenshinData
         ).freeze
 
         BLADE_OF_ATONEMENT = GenshinObject::Weapon.new(
-          kamera_key: "BladeOfAtonement",
-          name: "Blade of Atonement",
+          kamera_key: 'BladeOfAtonement',
+          name: 'Blade of Atonement',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :life_node,
@@ -70,8 +70,8 @@ module GenshinData
         ).freeze
 
         BLOODTAINTED_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "BloodtaintedGreatsword",
-          name: "Bloodtainted Greatsword",
+          kamera_key: 'BloodtaintedGreatsword',
+          name: 'Bloodtainted Greatsword',
           rarity: 3,
           weapon_type: :claymore,
           elite_material_type: :ley_line,
@@ -80,8 +80,8 @@ module GenshinData
         ).freeze
 
         DEBATE_CLUB = GenshinObject::Weapon.new(
-          kamera_key: "DebateClub",
-          name: "Debate Club",
+          kamera_key: 'DebateClub',
+          name: 'Debate Club',
           rarity: 3,
           weapon_type: :claymore,
           elite_material_type: :mist_grass,
@@ -90,8 +90,8 @@ module GenshinData
         ).freeze
 
         EARTH_SHAKER = GenshinObject::Weapon.new(
-          kamera_key: "EarthShaker",
-          name: "Earth Shaker",
+          kamera_key: 'EarthShaker',
+          name: 'Earth Shaker',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :ignited,
@@ -100,8 +100,8 @@ module GenshinData
         ).freeze
 
         FANG_OF_THE_MOUNTAIN_KING = GenshinObject::Weapon.new(
-          kamera_key: "FangOfTheMountainKing",
-          name: "Fang of the Mountain King",
+          kamera_key: 'FangOfTheMountainKing',
+          name: 'Fang of the Mountain King',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :ignited,
@@ -110,8 +110,8 @@ module GenshinData
         ).freeze
 
         FAVONIUS_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "FavoniusGreatsword",
-          name: "Favonius Greatsword",
+          kamera_key: 'FavoniusGreatsword',
+          name: 'Favonius Greatsword',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :chaos_core,
@@ -120,8 +120,8 @@ module GenshinData
         ).freeze
 
         FERROUS_SHADOW = GenshinObject::Weapon.new(
-          kamera_key: "FerrousShadow",
-          name: "Ferrous Shadow",
+          kamera_key: 'FerrousShadow',
+          name: 'Ferrous Shadow',
           rarity: 3,
           weapon_type: :claymore,
           elite_material_type: :horn,
@@ -130,8 +130,8 @@ module GenshinData
         ).freeze
 
         FLAME_FORGED_INSIGHT = GenshinObject::Weapon.new(
-          kamera_key: "FlameForgedInsight",
-          name: "Flame-Forged Insight",
+          kamera_key: 'FlameForgedInsight',
+          name: 'Flame-Forged Insight',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :weasel_shell,
@@ -140,8 +140,8 @@ module GenshinData
         ).freeze
 
         FOREST_REGALIA = GenshinObject::Weapon.new(
-          kamera_key: "ForestRegalia",
-          name: "Forest Regalia",
+          kamera_key: 'ForestRegalia',
+          name: 'Forest Regalia',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :chaos_bolt,
@@ -150,8 +150,8 @@ module GenshinData
         ).freeze
 
         FRUITFUL_HOOK = GenshinObject::Weapon.new(
-          kamera_key: "FruitfulHook",
-          name: "Fruitful Hook",
+          kamera_key: 'FruitfulHook',
+          name: 'Fruitful Hook',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :secret_source,
@@ -160,8 +160,8 @@ module GenshinData
         ).freeze
 
         GEST_OF_THE_MIGHTY_WOLF = GenshinObject::Weapon.new(
-          kamera_key: "GestOfTheMightyWolf",
-          name: "Gest of the Mighty Wolf",
+          kamera_key: 'GestOfTheMightyWolf',
+          name: 'Gest of the Mighty Wolf',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :deep_shadow,
@@ -170,8 +170,8 @@ module GenshinData
         ).freeze
 
         KATSURAGIKIRI_NAGAMASA = GenshinObject::Weapon.new(
-          kamera_key: "KatsuragikiriNagamasa",
-          name: "Katsuragikiri Nagamasa",
+          kamera_key: 'KatsuragikiriNagamasa',
+          name: 'Katsuragikiri Nagamasa',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :chaos_oculus,
@@ -180,8 +180,8 @@ module GenshinData
         ).freeze
 
         LITHIC_BLADE = GenshinObject::Weapon.new(
-          kamera_key: "LithicBlade",
-          name: "Lithic Blade",
+          kamera_key: 'LithicBlade',
+          name: 'Lithic Blade',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :sacrificial_knife,
@@ -190,8 +190,8 @@ module GenshinData
         ).freeze
 
         LUXURIOUS_SEA_LORD = GenshinObject::Weapon.new(
-          kamera_key: "LuxuriousSeaLord",
-          name: "Luxurious Sea-Lord",
+          kamera_key: 'LuxuriousSeaLord',
+          name: 'Luxurious Sea-Lord',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :bone_shard,
@@ -200,8 +200,8 @@ module GenshinData
         ).freeze
 
         MAILED_FLOWER = GenshinObject::Weapon.new(
-          kamera_key: "MailedFlower",
-          name: "Mailed Flower",
+          kamera_key: 'MailedFlower',
+          name: 'Mailed Flower',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :shell,
@@ -210,8 +210,8 @@ module GenshinData
         ).freeze
 
         MAKHAIRA_AQUAMARINE = GenshinObject::Weapon.new(
-          kamera_key: "MakhairaAquamarine",
-          name: "Makhaira Aquamarine",
+          kamera_key: 'MakhairaAquamarine',
+          name: 'Makhaira Aquamarine',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :chaos_bolt,
@@ -220,8 +220,8 @@ module GenshinData
         ).freeze
 
         MASTER_KEY = GenshinObject::Weapon.new(
-          kamera_key: "MasterKey",
-          name: "Master Key",
+          kamera_key: 'MasterKey',
+          name: 'Master Key',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :radiant_bone,
@@ -230,7 +230,7 @@ module GenshinData
         ).freeze
 
         OLD_MERCS_PAL = GenshinObject::Weapon.new(
-          kamera_key: "OldMercsPal",
+          kamera_key: 'OldMercsPal',
           name: "Old Merc's Pal",
           rarity: 2,
           weapon_type: :claymore,
@@ -240,8 +240,8 @@ module GenshinData
         ).freeze
 
         PORTABLE_POWER_SAW = GenshinObject::Weapon.new(
-          kamera_key: "PortablePowerSaw",
-          name: "Portable Power Saw",
+          kamera_key: 'PortablePowerSaw',
+          name: 'Portable Power Saw',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :core,
@@ -250,8 +250,8 @@ module GenshinData
         ).freeze
 
         PROTOTYPE_ARCHAIC = GenshinObject::Weapon.new(
-          kamera_key: "PrototypeArchaic",
-          name: "Prototype Archaic",
+          kamera_key: 'PrototypeArchaic',
+          name: 'Prototype Archaic',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :bone_shard,
@@ -260,8 +260,8 @@ module GenshinData
         ).freeze
 
         RAINSLASHER = GenshinObject::Weapon.new(
-          kamera_key: "Rainslasher",
-          name: "Rainslasher",
+          kamera_key: 'Rainslasher',
+          name: 'Rainslasher',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :mist_grass,
@@ -270,8 +270,8 @@ module GenshinData
         ).freeze
 
         REDHORN_STONETHRESHER = GenshinObject::Weapon.new(
-          kamera_key: "RedhornStonethresher",
-          name: "Redhorn Stonethresher",
+          kamera_key: 'RedhornStonethresher',
+          name: 'Redhorn Stonethresher',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :concealed_talon,
@@ -280,8 +280,8 @@ module GenshinData
         ).freeze
 
         ROYAL_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "RoyalGreatsword",
-          name: "Royal Greatsword",
+          kamera_key: 'RoyalGreatsword',
+          name: 'Royal Greatsword',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :chaos_core,
@@ -290,8 +290,8 @@ module GenshinData
         ).freeze
 
         SACRIFICIAL_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "SacrificialGreatsword",
-          name: "Sacrificial Greatsword",
+          kamera_key: 'SacrificialGreatsword',
+          name: 'Sacrificial Greatsword',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :ley_line,
@@ -300,8 +300,8 @@ module GenshinData
         ).freeze
 
         SERPENT_SPINE = GenshinObject::Weapon.new(
-          kamera_key: "SerpentSpine",
-          name: "Serpent Spine",
+          kamera_key: 'SerpentSpine',
+          name: 'Serpent Spine',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :bone_shard,
@@ -310,8 +310,8 @@ module GenshinData
         ).freeze
 
         SKYRIDER_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "SkyriderGreatsword",
-          name: "Skyrider Greatsword",
+          kamera_key: 'SkyriderGreatsword',
+          name: 'Skyrider Greatsword',
           rarity: 3,
           weapon_type: :claymore,
           elite_material_type: :bone_shard,
@@ -320,8 +320,8 @@ module GenshinData
         ).freeze
 
         SKYWARD_PRIDE = GenshinObject::Weapon.new(
-          kamera_key: "SkywardPride",
-          name: "Skyward Pride",
+          kamera_key: 'SkywardPride',
+          name: 'Skyward Pride',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :ley_line,
@@ -330,8 +330,8 @@ module GenshinData
         ).freeze
 
         SNOW_TOMBED_STARSILVER = GenshinObject::Weapon.new(
-          kamera_key: "SnowTombedStarsilver",
-          name: "Snow-Tombed Starsilver",
+          kamera_key: 'SnowTombedStarsilver',
+          name: 'Snow-Tombed Starsilver',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :horn,
@@ -340,8 +340,8 @@ module GenshinData
         ).freeze
 
         SONG_OF_BROKEN_PINES = GenshinObject::Weapon.new(
-          kamera_key: "SongOfBrokenPines",
-          name: "Song of Broken Pines",
+          kamera_key: 'SongOfBrokenPines',
+          name: 'Song of Broken Pines',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :horn,
@@ -350,8 +350,8 @@ module GenshinData
         ).freeze
 
         TALKING_STICK = GenshinObject::Weapon.new(
-          kamera_key: "TalkingStick",
-          name: "Talking Stick",
+          kamera_key: 'TalkingStick',
+          name: 'Talking Stick',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :shell,
@@ -360,8 +360,8 @@ module GenshinData
         ).freeze
 
         THE_BELL = GenshinObject::Weapon.new(
-          kamera_key: "TheBell",
-          name: "Bell, The",
+          kamera_key: 'TheBell',
+          name: 'Bell, The',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :horn,
@@ -370,8 +370,8 @@ module GenshinData
         ).freeze
 
         THE_UNFORGED = GenshinObject::Weapon.new(
-          kamera_key: "TheUnforged",
-          name: "Unforged, The",
+          kamera_key: 'TheUnforged',
+          name: 'Unforged, The',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :mist_grass,
@@ -380,8 +380,8 @@ module GenshinData
         ).freeze
 
         TIDAL_SHADOW = GenshinObject::Weapon.new(
-          kamera_key: "TidalShadow",
-          name: "Tidal Shadow",
+          kamera_key: 'TidalShadow',
+          name: 'Tidal Shadow',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :core,
@@ -390,7 +390,7 @@ module GenshinData
         ).freeze
 
         ULTIMATE_OVERLORDS_MEGA_MAGIC_SWORD = GenshinObject::Weapon.new(
-          kamera_key: "UltimateOverlordsMegaMagicSword",
+          kamera_key: 'UltimateOverlordsMegaMagicSword',
           name: "\"Ultimate Overlord's Mega Magic Sword\"",
           rarity: 5,
           weapon_type: :claymore,
@@ -400,8 +400,8 @@ module GenshinData
         ).freeze
 
         VERDICT = GenshinObject::Weapon.new(
-          kamera_key: "Verdict",
-          name: "Verdict",
+          kamera_key: 'Verdict',
+          name: 'Verdict',
           rarity: 5,
           weapon_type: :claymore,
           elite_material_type: :core,
@@ -410,8 +410,8 @@ module GenshinData
         ).freeze
 
         WASTER_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "WasterGreatsword",
-          name: "Waster Greatsword",
+          kamera_key: 'WasterGreatsword',
+          name: 'Waster Greatsword',
           rarity: 1,
           weapon_type: :claymore,
           elite_material_type: :ley_line,
@@ -420,8 +420,8 @@ module GenshinData
         ).freeze
 
         WHITE_IRON_GREATSWORD = GenshinObject::Weapon.new(
-          kamera_key: "WhiteIronGreatsword",
-          name: "White Iron Greatsword",
+          kamera_key: 'WhiteIronGreatsword',
+          name: 'White Iron Greatsword',
           rarity: 3,
           weapon_type: :claymore,
           elite_material_type: :chaos_core,
@@ -430,8 +430,8 @@ module GenshinData
         ).freeze
 
         WHITEBLIND = GenshinObject::Weapon.new(
-          kamera_key: "Whiteblind",
-          name: "Whiteblind",
+          kamera_key: 'Whiteblind',
+          name: 'Whiteblind',
           rarity: 4,
           weapon_type: :claymore,
           elite_material_type: :sacrificial_knife,
@@ -440,7 +440,7 @@ module GenshinData
         ).freeze
 
         WOLFS_GRAVESTONE = GenshinObject::Weapon.new(
-          kamera_key: "WolfsGravestone",
+          kamera_key: 'WolfsGravestone',
           name: "Wolf's Gravestone",
           rarity: 5,
           weapon_type: :claymore,
