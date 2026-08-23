@@ -13,3 +13,4 @@ gem 'rspec-collection_matchers'
 gem 'rubocop', '~> 1.84'
 gem 'rubocop-rake'
 gem 'rubocop-rspec'
+gem 'simplecov', require: false, group: :test
