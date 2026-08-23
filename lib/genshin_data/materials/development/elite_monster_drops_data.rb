@@ -42,7 +42,7 @@ module GenshinData
           nation_name: nil
         ).freeze
 
-        ACCRETED_GROWTH= GenshinObject::Material.new(
+        ACCRETED_GROWTH = GenshinObject::Material.new(
           kamera_key: "AccretedGrowth",
           name: "Accreted Growth",
           rarity: 4,
@@ -372,7 +372,7 @@ module GenshinData
           nation_name: nil
         ).freeze
 
-         DEPLETED_LUNAR_IRON = GenshinObject::Material.new(
+        DEPLETED_LUNAR_IRON = GenshinObject::Material.new(
           kamera_key: "DepletedLunarIron",
           name: "Depleted Lunar Iron",
           rarity: 3,

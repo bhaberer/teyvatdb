@@ -470,7 +470,6 @@ module GenshinData
           source_sub_category: :exalted_master_of_the_heretical_path_drop,
           nation_name: :nodkrai
         ).freeze
-
       end
     end
   end

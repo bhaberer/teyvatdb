@@ -1389,12 +1389,12 @@ module GenshinData
         constellation_five_bonus: :skill,
         element: :anemo,
         weapon_type: :catalyst,
-        ascension_boss_material_name: 'RadiantAntler',
-        ascension_gathering_material_name: 'WinterIcelea',
+        ascension_boss_material_name: "RadiantAntler",
+        ascension_gathering_material_name: "WinterIcelea",
         ascension_enemy_material_name: :hoarder_insignia,
         talent_book_name: :resistance,
         talent_rare_material_name: :hoarder_insignia,
-        talent_boss_material_name: 'MaskOfTheVirtuousDoctor'
+        talent_boss_material_name: "MaskOfTheVirtuousDoctor"
       ).freeze
 
       QIQI = GenshinObject::Character.new(

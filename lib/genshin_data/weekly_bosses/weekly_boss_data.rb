@@ -105,7 +105,6 @@ module GenshinData
         nation_name: :sumeru,
         material_family: :exalted_master_of_the_heretical_path_loot
       )
-
     end
   end
 end
