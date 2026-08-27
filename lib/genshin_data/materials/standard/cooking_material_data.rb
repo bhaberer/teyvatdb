@@ -259,6 +259,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        GLACIAFRUIT = GenshinObject::Material.new(
+          kamera_key: 'Glaciafruit',
+          name: 'Glaciafruit',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         GRAINFRUIT = GenshinObject::Material.new(
           kamera_key: 'Grainfruit',
           name: 'Grainfruit',
@@ -282,6 +292,16 @@ module GenshinData
         HARRA_FRUIT = GenshinObject::Material.new(
           kamera_key: 'HarraFruit',
           name: 'Harra Fruit',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        HONEY = GenshinObject::Material.new(
+          kamera_key: 'Honey',
+          name: 'Honey',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -469,6 +489,16 @@ module GenshinData
           source_sub_category: :cooking
         ).freeze
 
+        RED_BEET = GenshinObject::Material.new(
+          kamera_key: 'RedBeet',
+          name: 'Red Beet',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
         RED_BERRYSHROOM = GenshinObject::Material.new(
           kamera_key: 'RedBerryshroom',
           name: 'Red Berryshroom',
@@ -572,6 +602,16 @@ module GenshinData
         SNAPDRAGON = GenshinObject::Material.new(
           kamera_key: 'Snapdragon',
           name: 'Snapdragon',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :cooking
+        ).freeze
+
+        SNOWBALL_FLOWER = GenshinObject::Material.new(
+          kamera_key: 'SnowballFlower',
+          name: 'Snowball Flower',
           rarity: 1,
           family: nil,
           inventory_type: :standard_material,
@@ -686,6 +726,16 @@ module GenshinData
           family: nil,
           inventory_type: :standard_material,
           source_category: :vendor,
+          source_sub_category: :cooking
+        ).freeze
+
+        WINDREST_FLOWER = GenshinObject::Material.new(
+          kamera_key: 'WindrestFlower',
+          name: 'Windrest Flower',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
           source_sub_category: :cooking
         ).freeze
 

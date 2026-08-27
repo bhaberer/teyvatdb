@@ -79,6 +79,16 @@ module GenshinData
           weapon_material_type: :artful_device
         ).freeze
 
+        CLASH_OF_KINGS = GenshinObject::Weapon.new(
+          kamera_key: 'ClashOfKings',
+          name: 'Clash of Kings',
+          rarity: 4,
+          weapon_type: :catalyst,
+          elite_material_type: :turbid_prism,
+          standard_material_type: :scarf,
+          weapon_material_type: :forest_dew
+        ).freeze
+
         CRANES_ECHOING_CALL = GenshinObject::Weapon.new(
           kamera_key: 'CranesEchoingCall',
           name: "Crane's Echoing Call",

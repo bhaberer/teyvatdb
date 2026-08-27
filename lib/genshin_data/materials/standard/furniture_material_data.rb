@@ -299,6 +299,16 @@ module GenshinData
           source_sub_category: :furniture_material
         ).freeze
 
+        WHITE_BIRCH_WOOD = GenshinObject::Material.new(
+          kamera_key: 'WhiteBirchWood',
+          name: 'White Birch Wood',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :furniture_material
+        ).freeze
+
         WHITE_CHESTNUT_OAK_WOOD = GenshinObject::Material.new(
           kamera_key: 'WhiteChestnutOakWood',
           name: 'White Chestnut Oak Wood',

@@ -199,6 +199,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        JADE_VISTA = GenshinObject::Weapon.new(
+          kamera_key: 'JadeVista',
+          name: 'Jade Vista',
+          rarity: 4,
+          weapon_type: :bow,
+          elite_material_type: :bone_shard,
+          standard_material_type: :fatui_insignia,
+          weapon_material_type: :aerosiderite
+        ).freeze
+
         KINGS_SQUIRE = GenshinObject::Weapon.new(
           kamera_key: 'KingsSquire',
           name: "King's Squire",

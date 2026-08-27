@@ -149,6 +149,16 @@ module GenshinData
           weapon_material_type: :forest_dew
         ).freeze
 
+        FORGED_BY_THE_GOLDEN_MELODY = GenshinObject::Weapon.new(
+          kamera_key: 'ForgedByTheGoldenMemory',
+          name: 'Forged by the Golden Memory',
+          rarity: 4,
+          weapon_type: :claymore,
+          elite_material_type: :stone_hilt,
+          standard_material_type: :transoceanic,
+          weapon_material_type: :sacred_dewdrop
+        ).freeze
+
         FRUITFUL_HOOK = GenshinObject::Weapon.new(
           kamera_key: 'FruitfulHook',
           name: 'Fruitful Hook',

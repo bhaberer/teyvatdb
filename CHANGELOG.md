@@ -1,3 +1,12 @@
+## [0.7.0.1] - 2026-08-26
+  - New BP Weapons
+    - Jade Vista (4)
+    - Clash of Kings (4)
+    - Forged by the Golden Memory (4)
+    - Frostbreath (4)
+    - Heretic's Molten Blade (4)
+  - Add Missing snezhnaya materials
+
 ## [0.7.0] - 2026-08-21
   - Add new Character(s)
     - Odette (5)

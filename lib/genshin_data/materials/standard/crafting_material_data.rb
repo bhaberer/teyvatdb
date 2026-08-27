@@ -89,6 +89,16 @@ module GenshinData
           source_sub_category: :miscellaneous
         ).freeze
 
+        LUMIFLUORITE = GenshinObject::Material.new(
+          kamera_key: 'Lumifluorite',
+          name: 'Lumifluorite',
+          rarity: 1,
+          family: nil,
+          inventory_type: :standard_material,
+          source_category: :gathering,
+          source_sub_category: :miscellaneous
+        ).freeze
+
         LUMINESCENT_SPINE = GenshinObject::Material.new(
           kamera_key: 'LuminescentSpine',
           name: 'Luminescent Spine',

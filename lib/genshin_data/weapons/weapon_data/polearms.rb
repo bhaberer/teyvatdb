@@ -169,6 +169,16 @@ module GenshinData
           weapon_material_type: :blazing_heart
         ).freeze
 
+        FROSTBREATH = GenshinObject::Weapon.new(
+          kamera_key: 'Frostbreath',
+          name: 'Frostbreath',
+          rarity: 4,
+          weapon_type: :polearm,
+          elite_material_type: :accreted,
+          standard_material_type: :chimeric,
+          weapon_material_type: :spiritual_nectar
+        ).freeze
+
         HALBERD = GenshinObject::Weapon.new(
           kamera_key: 'Halberd',
           name: 'Halberd',

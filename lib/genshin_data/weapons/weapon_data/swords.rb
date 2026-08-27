@@ -239,6 +239,16 @@ module GenshinData
           weapon_material_type: :wolf_tooth
         ).freeze
 
+        HERETICS_MOLTEN_BLADE = GenshinObject::Weapon.new(
+          kamera_key: 'HereticsMoltenBlade',
+          name: "Heretic's Molten Blade",
+          rarity: 4,
+          weapon_type: :sword,
+          elite_material_type: :weasel_shell,
+          standard_material_type: :whistle,
+          weapon_material_type: :blazing_heart
+        ).freeze
+
         IRON_STING = GenshinObject::Weapon.new(
           kamera_key: 'IronSting',
           name: 'Iron Sting',
