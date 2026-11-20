@@ -9,6 +9,6 @@ plugins:
 
 AllCops:
   NewCops: enable
-  TargetRubyVersion: 3.4.8
+  TargetRubyVersion: 3.4.13
   Exclude:
     - 'vendor/*'
